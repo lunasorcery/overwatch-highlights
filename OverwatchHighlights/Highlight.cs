@@ -1,11 +1,6 @@
-﻿#define DEBUGPRINT
-#define DEBUGPRINT_HEROES
-//#define DEBUGPRINT_FILLER
-
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 
 namespace OverwatchHighlights
 {
