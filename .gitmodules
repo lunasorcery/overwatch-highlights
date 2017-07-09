@@ -1,0 +1,3 @@
+[submodule "ZstdNet"]
+	path = ZstdNet
+	url = https://github.com/skbkontur/ZstdNet.git

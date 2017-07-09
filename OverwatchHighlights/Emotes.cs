@@ -1,0 +1,162 @@
+﻿namespace OverwatchHighlights
+{
+	enum Emote : uint
+	{
+		Junkrat_Heroic  = 0x000008F9,
+		Doomfist_Heroic = 0x0000118E,
+
+		// -- anything below here is known to exist but i've not mapped the value to a name yet --
+		Ana_emote00 = 0x00000A55,
+		Ana_emote01 = 0x00000A56,
+		Ana_emote02 = 0x00000A57,
+		Ana_emote03 = 0x00000A58,
+		Ana_emote04 = 0x00000BEF,
+		Ana_emote05 = 0x00000BF5,
+		Ana_emote06 = 0x00000C24,
+
+		Bastion_emote00 = 0x000005FB,
+		Bastion_emote01 = 0x000005FC,
+		Bastion_emote02 = 0x000008FD,
+		Bastion_emote03 = 0x00000BE5,
+		Bastion_emote04 = 0x00000BE6,
+
+		DVa_emote00 = 0x00000659,
+		DVa_emote01 = 0x0000065A,
+		DVa_emote02 = 0x0000065B,
+		DVa_emote03 = 0x000008FB,
+		DVa_emote04 = 0x00000BFB,
+		DVa_emote05 = 0x00000BFC,
+		DVa_emote06 = 0x00000D5D,
+
+		Genji_emote00 = 0x000007CE,
+		Genji_emote01 = 0x000007CF,
+		Genji_emote02 = 0x000007D0,
+		Genji_emote03 = 0x00000906,
+		Genji_emote04 = 0x00000BEC,
+		Genji_emote05 = 0x00000BED,
+
+		Hanzo_emote00 = 0x00000524,
+		Hanzo_emote01 = 0x00000525,
+		Hanzo_emote02 = 0x00000526,
+		Hanzo_emote03 = 0x000008F6,
+		Hanzo_emote04 = 0x00000B29,
+		Hanzo_emote05 = 0x00000B2A,
+		Hanzo_emote06 = 0x0000104C,
+
+		Junkrat_emote00 = 0x000005A5,
+		Junkrat_emote01 = 0x000005A6,
+		Junkrat_emote02 = 0x000005A7,
+		Junkrat_emote04 = 0x00000A89,
+		Junkrat_emote05 = 0x00000A8A,
+		Junkrat_emote06 = 0x00000EB0,
+
+		Lucio_emote00 = 0x000005CF,
+		Lucio_emote01 = 0x000005D0,
+		Lucio_emote02 = 0x000008FA,
+		Lucio_emote03 = 0x00000A6B,
+		Lucio_emote04 = 0x00000B2C,
+
+		McCree_emote00 = 0x0000054E,
+		McCree_emote01 = 0x0000054F,
+		McCree_emote02 = 0x00000550,
+		McCree_emote03 = 0x000008F7,
+		McCree_emote04 = 0x00000B78,
+		McCree_emote05 = 0x00000B79,
+		McCree_emote06 = 0x00000D24,
+
+		Mei_emote00 = 0x00000626,
+		Mei_emote01 = 0x00000627,
+		Mei_emote02 = 0x00000628,
+		Mei_emote03 = 0x000008FC,
+		Mei_emote04 = 0x00000AB0,
+		Mei_emote05 = 0x00000AB1,
+		Mei_emote06 = 0x00000D50,
+		Mei_emote07 = 0x00000EA5,
+
+		Mercy_emote00 = 0x000004F8,
+		Mercy_emote01 = 0x000004F9,
+		Mercy_emote02 = 0x000004FA,
+		Mercy_emote03 = 0x000008F5,
+		Mercy_emote04 = 0x00000A4D,
+		Mercy_emote05 = 0x00000A4E,
+
+		Orisa_emote00 = 0x00000F63,
+
+		Pharah_emote00 = 0x000007A4,
+		Pharah_emote01 = 0x000007A5,
+		Pharah_emote02 = 0x000007A6,
+		Pharah_emote03 = 0x00000903,
+		Pharah_emote04 = 0x00000AA9,
+		Pharah_emote05 = 0x00001061,
+
+		Reaper_emote00 = 0x00000744,
+		Reaper_emote01 = 0x00000746,
+		Reaper_emote02 = 0x00000901,
+		Reaper_emote03 = 0x00000C01,
+		Reaper_emote04 = 0x00000C02,
+
+		Reinhardt_emote00 = 0x000008FF,
+
+		Roadhog_emote00 = 0x00000777,
+		Roadhog_emote01 = 0x00000778,
+		Roadhog_emote02 = 0x00000779,
+		Roadhog_emote03 = 0x00000902,
+		Roadhog_emote04 = 0x00000A52,
+		Roadhog_emote05 = 0x00000A53,
+
+		Soldier76_emote00 = 0x000007D5,
+		Soldier76_emote01 = 0x00000904,
+		Soldier76_emote02 = 0x00000BE1,
+		Soldier76_emote03 = 0x00000BE2,
+		Soldier76_emote04 = 0x0000104D,
+
+		Sombra_emote00 = 0x00000AF6,
+		Sombra_emote01 = 0x00000AF7,
+		Sombra_emote02 = 0x00000AF8,
+		Sombra_emote03 = 0x00000AF9,
+		Sombra_emote04 = 0x000010F3,
+
+		Symmetra_emote00 = 0x00000801,
+		Symmetra_emote01 = 0x00000907,
+		Symmetra_emote02 = 0x00000C03,
+
+		Torbjorn_emote00 = 0x000006A1,
+		Torbjorn_emote01 = 0x000006A2,
+		Torbjorn_emote02 = 0x000006A3,
+		Torbjorn_emote03 = 0x000008FE,
+		Torbjorn_emote04 = 0x00000A7F,
+		Torbjorn_emote05 = 0x00000A80,
+
+		Tracer_emote00 = 0x00000827,
+		Tracer_emote01 = 0x0000082C,
+		Tracer_emote02 = 0x0000082D,
+		Tracer_emote03 = 0x00000908,
+		Tracer_emote04 = 0x00000A54,
+		Tracer_emote05 = 0x000010F6,
+
+		Widowmaker_emote00 = 0x00000650,
+		Widowmaker_emote01 = 0x00000652,
+		Widowmaker_emote02 = 0x00000653,
+		Widowmaker_emote03 = 0x00000909,
+		Widowmaker_emote04 = 0x00000A83,
+		Widowmaker_emote05 = 0x00000A84,
+
+		Winston_emote00 = 0x00000842,
+		Winston_emote01 = 0x00000847,
+		Winston_emote02 = 0x00000848,
+		Winston_emote03 = 0x00000905,
+		Winston_emote04 = 0x00000BE7,
+		Winston_emote05 = 0x00000BE8,
+
+		Zarya_emote00 = 0x00000900,
+		Zarya_emote01 = 0x00000AAC,
+		Zarya_emote02 = 0x00000D02,
+
+		Zenyatta_emote00 = 0x00000579,
+		Zenyatta_emote01 = 0x0000057A,
+		Zenyatta_emote02 = 0x0000057B,
+		Zenyatta_emote03 = 0x000008F8,
+		Zenyatta_emote04 = 0x00000BF6,
+		Zenyatta_emote05 = 0x00000BF7,
+	}
+}
