@@ -92,7 +92,7 @@ namespace OverwatchHighlights
 			}
 			if (!Enum.IsDefined(typeof(WeaponSkin), weaponSkin))
 			{
-				Tracer.TraceNoDupe("weaponskins", $"{skin}_weapon = 0x{(int)weaponSkin:X8},");
+				Tracer.TraceNoDupe("weaponskins", $"{hero}_weapon = 0x{(int)weaponSkin:X8},");
 			}
 		}
 
