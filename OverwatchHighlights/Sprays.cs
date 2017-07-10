@@ -12,14 +12,17 @@
 		Common_Rise              = 0x000001D2,
 		Common_BeyondTheMoon     = 0x000001E1,
 		Common_GLHF              = 0x000001E2,
+		Common_Victory           = 0x000001E5,
 		DVa_BNy                  = 0x000001EC,
 		DVa_NanoCola             = 0x000001EE,
 		Winston_PrimalRage       = 0x000001F3,
 		Winston_Horizon          = 0x000001F4,
 		Zenyatta_Orb             = 0x000001FF,
+		Zenyatta_Aura            = 0x00000203,
 		Zenyatta_Balance         = 0x00000204,
 		Zenyatta_Foot            = 0x00000205,
 		Zenyatta_Adorable        = 0x00000206,
+		Zenyatta_Together        = 0x00000208,
 		Zenyatta_Nine            = 0x0000020A,
 		DVa_GG                   = 0x00000251,
 		DVa_Pixel                = 0x00000252,
@@ -28,6 +31,11 @@
 		DVa_Star                 = 0x00000256,
 		Mei_Pixel                = 0x0000025D,
 		Bastion_Nest             = 0x00000269,
+		Zarya_Barrier            = 0x00000289,
+		Zarya_Tobelstein         = 0x0000028B,
+		Zarya_Lift               = 0x0000028D,
+		Zarya_Focused            = 0x0000028E,
+		Zarya_Defender           = 0x0000028F,
 		Winston_Roar             = 0x000002CA,
 		Genji_Nin                = 0x000002D0,
 		Genji_GodOfWar           = 0x000002D1,
@@ -37,6 +45,7 @@
 		Genji_Pixel              = 0x000002D6,
 		Genji_FullyLoaded        = 0x000002D7,
 		Genji_KazeNoGotoku       = 0x000002D8,
+		Genji_Lunge              = 0x000002D9,
 		Genji_GreenNinja         = 0x000002DB,
 		Zenyatta_Tekhartha       = 0x0000057F,
 		Zenyatta_Enlightened     = 0x00000581,
@@ -56,6 +65,7 @@
 		DVa_Cute                 = 0x00000677,
 		Zarya_Pink               = 0x00000706,
 		Zarya_Champion           = 0x00000707,
+		Zarya_Wrestle            = 0x00000708,
 		Zarya_Cute               = 0x00000719,
 		Zarya_Pixel              = 0x0000071A,
 		Genji_Dragonblade        = 0x00000727,
@@ -112,8 +122,10 @@
 		Sombra_Eyes              = 0x00000CD9,
 		Sombra_Key               = 0x00000CDD,
 		Sombra_DeafMute          = 0x00000CE0,
+		Common_DiaDeLosMuertos   = 0x00000CEF,
 		DVa_Cookie               = 0x00000D17,
 		Genji_Kadomatsu          = 0x00000D1E,
+		Genji_Ornament           = 0x00000D3A,
 		Ana_Dance                = 0x00000D59,
 		Zenyatta_YutNori         = 0x00000EC7,
 		Zarya_Calories           = 0x00000ED2,
@@ -127,6 +139,7 @@
 		Common_AwakenedLion      = 0x00000F6B,
 		Orisa_JustDessert        = 0x00001002,
 		Orisa_Cute               = 0x00001010,
+		Orisa_CityOfHarmony      = 0x00001015,
 		Ana_Newborn              = 0x0000106D,
 		Zenyatta_Shell           = 0x00001075,
 		DVa_Handheld             = 0x0000107A,
@@ -137,10 +150,6 @@
 
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
-		Genji_spray00 = 0x000002D9,
-		Genji_spray01 = 0x00000CEF,
-		Genji_spray02 = 0x00000D3A,
-
 		Hanzo_spray00 = 0x000001A3,
 		Hanzo_spray01 = 0x000001A4,
 		Hanzo_spray02 = 0x000001A7,
@@ -260,9 +269,7 @@
 		Mercy_spray21 = 0x00000EC4,
 		Mercy_spray22 = 0x00000EDB,
 		Mercy_spray23 = 0x00001072,
-
-		Orisa_spray00 = 0x00001015,
-
+		
 		Pharah_spray00 = 0x00000183,
 		Pharah_spray01 = 0x000002AF,
 		Pharah_spray02 = 0x000002B0,
@@ -423,16 +430,5 @@
 		Widowmaker_spray25 = 0x00000EF0,
 		Widowmaker_spray26 = 0x00000F6F,
 		Widowmaker_spray27 = 0x0000107D,
-
-		Zarya_spray00 = 0x000001E5,
-		Zarya_spray01 = 0x00000289,
-		Zarya_spray02 = 0x0000028B,
-		Zarya_spray03 = 0x0000028D,
-		Zarya_spray04 = 0x0000028E,
-		Zarya_spray05 = 0x0000028F,
-		Zarya_spray06 = 0x00000708,
-
-		Zenyatta_spray00 = 0x00000203,
-		Zenyatta_spray01 = 0x00000208,
 	};
 }
