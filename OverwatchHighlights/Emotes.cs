@@ -104,11 +104,12 @@
 		Roadhog_emote04 = 0x00000A52,
 		Roadhog_emote05 = 0x00000A53,
 
-		Soldier76_emote00 = 0x000007D5,
-		Soldier76_emote01 = 0x00000904,
-		Soldier76_emote02 = 0x00000BE1,
-		Soldier76_emote03 = 0x00000BE2,
-		Soldier76_emote04 = 0x0000104D,
+		Soldier76_emote00 = 0x000007D3,
+		Soldier76_emote01 = 0x000007D5,
+		Soldier76_emote02 = 0x00000904,
+		Soldier76_emote03 = 0x00000BE1,
+		Soldier76_emote04 = 0x00000BE2,
+		Soldier76_emote05 = 0x0000104D,
 
 		Sombra_emote00 = 0x00000AF6,
 		Sombra_emote01 = 0x00000AF7,

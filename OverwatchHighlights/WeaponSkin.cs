@@ -11,6 +11,7 @@
 		Doomfist_Classic                   = 0x00001F05,
 		Doomfist_Classic_Golden            = 0x00001F06,
 		Mei_Classic                        = 0x00001F25,
+		Bastion_Classic                    = 0x00001F35,
 		Sombra_Classic                     = 0x00001F3D,
 		Zarya_Classic                      = 0x00001FBD,
 		Roadhog_Classic                    = 0x0000202D,

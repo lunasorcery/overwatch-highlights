@@ -11,6 +11,7 @@
 		Lucio_Classic                     = 0x0000160B,
 		Doomfist_Classic                  = 0x0000160F,
 		Mei_Classic                       = 0x0000161F,
+		Bastion_Classic                   = 0x00001627,
 		Sombra_Classic                    = 0x0000162B,
 		Zarya_Classic                     = 0x0000166B,
 		Roadhog_Classic                   = 0x000016A3,
@@ -39,10 +40,9 @@
 		Ana_skin02 = 0x00001950,
 		Ana_skin03 = 0x0000199C,
 
-		Bastion_skin00 = 0x00001627,
-		Bastion_skin01 = 0x00001629,
-		Bastion_skin02 = 0x00001795,
-		Bastion_skin03 = 0x00001799,
+		Bastion_skin00 = 0x00001629,
+		Bastion_skin01 = 0x00001795,
+		Bastion_skin02 = 0x00001799,
 
 		DVa_skin00 = 0x00001613,
 		DVa_skin01 = 0x00001764,
