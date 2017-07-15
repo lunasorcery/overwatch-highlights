@@ -41,10 +41,11 @@
 		Mercy_CombatMedicZiegler           = 0x000029CA,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
-		Ana_weapon00 = 0x00002525,
-		Ana_weapon01 = 0x0000256D,
-		Ana_weapon02 = 0x00002577,
-		Ana_weapon03 = 0x0000260D,
+		Ana_weapon00 = 0x0000251D,
+		Ana_weapon01 = 0x00002525,
+		Ana_weapon02 = 0x0000256D,
+		Ana_weapon03 = 0x00002577,
+		Ana_weapon04 = 0x0000260D,
 
 		Bastion_weapon00 = 0x00001F36,
 		Bastion_weapon01 = 0x00001F39,
@@ -106,6 +107,7 @@
 		McCree_weapon10 = 0x00002647,
 		McCree_weapon11 = 0x000026FA,
 
+		Mei_weapon00 = 0x00001F2B,
 		Mei_weapon01 = 0x0000222F,
 		Mei_weapon02 = 0x00002473,
 		Mei_weapon03 = 0x000025D9,
@@ -142,7 +144,8 @@
 		Reinhardt_weapon00 = 0x00001F5D,
 		Reinhardt_weapon01 = 0x00001F65,
 		Reinhardt_weapon02 = 0x00001FA5,
-		Reinhardt_weapon03 = 0x000029E2,
+		Reinhardt_weapon03 = 0x00002487,
+		Reinhardt_weapon04 = 0x000029E2,
 
 		Roadhog_weapon00 = 0x0000201D,
 		Roadhog_weapon01 = 0x00002027,
@@ -169,10 +172,11 @@
 
 		Torbjorn_weapon00 = 0x00001F4D,
 		Torbjorn_weapon01 = 0x00001F4F,
-		Torbjorn_weapon02 = 0x00002481,
-		Torbjorn_weapon03 = 0x00002483,
-		Torbjorn_weapon04 = 0x00002994,
-		Torbjorn_weapon05 = 0x00002A2E,
+		Torbjorn_weapon02 = 0x00001F59,
+		Torbjorn_weapon03 = 0x00002481,
+		Torbjorn_weapon04 = 0x00002483,
+		Torbjorn_weapon05 = 0x00002994,
+		Torbjorn_weapon06 = 0x00002A2E,
 
 		Tracer_weapon00 = 0x000020BD,
 		Tracer_weapon01 = 0x000020FD,

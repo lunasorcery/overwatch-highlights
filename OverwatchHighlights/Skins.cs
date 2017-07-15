@@ -36,10 +36,11 @@
 		Mercy_CombatMedicZiegler          = 0x00001B7B,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
-		Ana_skin00 = 0x00001927,
-		Ana_skin01 = 0x0000194B,
-		Ana_skin02 = 0x00001950,
-		Ana_skin03 = 0x0000199C,
+		Ana_skin00 = 0x00001923,
+		Ana_skin01 = 0x00001927,
+		Ana_skin02 = 0x0000194B,
+		Ana_skin03 = 0x00001950,
+		Ana_skin04 = 0x0000199C,
 
 		Bastion_skin00 = 0x00001629,
 		Bastion_skin01 = 0x00001795,
@@ -92,10 +93,11 @@
 		McCree_skin07 = 0x000019B6,
 		McCree_skin08 = 0x00001A12,
 
-		Mei_skin00 = 0x000017A5,
-		Mei_skin01 = 0x000018CB,
-		Mei_skin02 = 0x00001981,
-		Mei_skin03 = 0x00001982,
+		Mei_skin00 = 0x00001622,
+		Mei_skin01 = 0x000017A5,
+		Mei_skin02 = 0x000018CB,
+		Mei_skin03 = 0x00001981,
+		Mei_skin04 = 0x00001982,
 
 		Mercy_skin00 = 0x000015D3,
 		Mercy_skin01 = 0x000015DB,
@@ -127,7 +129,8 @@
 		Reinhardt_skin00 = 0x0000163B,
 		Reinhardt_skin01 = 0x0000163F,
 		Reinhardt_skin02 = 0x0000165F,
-		Reinhardt_skin03 = 0x00001B87,
+		Reinhardt_skin03 = 0x000018D5,
+		Reinhardt_skin04 = 0x00001B87,
 
 		Roadhog_skin00 = 0x0000169B,
 		Roadhog_skin01 = 0x000016A0,
@@ -154,10 +157,11 @@
 
 		Torbjorn_skin00 = 0x00001633,
 		Torbjorn_skin01 = 0x00001634,
-		Torbjorn_skin02 = 0x000018D2,
-		Torbjorn_skin03 = 0x000018D3,
-		Torbjorn_skin04 = 0x00001B60,
-		Torbjorn_skin05 = 0x00001BAD,
+		Torbjorn_skin02 = 0x00001639,
+		Torbjorn_skin03 = 0x000018D2,
+		Torbjorn_skin04 = 0x000018D3,
+		Torbjorn_skin05 = 0x00001B60,
+		Torbjorn_skin06 = 0x00001BAD,
 
 		Tracer_skin00 = 0x000016EB,
 		Tracer_skin01 = 0x0000170B,

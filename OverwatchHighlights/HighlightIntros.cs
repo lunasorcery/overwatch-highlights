@@ -93,7 +93,8 @@
 		Sombra_intro00 = 0x00000AFB,
 		Sombra_intro01 = 0x00000AFC,
 		Sombra_intro02 = 0x00000B0D,
-		Sombra_intro03 = 0x00000CC1,
+		Sombra_intro03 = 0x00000B0F,
+		Sombra_intro04 = 0x00000CC1,
 
 		Symmetra_intro00 = 0x00000138,
 		Symmetra_intro01 = 0x00000223,
