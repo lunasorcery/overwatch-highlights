@@ -13,6 +13,8 @@ namespace OverwatchHighlights
 			37962, // 06/07/2017 PTR (first appearance of doomfist)
 			38024, // 07/07/2017 PTR
 			38044, // 08/07/2017 PTR
+			38125, // 12/07/2017 PTR (doomfist unlocks)
+			38215, // 15/07/2017 PTR
 		};
 
 		private int m_buildNumber;
