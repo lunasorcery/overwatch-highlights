@@ -96,7 +96,7 @@ namespace OverwatchHighlights
 		{
 			const ulong HighlightIntroMask = 0x0250000000000000ul;
 			ulong value = br.ReadUInt64();
-			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightIntroMask);
+			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightIntroMask || value == 0);
 			HighlightIntro intro = (HighlightIntro)(value & 0xFFFFFFFFu);
 			//Debug.Assert(Enum.IsDefined(typeof(HighlightIntro), intro));
 			return intro;
@@ -183,6 +183,13 @@ namespace OverwatchHighlights
 			for (int i = 0; i < count; ++i)
 				voiceLines[i] = br.ReadVoiceLine32();
 			return voiceLines;
+		}
+
+		public static Vec2 ReadVec2(this BinaryReader br)
+		{
+			float x = br.ReadSingle();
+			float y = br.ReadSingle();
+			return new Vec2(x, y);
 		}
 
 		public static Vec3 ReadVec3(this BinaryReader br)

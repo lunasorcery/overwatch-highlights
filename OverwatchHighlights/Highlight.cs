@@ -109,6 +109,7 @@ namespace OverwatchHighlights
 				if (br.GetFilename() == info.uuid.ToString())
 				{
 					Tracer.TraceNoDupe("highlightInfo.unknown4", $"{map} {info.unknown4}");
+					Tracer.TraceNoDupe("highlightInfo.unknown4a", $"{info.unknown4a}");
 					Tracer.TraceNoDupe("highlightInfo.unknown5", $"{map} {info.unknown5}");
 					Tracer.TraceNoDupe("highlightInfo.unknown6", $"{info.unknown6} {map}");
 					Tracer.TraceNoDupe("highlightInfo.maybeUpVector", $"{info.maybeUpVector} {map}");

@@ -10,7 +10,8 @@ namespace OverwatchHighlights
 		public byte unknown1;
 		public uint unknown2;
 		public uint unknown3;
-		public Vec3 unknown4;
+		public Vec2 unknown4;
+		public uint unknown4a;
 		public Vec3 unknown5;
 		public Vec3 unknown6;
 		public Vec3 maybeUpVector;
@@ -39,8 +40,9 @@ namespace OverwatchHighlights
 			Debug.Assert((unknown3 & 0x80000000u) == 0x80000000u);
 			Debug.Assert((unknown3 & 0x7FFFFFFFu) <= 0x0000FFFFu);
 			
-			this.unknown4 = br.ReadVec3();
+			this.unknown4 = br.ReadVec2();
 			Debug.Assert(unknown4.IsFinite());
+			this.unknown4a = br.ReadUInt32();
 
 			this.unknown5 = br.ReadVec3();
 			Debug.Assert(unknown5.IsFinite());
@@ -106,6 +108,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
 			Console.WriteLine($"  Unknown4: {unknown4}");
+			Console.WriteLine($"  Unknown4a: {unknown4a}");
 			Console.WriteLine($"  Unknown5: {unknown5}");
 			Console.WriteLine($"  Unknown6: {unknown6}");
 			Console.WriteLine($"  Maybe Up Vector: {maybeUpVector}");
