@@ -25,6 +25,7 @@
 		Genji_Sparrow                      = 0x000021EF,
 		Genji_Sparrow_Golden               = 0x000021F0,
 		Zenyatta_Ascendant                 = 0x00002453,
+		Doomfist_Painted                   = 0x00002465,
 		Sombra_Virus                       = 0x0000247F,
 		Genji_CarbonFiber                  = 0x000024B3,
 		Genji_CarbonFiber_Golden           = 0x000024B4,
@@ -49,9 +50,9 @@
 		Bastion_weapon01 = 0x00001F39,
 		Bastion_weapon02 = 0x0000220F,
 		Bastion_weapon03 = 0x00002217,
-
+		
 		DVa_weapon00 = 0x00001F0D,
-	    DVa_weapon01 = 0x000021AD,
+		DVa_weapon01 = 0x000021AD,
 		DVa_weapon02 = 0x000021AE,
 		DVa_weapon03 = 0x000021AF,
 		DVa_weapon04 = 0x00002225,

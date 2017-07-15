@@ -14,6 +14,7 @@
 		Junkrat_Random               = 0x0000023D, // I think?
 		Widowmaker_UnderTheMistletoe = 0x00000D43,
 		Doomfist_Heroic              = 0x00001198,
+		Doomfist_Random              = 0x00001199,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_intro00 = 0x00000A5A,

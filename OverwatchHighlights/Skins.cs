@@ -23,6 +23,7 @@
 		Junkrat_Hayseed                   = 0x0000177D,
 		Genji_Sparrow                     = 0x00001785,
 		Zenyatta_Ascendant                = 0x000018BB,
+		Doomfist_Painted                  = 0x000018C4,
 		Sombra_Virus                      = 0x000018D1,
 		Genji_CarbonFiber                 = 0x000018EB,
 		Mei_YetiHunter                    = 0x00001914,
