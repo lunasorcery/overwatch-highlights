@@ -73,12 +73,12 @@ namespace OverwatchHighlights
 
 				// I believe these are the only values?
 				Debug.Assert((unknownUnlock == 0x0830000000000001) || (unknownUnlock == 0x0830000000000003));
-
-				Tracer.TraceNoDupe("highlightInfo.unknownUnlock", $"{unknownUnlock:X16}");
 			}
 
 			this.timestamp = br.ReadUInt64();
 			this.uuid = new HighlightUUID(br);
+
+			Tracer.TraceNoDupe("highlightInfo.unknownUnlock", $"{unknownUnlock:X16} {unknown1}");
 
 			if (Enum.IsDefined(typeof(Skin), this.skin) && Enum.IsDefined(typeof(WeaponSkin), weaponSkin))
 			{
@@ -105,6 +105,8 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Skin: {skin}");
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
+			Console.WriteLine($"  Unknown Unlock: {unknownUnlock:X16}");
+			Console.WriteLine($"  Unknown1: {unknown1}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
 			Console.WriteLine($"  Unknown4: {unknown4}");

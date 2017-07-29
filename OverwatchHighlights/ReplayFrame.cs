@@ -62,7 +62,7 @@ namespace OverwatchHighlights
 				payload[0] == 0xa5 || payload[0] == 0xad ||
 				payload[0] == 0xb5 || payload[0] == 0xbd ||
 				payload[0] == 0xc5 ||
-				payload[0] == 0xd5 ||
+				payload[0] == 0xd5 || payload[0] == 0xdd ||
 				payload[0] == 0xe5 || payload[0] == 0xed ||
 				payload[0] == 0xf5 || payload[0] == 0xfd
 			);

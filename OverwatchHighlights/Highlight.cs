@@ -71,8 +71,8 @@ namespace OverwatchHighlights
 			uint unknown8 = br.ReadUInt32();    // 0?
 			Debug.Assert(unknown8 == 0);
 
-			uint unknown9 = br.ReadUInt32();    // 138?
-			Debug.Assert(unknown9 == 138);
+			uint unknown9 = br.ReadUInt32();    // major version number?
+			Debug.Assert(unknown9 == 138 || unknown9 == 147);
 
 			this.buildNumber = new BuildNumber(br);
 			Debug.Assert(buildNumber.IsKnownByTool());
@@ -158,8 +158,9 @@ namespace OverwatchHighlights
 			replayBlock = new Replay(br);
 
 			Debug.Assert(
-				replayBlock.buildNumber == this.buildNumber || 
-				(replayBlock.buildNumber == 38024 && this.buildNumber == 38044) // for some reason build 38044 emits highlights where the Replay block has the previous build number...?
+				replayBlock.buildNumber == this.buildNumber ||
+				(replayBlock.buildNumber == 38024 && this.buildNumber == 38044) || // for some reason...?
+				(replayBlock.buildNumber == 38510 && this.buildNumber == 38459)    // for some reason...?
 			);
 			Debug.Assert(replayBlock.map == this.map);
 			Debug.Assert(replayBlock.onlyHasValueFor3v3Maps == this.onlyHasValueFor3v3Maps);
