@@ -86,6 +86,10 @@ namespace OverwatchHighlights
 						{
 							Debug.Assert(spray.ToString() == $"{hero}_spray_{(int)spray:X8}");
 						}
+						else if (spray.ToString().StartsWith($"Common_spray_"))
+						{
+							Debug.Assert(spray.ToString() == $"Common_spray_{(int)spray:X8}");
+						}
 					}
 				}
 			}
@@ -148,6 +152,57 @@ namespace OverwatchHighlights
 			else if (IsDefined(skin) || IsDefined(weapon))
 			{
 				Debug.Assert(false, $"defined only one of skin {skin} and weaponskin {weapon}");
+			}
+
+			TraceUnlocks(hero, skin, weapon, intro, sprays, emotes, voiceLines);
+		}
+
+		private static void TraceUnlocks(Hero hero, Skin skin, WeaponSkin weapon, HighlightIntro intro, Spray[] sprays = null, Emote[] emotes = null, VoiceLine[] voiceLines = null)
+		{
+			if (sprays != null)
+			{
+				foreach (var spray in sprays)
+				{
+					if (!IsDefined(spray))
+					{
+						Tracer.TraceNoDupe("sprays", $"{hero}_spray_{(int)spray:X8} = 0x{(int)spray:X8},");
+					}
+				}
+			}
+			if (voiceLines != null)
+			{
+				foreach (var voiceLine in voiceLines)
+				{
+					if (!IsDefined(voiceLine))
+					{
+						Tracer.TraceNoDupe("voiceLines", $"{hero}_voiceline_{(int)voiceLine:X8} = 0x{(int)voiceLine:X8},");
+					}
+				}
+			}
+			if (emotes != null)
+			{
+				foreach (var emote in emotes)
+				{
+					if (!IsDefined(emote))
+					{
+						Tracer.TraceNoDupe("emotes", $"{hero}_emote_{(int)emote:X8} = 0x{(int)emote:X8},");
+					}
+				}
+			}
+			if (!IsDefined(skin))
+			{
+				Tracer.TraceNoDupe("skins", $"{hero}_skin_{(int)skin:X8} = 0x{(int)skin:X8},");
+			}
+			if (!IsDefined(intro))
+			{
+				Tracer.TraceNoDupe("highlightIntros", $"{hero}_intro_{(int)intro:X8} = 0x{(int)intro:X8},");
+			}
+			if (!IsDefined(weapon))
+			{
+				if (IsDefined(skin))
+					Tracer.TraceNoDupe("weaponskins", $"{skin}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
+				else
+					Tracer.TraceNoDupe("weaponskins", $"{hero}_skin_{(int)skin:X8}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
 			}
 		}
 

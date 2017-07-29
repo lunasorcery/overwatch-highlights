@@ -8,6 +8,7 @@
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_voiceline_00000A5C = 0x00000A5C,
+		Ana_voiceline_00000A5D = 0x00000A5D,
 		Ana_voiceline_00000A5E = 0x00000A5E,
 		Ana_voiceline_00000A5F = 0x00000A5F,
 		Ana_voiceline_00000A61 = 0x00000A61,
@@ -47,6 +48,8 @@
 		DVa_voiceline_00000D8A = 0x00000D8A,
 		DVa_voiceline_000010C3 = 0x000010C3,
 		DVa_voiceline_000010C4 = 0x000010C4,
+		DVa_voiceline_00001115 = 0x00001115,
+		DVa_voiceline_00001116 = 0x00001116,
 
 		Genji_voiceline_0000076D = 0x0000076D,
 		Genji_voiceline_0000076E = 0x0000076E,
@@ -91,10 +94,13 @@
 		Junkrat_voiceline_000005CA = 0x000005CA,
 		Junkrat_voiceline_000005CB = 0x000005CB,
 		Junkrat_voiceline_00000A09 = 0x00000A09,
+		Junkrat_voiceline_00000A0A = 0x00000A0A,
 		Junkrat_voiceline_00000BCC = 0x00000BCC,
 		Junkrat_voiceline_00000C96 = 0x00000C96,
 		Junkrat_voiceline_00000D83 = 0x00000D83,
 		Junkrat_voiceline_000010C9 = 0x000010C9,
+		Junkrat_voiceline_000010CA = 0x000010CA,
+		Junkrat_voiceline_00001107 = 0x00001107,
 
 		Lucio_voiceline_000005F2 = 0x000005F2,
 		Lucio_voiceline_000005F3 = 0x000005F3,
@@ -110,6 +116,7 @@
 		Lucio_voiceline_00000F4E = 0x00000F4E,
 		Lucio_voiceline_000010CB = 0x000010CB,
 		Lucio_voiceline_000010CC = 0x000010CC,
+		Lucio_voiceline_0000110A = 0x0000110A,
 
 		McCree_voiceline_0000056D = 0x0000056D,
 		McCree_voiceline_0000056F = 0x0000056F,
@@ -135,11 +142,13 @@
 		Mei_voiceline_000008CF = 0x000008CF,
 		Mei_voiceline_00000A35 = 0x00000A35,
 		Mei_voiceline_00000A37 = 0x00000A37,
+		Mei_voiceline_00000A38 = 0x00000A38,
 		Mei_voiceline_00000A39 = 0x00000A39,
 		Mei_voiceline_00000D85 = 0x00000D85,
 		Mei_voiceline_00000F4F = 0x00000F4F,
 		Mei_voiceline_000010CF = 0x000010CF,
 		Mei_voiceline_000010D0 = 0x000010D0,
+		Mei_voiceline_0000110B = 0x0000110B,
 
 		Mercy_voiceline_000004FE = 0x000004FE,
 		Mercy_voiceline_00000501 = 0x00000501,
@@ -192,6 +201,8 @@
 
 		Reinhardt_voiceline_000006F0 = 0x000006F0,
 		Reinhardt_voiceline_000006F2 = 0x000006F2,
+		Reinhardt_voiceline_000006F3 = 0x000006F3,
+		Reinhardt_voiceline_000006F4 = 0x000006F4,
 		Reinhardt_voiceline_000006F6 = 0x000006F6,
 		Reinhardt_voiceline_000006F7 = 0x000006F7,
 		Reinhardt_voiceline_000006F8 = 0x000006F8,
@@ -217,6 +228,7 @@
 		Soldier76_voiceline_000007F5 = 0x000007F5,
 		Soldier76_voiceline_000007F6 = 0x000007F6,
 		Soldier76_voiceline_000007F7 = 0x000007F7,
+		Soldier76_voiceline_000007F8 = 0x000007F8,
 		Soldier76_voiceline_000007F9 = 0x000007F9,
 		Soldier76_voiceline_000007FA = 0x000007FA,
 		Soldier76_voiceline_000007FB = 0x000007FB,
@@ -229,10 +241,12 @@
 		Soldier76_voiceline_00000F59 = 0x00000F59,
 		Soldier76_voiceline_000010DD = 0x000010DD,
 		Soldier76_voiceline_000010DE = 0x000010DE,
+		Soldier76_voiceline_0000111F = 0x0000111F,
 
 		Sombra_voiceline_00000AFD = 0x00000AFD,
 		Sombra_voiceline_00000AFE = 0x00000AFE,
 		Sombra_voiceline_00000AFF = 0x00000AFF,
+		Sombra_voiceline_00000B00 = 0x00000B00,
 		Sombra_voiceline_00000B01 = 0x00000B01,
 		Sombra_voiceline_00000B02 = 0x00000B02,
 		Sombra_voiceline_00000B03 = 0x00000B03,
@@ -251,6 +265,7 @@
 		Symmetra_voiceline_000008DA = 0x000008DA,
 		Symmetra_voiceline_000009F2 = 0x000009F2,
 		Symmetra_voiceline_000009F4 = 0x000009F4,
+		Symmetra_voiceline_000009F9 = 0x000009F9,
 
 		Torbjorn_voiceline_000006C3 = 0x000006C3,
 		Torbjorn_voiceline_000006C6 = 0x000006C6,
@@ -263,6 +278,7 @@
 
 		Tracer_voiceline_00000830 = 0x00000830,
 		Tracer_voiceline_00000831 = 0x00000831,
+		Tracer_voiceline_00000832 = 0x00000832,
 		Tracer_voiceline_00000833 = 0x00000833,
 		Tracer_voiceline_00000834 = 0x00000834,
 		Tracer_voiceline_00000835 = 0x00000835,
@@ -291,6 +307,7 @@
 		Widowmaker_voiceline_00000F5E = 0x00000F5E,
 		Widowmaker_voiceline_000010E7 = 0x000010E7,
 		Widowmaker_voiceline_000010E8 = 0x000010E8,
+		Widowmaker_voiceline_00001129 = 0x00001129,
 
 		Winston_voiceline_00000851 = 0x00000851,
 		Winston_voiceline_00000853 = 0x00000853,
@@ -298,12 +315,15 @@
 		Winston_voiceline_00000857 = 0x00000857,
 		Winston_voiceline_00000858 = 0x00000858,
 		Winston_voiceline_000008D8 = 0x000008D8,
+		Winston_voiceline_00000A24 = 0x00000A24,
 		Winston_voiceline_00000A25 = 0x00000A25,
 		Winston_voiceline_00000A26 = 0x00000A26,
 		Winston_voiceline_00000A27 = 0x00000A27,
 		Winston_voiceline_00000A28 = 0x00000A28,
+		Winston_voiceline_00000F5A = 0x00000F5A,
 		Winston_voiceline_000010E9 = 0x000010E9,
 
+		Zarya_voiceline_0000071C = 0x0000071C,
 		Zarya_voiceline_0000071F = 0x0000071F,
 		Zarya_voiceline_00000723 = 0x00000723,
 		Zarya_voiceline_000008D3 = 0x000008D3,
@@ -326,5 +346,6 @@
 		Zenyatta_voiceline_00000C95 = 0x00000C95,
 		Zenyatta_voiceline_00000F4C = 0x00000F4C,
 		Zenyatta_voiceline_000010ED = 0x000010ED,
+		Zenyatta_voiceline_00001105 = 0x00001105,
 	};
 }

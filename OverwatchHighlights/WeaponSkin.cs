@@ -53,7 +53,9 @@
 		Bastion_skin_00001795_weapon_0000220F = 0x0000220F,
 		Bastion_skin_00001799_weapon_00002217 = 0x00002217,
 		Bastion_skin_00001B90_weapon_000029F4 = 0x000029F4,
-		
+
+		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
+
 		DVa_skin_00001613_weapon_00001F0D = 0x00001F0D,
 		DVa_skin_00001764_weapon_000021AD = 0x000021AD,
 		DVa_skin_00001764_weapon_000021AE = 0x000021AE,
@@ -65,11 +67,13 @@
 		DVa_skin_00001A19_weapon_00002708 = 0x00002708,
 		DVa_skin_00001BB0_weapon_00002A34 = 0x00002A34,
 
+		Genji_skin_00001784_weapon_000021ED = 0x000021ED,
 		Genji_skin_00001788_weapon_000021F5 = 0x000021F5,
 		Genji_skin_000018EC_weapon_000024B5 = 0x000024B5,
 		Genji_skin_00001994_weapon_000025FF = 0x000025FF,
 		Genji_skin_00001B7D_weapon_000029CE = 0x000029CE,
 		Genji_skin_00001B7D_weapon_000029CF = 0x000029CF,
+		Genji_skin_00001B91_weapon_000029F6 = 0x000029F6,
 
 		Hanzo_skin_000015E3_weapon_00001EAD = 0x00001EAD,
 		Hanzo_skin_000015E4_weapon_00001EAF = 0x00001EAF,
@@ -112,7 +116,9 @@
 
 		Mei_skin_00001622_weapon_00001F2B = 0x00001F2B,
 		Mei_skin_000017A5_weapon_0000222F = 0x0000222F,
+		Mei_skin_000018C9_weapon_0000246F = 0x0000246F,
 		Mei_skin_000018CB_weapon_00002473 = 0x00002473,
+		Mei_skin_00001915_weapon_00002507 = 0x00002507,
 		Mei_skin_00001981_weapon_000025D9 = 0x000025D9,
 		Mei_skin_00001982_weapon_000025DB = 0x000025DB,
 
@@ -120,6 +126,7 @@
 		Mercy_Sigrun_weapon_00001E8F = 0x00001E8F,
 		Mercy_skin_000015DB_weapon_00001E9D = 0x00001E9D,
 		Mercy_skin_000015DC_weapon_00001E9F = 0x00001E9F,
+		Mercy_skin_000015DE_weapon_00001EA3 = 0x00001EA3,
 		Mercy_skin_000018AE_weapon_00002439 = 0x00002439,
 		Mercy_skin_0000196A_weapon_000025AB = 0x000025AB,
 		Mercy_skin_00001A2A_weapon_00002728 = 0x00002728,
@@ -168,13 +175,18 @@
 		Soldier76_skin_000018E5_weapon_000024A7 = 0x000024A7,
 		Soldier76_skin_000018E6_weapon_000024A9 = 0x000024A9,
 		Soldier76_skin_000019A6_weapon_00002621 = 0x00002621,
+		Soldier76_skin_00001A1E_weapon_00002712 = 0x00002712,
 
 		Sombra_skin_0000162D_weapon_00001F41 = 0x00001F41,
+		Sombra_skin_0000162E_weapon_00001F43 = 0x00001F43,
 		Sombra_skin_000018CF_weapon_0000247B = 0x0000247B,
 		Sombra_skin_00001A1D_weapon_00002710 = 0x00002710,
 
 		Symmetra_skin_000016E7_weapon_000020B5 = 0x000020B5,
+		Symmetra_skin_000016E8_weapon_000020B7 = 0x000020B7,
 		Symmetra_skin_000016E9_weapon_000020B9 = 0x000020B9,
+		Symmetra_skin_000018EF_weapon_000024BB = 0x000024BB,
+		Symmetra_skin_00001A27_weapon_00002724 = 0x00002724,
 
 		Torbjorn_skin_0000162F_weapon_00001F45 = 0x00001F45,
 		Torbjorn_skin_00001633_weapon_00001F4D = 0x00001F4D,
@@ -189,9 +201,12 @@
 		Tracer_skin_000016EB_weapon_000020BD = 0x000020BD,
 		Tracer_skin_0000170B_weapon_000020FD = 0x000020FD,
 		Tracer_skin_0000170F_weapon_00002105 = 0x00002105,
+		Tracer_skin_000018F1_weapon_000024BF = 0x000024BF,
 		Tracer_skin_000018F2_weapon_000024C1 = 0x000024C1,
 		Tracer_skin_00001942_weapon_0000255B = 0x0000255B,
+		Tracer_skin_00001943_weapon_0000255D = 0x0000255D,
 		Tracer_skin_0000195E_weapon_00002593 = 0x00002593,
+		Tracer_skin_00001B2B_weapon_0000292A = 0x0000292A,
 		Tracer_skin_00001B66_weapon_000029A0 = 0x000029A0,
 		Tracer_skin_00001B66_weapon_000029A1 = 0x000029A1,
 
@@ -213,13 +228,17 @@
 		Winston_skin_000016D5_weapon_00002091 = 0x00002091,
 		Winston_skin_000016D6_weapon_00002093 = 0x00002093,
 		Winston_skin_000018E9_weapon_000024AF = 0x000024AF,
+		Winston_skin_0000197F_weapon_000025D5 = 0x000025D5,
 
 		Zarya_skin_00001667_weapon_00001FB5 = 0x00001FB5,
 		Zarya_skin_000018D8_weapon_0000248D = 0x0000248D,
+		Zarya_skin_000018D9_weapon_0000248F = 0x0000248F,
 		Zarya_skin_00001944_weapon_00002560 = 0x00002560,
 		Zarya_skin_00001A1B_weapon_0000270C = 0x0000270C,
 
 		Zenyatta_skin_000015FF_weapon_00001EE5 = 0x00001EE5,
+		Zenyatta_skin_000018BA_weapon_00002451 = 0x00002451,
+		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_00001966_weapon_000025A3 = 0x000025A3,
 	}
 }

@@ -55,6 +55,7 @@
 		McCree_intro_00000238 = 0x00000238,
 
 		Mei_intro_00000156 = 0x00000156,
+		Mei_intro_00000158 = 0x00000158,
 		Mei_intro_00000C38 = 0x00000C38,
 
 		Mercy_intro_00000126 = 0x00000126,
@@ -119,13 +120,15 @@
 		Widowmaker_intro_0000021C = 0x0000021C,
 
 		Winston_intro_00000132 = 0x00000132,
+		Winston_intro_00000133 = 0x00000133,
 		Winston_intro_00000134 = 0x00000134,
 		Winston_intro_00000221 = 0x00000221,
-
+		
 		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,
 
 		Zenyatta_intro_00000135 = 0x00000135,
+		Zenyatta_intro_00000136 = 0x00000136,
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00001060 = 0x00001060,
 	};
