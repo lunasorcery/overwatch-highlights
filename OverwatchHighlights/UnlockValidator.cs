@@ -19,14 +19,14 @@ namespace OverwatchHighlights
 			foreach (var skin in allSkins)
 			{
 				var matchingWeapons = allWeapons.Where(weapon => weapon.ToString().StartsWith(skin.ToString()));
-				Debug.Assert(matchingWeapons.Count() <= 2);
+				Debug.Assert(matchingWeapons.Count() <= 2, $"Skin {skin} should have no more than 2 weapons, found {matchingWeapons.Count()}");
 			}
 
 			// ensure every weapon has a matching skin
 			foreach (var weapon in allWeapons)
 			{
 				var matchingSkins = allSkins.Where(skin => weapon.ToString().StartsWith(skin.ToString()));
-				Debug.Assert(matchingSkins.Count() == 1);
+				Debug.Assert(matchingSkins.Count() == 1, $"Weapon {weapon} should have exactly 1 matching skin, found {matchingSkins.Count()}");
 			}
 
 			foreach (var skin in allSkins)
@@ -81,7 +81,7 @@ namespace OverwatchHighlights
 				{
 					if (IsDefined(spray))
 					{
-						Debug.Assert(spray.ToString().StartsWith($"{hero}_") || spray.ToString().StartsWith("Common_"));
+						Debug.Assert(spray.ToString().StartsWith($"{hero}_") || spray.ToString().StartsWith("Common_"), $"Spray {spray} should belong to '{hero}'");
 						if (spray.ToString().StartsWith($"{hero}_spray_"))
 						{
 							Debug.Assert(spray.ToString() == $"{hero}_spray_{(int)spray:X8}");
@@ -149,9 +149,13 @@ namespace OverwatchHighlights
 			{
 				Debug.Assert(weapon.ToString().StartsWith(skin.ToString()));
 			}
-			else if (IsDefined(skin) || IsDefined(weapon))
+			else if (IsDefined(skin) && !IsDefined(weapon))
 			{
-				Debug.Assert(false, $"defined only one of skin {skin} and weaponskin {weapon}");
+				Debug.Assert(false, $"Defined skin {skin} but corresponding weapon {(int)weapon:X8} is not defined");
+			}
+			else if (!IsDefined(skin) && IsDefined(weapon))
+			{
+				Debug.Assert(false, $"Defined weapon {weapon} but corresponding skin {(int)skin:X8} is not defined");
 			}
 
 			TraceUnlocks(hero, skin, weapon, intro, sprays, emotes, voiceLines);

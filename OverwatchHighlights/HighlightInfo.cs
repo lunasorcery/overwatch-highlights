@@ -72,7 +72,7 @@ namespace OverwatchHighlights
 				Debug.Assert((unknownUnlock & 0xFFFFFFFF00000000ul) == 0x0830000000000000ul);
 
 				// I believe these are the only values?
-				Debug.Assert((unknownUnlock == 0x0830000000000001) || (unknownUnlock == 0x0830000000000003));
+				Debug.Assert((unknownUnlock == 0x0830000000000001) || (unknownUnlock == 0x0830000000000002) || (unknownUnlock == 0x0830000000000003));
 			}
 
 			this.timestamp = br.ReadUInt64();

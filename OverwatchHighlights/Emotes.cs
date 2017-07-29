@@ -58,9 +58,11 @@
 
 		Lucio_emote_000005CF = 0x000005CF,
 		Lucio_emote_000005D0 = 0x000005D0,
+		Lucio_emote_000005D1 = 0x000005D1,
 		Lucio_emote_000008FA = 0x000008FA,
 		Lucio_emote_00000A6B = 0x00000A6B,
 		Lucio_emote_00000B2C = 0x00000B2C,
+		Lucio_emote_00000FE7 = 0x00000FE7,
 
 		McCree_emote_0000054E = 0x0000054E,
 		McCree_emote_0000054F = 0x0000054F,
@@ -87,9 +89,12 @@
 		Mercy_emote_000008F5 = 0x000008F5,
 		Mercy_emote_00000A4D = 0x00000A4D,
 		Mercy_emote_00000A4E = 0x00000A4E,
+		Mercy_emote_00000CAA = 0x00000CAA,
 
 		Orisa_emote_00000F63 = 0x00000F63,
 		Orisa_emote_00001092 = 0x00001092,
+		Orisa_emote_000010F7 = 0x000010F7,
+		Orisa_emote_0000112B = 0x0000112B,
 
 		Pharah_emote_000007A4 = 0x000007A4,
 		Pharah_emote_000007A5 = 0x000007A5,
@@ -104,9 +109,14 @@
 		Reaper_emote_00000901 = 0x00000901,
 		Reaper_emote_00000C01 = 0x00000C01,
 		Reaper_emote_00000C02 = 0x00000C02,
+		Reaper_emote_00000E80 = 0x00000E80,
 
+		Reinhardt_emote_000006D2 = 0x000006D2,
+		Reinhardt_emote_000006D3 = 0x000006D3,
 		Reinhardt_emote_000008FF = 0x000008FF,
+		Reinhardt_emote_00000A81 = 0x00000A81,
 		Reinhardt_emote_00000A82 = 0x00000A82,
+		Reinhardt_emote_00000CF5 = 0x00000CF5,
 
 		Roadhog_emote_00000777 = 0x00000777,
 		Roadhog_emote_00000778 = 0x00000778,
@@ -130,10 +140,13 @@
 		Sombra_emote_00000AF9 = 0x00000AF9,
 		Sombra_emote_00001094 = 0x00001094,
 		Sombra_emote_000010F3 = 0x000010F3,
+		Sombra_emote_000010F8 = 0x000010F8,
 
 		Symmetra_emote_00000801 = 0x00000801,
+		Symmetra_emote_00000802 = 0x00000802,
 		Symmetra_emote_00000907 = 0x00000907,
 		Symmetra_emote_00000C03 = 0x00000C03,
+		Symmetra_emote_00000CF6 = 0x00000CF6,
 
 		Torbjorn_emote_000006A1 = 0x000006A1,
 		Torbjorn_emote_000006A2 = 0x000006A2,
@@ -156,6 +169,7 @@
 		Widowmaker_emote_00000909 = 0x00000909,
 		Widowmaker_emote_00000A83 = 0x00000A83,
 		Widowmaker_emote_00000A84 = 0x00000A84,
+		Widowmaker_emote_00000F60 = 0x00000F60,
 
 		Winston_emote_00000842 = 0x00000842,
 		Winston_emote_00000847 = 0x00000847,
@@ -163,6 +177,7 @@
 		Winston_emote_00000905 = 0x00000905,
 		Winston_emote_00000BE7 = 0x00000BE7,
 		Winston_emote_00000BE8 = 0x00000BE8,
+		Winston_emote_00000C25 = 0x00000C25,
 		Winston_emote_00000E81 = 0x00000E81,
 
 		Zarya_emote_00000900 = 0x00000900,
@@ -175,5 +190,6 @@
 		Zenyatta_emote_000008F8 = 0x000008F8,
 		Zenyatta_emote_00000BF6 = 0x00000BF6,
 		Zenyatta_emote_00000BF7 = 0x00000BF7,
+		Zenyatta_emote_000010AA = 0x000010AA,
 	}
 }
