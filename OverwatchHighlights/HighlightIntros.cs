@@ -64,6 +64,7 @@
 		Mercy_intro04 = 0x00000EAE,
 
 		Orisa_intro00 = 0x00000F65,
+		Orisa_intro01 = 0x00000FF2,
 
 		Pharah_intro00 = 0x00000084,
 		Pharah_intro01 = 0x00000085,
@@ -79,10 +80,11 @@
 		Reinhardt_intro02 = 0x00000089,
 		Reinhardt_intro03 = 0x0000021E,
 
-		Roadhog_intro00 = 0x0000014B,
-		Roadhog_intro01 = 0x0000014C,
-		Roadhog_intro02 = 0x00000229,
-		Roadhog_intro03 = 0x00000EAD,
+		Roadhog_intro00 = 0x0000014A,
+		Roadhog_intro01 = 0x0000014B,
+		Roadhog_intro02 = 0x0000014C,
+		Roadhog_intro03 = 0x00000229,
+		Roadhog_intro04 = 0x00000EAD,
 
 		Soldier76_intro00 = 0x00000144,
 		Soldier76_intro01 = 0x00000145,

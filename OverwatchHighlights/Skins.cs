@@ -42,9 +42,11 @@
 		Ana_skin03 = 0x00001950,
 		Ana_skin04 = 0x0000199C,
 
-		Bastion_skin00 = 0x00001629,
-		Bastion_skin01 = 0x00001795,
-		Bastion_skin02 = 0x00001799,
+		Bastion_skin00 = 0x00001623,
+		Bastion_skin01 = 0x00001629,
+		Bastion_skin02 = 0x00001795,
+		Bastion_skin03 = 0x00001799,
+		Bastion_skin04 = 0x00001B90,
 
 		DVa_skin00 = 0x00001613,
 		DVa_skin01 = 0x00001764,
@@ -69,12 +71,14 @@
 		Hanzo_skin05 = 0x000015EC,
 		Hanzo_skin06 = 0x000015EE,
 		Hanzo_skin07 = 0x000018B5,
+		Hanzo_skin08 = 0x000019B0,
 
 		Junkrat_skin00 = 0x00001607,
 		Junkrat_skin01 = 0x0000160A,
 		Junkrat_skin02 = 0x0000177C,
 		Junkrat_skin03 = 0x0000179C,
 		Junkrat_skin04 = 0x0000179D,
+		Junkrat_skin05 = 0x00001962,
 
 		Lucio_skin00 = 0x0000160D,
 		Lucio_skin01 = 0x00001778,
@@ -109,6 +113,8 @@
 		Orisa_skin00 = 0x00001933,
 		Orisa_skin01 = 0x00001934,
 		Orisa_skin02 = 0x00001B61,
+		Orisa_skin03 = 0x00001B65,
+		Orisa_skin04 = 0x00001B95,
 
 		Pharah_skin00 = 0x000016A7,
 		Pharah_skin01 = 0x000016BF,
@@ -133,7 +139,8 @@
 		Reinhardt_skin04 = 0x00001B87,
 
 		Roadhog_skin00 = 0x0000169B,
-		Roadhog_skin01 = 0x000016A0,
+		Roadhog_skin01 = 0x0000169C,
+		Roadhog_skin02 = 0x000016A0,
 		Roadhog_skin03 = 0x000016A5,
 		Roadhog_skin04 = 0x000016A6,
 		Roadhog_skin05 = 0x0000197D,
@@ -155,13 +162,15 @@
 		Symmetra_skin00 = 0x000016E7,
 		Symmetra_skin01 = 0x000016E9,
 
-		Torbjorn_skin00 = 0x00001633,
-		Torbjorn_skin01 = 0x00001634,
-		Torbjorn_skin02 = 0x00001639,
-		Torbjorn_skin03 = 0x000018D2,
-		Torbjorn_skin04 = 0x000018D3,
-		Torbjorn_skin05 = 0x00001B60,
-		Torbjorn_skin06 = 0x00001BAD,
+		Torbjorn_skin00 = 0x0000162F,
+		Torbjorn_skin01 = 0x00001633,
+		Torbjorn_skin02 = 0x00001634,
+		Torbjorn_skin03 = 0x00001637,
+		Torbjorn_skin04 = 0x00001639,
+		Torbjorn_skin05 = 0x000018D2,
+		Torbjorn_skin06 = 0x000018D3,
+		Torbjorn_skin07 = 0x00001B60,
+		Torbjorn_skin08 = 0x00001BAD,
 
 		Tracer_skin00 = 0x000016EB,
 		Tracer_skin01 = 0x0000170B,
@@ -186,8 +195,9 @@
 		Winston_skin02 = 0x000016D0,
 		Winston_skin03 = 0x000016D3,
 		Winston_skin04 = 0x000016D4,
-		Winston_skin05 = 0x000016D6,
-		Winston_skin06 = 0x000018E9,
+		Winston_skin05 = 0x000016D5,
+		Winston_skin06 = 0x000016D6,
+		Winston_skin07 = 0x000018E9,
 
 		Zarya_skin00 = 0x00001667,
 		Zarya_skin01 = 0x000018D8,
@@ -196,5 +206,6 @@
 
 		Zenyatta_skin00 = 0x000015FF,
 		Zenyatta_skin01 = 0x00001966,
+
 	}
 }
