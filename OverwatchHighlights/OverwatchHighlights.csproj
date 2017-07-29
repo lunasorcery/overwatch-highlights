@@ -67,6 +67,7 @@
     <Compile Include="Skins.cs" />
     <Compile Include="Sprays.cs" />
     <Compile Include="Tracer.cs" />
+    <Compile Include="UnlockValidator.cs" />
     <Compile Include="Vec2.cs" />
     <Compile Include="Vec3.cs" />
     <Compile Include="WeaponSkin.cs" />

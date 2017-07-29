@@ -10,6 +10,8 @@ namespace OverwatchHighlights
 			Console.WindowHeight = 50;
 			Console.BufferHeight = 32766;
 
+			UnlockValidator.Run();
+
 			if (args.Length > 0)
 			{
 				foreach (var arg in args)

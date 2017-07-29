@@ -80,14 +80,7 @@ namespace OverwatchHighlights
 
 			Tracer.TraceNoDupe("highlightInfo.unknownUnlock", $"{unknownUnlock:X16} {unknown1}");
 
-			if (Enum.IsDefined(typeof(Skin), this.skin) && Enum.IsDefined(typeof(WeaponSkin), weaponSkin))
-			{
-				Debug.Assert(this.weaponSkin.ToString().StartsWith(this.skin.ToString()) || this.weaponSkin.ToString().Contains("weapon"));
-			}
-			else if (Enum.IsDefined(typeof(Skin), this.skin) || Enum.IsDefined(typeof(WeaponSkin), weaponSkin))
-			{
-				Debug.Assert(false, $"defined only one of skin {this.skin} and weaponskin {this.weaponSkin}");
-			}
+			UnlockValidator.RunForHeroWithUnlocks(hero, skin, weaponSkin, highlightIntro);
 
 			Debug.Assert(this.unknown3 >= this.unknown2);
 
