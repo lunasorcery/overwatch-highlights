@@ -19,7 +19,7 @@ namespace OverwatchHighlights
 		public Skin skin;
 		public WeaponSkin weaponSkin;
 		public HighlightIntro highlightIntro;
-		public ulong unknownUnlock;
+		public HighlightType highlightType;
 		public ulong timestamp;
 		public HighlightUUID uuid;
 
@@ -59,26 +59,13 @@ namespace OverwatchHighlights
 			this.skin = br.ReadSkin64();
 			this.weaponSkin = br.ReadWeaponSkin64();
 			this.highlightIntro = br.ReadHighlightIntro64();
-
-			// zero if unknown1 is 4, high value otherwise
-			this.unknownUnlock = br.ReadUInt64();
-			if (unknown1 == 4)
-			{
-				Debug.Assert(unknownUnlock == 0);
-			}
-			else
-			{
-				// assert that the top 32 bits are 08300000
-				Debug.Assert((unknownUnlock & 0xFFFFFFFF00000000ul) == 0x0830000000000000ul);
-
-				// I believe these are the only values?
-				Debug.Assert((unknownUnlock == 0x0830000000000001) || (unknownUnlock == 0x0830000000000003));
-			}
+            
+			this.highlightType = br.ReadHighlightType64();
 
 			this.timestamp = br.ReadUInt64();
 			this.uuid = new HighlightUUID(br);
 
-			Tracer.TraceNoDupe("highlightInfo.unknownUnlock", $"{unknownUnlock:X16} {unknown1}");
+			Tracer.TraceNoDupe("highlightInfo.highlightType", $"{highlightType} {unknown1}");
 
 			UnlockValidator.RunForHeroWithUnlocks(hero, skin, weaponSkin, highlightIntro);
 
@@ -98,7 +85,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Skin: {skin}");
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
-			Console.WriteLine($"  Unknown Unlock: {unknownUnlock:X16}");
+			Console.WriteLine($"  Type: {highlightType:X16}");
 			Console.WriteLine($"  Unknown1: {unknown1}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
@@ -141,7 +128,7 @@ namespace OverwatchHighlights
 				return false;
 			if (a.highlightIntro != b.highlightIntro)
 				return false;
-			if (a.unknownUnlock != b.unknownUnlock)
+			if (a.highlightType != b.highlightType)
 				return false;
 			if (a.timestamp != b.timestamp)
 				return false;

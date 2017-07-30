@@ -62,6 +62,16 @@ namespace OverwatchHighlights
 			return value;
 		}
 
+		public static HighlightType ReadHighlightType64(this BinaryReader br)
+		{
+			const ulong HighlightTypeMask = 0x0830000000000000ul;
+			ulong value = br.ReadUInt64();
+			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightTypeMask);
+			HighlightType type = (HighlightType)(value & 0xFFFFFFFFu);
+			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
+			return type;
+		}
+
 		public static Hero ReadHero64(this BinaryReader br)
 		{
 			const ulong HeroMask = 0x02E0000000000000ul;
@@ -110,6 +120,13 @@ namespace OverwatchHighlights
 			WeaponSkin weaponSkin = (WeaponSkin)(value & 0xFFFFFFFFu);
 			//Debug.Assert(Enum.IsDefined(typeof(WeaponSkin), weaponSkin));
 			return weaponSkin;
+		}
+
+		public static HighlightType ReadHighlightType32(this BinaryReader br)
+		{
+			HighlightType type = (HighlightType)br.ReadUInt32();
+			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
+			return type;
 		}
 
 		public static Hero ReadHero32(this BinaryReader br)
