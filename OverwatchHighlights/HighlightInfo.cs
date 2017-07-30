@@ -29,8 +29,11 @@ namespace OverwatchHighlights
 			this.playerName = br.ReadNullPaddedUTF8();
 
 			// 0 for normal, 1 for potg, 4 for unknown
+			// only ever seems to be 4 if the protagonist of the highlight is the current player.
 			this.unknown1 = br.ReadByte();
 			Debug.Assert(unknown1 == 0 || unknown1 == 1 || unknown1 == 4);
+
+			Tracer.TraceNoDupe("highlightInfo.unknown1 &  playerName", $"{unknown1} {playerName}");
 
 			this.unknown2 = br.ReadUInt32();
 			Debug.Assert((unknown2 & 0x80000000u) == 0x80000000u);
