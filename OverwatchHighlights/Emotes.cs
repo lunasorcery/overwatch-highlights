@@ -60,6 +60,7 @@
 		Lucio_emote_000005D0 = 0x000005D0,
 		Lucio_emote_000005D1 = 0x000005D1,
 		Lucio_emote_000008FA = 0x000008FA,
+		Lucio_emote_00000A6A = 0x00000A6A,
 		Lucio_emote_00000A6B = 0x00000A6B,
 		Lucio_emote_00000B2C = 0x00000B2C,
 		Lucio_emote_00000FE7 = 0x00000FE7,
@@ -146,6 +147,7 @@
 		Symmetra_emote_00000802 = 0x00000802,
 		Symmetra_emote_00000907 = 0x00000907,
 		Symmetra_emote_00000C03 = 0x00000C03,
+		Symmetra_emote_00000C04 = 0x00000C04,
 		Symmetra_emote_00000CF6 = 0x00000CF6,
 
 		Torbjorn_emote_000006A1 = 0x000006A1,

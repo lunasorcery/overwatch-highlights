@@ -9,10 +9,13 @@
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
 		Mei_Frosty                   = 0x00000157,
+		Pharah_Heroic                = 0x0000021D,
 		Junkrat_Heroic               = 0x0000022A,
 		Mei_Heroic                   = 0x0000022D,
 		Junkrat_Random               = 0x0000023D, // I think?
+		Junkrat_Shotput              = 0x00000B19,
 		Widowmaker_UnderTheMistletoe = 0x00000D43,
+		DVa_Selfie                   = 0x0000104B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
 
@@ -32,7 +35,6 @@
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000022C = 0x0000022C,
 		DVa_intro_0000023F = 0x0000023F,
-		DVa_intro_0000104B = 0x0000104B,
 
 		Genji_intro_00000150 = 0x00000150,
 		Genji_intro_00000151 = 0x00000151,
@@ -74,7 +76,6 @@
 		Pharah_intro_00000083 = 0x00000083,
 		Pharah_intro_00000084 = 0x00000084,
 		Pharah_intro_00000085 = 0x00000085,
-		Pharah_intro_0000021D = 0x0000021D,
 
 		Reaper_intro_0000005B = 0x0000005B,
 		Reaper_intro_0000005C = 0x0000005C,
@@ -111,7 +112,7 @@
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000131 = 0x00000131,
-		Torbjorn_intro_00000220 = 0x00000220,
+		Torbjorn_intro_00000220 = 0x00000220, // probably heroic
 		Torbjorn_intro_0000104A = 0x0000104A,
 
 		Tracer_intro_00000051 = 0x00000051,

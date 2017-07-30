@@ -204,6 +204,7 @@
 		Pharah_voiceline_00000D8E = 0x00000D8E,
 		Pharah_voiceline_000010D5 = 0x000010D5,
 		Pharah_voiceline_000010D6 = 0x000010D6,
+		Pharah_voiceline_0000111D = 0x0000111D,
 		Pharah_voiceline_0000111E = 0x0000111E,
 
 		Reaper_voiceline_00000762 = 0x00000762,
@@ -297,7 +298,10 @@
 		Symmetra_voiceline_000009F6 = 0x000009F6,
 		Symmetra_voiceline_000009F8 = 0x000009F8,
 		Symmetra_voiceline_000009F9 = 0x000009F9,
+		Symmetra_voiceline_00000D92 = 0x00000D92,
+		Symmetra_voiceline_00000F5C = 0x00000F5C,
 		Symmetra_voiceline_000010E2 = 0x000010E2,
+		Symmetra_voiceline_00001125 = 0x00001125,
 
 		Torbjorn_voiceline_000006C3 = 0x000006C3,
 		Torbjorn_voiceline_000006C6 = 0x000006C6,

@@ -96,6 +96,7 @@
 		Junkrat_skin_000018BE = 0x000018BE,
 		Junkrat_skin_00001962 = 0x00001962,
 
+		Lucio_skin_0000160C = 0x0000160C,
 		Lucio_skin_0000160D = 0x0000160D,
 		Lucio_skin_00001778 = 0x00001778,
 		Lucio_skin_000018C1 = 0x000018C1,
@@ -115,6 +116,7 @@
 		McCree_skin_00001A12 = 0x00001A12,
 
 		Mei_skin_00001622 = 0x00001622,
+		Mei_skin_000017A4 = 0x000017A4,
 		Mei_skin_000017A5 = 0x000017A5,
 		Mei_skin_000018C9 = 0x000018C9,
 		Mei_skin_000018CB = 0x000018CB,
@@ -154,6 +156,7 @@
 		Reaper_skin_0000168B = 0x0000168B,
 		Reaper_skin_00001697 = 0x00001697,
 		Reaper_skin_00001698 = 0x00001698,
+		Reaper_skin_00001770 = 0x00001770,
 		Reaper_skin_000018DB = 0x000018DB,
 		Reaper_skin_000018DC = 0x000018DC,
 		Reaper_skin_000018DD = 0x000018DD,
@@ -195,6 +198,7 @@
 		Symmetra_skin_000016E8 = 0x000016E8,
 		Symmetra_skin_000016E9 = 0x000016E9,
 		Symmetra_skin_000016EA = 0x000016EA,
+		Symmetra_skin_000018ED = 0x000018ED,
 		Symmetra_skin_000018EF = 0x000018EF,
 		Symmetra_skin_00001A27 = 0x00001A27,
 		Symmetra_skin_00001B92 = 0x00001B92,
