@@ -5,16 +5,27 @@
 	{
 		None                         = 0x00000000, // used by AI players
 
+		Pharah_Touchdown             = 0x00000084,
+		Mercy_BattleAngel            = 0x00000128,
+		Winston_Glasses              = 0x00000133,
+		Symmetra_Dance               = 0x0000013A,
 		Junkrat_RipTire              = 0x0000014D,
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
 		Mei_Frosty                   = 0x00000157,
+		Tracer_Heroic                = 0x000001FB,
+		Mercy_Heroic                 = 0x00000219,
+		Widowmaker_Heroic            = 0x0000021C,
 		Pharah_Heroic                = 0x0000021D,
+		Reinhardt_Heroic             = 0x0000021E,
+		Torbjorn_Heroic              = 0x00000220,
+		Bastion_Heroic               = 0x00000224,
 		Junkrat_Heroic               = 0x0000022A,
 		Mei_Heroic                   = 0x0000022D,
 		Junkrat_Random               = 0x0000023D, // I think?
 		Junkrat_Shotput              = 0x00000B19,
 		Widowmaker_UnderTheMistletoe = 0x00000D43,
+		Symmetra_Snowflakes          = 0x00000D4D,
 		DVa_Selfie                   = 0x0000104B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
@@ -28,7 +39,6 @@
 
 		Bastion_intro_0000013B = 0x0000013B,
 		Bastion_intro_0000013D = 0x0000013D,
-		Bastion_intro_00000224 = 0x00000224,
 
 		DVa_intro_00000153 = 0x00000153,
 		DVa_intro_00000154 = 0x00000154,
@@ -65,8 +75,6 @@
 
 		Mercy_intro_00000126 = 0x00000126,
 		Mercy_intro_00000127 = 0x00000127,
-		Mercy_intro_00000128 = 0x00000128,
-		Mercy_intro_00000219 = 0x00000219,
 		Mercy_intro_00000EAE = 0x00000EAE,
 
 		Orisa_intro_00000F65 = 0x00000F65,
@@ -74,7 +82,6 @@
 		Orisa_intro_00000FF2 = 0x00000FF2,
 
 		Pharah_intro_00000083 = 0x00000083,
-		Pharah_intro_00000084 = 0x00000084,
 		Pharah_intro_00000085 = 0x00000085,
 
 		Reaper_intro_0000005B = 0x0000005B,
@@ -85,7 +92,6 @@
 		Reinhardt_intro_00000087 = 0x00000087,
 		Reinhardt_intro_00000088 = 0x00000088,
 		Reinhardt_intro_00000089 = 0x00000089,
-		Reinhardt_intro_0000021E = 0x0000021E,
 
 		Roadhog_intro_0000014A = 0x0000014A,
 		Roadhog_intro_0000014B = 0x0000014B,
@@ -106,30 +112,24 @@
 		Sombra_intro_00000CC1 = 0x00000CC1,
 
 		Symmetra_intro_00000138 = 0x00000138,
-		Symmetra_intro_0000013A = 0x0000013A,
 		Symmetra_intro_00000223 = 0x00000223,
-		Symmetra_intro_00000D4D = 0x00000D4D,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000131 = 0x00000131,
-		Torbjorn_intro_00000220 = 0x00000220, // probably heroic
 		Torbjorn_intro_0000104A = 0x0000104A,
 
 		Tracer_intro_00000051 = 0x00000051,
 		Tracer_intro_00000052 = 0x00000052,
 		Tracer_intro_00000053 = 0x00000053,
-		Tracer_intro_000001FB = 0x000001FB,
 		Tracer_intro_000001FC = 0x000001FC,
 		Tracer_intro_00000E4F = 0x00000E4F,
 
 		Widowmaker_intro_00000129 = 0x00000129,
 		Widowmaker_intro_0000012A = 0x0000012A,
 		Widowmaker_intro_0000012B = 0x0000012B,
-		Widowmaker_intro_0000021C = 0x0000021C,
 		Widowmaker_intro_0000022F = 0x0000022F,
 
 		Winston_intro_00000132 = 0x00000132,
-		Winston_intro_00000133 = 0x00000133,
 		Winston_intro_00000134 = 0x00000134,
 		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
