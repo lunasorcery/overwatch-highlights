@@ -59,7 +59,7 @@ namespace OverwatchHighlights
 			this.skin = br.ReadSkin64();
 			this.weaponSkin = br.ReadWeaponSkin64();
 			this.highlightIntro = br.ReadHighlightIntro64();
-            
+
 			this.highlightType = br.ReadHighlightType64();
 
 			this.timestamp = br.ReadUInt64();
