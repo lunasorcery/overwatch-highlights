@@ -26,14 +26,17 @@
 		Doomfist_Painted                  = 0x000018C4,
 		Sombra_Virus                      = 0x000018D1,
 		Genji_CarbonFiber                 = 0x000018EB,
+		Widowmaker_Patina                 = 0x000018F5,
 		Mei_YetiHunter                    = 0x00001914,
 		Ana_Classic                       = 0x00001921,
 		Pharah_Anubis                     = 0x00001928,
+		DVa_Cruiser                       = 0x0000196C,
 		Sombra_LosMuertos                 = 0x0000198A,
 		Sombra_Azucar                     = 0x0000198B,
 		Sombra_Cyberspace                 = 0x0000198C,
 		Tracer_Rose                       = 0x00001B07,
 		Mercy_CombatMedicZiegler          = 0x00001B7B,
+		Widowmaker_Talon                  = 0x00001BAF,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923 = 0x00001923,
@@ -64,7 +67,6 @@
 		DVa_skin_000017A1 = 0x000017A1,
 		DVa_skin_000018C7 = 0x000018C7,
 		DVa_skin_000018C8 = 0x000018C8,
-		DVa_skin_0000196C = 0x0000196C,
 		DVa_skin_00001A19 = 0x00001A19,
 		DVa_skin_00001BB0 = 0x00001BB0,
 
@@ -226,10 +228,8 @@
 		Widowmaker_skin_0000171E = 0x0000171E,
 		Widowmaker_skin_000018F3 = 0x000018F3,
 		Widowmaker_skin_000018F4 = 0x000018F4,
-		Widowmaker_skin_000018F5 = 0x000018F5,
 		Widowmaker_skin_00001918 = 0x00001918,
 		Widowmaker_skin_00001919 = 0x00001919,
-		Widowmaker_skin_00001BAF = 0x00001BAF,
 
 		Winston_skin_000016CB = 0x000016CB,
 		Winston_skin_000016CC = 0x000016CC,

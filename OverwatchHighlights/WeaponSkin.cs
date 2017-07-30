@@ -32,6 +32,7 @@
 		Mei_YetiHunter                     = 0x00002505,
 		Ana_Classic                        = 0x00002519,
 		Pharah_Anubis                      = 0x00002527,
+		DVa_Cruiser                        = 0x000025AF,
 		Sombra_LosMuertos                  = 0x000025EB,
 		Sombra_LosMuertos_Golden           = 0x000025EC,
 		Sombra_Azucar                      = 0x000025ED,
@@ -39,6 +40,7 @@
 		Sombra_Cyberspace_Golden           = 0x000025F0,
 		Tracer_Rose                        = 0x000028E2,
 		Mercy_CombatMedicZiegler           = 0x000029CA,
+		Widowmaker_Talon                   = 0x00002A32,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923_weapon_0000251D = 0x0000251D,
@@ -71,7 +73,6 @@
 		DVa_skin_000017A1_weapon_00002227 = 0x00002227,
 		DVa_skin_000018C7_weapon_0000246B = 0x0000246B,
 		DVa_skin_000018C8_weapon_0000246D = 0x0000246D,
-		DVa_skin_0000196C_weapon_000025AF = 0x000025AF,
 		DVa_skin_00001A19_weapon_00002708 = 0x00002708,
 		DVa_skin_00001BB0_weapon_00002A34 = 0x00002A34,
 
@@ -242,11 +243,10 @@
 		Widowmaker_skin_0000171E_weapon_00002123 = 0x00002123,
 		Widowmaker_skin_000018F3_weapon_000024C3 = 0x000024C3,
 		Widowmaker_skin_000018F4_weapon_000024C5 = 0x000024C5,
-		Widowmaker_skin_000018F5_weapon_000024C7 = 0x000024C7,
+		Widowmaker_Patina_weapon_000024C7 = 0x000024C7,
 		Widowmaker_skin_00001918_weapon_0000250D = 0x0000250D,
 		Widowmaker_skin_00001919_weapon_0000250F = 0x0000250F,
 		Widowmaker_skin_00001919_weapon_00002510 = 0x00002510,
-		Widowmaker_skin_00001BAF_weapon_00002A32 = 0x00002A32,
 
 		Winston_skin_000016CB_weapon_0000207D = 0x0000207D,
 		Winston_skin_000016CC_weapon_0000207F = 0x0000207F,
