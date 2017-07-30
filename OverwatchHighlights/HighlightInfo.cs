@@ -39,7 +39,7 @@ namespace OverwatchHighlights
 			this.unknown3 = br.ReadUInt32();
 			Debug.Assert((unknown3 & 0x80000000u) == 0x80000000u);
 			Debug.Assert((unknown3 & 0x7FFFFFFFu) <= 0x0000FFFFu);
-			
+
 			this.unknown4 = br.ReadVec2();
 			Debug.Assert(unknown4.IsFinite());
 			this.unknown4a = br.ReadUInt32();
@@ -85,7 +85,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Skin: {skin}");
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
-			Console.WriteLine($"  Type: {highlightType:X16}");
+			Console.WriteLine($"  Type: {highlightType}");
 			Console.WriteLine($"  Unknown1: {unknown1}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");

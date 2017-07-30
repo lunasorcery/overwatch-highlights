@@ -2,9 +2,10 @@
 {
     public enum HighlightType : uint
     {
-        SHUTDOWN = 0x00000001,
-        SHARPSHOOTER = 0x00000002,
-        BLANK = 0x00000003,
-        LIFESAVER = 0x00000004
+        None = 0x00000000,
+        Shutdown = 0x00000001,
+        Sharpshooter = 0x00000002,
+        Blank = 0x00000003,
+        Lifesaver = 0x00000004
     }
 }

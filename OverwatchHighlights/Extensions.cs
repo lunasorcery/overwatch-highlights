@@ -66,7 +66,7 @@ namespace OverwatchHighlights
 		{
 			const ulong HighlightTypeMask = 0x0830000000000000ul;
 			ulong value = br.ReadUInt64();
-			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightTypeMask);
+			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightTypeMask || value == 0);
 			HighlightType type = (HighlightType)(value & 0xFFFFFFFFu);
 			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
 			return type;
