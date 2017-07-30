@@ -67,7 +67,7 @@
 		IliosRuins            = 0x0000073E,
 //		LijiangControlCenter  = 0x00000744,
 //		LijiangGarden         = 0x00000745,
-//		LijiangNightMarket    = 0x00000746,
+		LijiangNightMarket    = 0x00000746,
 //		OasisCityCenter       = 0x0000074A,
 		OasisGardens          = 0x0000074C,
 //		OasisUniversity       = 0x0000074D,
@@ -92,7 +92,7 @@
 //				map == Map.IliosWell ||
 //				map == Map.LijiangControlCenter ||
 //				map == Map.LijiangGarden ||
-//				map == Map.LijiangNightMarket ||
+				map == Map.LijiangNightMarket ||
 //				map == Map.Necropolis ||
 //				map == Map.NepalSanctum ||
 //				map == Map.NepalShrine ||

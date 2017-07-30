@@ -19,6 +19,7 @@ namespace OverwatchHighlights
 			{ Map.Ilios,              18 },
 			{ Map.IliosRuins,          7 },
 			{ Map.KingsRow,            3 },
+			{ Map.LijiangNightMarket,  9 },
 			{ Map.LijiangTower,       21 },
 			{ Map.Nepal,              13 },
 			{ Map.Numbani,            16 },

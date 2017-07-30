@@ -16,6 +16,7 @@ namespace OverwatchHighlights
 			{ Map.Ilios,                "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb" },
 			{ Map.IliosRuins,           "5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8" },
 			{ Map.KingsRow,             "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63" },
+			{ Map.LijiangNightMarket,   "19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95" },
 			{ Map.LijiangTower,         "b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b" },
 			{ Map.Nepal,                "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f" },
 			{ Map.Numbani,              "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a" },
