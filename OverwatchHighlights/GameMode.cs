@@ -1,6 +1,6 @@
 ﻿namespace OverwatchHighlights
 {
-	enum GameMode
+	enum GameMode : uint
 	{
 		// I've commented out a few of these
 		// I expect them to be correct but I don't have test data highlights to verify against.
