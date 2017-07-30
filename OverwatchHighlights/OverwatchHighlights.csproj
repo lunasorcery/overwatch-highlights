@@ -55,6 +55,7 @@
     <Compile Include="HeroWithUnlockables.cs" />
     <Compile Include="Highlight.cs" />
     <Compile Include="HighlightIntros.cs" />
+    <Compile Include="HighlightTypes.cs" />
     <Compile Include="HighlightUUID.cs" />
     <Compile Include="MapChecksumDB.cs" />
     <Compile Include="Maps.cs" />
