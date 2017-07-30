@@ -122,6 +122,16 @@ namespace OverwatchHighlights
 			return weaponSkin;
 		}
 
+		public static GameMode ReadGameMode64(this BinaryReader br)
+		{
+			const ulong GameModeMask = 0x0230000000000000ul;
+			ulong value = br.ReadUInt64();
+			Debug.Assert((value & 0xFFFFFFFF00000000ul) == GameModeMask || value == 0);
+			GameMode gameMode = (GameMode)(value & 0xFFFFFFFFu);
+			Debug.Assert(Enum.IsDefined(typeof(GameMode), gameMode));
+			return gameMode;
+		}
+
 		public static HighlightType ReadHighlightType32(this BinaryReader br)
 		{
 			HighlightType type = (HighlightType)br.ReadUInt32();

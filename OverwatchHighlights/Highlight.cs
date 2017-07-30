@@ -22,7 +22,7 @@ namespace OverwatchHighlights
 		uint playerId;
 		Flags flags;
 		Map map;
-		ulong onlyHasValueFor3v3Maps;
+		GameMode gameMode;
 		HighlightInfo[] highlightInfos;
 		HeroWithUnlockables[] heroesWithUnlockables;
 		Replay replayBlock;
@@ -87,15 +87,7 @@ namespace OverwatchHighlights
 
 			this.map = br.ReadMap64();
 
-			this.onlyHasValueFor3v3Maps = br.ReadUInt64();
-			if (map.Is3v3Map())
-			{
-				Debug.Assert(onlyHasValueFor3v3Maps == 0x0230000000000009ul);
-			}
-			else
-			{
-				Debug.Assert(onlyHasValueFor3v3Maps == 0);
-			}
+			this.gameMode = br.ReadGameMode64();
 
 			// 2 entries will be a POTG, 1 entry will be either a highlight or a POTG against bots, I think...
 			int numHighlightInfos = br.ReadInt32();
@@ -163,7 +155,7 @@ namespace OverwatchHighlights
 				(replayBlock.buildNumber == 38510 && this.buildNumber == 38459)    // for some reason...?
 			);
 			Debug.Assert(replayBlock.map == this.map);
-			Debug.Assert(replayBlock.onlyHasValueFor3v3Maps == this.onlyHasValueFor3v3Maps);
+			Debug.Assert(replayBlock.gameMode == this.gameMode);
 			if (replayBlock.highlightInfo != null)
 			{
 				Debug.Assert(replayBlock.highlightInfo == highlightInfos[0]);

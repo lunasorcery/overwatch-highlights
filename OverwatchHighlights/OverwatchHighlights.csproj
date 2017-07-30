@@ -51,6 +51,7 @@
     <Compile Include="DebugBlockLength.cs" />
     <Compile Include="Emotes.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="GameMode.cs" />
     <Compile Include="Heroes.cs" />
     <Compile Include="HeroWithUnlockables.cs" />
     <Compile Include="Highlight.cs" />

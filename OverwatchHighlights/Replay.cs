@@ -12,7 +12,7 @@ namespace OverwatchHighlights
 
 		public BuildNumber buildNumber;
 		public Map map;
-		public ulong onlyHasValueFor3v3Maps;
+		public GameMode gameMode;
 		public Checksum checksum;
 		public ReplayParamsBlock paramsBlock;
 		public HighlightInfo highlightInfo;
@@ -28,15 +28,7 @@ namespace OverwatchHighlights
 
 			this.map = br.ReadMap64();
 
-			this.onlyHasValueFor3v3Maps = br.ReadUInt64();
-			if (map.Is3v3Map())
-			{
-				Debug.Assert(onlyHasValueFor3v3Maps == 0x0230000000000009ul);
-			}
-			else
-			{
-				Debug.Assert(onlyHasValueFor3v3Maps == 0);
-			}
+			this.gameMode = br.ReadGameMode64();
 
 			byte unknown1 = br.ReadByte();
 			Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
