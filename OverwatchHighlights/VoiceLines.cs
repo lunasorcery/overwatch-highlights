@@ -128,6 +128,7 @@
 		Lucio_voiceline_00000F4E = 0x00000F4E,
 		Lucio_voiceline_000010CB = 0x000010CB,
 		Lucio_voiceline_000010CC = 0x000010CC,
+		Lucio_voiceline_00001109 = 0x00001109,
 		Lucio_voiceline_0000110A = 0x0000110A,
 
 		McCree_voiceline_0000056D = 0x0000056D,
@@ -185,6 +186,7 @@
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
 		Orisa_voiceline_0000103F = 0x0000103F,
+		Orisa_voiceline_00001040 = 0x00001040,
 		Orisa_voiceline_00001041 = 0x00001041,
 		Orisa_voiceline_00001042 = 0x00001042,
 		Orisa_voiceline_00001044 = 0x00001044,
@@ -368,6 +370,7 @@
 		Winston_voiceline_00000F5A = 0x00000F5A,
 		Winston_voiceline_000010E9 = 0x000010E9,
 		Winston_voiceline_000010EA = 0x000010EA,
+		Winston_voiceline_00001122 = 0x00001122,
 
 		Zarya_voiceline_0000071C = 0x0000071C,
 		Zarya_voiceline_0000071F = 0x0000071F,

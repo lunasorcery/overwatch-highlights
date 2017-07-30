@@ -132,7 +132,8 @@
 		Winston_intro_00000133 = 0x00000133,
 		Winston_intro_00000134 = 0x00000134,
 		Winston_intro_00000221 = 0x00000221,
-		
+		Winston_intro_00000234 = 0x00000234,
+
 		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,
 

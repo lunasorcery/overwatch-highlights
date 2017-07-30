@@ -81,7 +81,7 @@ namespace OverwatchHighlights
 				{
 					if (IsDefined(spray))
 					{
-						Debug.Assert(spray.ToString().StartsWith($"{hero}_") || spray.ToString().StartsWith("Common_"), $"Spray {spray} should belong to '{hero}'");
+						Debug.Assert(spray.ToString().StartsWith($"{hero}_") || spray.ToString().StartsWith("Common_"), $"Spray {spray} should belong to '{hero}', maybe it's a Common spray?");
 						if (spray.ToString().StartsWith($"{hero}_spray_"))
 						{
 							Debug.Assert(spray.ToString() == $"{hero}_spray_{(int)spray:X8}");

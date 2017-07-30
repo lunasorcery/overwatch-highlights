@@ -36,6 +36,7 @@
 		Sombra_Cyberspace                 = 0x0000198C,
 		Tracer_Rose                       = 0x00001B07,
 		Mercy_CombatMedicZiegler          = 0x00001B7B,
+		Symmetra_Oasis                    = 0x00001B92,
 		Widowmaker_Talon                  = 0x00001BAF,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
@@ -86,6 +87,7 @@
 		Hanzo_skin_000015EC = 0x000015EC,
 		Hanzo_skin_000015EE = 0x000015EE,
 		Hanzo_skin_000018B5 = 0x000018B5,
+		Hanzo_skin_000018B6 = 0x000018B6,
 		Hanzo_skin_000019B0 = 0x000019B0,
 
 		Junkrat_skin_00001607 = 0x00001607,
@@ -103,6 +105,7 @@
 		Lucio_skin_000018C2 = 0x000018C2,
 		Lucio_skin_00001911 = 0x00001911,
 		Lucio_skin_00001A0B = 0x00001A0B,
+		Lucio_skin_00001B94 = 0x00001B94,
 
 		McCree_skin_000015EF = 0x000015EF,
 		McCree_skin_000015F0 = 0x000015F0,
@@ -129,6 +132,7 @@
 		Mercy_skin_000015DC = 0x000015DC,
 		Mercy_skin_000015DE = 0x000015DE,
 		Mercy_skin_000018AE = 0x000018AE,
+		Mercy_skin_000018AF = 0x000018AF,
 		Mercy_skin_000018B0 = 0x000018B0,
 		Mercy_skin_0000196A = 0x0000196A,
 		Mercy_skin_00001A2A = 0x00001A2A,
@@ -167,6 +171,7 @@
 		Reinhardt_skin_0000165F = 0x0000165F,
 		Reinhardt_skin_00001662 = 0x00001662,
 		Reinhardt_skin_000018D5 = 0x000018D5,
+		Reinhardt_skin_00001955 = 0x00001955,
 		Reinhardt_skin_00001B87 = 0x00001B87,
 
 		Roadhog_skin_0000169B = 0x0000169B,
@@ -201,7 +206,6 @@
 		Symmetra_skin_000018ED = 0x000018ED,
 		Symmetra_skin_000018EF = 0x000018EF,
 		Symmetra_skin_00001A27 = 0x00001A27,
-		Symmetra_skin_00001B92 = 0x00001B92,
 
 		Torbjorn_skin_0000162F = 0x0000162F,
 		Torbjorn_skin_00001633 = 0x00001633,
@@ -229,6 +233,7 @@
 		Widowmaker_skin_00001713 = 0x00001713,
 		Widowmaker_skin_00001717 = 0x00001717,
 		Widowmaker_skin_0000171B = 0x0000171B,
+		Widowmaker_skin_0000171D = 0x0000171D,
 		Widowmaker_skin_0000171E = 0x0000171E,
 		Widowmaker_skin_000018F3 = 0x000018F3,
 		Widowmaker_skin_000018F4 = 0x000018F4,

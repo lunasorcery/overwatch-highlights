@@ -95,6 +95,7 @@
 		Hanzo_skin_000015EC_weapon_00001EBF = 0x00001EBF,
 		Hanzo_skin_000015EE_weapon_00001EC3 = 0x00001EC3,
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
+		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
 		Hanzo_skin_000019B0_weapon_0000263A = 0x0000263A,
 
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
@@ -114,6 +115,7 @@
 		Lucio_skin_00001911_weapon_000024FF = 0x000024FF,
 		Lucio_skin_00001A0B_weapon_000026EC = 0x000026EC,
 		Lucio_skin_00001A0B_weapon_000026ED = 0x000026ED,
+		Lucio_skin_00001B94_weapon_000029FC = 0x000029FC,
 
 		McCree_skin_000015EF_weapon_00001EC5 = 0x00001EC5,
 		McCree_skin_000015F0_weapon_00001EC7 = 0x00001EC7,
@@ -144,6 +146,7 @@
 		Mercy_skin_000015DC_weapon_00001E9F = 0x00001E9F,
 		Mercy_skin_000015DE_weapon_00001EA3 = 0x00001EA3,
 		Mercy_skin_000018AE_weapon_00002439 = 0x00002439,
+		Mercy_skin_000018AF_weapon_0000243B = 0x0000243B,
 		Mercy_skin_000018B0_weapon_0000243D = 0x0000243D,
 		Mercy_skin_0000196A_weapon_000025AB = 0x000025AB,
 		Mercy_skin_00001A2A_weapon_00002728 = 0x00002728,
@@ -182,6 +185,7 @@
 		Reinhardt_skin_0000165F_weapon_00001FA5 = 0x00001FA5,
 		Reinhardt_skin_00001662_weapon_00001FAB = 0x00001FAB,
 		Reinhardt_skin_000018D5_weapon_00002487 = 0x00002487,
+		Reinhardt_skin_00001955_weapon_00002581 = 0x00002581,
 		Reinhardt_skin_00001B87_weapon_000029E2 = 0x000029E2,
 
 		Roadhog_skin_0000169B_weapon_0000201D = 0x0000201D,
@@ -216,7 +220,7 @@
 		Symmetra_skin_000018ED_weapon_000024B7 = 0x000024B7,
 		Symmetra_skin_000018EF_weapon_000024BB = 0x000024BB,
 		Symmetra_skin_00001A27_weapon_00002724 = 0x00002724,
-		Symmetra_skin_00001B92_weapon_000029F8 = 0x000029F8,
+		Symmetra_Oasis_weapon_000029F8 = 0x000029F8,
 
 		Torbjorn_skin_0000162F_weapon_00001F45 = 0x00001F45,
 		Torbjorn_skin_00001633_weapon_00001F4D = 0x00001F4D,
@@ -245,6 +249,7 @@
 		Widowmaker_skin_00001713_weapon_0000210D = 0x0000210D,
 		Widowmaker_skin_00001717_weapon_00002115 = 0x00002115,
 		Widowmaker_skin_0000171B_weapon_0000211D = 0x0000211D,
+		Widowmaker_skin_0000171D_weapon_00002121 = 0x00002121,
 		Widowmaker_skin_0000171E_weapon_00002123 = 0x00002123,
 		Widowmaker_skin_000018F3_weapon_000024C3 = 0x000024C3,
 		Widowmaker_skin_000018F4_weapon_000024C5 = 0x000024C5,
