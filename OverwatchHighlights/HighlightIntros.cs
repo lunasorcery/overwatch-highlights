@@ -40,6 +40,8 @@
 		Bastion_intro_0000013B = 0x0000013B,
 		Bastion_intro_0000013D = 0x0000013D,
 
+		Doomfist_intro_00001188 = 0x00001188,
+
 		DVa_intro_00000153 = 0x00000153,
 		DVa_intro_00000154 = 0x00000154,
 		DVa_intro_00000155 = 0x00000155,
@@ -60,6 +62,7 @@
 		Hanzo_intro_00000232 = 0x00000232,
 
 		Lucio_intro_00000147 = 0x00000147,
+		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_00000148 = 0x00000148,
 		Lucio_intro_00000228 = 0x00000228,
 
@@ -134,6 +137,7 @@
 		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
 
+		Zarya_intro_00000142 = 0x00000142,
 		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,
 
