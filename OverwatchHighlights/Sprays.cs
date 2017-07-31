@@ -327,6 +327,15 @@
 
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
+		Ana_spray_0000106F = 0x0000106F,
+
+		Doomfist_spray_000011CA = 0x000011CA,
+		Doomfist_spray_000011CD = 0x000011CD,
+		Doomfist_spray_000011CE = 0x000011CE,
+		Doomfist_spray_00001255 = 0x00001255,
+
+		DVa_spray_00000673 = 0x00000673,
+
 		Hanzo_spray_000001A3 = 0x000001A3,
 		Hanzo_spray_000001A4 = 0x000001A4,
 		Hanzo_spray_000001A7 = 0x000001A7,
@@ -375,8 +384,12 @@
 		Junkrat_spray_00000D11 = 0x00000D11,
 		Junkrat_spray_00000D2C = 0x00000D2C,
 		Junkrat_spray_00000EC8 = 0x00000EC8,
+		Junkrat_spray_00000EDF = 0x00000EDF,
 		Junkrat_spray_00001073 = 0x00001073,
 		Junkrat_spray_00001166 = 0x00001166,
+
+		Lucio_spray_00000BDE = 0x00000BDE,
+		Lucio_spray_00001167 = 0x00001167,
 
 		McCree_spray_000001B1 = 0x000001B1,
 		McCree_spray_000001B3 = 0x000001B3,
@@ -432,6 +445,7 @@
 		Mei_spray_00001168 = 0x00001168,
 
 		Mercy_spray_00000195 = 0x00000195,
+		Mercy_spray_00000196 = 0x00000196,
 		Mercy_spray_00000197 = 0x00000197,
 		Mercy_spray_00000198 = 0x00000198,
 		Mercy_spray_00000199 = 0x00000199,
@@ -459,6 +473,9 @@
 		Mercy_spray_00001072 = 0x00001072,
 		Mercy_spray_00001162 = 0x00001162,
 
+		Orisa_spray_000010F1 = 0x000010F1,
+		Orisa_spray_00001161 = 0x00001161,
+
 		Reaper_spray_00000292 = 0x00000292,
 		Reaper_spray_00000293 = 0x00000293,
 		Reaper_spray_00000294 = 0x00000294,
@@ -477,9 +494,12 @@
 		Reaper_spray_00000759 = 0x00000759,
 		Reaper_spray_0000075F = 0x0000075F,
 		Reaper_spray_00000760 = 0x00000760,
+		Reaper_spray_00000761 = 0x00000761,
 		Reaper_spray_00000ECA = 0x00000ECA,
+		Reaper_spray_00000EE8 = 0x00000EE8,
 		Reaper_spray_00000EF1 = 0x00000EF1,
 		Reaper_spray_00001082 = 0x00001082,
+		Reaper_spray_0000116F = 0x0000116F,
 
 		Reinhardt_spray_0000027C = 0x0000027C,
 		Reinhardt_spray_00000280 = 0x00000280,
@@ -487,10 +507,13 @@
 		Reinhardt_spray_000006D7 = 0x000006D7,
 		Reinhardt_spray_000006D8 = 0x000006D8,
 		Reinhardt_spray_000006D9 = 0x000006D9,
+		Reinhardt_spray_000006DA = 0x000006DA,
 		Reinhardt_spray_000006DB = 0x000006DB,
 		Reinhardt_spray_000006DC = 0x000006DC,
 		Reinhardt_spray_000006EE = 0x000006EE,
 		Reinhardt_spray_000006EF = 0x000006EF,
+		Reinhardt_spray_00001079 = 0x00001079,
+		Reinhardt_spray_0000116C = 0x0000116C,
 
 		Roadhog_spray_000002A2 = 0x000002A2,
 		Roadhog_spray_000002A4 = 0x000002A4,
@@ -530,11 +553,13 @@
 		Soldier76_spray_000007DF = 0x000007DF,
 		Soldier76_spray_000007E3 = 0x000007E3,
 		Soldier76_spray_000007E4 = 0x000007E4,
+		Soldier76_spray_000007E7 = 0x000007E7,
 		Soldier76_spray_000007EE = 0x000007EE,
 		Soldier76_spray_000007F1 = 0x000007F1,
 		Soldier76_spray_00000C62 = 0x00000C62,
 		Soldier76_spray_00000ED5 = 0x00000ED5,
 		Soldier76_spray_0000107F = 0x0000107F,
+		Soldier76_spray_00001172 = 0x00001172,
 
 		Sombra_spray_00000A8F = 0x00000A8F,
 		Sombra_spray_00000CC8 = 0x00000CC8,
@@ -565,14 +590,17 @@
 		Symmetra_spray_00000819 = 0x00000819,
 		Symmetra_spray_00000824 = 0x00000824,
 		Symmetra_spray_00000825 = 0x00000825,
+		Symmetra_spray_00000826 = 0x00000826,
 		Symmetra_spray_00000D1F = 0x00000D1F,
 		Symmetra_spray_00001081 = 0x00001081,
 		Symmetra_spray_00001175 = 0x00001175,
 
 		Torbjorn_spray_000001EA = 0x000001EA,
+		Torbjorn_spray_000002F8 = 0x000002F8,
 		Torbjorn_spray_000002FB = 0x000002FB,
 		Torbjorn_spray_000002FC = 0x000002FC,
 		Torbjorn_spray_000002FE = 0x000002FE,
+		Torbjorn_spray_000002FF = 0x000002FF,
 		Torbjorn_spray_00000301 = 0x00000301,
 		Torbjorn_spray_000006A8 = 0x000006A8,
 		Torbjorn_spray_000006A9 = 0x000006A9,
@@ -583,6 +611,7 @@
 		Torbjorn_spray_000006BE = 0x000006BE,
 		Torbjorn_spray_00000D15 = 0x00000D15,
 		Torbjorn_spray_00000EE4 = 0x00000EE4,
+		Torbjorn_spray_0000116B = 0x0000116B,
 
 		Widowmaker_spray_000002E8 = 0x000002E8,
 		Widowmaker_spray_000002EA = 0x000002EA,
@@ -615,5 +644,13 @@
 		Widowmaker_spray_00000F6F = 0x00000F6F,
 		Widowmaker_spray_0000107D = 0x0000107D,
 		Widowmaker_spray_00001177 = 0x00001177,
+		Widowmaker_spray_000002F4 = 0x000002F4,
+
+		Winston_spray_00000859 = 0x00000859,
+		Winston_spray_00001173 = 0x00001173,
+
+		Zarya_spray_00000287 = 0x00000287,
+
+		Zenyatta_spray_00000596 = 0x00000596,
 	};
 }

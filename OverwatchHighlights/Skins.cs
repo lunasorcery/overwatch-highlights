@@ -52,6 +52,7 @@
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923 = 0x00001923,
+		Ana_skin_00001926 = 0x00001926,
 		Ana_skin_00001927 = 0x00001927,
 		Ana_skin_0000194A = 0x0000194A,
 		Ana_skin_0000194B = 0x0000194B,
@@ -68,6 +69,8 @@
 
 		Doomfist_skin_00001611 = 0x00001611,
 		Doomfist_skin_000018C5 = 0x000018C5,
+		Doomfist_skin_00001BDA = 0x00001BDA,
+		Doomfist_skin_00001BE4 = 0x00001BE4,
 
 		DVa_skin_00001613 = 0x00001613,
 		DVa_skin_00001615 = 0x00001615,
@@ -98,6 +101,7 @@
 		Hanzo_skin_000015EE = 0x000015EE,
 		Hanzo_skin_000018B5 = 0x000018B5,
 		Hanzo_skin_000018B6 = 0x000018B6,
+		Hanzo_skin_000019A7 = 0x000019A7,
 		Hanzo_skin_000019B0 = 0x000019B0,
 
 		Junkrat_skin_00001607 = 0x00001607,
@@ -105,6 +109,7 @@
 		Junkrat_skin_0000177C = 0x0000177C,
 		Junkrat_skin_0000179C = 0x0000179C,
 		Junkrat_skin_0000179D = 0x0000179D,
+		Junkrat_skin_000018BD = 0x000018BD,
 		Junkrat_skin_00001962 = 0x00001962,
 
 		Lucio_skin_0000160C = 0x0000160C,
@@ -120,6 +125,7 @@
 		McCree_skin_000015F0 = 0x000015F0,
 		McCree_skin_000015F3 = 0x000015F3,
 		McCree_skin_000015F4 = 0x000015F4,
+		McCree_skin_000015F8 = 0x000015F8,
 		McCree_skin_000015FA = 0x000015FA,
 		McCree_skin_000018B7 = 0x000018B7,
 		McCree_skin_000018B8 = 0x000018B8,
@@ -136,6 +142,7 @@
 		Mei_skin_00001982 = 0x00001982,
 
 		Mercy_skin_000015D3 = 0x000015D3,
+		Mercy_skin_000015D7 = 0x000015D7,
 		Mercy_skin_000015DB = 0x000015DB,
 		Mercy_skin_000018AE = 0x000018AE,
 		Mercy_skin_000018AF = 0x000018AF,
@@ -157,6 +164,7 @@
 		Pharah_skin_00001769 = 0x00001769,
 		Pharah_skin_0000192A = 0x0000192A,
 		Pharah_skin_0000192B = 0x0000192B,
+		Pharah_skin_000019A0 = 0x000019A0,
 		Pharah_skin_000019E6 = 0x000019E6,
 		Pharah_skin_00001A16 = 0x00001A16,
 
@@ -189,6 +197,7 @@
 		Soldier76_skin_000016CA = 0x000016CA,
 		Soldier76_skin_0000178C = 0x0000178C,
 		Soldier76_skin_0000178D = 0x0000178D,
+		Soldier76_skin_00001790 = 0x00001790,
 		Soldier76_skin_00001791 = 0x00001791,
 		Soldier76_skin_000018E4 = 0x000018E4,
 		Soldier76_skin_000018E5 = 0x000018E5,
@@ -217,6 +226,7 @@
 		Torbjorn_skin_00001639 = 0x00001639,
 		Torbjorn_skin_000018D2 = 0x000018D2,
 		Torbjorn_skin_000018D3 = 0x000018D3,
+		Torbjorn_skin_00001968 = 0x00001968,
 		Torbjorn_skin_00001B60 = 0x00001B60,
 		Torbjorn_skin_00001BAD = 0x00001BAD,
 
@@ -248,11 +258,14 @@
 		Winston_skin_000016D3 = 0x000016D3,
 		Winston_skin_000016D4 = 0x000016D4,
 		Winston_skin_000016D5 = 0x000016D5,
+		Winston_skin_000018E7 = 0x000018E7,
 		Winston_skin_000018E9 = 0x000018E9,
 		Winston_skin_00001964 = 0x00001964,
 		Winston_skin_0000197F = 0x0000197F,
 
 		Zarya_skin_00001667 = 0x00001667,
+		Zarya_skin_00001668 = 0x00001668,
+		Zarya_skin_0000166E = 0x0000166E,
 		Zarya_skin_000018D8 = 0x000018D8,
 		Zarya_skin_000018D9 = 0x000018D9,
 		Zarya_skin_00001944 = 0x00001944,

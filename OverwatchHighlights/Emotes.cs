@@ -22,6 +22,8 @@
 		Bastion_emote_00000BE6 = 0x00000BE6,
 		Bastion_emote_00000FF9 = 0x00000FF9,
 
+		Doomfist_emote_0000119D = 0x0000119D,
+
 		DVa_emote_00000659 = 0x00000659,
 		DVa_emote_0000065A = 0x0000065A,
 		DVa_emote_0000065B = 0x0000065B,
@@ -93,6 +95,8 @@
 		Mercy_emote_00000CAA = 0x00000CAA,
 
 		Orisa_emote_00000F63 = 0x00000F63,
+		Orisa_emote_00000FEC = 0x00000FEC,
+		Orisa_emote_00001049 = 0x00001049,
 		Orisa_emote_00001092 = 0x00001092,
 		Orisa_emote_000010F7 = 0x000010F7,
 		Orisa_emote_0000112B = 0x0000112B,
@@ -101,16 +105,19 @@
 		Pharah_emote_000007A5 = 0x000007A5,
 		Pharah_emote_000007A6 = 0x000007A6,
 		Pharah_emote_00000903 = 0x00000903,
+		Pharah_emote_00000AA8 = 0x00000AA8,
 		Pharah_emote_00000AA9 = 0x00000AA9,
 		Pharah_emote_00000FE6 = 0x00000FE6,
 		Pharah_emote_00001061 = 0x00001061,
 
 		Reaper_emote_00000744 = 0x00000744,
+		Reaper_emote_00000745 = 0x00000745,
 		Reaper_emote_00000746 = 0x00000746,
 		Reaper_emote_00000901 = 0x00000901,
 		Reaper_emote_00000C01 = 0x00000C01,
 		Reaper_emote_00000C02 = 0x00000C02,
 		Reaper_emote_00000E80 = 0x00000E80,
+		Reaper_emote_00001148 = 0x00001148,
 
 		Reinhardt_emote_000006D2 = 0x000006D2,
 		Reinhardt_emote_000006D3 = 0x000006D3,
@@ -143,6 +150,7 @@
 		Sombra_emote_000010F3 = 0x000010F3,
 		Sombra_emote_000010F8 = 0x000010F8,
 
+		Symmetra_emote_000007FD = 0x000007FD,
 		Symmetra_emote_00000801 = 0x00000801,
 		Symmetra_emote_00000802 = 0x00000802,
 		Symmetra_emote_00000907 = 0x00000907,
@@ -182,6 +190,8 @@
 		Winston_emote_00000C25 = 0x00000C25,
 		Winston_emote_00000E81 = 0x00000E81,
 
+		Zarya_emote_000006FC = 0x000006FC,
+		Zarya_emote_000006FD = 0x000006FD,
 		Zarya_emote_00000900 = 0x00000900,
 		Zarya_emote_00000AAC = 0x00000AAC,
 		Zarya_emote_00000D02 = 0x00000D02,

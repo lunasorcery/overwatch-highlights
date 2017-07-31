@@ -55,11 +55,14 @@
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923_weapon_0000251D = 0x0000251D,
+		Ana_skin_00001926_weapon_00002523 = 0x00002523,
 		Ana_skin_00001927_weapon_00002525 = 0x00002525,
 		Ana_skin_0000194A_weapon_0000256B = 0x0000256B,
 		Ana_skin_0000194B_weapon_0000256D = 0x0000256D,
+		Ana_skin_0000194B_weapon_0000256E = 0x0000256E,
 		Ana_skin_00001950_weapon_00002577 = 0x00002577,
 		Ana_skin_00001951_weapon_00002579 = 0x00002579,
+		Ana_skin_00001951_weapon_0000257A = 0x0000257A,
 		Ana_skin_0000199C_weapon_0000260D = 0x0000260D,
 		Ana_skin_00001B11_weapon_000028F6 = 0x000028F6,
 
@@ -72,6 +75,8 @@
 
 		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
 		Doomfist_skin_000018C5_weapon_00002467 = 0x00002467,
+		Doomfist_skin_00001BDA_weapon_00002A86 = 0x00002A86,
+		Doomfist_skin_00001BE4_weapon_00002A9A = 0x00002A9A,
 
 		DVa_skin_00001613_weapon_00001F0D = 0x00001F0D,
 		DVa_skin_00001615_weapon_00001F11 = 0x00001F11,
@@ -106,6 +111,7 @@
 		Hanzo_skin_000015EE_weapon_00001EC3 = 0x00001EC3,
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
 		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
+		Hanzo_skin_000019A7_weapon_00002623 = 0x00002623,
 		Hanzo_skin_000019B0_weapon_0000263A = 0x0000263A,
 
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
@@ -113,6 +119,7 @@
 		Junkrat_skin_0000177C_weapon_000021DD = 0x000021DD,
 		Junkrat_skin_0000179C_weapon_0000221D = 0x0000221D,
 		Junkrat_skin_0000179D_weapon_0000221F = 0x0000221F,
+		Junkrat_skin_000018BD_weapon_00002457 = 0x00002457,
 		Junkrat_skin_00001962_weapon_0000259B = 0x0000259B,
 
 		Lucio_skin_0000160C_weapon_00001EFF = 0x00001EFF,
@@ -124,6 +131,7 @@
 		Lucio_skin_00001A0B_weapon_000026EC = 0x000026EC,
 		Lucio_skin_00001A0B_weapon_000026ED = 0x000026ED,
 		Lucio_skin_00001B94_weapon_000029FC = 0x000029FC,
+		Lucio_skin_00001B94_weapon_000029FD = 0x000029FD,
 
 		McCree_skin_000015EF_weapon_00001EC5 = 0x00001EC5,
 		McCree_skin_000015F0_weapon_00001EC7 = 0x00001EC7,
@@ -131,6 +139,7 @@
 		McCree_skin_000015F3_weapon_00001ECE = 0x00001ECE,
 		McCree_skin_000015F4_weapon_00001ECF = 0x00001ECF,
 		McCree_skin_000015F4_weapon_00001ED0 = 0x00001ED0,
+		McCree_skin_000015F8_weapon_00001ED7 = 0x00001ED7,
 		McCree_skin_000015FA_weapon_00001EDB = 0x00001EDB,
 		McCree_skin_000018B7_weapon_0000244B = 0x0000244B,
 		McCree_skin_000018B8_weapon_0000244D = 0x0000244D,
@@ -149,6 +158,7 @@
 
 		Mercy_skin_000015D3_weapon_00001E8D = 0x00001E8D,
 		Mercy_Sigrun_weapon_00001E8F = 0x00001E8F,
+		Mercy_skin_000015D7_weapon_00001E95 = 0x00001E95,
 		Mercy_skin_000015DB_weapon_00001E9D = 0x00001E9D,
 		Mercy_skin_000018AE_weapon_00002439 = 0x00002439,
 		Mercy_skin_000018AF_weapon_0000243B = 0x0000243B,
@@ -168,8 +178,10 @@
 		Pharah_skin_000016BF_weapon_00002065 = 0x00002065,
 		Pharah_skin_000016C2_weapon_0000206B = 0x0000206B,
 		Pharah_skin_00001769_weapon_000021B7 = 0x000021B7,
+		Pharah_skin_00001769_weapon_000021B8 = 0x000021B8,
 		Pharah_skin_0000192A_weapon_0000252B = 0x0000252B,
 		Pharah_skin_0000192B_weapon_0000252D = 0x0000252D,
+		Pharah_skin_000019A0_weapon_00002615 = 0x00002615,
 		Pharah_skin_000019E6_weapon_000026A2 = 0x000026A2,
 		Pharah_skin_00001A16_weapon_00002702 = 0x00002702,
 
@@ -202,6 +214,7 @@
 		Soldier76_skin_000016CA_weapon_0000207B = 0x0000207B,
 		Soldier76_skin_0000178C_weapon_000021FD = 0x000021FD,
 		Soldier76_skin_0000178D_weapon_000021FF = 0x000021FF,
+		Soldier76_skin_00001790_weapon_00002205 = 0x00002205,
 		Soldier76_skin_00001791_weapon_00002207 = 0x00002207,
 		Soldier76_skin_000018E4_weapon_000024A5 = 0x000024A5,
 		Soldier76_skin_000018E5_weapon_000024A7 = 0x000024A7,
@@ -232,6 +245,7 @@
 		Torbjorn_skin_00001639_weapon_00001F59 = 0x00001F59,
 		Torbjorn_skin_000018D2_weapon_00002481 = 0x00002481,
 		Torbjorn_skin_000018D3_weapon_00002483 = 0x00002483,
+		Torbjorn_skin_00001968_weapon_000025A7 = 0x000025A7,
 		Torbjorn_skin_00001B60_weapon_00002994 = 0x00002994,
 		Torbjorn_skin_00001BAD_weapon_00002A2E = 0x00002A2E,
 
@@ -266,11 +280,14 @@
 		Winston_skin_000016D3_weapon_0000208D = 0x0000208D,
 		Winston_skin_000016D4_weapon_0000208F = 0x0000208F,
 		Winston_skin_000016D5_weapon_00002091 = 0x00002091,
+		Winston_skin_000018E7_weapon_000024AB = 0x000024AB,
 		Winston_skin_000018E9_weapon_000024AF = 0x000024AF,
 		Winston_skin_00001964_weapon_0000259F = 0x0000259F,
 		Winston_skin_0000197F_weapon_000025D5 = 0x000025D5,
 
 		Zarya_skin_00001667_weapon_00001FB5 = 0x00001FB5,
+		Zarya_skin_00001668_weapon_00001FB7 = 0x00001FB7,
+		Zarya_skin_0000166E_weapon_00001FC3 = 0x00001FC3,
 		Zarya_skin_000018D8_weapon_0000248D = 0x0000248D,
 		Zarya_skin_000018D9_weapon_0000248F = 0x0000248F,
 		Zarya_skin_00001944_weapon_00002560 = 0x00002560,
