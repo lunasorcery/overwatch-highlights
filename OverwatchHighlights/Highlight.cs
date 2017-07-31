@@ -47,6 +47,15 @@ namespace OverwatchHighlights
 			int dataLength = br.ReadInt32();
 			Debug.Assert(br.BaseStream.Position + dataLength == br.BaseStream.Length);
 
+			if (Checksum.CanCompute)
+			{
+				long pos = br.BaseStream.Position;
+				byte[] checksumInput = br.ReadBytes(dataLength);
+				br.BaseStream.Position = pos;
+				Checksum computedChecksum = Checksum.Compute(checksumInput);
+				Debug.Assert(this.checksum == computedChecksum);
+			}
+
 			uint unknown1 = br.ReadUInt32();    // 0?
 			Debug.Assert(unknown1 == 0);
 
