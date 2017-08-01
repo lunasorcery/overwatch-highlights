@@ -143,6 +143,7 @@
 
 		Zenyatta_intro_00000135 = 0x00000135,
 		Zenyatta_intro_00000136 = 0x00000136,
+		Zenyatta_intro_00000137 = 0x00000137,
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,
 		Zenyatta_intro_00001060 = 0x00001060,

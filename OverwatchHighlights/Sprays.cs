@@ -327,6 +327,8 @@
 
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
+		Common_spray_000010B2 = 0x000010B2,
+
 		Ana_spray_0000106F = 0x0000106F,
 
 		Doomfist_spray_000011CA = 0x000011CA,
@@ -372,6 +374,7 @@
 		Junkrat_spray_00000211 = 0x00000211,
 		Junkrat_spray_00000213 = 0x00000213,
 		Junkrat_spray_00000215 = 0x00000215,
+		Junkrat_spray_00000217 = 0x00000217,
 		Junkrat_spray_000005A2 = 0x000005A2,
 		Junkrat_spray_000005B2 = 0x000005B2,
 		Junkrat_spray_000005B3 = 0x000005B3,
@@ -392,6 +395,7 @@
 		Lucio_spray_00001167 = 0x00001167,
 
 		McCree_spray_000001B1 = 0x000001B1,
+		McCree_spray_000001B2 = 0x000001B2,
 		McCree_spray_000001B3 = 0x000001B3,
 		McCree_spray_000001B4 = 0x000001B4,
 		McCree_spray_000001B5 = 0x000001B5,
@@ -441,7 +445,6 @@
 		Mei_spray_00000D2E = 0x00000D2E,
 		Mei_spray_00000ED8 = 0x00000ED8,
 		Mei_spray_00001077 = 0x00001077,
-		Mei_spray_000010B2 = 0x000010B2,
 		Mei_spray_00001168 = 0x00001168,
 
 		Mercy_spray_00000195 = 0x00000195,
@@ -483,6 +486,7 @@
 		Reaper_spray_00000298 = 0x00000298,
 		Reaper_spray_00000299 = 0x00000299,
 		Reaper_spray_0000029A = 0x0000029A,
+		Reaper_spray_0000029E = 0x0000029E,
 		Reaper_spray_0000029F = 0x0000029F,
 		Reaper_spray_00000749 = 0x00000749,
 		Reaper_spray_0000074A = 0x0000074A,
@@ -517,6 +521,7 @@
 
 		Roadhog_spray_000002A2 = 0x000002A2,
 		Roadhog_spray_000002A4 = 0x000002A4,
+		Roadhog_spray_000002A5 = 0x000002A5,
 		Roadhog_spray_000002A6 = 0x000002A6,
 		Roadhog_spray_000002A7 = 0x000002A7,
 		Roadhog_spray_000002A9 = 0x000002A9,
@@ -557,7 +562,9 @@
 		Soldier76_spray_000007EE = 0x000007EE,
 		Soldier76_spray_000007F1 = 0x000007F1,
 		Soldier76_spray_00000C62 = 0x00000C62,
+		Soldier76_spray_00000D1C = 0x00000D1C,
 		Soldier76_spray_00000ED5 = 0x00000ED5,
+		Soldier76_spray_00000EEB = 0x00000EEB,
 		Soldier76_spray_0000107F = 0x0000107F,
 		Soldier76_spray_00001172 = 0x00001172,
 
@@ -597,6 +604,7 @@
 
 		Torbjorn_spray_000001EA = 0x000001EA,
 		Torbjorn_spray_000002F8 = 0x000002F8,
+		Torbjorn_spray_000002FA = 0x000002FA,
 		Torbjorn_spray_000002FB = 0x000002FB,
 		Torbjorn_spray_000002FC = 0x000002FC,
 		Torbjorn_spray_000002FE = 0x000002FE,
@@ -610,8 +618,12 @@
 		Torbjorn_spray_000006BD = 0x000006BD,
 		Torbjorn_spray_000006BE = 0x000006BE,
 		Torbjorn_spray_00000D15 = 0x00000D15,
+		Torbjorn_spray_00000ECE = 0x00000ECE,
 		Torbjorn_spray_00000EE4 = 0x00000EE4,
+		Torbjorn_spray_00001091 = 0x00001091,
 		Torbjorn_spray_0000116B = 0x0000116B,
+
+		Tracer_spray_00000872 = 0x00000872,
 
 		Widowmaker_spray_000002E8 = 0x000002E8,
 		Widowmaker_spray_000002EA = 0x000002EA,
@@ -646,11 +658,15 @@
 		Widowmaker_spray_00001177 = 0x00001177,
 		Widowmaker_spray_000002F4 = 0x000002F4,
 
+		Winston_spray_000001F5 = 0x000001F5,
+		Winston_spray_0000084C = 0x0000084C,
 		Winston_spray_00000859 = 0x00000859,
 		Winston_spray_00001173 = 0x00001173,
 
 		Zarya_spray_00000287 = 0x00000287,
 
+		Zenyatta_spray_0000058F = 0x0000058F,
 		Zenyatta_spray_00000596 = 0x00000596,
+		Zenyatta_spray_00000D10 = 0x00000D10,
 	};
 }

@@ -132,6 +132,7 @@
 		Roadhog_emote_00000902 = 0x00000902,
 		Roadhog_emote_00000A52 = 0x00000A52,
 		Roadhog_emote_00000A53 = 0x00000A53,
+		Roadhog_emote_000010AC = 0x000010AC,
 
 		Soldier76_emote_000007D3 = 0x000007D3,
 		Soldier76_emote_000007D4 = 0x000007D4,

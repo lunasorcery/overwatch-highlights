@@ -115,6 +115,7 @@
 		Hanzo_skin_000015E8_weapon_00001EB8 = 0x00001EB8,
 		Hanzo_skin_000015EB_weapon_00001EBD = 0x00001EBD,
 		Hanzo_skin_000015EC_weapon_00001EBF = 0x00001EBF,
+		Hanzo_skin_000015ED_weapon_00001EC1 = 0x00001EC1,
 		Hanzo_skin_000015EE_weapon_00001EC3 = 0x00001EC3,
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
 		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
@@ -209,6 +210,7 @@
 
 		Roadhog_skin_0000169B_weapon_0000201D = 0x0000201D,
 		Roadhog_skin_0000169C_weapon_0000201F = 0x0000201F,
+		Roadhog_skin_0000169F_weapon_00002025 = 0x00002025,
 		Roadhog_skin_000016A0_weapon_00002027 = 0x00002027,
 		Roadhog_skin_000016A5_weapon_00002031 = 0x00002031,
 		Roadhog_skin_000016A6_weapon_00002033 = 0x00002033,
@@ -247,6 +249,7 @@
 		Torbjorn_skin_00001639_weapon_00001F59 = 0x00001F59,
 		Torbjorn_skin_000018D2_weapon_00002481 = 0x00002481,
 		Torbjorn_skin_000018D3_weapon_00002483 = 0x00002483,
+		Torbjorn_skin_000018D4_weapon_00002485 = 0x00002485,
 		Torbjorn_skin_00001968_weapon_000025A7 = 0x000025A7,
 		Torbjorn_skin_00001B60_weapon_00002994 = 0x00002994,
 		Torbjorn_skin_00001BAD_weapon_00002A2E = 0x00002A2E,
@@ -296,6 +299,7 @@
 
 		Zenyatta_skin_000015FF_weapon_00001EE5 = 0x00001EE5,
 		Zenyatta_skin_000018BA_weapon_00002451 = 0x00002451,
+		Zenyatta_skin_000018BC_weapon_00002455 = 0x00002455,
 		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_00001966_weapon_000025A3 = 0x000025A3,
 	}

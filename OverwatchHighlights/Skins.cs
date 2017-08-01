@@ -104,6 +104,7 @@
 		Hanzo_skin_000015E8 = 0x000015E8,
 		Hanzo_skin_000015EB = 0x000015EB,
 		Hanzo_skin_000015EC = 0x000015EC,
+		Hanzo_skin_000015ED = 0x000015ED,
 		Hanzo_skin_000015EE = 0x000015EE,
 		Hanzo_skin_000018B5 = 0x000018B5,
 		Hanzo_skin_000018B6 = 0x000018B6,
@@ -192,6 +193,7 @@
 
 		Roadhog_skin_0000169B = 0x0000169B,
 		Roadhog_skin_0000169C = 0x0000169C,
+		Roadhog_skin_0000169F = 0x0000169F,
 		Roadhog_skin_000016A0 = 0x000016A0,
 		Roadhog_skin_000016A5 = 0x000016A5,
 		Roadhog_skin_000016A6 = 0x000016A6,
@@ -228,6 +230,7 @@
 		Torbjorn_skin_00001639 = 0x00001639,
 		Torbjorn_skin_000018D2 = 0x000018D2,
 		Torbjorn_skin_000018D3 = 0x000018D3,
+		Torbjorn_skin_000018D4 = 0x000018D4,
 		Torbjorn_skin_00001968 = 0x00001968,
 		Torbjorn_skin_00001B60 = 0x00001B60,
 		Torbjorn_skin_00001BAD = 0x00001BAD,
@@ -274,6 +277,7 @@
 
 		Zenyatta_skin_000015FF = 0x000015FF,
 		Zenyatta_skin_000018BA = 0x000018BA,
+		Zenyatta_skin_000018BC = 0x000018BC,
 		Zenyatta_skin_00001960 = 0x00001960,
 		Zenyatta_skin_00001966 = 0x00001966,
 	}
