@@ -5,10 +5,14 @@
 	{
 		None                         = 0x00000000, // used by AI players
 
+		Tracer_JustInTime            = 0x00000053,
 		Pharah_Touchdown             = 0x00000084,
 		Mercy_BattleAngel            = 0x00000128,
 		Winston_Glasses              = 0x00000133,
+		Winston_ExcuseMe             = 0x00000134,
 		Symmetra_Dance               = 0x0000013A,
+		McCree_TheNamesMcCree        = 0x00000140,
+		Soldier76_TargetRichEnvironment = 0x00000145,
 		Junkrat_RipTire              = 0x0000014D,
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
@@ -68,7 +72,6 @@
 
 		McCree_intro_0000013E = 0x0000013E,
 		McCree_intro_0000013F = 0x0000013F,
-		McCree_intro_00000140 = 0x00000140,
 		McCree_intro_00000225 = 0x00000225,
 		McCree_intro_00000238 = 0x00000238,
 
@@ -103,7 +106,6 @@
 		Roadhog_intro_00000EAD = 0x00000EAD,
 
 		Soldier76_intro_00000144 = 0x00000144,
-		Soldier76_intro_00000145 = 0x00000145,
 		Soldier76_intro_00000146 = 0x00000146,
 		Soldier76_intro_00000227 = 0x00000227, // probably heroic
 		Soldier76_intro_0000023A = 0x0000023A,
@@ -123,7 +125,6 @@
 
 		Tracer_intro_00000051 = 0x00000051,
 		Tracer_intro_00000052 = 0x00000052,
-		Tracer_intro_00000053 = 0x00000053,
 		Tracer_intro_000001FC = 0x000001FC,
 		Tracer_intro_00000E4F = 0x00000E4F,
 
@@ -133,7 +134,6 @@
 		Widowmaker_intro_0000022F = 0x0000022F,
 
 		Winston_intro_00000132 = 0x00000132,
-		Winston_intro_00000134 = 0x00000134,
 		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
 
