@@ -21,10 +21,12 @@ namespace OverwatchHighlights
 			{ Map.KingsRow,            3 },
 			{ Map.LijiangNightMarket,  9 },
 			{ Map.LijiangTower,       21 },
+			{ Map.Necropolis,          3 },
 			{ Map.Nepal,              13 },
 			{ Map.Numbani,            16 },
 			{ Map.Oasis,              22 },
 			{ Map.OasisGardens,        3 },
+			{ Map.OasisUniversity,     7 },
 			{ Map.Route66,             8 },
 			{ Map.TempleOfAnubis,     10 },
 			{ Map.VolskayaIndustries, 14 },
@@ -57,7 +59,7 @@ namespace OverwatchHighlights
 				payload[0] == 0x45 || payload[0] == 0x4d ||
 				payload[0] == 0x55 || payload[0] == 0x5d ||
 				payload[0] == 0x65 || payload[0] == 0x6d ||
-				payload[0] == 0x75 ||
+				payload[0] == 0x75 || payload[0] == 0x7d ||
 				payload[0] == 0x85 || payload[0] == 0x8d ||
 				payload[0] == 0x95 ||
 				payload[0] == 0xa5 || payload[0] == 0xad ||

@@ -20,10 +20,12 @@ namespace OverwatchHighlights
 			{ Map.KingsRow,             new string[] { "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63" } },
 			{ Map.LijiangNightMarket,   new string[] { "19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95" } },
 			{ Map.LijiangTower,         new string[] { "b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b" } },
+			{ Map.Necropolis,           new string[] { "8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81" } },
 			{ Map.Nepal,                new string[] { "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f" } },
 			{ Map.Numbani,              new string[] { "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a" } },
 			{ Map.Oasis,                new string[] { "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b" } },
 			{ Map.OasisGardens,         new string[] { "062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f" } },
+			{ Map.OasisUniversity,      new string[] { "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6" } },
 			{ Map.Route66,              new string[] { "2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098" } },
 			{ Map.TempleOfAnubis,       new string[] { "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35" } },
 			{ Map.VolskayaIndustries,   new string[] { "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e" } },
@@ -32,7 +34,7 @@ namespace OverwatchHighlights
 
 		public static bool IsValidChecksumForMap(Map map, Checksum checksum)
 		{
-			Debug.Assert(ms_knownChecksums.ContainsKey(map));
+			Debug.Assert(ms_knownChecksums.ContainsKey(map), $"No known map checksum for map {map}");
 			return ms_knownChecksums[map].Contains(checksum.ToString());
 		}
 	}

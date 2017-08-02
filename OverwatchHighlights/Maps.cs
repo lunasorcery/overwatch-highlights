@@ -49,7 +49,7 @@
 //		KingsRow              = 0x000006FE,
 //		KingsRow              = 0x00000700,
 //		EcopointAntarctica    = 0x00000704,
-//		Necropolis            = 0x00000705,
+		Necropolis            = 0x00000705,
 		BlackForest           = 0x0000070C,
 //		EcopointAntarctica    = 0x0000070D,
 //		Unknown710            = 0x00000710,
@@ -70,37 +70,12 @@
 		LijiangNightMarket    = 0x00000746,
 //		OasisCityCenter       = 0x0000074A,
 		OasisGardens          = 0x0000074C,
-//		OasisUniversity       = 0x0000074D,
+		OasisUniversity       = 0x0000074D,
 		Numbani               = 0x00000751,
 //		KingsRow              = 0x00000764,
 //		VPPGreenRoom          = 0x0000078C,
 //		VPPGreenRoom          = 0x00000790,
 //		VPPGreenRoom          = 0x00000791,
 //		HorizonLunarColony    = 0x00000794,
-	}
-
-	static partial class Extensions
-	{
-		public static bool Is3v3Map(this Map map)
-		{
-			return
-				map == Map.BlackForest ||
-//				map == Map.Castillo ||
-				map == Map.EcopointAntarctica ||
-//				map == Map.IliosLighthouse ||
-				map == Map.IliosRuins ||
-//				map == Map.IliosWell ||
-//				map == Map.LijiangControlCenter ||
-//				map == Map.LijiangGarden ||
-				map == Map.LijiangNightMarket ||
-//				map == Map.Necropolis ||
-//				map == Map.NepalSanctum ||
-//				map == Map.NepalShrine ||
-//				map == Map.NepalVillage ||
-//				map == Map.OasisCityCenter ||
-				map == Map.OasisGardens ||
-//				map == Map.OasisUniversity ||
-				false;	// because this lets me get away with the commenting shenanigans above..
-		}
 	}
 }

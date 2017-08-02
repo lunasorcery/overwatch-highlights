@@ -45,6 +45,8 @@ namespace OverwatchHighlights
 
 			this.unknown4 = br.ReadVec2();
 			Debug.Assert(unknown4.IsFinite());
+
+			// seems to be nonzero if the player starts the highlight in the air - elevation?
 			this.unknown4a = br.ReadUInt32();
 
 			this.unknown5 = br.ReadVec3();
@@ -116,6 +118,8 @@ namespace OverwatchHighlights
 			if (a.unknown3 != b.unknown3)
 				return false;
 			if (a.unknown4 != b.unknown4)
+				return false;
+			if (a.unknown4a != b.unknown4a)
 				return false;
 			if (a.unknown5 != b.unknown5)
 				return false;

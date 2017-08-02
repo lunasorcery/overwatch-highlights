@@ -98,7 +98,7 @@ namespace OverwatchHighlights
 			ulong value = br.ReadUInt64();
 			Debug.Assert((value & 0xFFFFFFFF00000000ul) == MapMask);
 			Map map = (Map)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(Map), map));
+			Debug.Assert(Enum.IsDefined(typeof(Map), map), $"Undefined map {(int)map:X8}");
 			return map;
 		}
 
