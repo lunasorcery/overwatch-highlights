@@ -17,6 +17,8 @@ namespace OverwatchHighlights
 			38215, // 15/07/2017 PTR
 			38459, // 28/07/2017 Live?
 			38510, // 28/07/2017 Live?
+			38679, // 01/08/2017 Live replay only?
+			38765, // 02/08/2017 Live replay only?
 		};
 
 		private int m_buildNumber;

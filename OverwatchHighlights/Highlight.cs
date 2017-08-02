@@ -160,8 +160,10 @@ namespace OverwatchHighlights
 
 			Debug.Assert(
 				replayBlock.buildNumber == this.buildNumber ||
-				(replayBlock.buildNumber == 38024 && this.buildNumber == 38044) || // for some reason...?
-				(replayBlock.buildNumber == 38510 && this.buildNumber == 38459)    // for some reason...?
+				(replayBlock.buildNumber == 38024 && this.buildNumber == 38044) ||
+				(replayBlock.buildNumber == 38510 && this.buildNumber == 38459) ||
+				(replayBlock.buildNumber == 38679 && this.buildNumber == 38459) ||
+				(replayBlock.buildNumber == 38765 && this.buildNumber == 38459)
 			);
 			Debug.Assert(replayBlock.map == this.map);
 			Debug.Assert(replayBlock.gameMode == this.gameMode);

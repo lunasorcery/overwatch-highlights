@@ -24,7 +24,7 @@ namespace OverwatchHighlights
 			Debug.Assert(magic == MAGIC_CONSTANT);
 
 			this.buildNumber = new BuildNumber(br);
-			Debug.Assert(this.buildNumber.IsKnownByTool());
+			Debug.Assert(this.buildNumber.IsKnownByTool(), $"Build number {buildNumber} is not known by tool");
 
 			this.map = br.ReadMap64();
 
