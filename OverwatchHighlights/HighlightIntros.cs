@@ -16,6 +16,7 @@
 		Junkrat_RipTire              = 0x0000014D,
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
+		Genji_WarriorsSalute         = 0x00000151,
 		Mei_Frosty                   = 0x00000157,
 		Tracer_Heroic                = 0x000001FB,
 		Mercy_Heroic                 = 0x00000219,
@@ -23,8 +24,10 @@
 		Pharah_Heroic                = 0x0000021D,
 		Reinhardt_Heroic             = 0x0000021E,
 		Torbjorn_Heroic              = 0x00000220,
+		Symmetra_Heroic              = 0x00000223,
 		Bastion_Heroic               = 0x00000224,
 		Junkrat_Heroic               = 0x0000022A,
+		DVa_Heroic                   = 0x0000022C,
 		Mei_Heroic                   = 0x0000022D,
 		Junkrat_Random               = 0x0000023D, // I think?
 		Junkrat_Shotput              = 0x00000B19,
@@ -51,11 +54,9 @@
 		DVa_intro_00000153 = 0x00000153,
 		DVa_intro_00000154 = 0x00000154,
 		DVa_intro_00000155 = 0x00000155,
-		DVa_intro_0000022C = 0x0000022C,
 		DVa_intro_0000023F = 0x0000023F,
 
 		Genji_intro_00000150 = 0x00000150,
-		Genji_intro_00000151 = 0x00000151,
 		Genji_intro_00000152 = 0x00000152,
 		Genji_intro_0000022B = 0x0000022B,
 		Genji_intro_0000023E = 0x0000023E,
@@ -122,7 +123,6 @@
 
 		Symmetra_intro_00000138 = 0x00000138,
 		Symmetra_intro_00000139 = 0x00000139,
-		Symmetra_intro_00000223 = 0x00000223,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000131 = 0x00000131,
