@@ -169,7 +169,7 @@ namespace OverwatchHighlights
 				{
 					if (!IsDefined(spray))
 					{
-						Tracer.TraceNoDupe("sprays", $"{hero}_spray_{(int)spray:X8} = 0x{(int)spray:X8},");
+						Tracer.TraceNoDupe("unlocks.sprays", $"{hero}_spray_{(int)spray:X8} = 0x{(int)spray:X8},");
 					}
 				}
 			}
@@ -179,7 +179,7 @@ namespace OverwatchHighlights
 				{
 					if (!IsDefined(voiceLine))
 					{
-						Tracer.TraceNoDupe("voiceLines", $"{hero}_voiceline_{(int)voiceLine:X8} = 0x{(int)voiceLine:X8},");
+						Tracer.TraceNoDupe("unlocks.voiceLines", $"{hero}_voiceline_{(int)voiceLine:X8} = 0x{(int)voiceLine:X8},");
 					}
 				}
 			}
@@ -189,24 +189,24 @@ namespace OverwatchHighlights
 				{
 					if (!IsDefined(emote))
 					{
-						Tracer.TraceNoDupe("emotes", $"{hero}_emote_{(int)emote:X8} = 0x{(int)emote:X8},");
+						Tracer.TraceNoDupe("unlocks.emotes", $"{hero}_emote_{(int)emote:X8} = 0x{(int)emote:X8},");
 					}
 				}
 			}
 			if (!IsDefined(skin))
 			{
-				Tracer.TraceNoDupe("skins", $"{hero}_skin_{(int)skin:X8} = 0x{(int)skin:X8},");
+				Tracer.TraceNoDupe("unlocks.skins", $"{hero}_skin_{(int)skin:X8} = 0x{(int)skin:X8},");
 			}
 			if (!IsDefined(intro))
 			{
-				Tracer.TraceNoDupe("highlightIntros", $"{hero}_intro_{(int)intro:X8} = 0x{(int)intro:X8},");
+				Tracer.TraceNoDupe("unlocks.highlightIntros", $"{hero}_intro_{(int)intro:X8} = 0x{(int)intro:X8},");
 			}
 			if (!IsDefined(weapon))
 			{
 				if (IsDefined(skin))
-					Tracer.TraceNoDupe("weaponskins", $"{skin}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
+					Tracer.TraceNoDupe("unlocks.weaponskins", $"{skin}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
 				else
-					Tracer.TraceNoDupe("weaponskins", $"{hero}_skin_{(int)skin:X8}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
+					Tracer.TraceNoDupe("unlocks.weaponskins", $"{hero}_skin_{(int)skin:X8}_weapon_{(int)weapon:X8} = 0x{(int)weapon:X8},");
 			}
 		}
 
