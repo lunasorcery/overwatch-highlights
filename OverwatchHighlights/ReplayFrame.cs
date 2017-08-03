@@ -25,6 +25,7 @@ namespace OverwatchHighlights
 			{ Map.Nepal,              13 },
 			{ Map.Numbani,            16 },
 			{ Map.Oasis,              22 },
+			{ Map.OasisCityCenter,    13 },
 			{ Map.OasisGardens,        3 },
 			{ Map.OasisUniversity,     7 },
 			{ Map.Route66,             8 },

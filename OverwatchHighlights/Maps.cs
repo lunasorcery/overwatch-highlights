@@ -68,7 +68,7 @@
 //		LijiangControlCenter  = 0x00000744,
 //		LijiangGarden         = 0x00000745,
 		LijiangNightMarket    = 0x00000746,
-//		OasisCityCenter       = 0x0000074A,
+		OasisCityCenter       = 0x0000074A,
 		OasisGardens          = 0x0000074C,
 		OasisUniversity       = 0x0000074D,
 		Numbani               = 0x00000751,

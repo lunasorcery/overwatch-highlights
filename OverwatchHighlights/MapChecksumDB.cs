@@ -24,6 +24,7 @@ namespace OverwatchHighlights
 			{ Map.Nepal,                new string[] { "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f" } },
 			{ Map.Numbani,              new string[] { "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a" } },
 			{ Map.Oasis,                new string[] { "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b" } },
+			{ Map.OasisCityCenter,      new string[] { "300eb49042dd55b06c3c697ebdabd066c6e5ed4c6f094d7bd89a8cf4bc6335cd" } },
 			{ Map.OasisGardens,         new string[] { "062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f" } },
 			{ Map.OasisUniversity,      new string[] { "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6" } },
 			{ Map.Route66,              new string[] { "2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098" } },
