@@ -42,9 +42,11 @@
 		Ana_intro_00000A7D = 0x00000A7D,
 
 		Bastion_intro_0000013B = 0x0000013B,
+		Bastion_intro_0000013C = 0x0000013C,
 		Bastion_intro_0000013D = 0x0000013D,
 
 		Doomfist_intro_00001188 = 0x00001188,
+		Doomfist_intro_0000118B = 0x0000118B,
 
 		DVa_intro_00000153 = 0x00000153,
 		DVa_intro_00000154 = 0x00000154,
@@ -69,6 +71,7 @@
 		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_00000148 = 0x00000148,
 		Lucio_intro_00000228 = 0x00000228,
+		Lucio_intro_00000B17 = 0x00000B17,
 
 		McCree_intro_0000013E = 0x0000013E,
 		McCree_intro_0000013F = 0x0000013F,
@@ -84,6 +87,7 @@
 		Mercy_intro_00000EAE = 0x00000EAE,
 
 		Orisa_intro_00000F65 = 0x00000F65,
+		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,
 		Orisa_intro_00000FF2 = 0x00000FF2,
 
@@ -117,6 +121,7 @@
 		Sombra_intro_00000CC1 = 0x00000CC1,
 
 		Symmetra_intro_00000138 = 0x00000138,
+		Symmetra_intro_00000139 = 0x00000139,
 		Symmetra_intro_00000223 = 0x00000223,
 
 		Torbjorn_intro_0000012F = 0x0000012F,

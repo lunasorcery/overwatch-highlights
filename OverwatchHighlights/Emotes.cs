@@ -15,13 +15,16 @@
 		Ana_emote_00000C24 = 0x00000C24,
 		Ana_emote_00000FF8 = 0x00000FF8,
 
+		Bastion_emote_000005FA = 0x000005FA,
 		Bastion_emote_000005FB = 0x000005FB,
 		Bastion_emote_000005FC = 0x000005FC,
 		Bastion_emote_000008FD = 0x000008FD,
+		Bastion_emote_00000B51 = 0x00000B51,
 		Bastion_emote_00000BE5 = 0x00000BE5,
 		Bastion_emote_00000BE6 = 0x00000BE6,
 		Bastion_emote_00000FF9 = 0x00000FF9,
 
+		Doomfist_emote_0000118D = 0x0000118D,
 		Doomfist_emote_0000119D = 0x0000119D,
 
 		DVa_emote_00000659 = 0x00000659,
@@ -95,6 +98,7 @@
 		Mercy_emote_00000CAA = 0x00000CAA,
 
 		Orisa_emote_00000F63 = 0x00000F63,
+		Orisa_emote_00000FEB = 0x00000FEB,
 		Orisa_emote_00000FEC = 0x00000FEC,
 		Orisa_emote_00001049 = 0x00001049,
 		Orisa_emote_00001092 = 0x00001092,
@@ -119,6 +123,7 @@
 		Reaper_emote_00000E80 = 0x00000E80,
 		Reaper_emote_00001148 = 0x00001148,
 
+		Reinhardt_emote_000006D1 = 0x000006D1,
 		Reinhardt_emote_000006D2 = 0x000006D2,
 		Reinhardt_emote_000006D3 = 0x000006D3,
 		Reinhardt_emote_000008FF = 0x000008FF,
@@ -155,6 +160,7 @@
 		Symmetra_emote_00000801 = 0x00000801,
 		Symmetra_emote_00000802 = 0x00000802,
 		Symmetra_emote_00000907 = 0x00000907,
+		Symmetra_emote_00000B1C = 0x00000B1C,
 		Symmetra_emote_00000C03 = 0x00000C03,
 		Symmetra_emote_00000C04 = 0x00000C04,
 		Symmetra_emote_00000CF6 = 0x00000CF6,
@@ -193,9 +199,12 @@
 
 		Zarya_emote_000006FC = 0x000006FC,
 		Zarya_emote_000006FD = 0x000006FD,
+		Zarya_emote_000006FE = 0x000006FE,
 		Zarya_emote_00000900 = 0x00000900,
 		Zarya_emote_00000AAC = 0x00000AAC,
+		Zarya_emote_00000AAD = 0x00000AAD,
 		Zarya_emote_00000D02 = 0x00000D02,
+		Zarya_emote_00000E82 = 0x00000E82,
 
 		Zenyatta_emote_00000579 = 0x00000579,
 		Zenyatta_emote_0000057A = 0x0000057A,
