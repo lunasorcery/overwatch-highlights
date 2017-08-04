@@ -10,6 +10,7 @@ namespace OverwatchHighlights
 		private Dictionary<Map, int> ms_expectedUintsBefore1dea = new Dictionary<Map, int>()
 		{
 			{ Map.BlackForest,         3 },
+			{ Map.Castillo,            6 },
 			{ Map.Dorado,             22 },
 			{ Map.EcopointAntarctica,  4 },
 			{ Map.Eichenwalde,        10 },
