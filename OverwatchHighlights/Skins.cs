@@ -66,6 +66,7 @@
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923 = 0x00001923,
+		Ana_skin_00001924 = 0x00001924,
 		Ana_skin_00001926 = 0x00001926,
 		Ana_skin_00001927 = 0x00001927,
 		Ana_skin_0000194A = 0x0000194A,
@@ -76,10 +77,13 @@
 		Ana_skin_00001B11 = 0x00001B11,
 
 		Bastion_skin_00001629 = 0x00001629,
+		Bastion_skin_0000162A = 0x0000162A,
 		Bastion_skin_00001795 = 0x00001795,
 		Bastion_skin_00001799 = 0x00001799,
 		Bastion_skin_000018CC = 0x000018CC,
+		Bastion_skin_000018CD = 0x000018CD,
 		Bastion_skin_000018CE = 0x000018CE,
+		Bastion_skin_00001AE8 = 0x00001AE8,
 
 		Doomfist_skin_00001611 = 0x00001611,
 		Doomfist_skin_000018C5 = 0x000018C5,
@@ -100,7 +104,10 @@
 
 		Genji_skin_000016DA = 0x000016DA,
 		Genji_skin_00001788 = 0x00001788,
+		Genji_skin_00001789 = 0x00001789,
+		Genji_skin_000018EA = 0x000018EA,
 		Genji_skin_000018EC = 0x000018EC,
+		Genji_skin_0000197C = 0x0000197C,
 		Genji_skin_00001994 = 0x00001994,
 		Genji_skin_00001B7D = 0x00001B7D,
 		Genji_skin_00001B91 = 0x00001B91,
@@ -122,6 +129,7 @@
 		Junkrat_skin_0000177C = 0x0000177C,
 		Junkrat_skin_0000179C = 0x0000179C,
 		Junkrat_skin_0000179D = 0x0000179D,
+		Junkrat_skin_000018BF = 0x000018BF,
 		Junkrat_skin_00001962 = 0x00001962,
 		Junkrat_skin_00001A2D = 0x00001A2D,
 
@@ -158,6 +166,7 @@
 
 		Mercy_skin_000015D3 = 0x000015D3,
 		Mercy_skin_000015D7 = 0x000015D7,
+		Mercy_skin_000015D8 = 0x000015D8,
 		Mercy_skin_000015DB = 0x000015DB,
 		Mercy_skin_000015DD = 0x000015DD,
 		Mercy_skin_000018AE = 0x000018AE,
@@ -168,6 +177,7 @@
 
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
+		Orisa_skin_00001937 = 0x00001937,
 		Orisa_skin_00001938 = 0x00001938,
 		Orisa_skin_00001B61 = 0x00001B61,
 		Orisa_skin_00001B62 = 0x00001B62,
@@ -179,6 +189,7 @@
 		Pharah_skin_000016A7 = 0x000016A7,
 		Pharah_skin_000016BF = 0x000016BF,
 		Pharah_skin_000016C2 = 0x000016C2,
+		Pharah_skin_000018E1 = 0x000018E1,
 		Pharah_skin_0000192A = 0x0000192A,
 		Pharah_skin_0000192B = 0x0000192B,
 		Pharah_skin_000019A0 = 0x000019A0,
@@ -193,12 +204,14 @@
 		Reaper_skin_00001699 = 0x00001699,
 		Reaper_skin_0000169A = 0x0000169A,
 		Reaper_skin_00001770 = 0x00001770,
+		Reaper_skin_00001771 = 0x00001771,
 		Reaper_skin_000018DB = 0x000018DB,
 		Reaper_skin_000018DC = 0x000018DC,
 		Reaper_skin_000018DD = 0x000018DD,
 		Reaper_skin_00001A07 = 0x00001A07,
 
 		Reinhardt_skin_0000163B = 0x0000163B,
+		Reinhardt_skin_0000163C = 0x0000163C,
 		Reinhardt_skin_0000163F = 0x0000163F,
 		Reinhardt_skin_0000165F = 0x0000165F,
 		Reinhardt_skin_00001660 = 0x00001660,
@@ -214,6 +227,7 @@
 		Roadhog_skin_000016A0 = 0x000016A0,
 		Roadhog_skin_000016A5 = 0x000016A5,
 		Roadhog_skin_000016A6 = 0x000016A6,
+		Roadhog_skin_0000195C = 0x0000195C,
 		Roadhog_skin_0000197D = 0x0000197D,
 		Roadhog_skin_00001A14 = 0x00001A14,
 
@@ -248,6 +262,7 @@
 		Torbjorn_skin_00001633 = 0x00001633,
 		Torbjorn_skin_00001634 = 0x00001634,
 		Torbjorn_skin_00001639 = 0x00001639,
+		Torbjorn_skin_0000163A = 0x0000163A,
 		Torbjorn_skin_000018D2 = 0x000018D2,
 		Torbjorn_skin_000018D3 = 0x000018D3,
 		Torbjorn_skin_000018D4 = 0x000018D4,
@@ -280,6 +295,7 @@
 		Winston_skin_000016D4 = 0x000016D4,
 		Winston_skin_000016D5 = 0x000016D5,
 		Winston_skin_000018E7 = 0x000018E7,
+		Winston_skin_000018E8 = 0x000018E8,
 		Winston_skin_000018E9 = 0x000018E9,
 		Winston_skin_00001964 = 0x00001964,
 		Winston_skin_0000197F = 0x0000197F,
@@ -295,7 +311,9 @@
 		Zarya_skin_00001A1B = 0x00001A1B,
 		Zarya_skin_00001B6A = 0x00001B6A,
 
+		Zenyatta_skin_000015FB = 0x000015FB,
 		Zenyatta_skin_000015FF = 0x000015FF,
+		Zenyatta_skin_00001606 = 0x00001606,
 		Zenyatta_skin_000018BA = 0x000018BA,
 		Zenyatta_skin_000018BC = 0x000018BC,
 		Zenyatta_skin_00001960 = 0x00001960,

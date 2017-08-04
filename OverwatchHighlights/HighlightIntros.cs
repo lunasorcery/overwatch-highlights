@@ -47,8 +47,10 @@
 		Bastion_intro_0000013B = 0x0000013B,
 		Bastion_intro_0000013C = 0x0000013C,
 		Bastion_intro_0000013D = 0x0000013D,
+		Bastion_intro_00000237 = 0x00000237,
 
 		Doomfist_intro_00001188 = 0x00001188,
+		Doomfist_intro_0000118A = 0x0000118A,
 		Doomfist_intro_0000118B = 0x0000118B,
 
 		DVa_intro_00000153 = 0x00000153,
@@ -85,6 +87,7 @@
 
 		Mercy_intro_00000126 = 0x00000126,
 		Mercy_intro_00000127 = 0x00000127,
+		Mercy_intro_0000021A = 0x0000021A,
 		Mercy_intro_00000EAE = 0x00000EAE,
 
 		Orisa_intro_00000F65 = 0x00000F65,
@@ -125,6 +128,7 @@
 		Symmetra_intro_00000139 = 0x00000139,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
+		Torbjorn_intro_00000130 = 0x00000130,
 		Torbjorn_intro_00000131 = 0x00000131,
 		Torbjorn_intro_0000104A = 0x0000104A,
 
@@ -142,6 +146,7 @@
 		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
 
+		Zarya_intro_00000141 = 0x00000141,
 		Zarya_intro_00000142 = 0x00000142,
 		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,

@@ -26,6 +26,8 @@
 
 		Doomfist_emote_0000118D = 0x0000118D,
 		Doomfist_emote_0000119D = 0x0000119D,
+		Doomfist_emote_000011A9 = 0x000011A9,
+		Doomfist_emote_0000120D = 0x0000120D,
 
 		DVa_emote_00000659 = 0x00000659,
 		DVa_emote_0000065A = 0x0000065A,
@@ -171,6 +173,7 @@
 		Torbjorn_emote_000008FE = 0x000008FE,
 		Torbjorn_emote_00000A7F = 0x00000A7F,
 		Torbjorn_emote_00000A80 = 0x00000A80,
+		Torbjorn_emote_00000E7F = 0x00000E7F,
 
 		Tracer_emote_00000827 = 0x00000827,
 		Tracer_emote_0000082C = 0x0000082C,
