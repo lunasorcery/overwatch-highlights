@@ -20,7 +20,9 @@
 		Mei_Classic                        = 0x00001F25,
 		Bastion_Overgrown                  = 0x00001F2D,
 		Bastion_Classic                    = 0x00001F35,
+		Bastion_Classic_Golden             = 0x00001F36,
 		Sombra_Classic                     = 0x00001F3D,
+		Torbjorn_Blackbeard                = 0x00001F4D,
 		Torbjorn_Barbarossa                = 0x00001F4F,
 		Torbjorn_Classic                   = 0x00001F55,
 		Torbjorn_Citron                    = 0x00001F57,
@@ -39,6 +41,7 @@
 		Widowmaker_Odette                  = 0x0000210F,
 		Widowmaker_Odette_Golden           = 0x00002110,
 		Widowmaker_Ciel                    = 0x0000211F,
+		Pharah_Mechaqueen                  = 0x000021B5,
 		Pharah_Raptorion                   = 0x000021B7,
 		Pharah_Raptorion_Golden            = 0x000021B8,
 		Junkrat_Hayseed                    = 0x000021DF,
@@ -107,7 +110,6 @@
 		Ana_skin_0000199C_weapon_0000260D = 0x0000260D,
 		Ana_skin_00001B11_weapon_000028F6 = 0x000028F6,
 
-		Bastion_Classic_weapon_00001F36 = 0x00001F36,
 		Bastion_skin_00001629_weapon_00001F39 = 0x00001F39,
 		Bastion_skin_0000162A_weapon_00001F3B = 0x00001F3B,
 		Bastion_skin_00001795_weapon_0000220F = 0x0000220F,
@@ -196,6 +198,7 @@
 		Mei_skin_000017A4_weapon_0000222D = 0x0000222D,
 		Mei_skin_000017A5_weapon_0000222F = 0x0000222F,
 		Mei_skin_000018C9_weapon_0000246F = 0x0000246F,
+		Mei_skin_000018CA_weapon_00002471 = 0x00002471,
 		Mei_skin_000018CB_weapon_00002473 = 0x00002473,
 		Mei_skin_00001981_weapon_000025D9 = 0x000025D9,
 		Mei_skin_00001982_weapon_000025DB = 0x000025DB,
@@ -261,6 +264,7 @@
 		Roadhog_skin_0000197D_weapon_000025D1 = 0x000025D1,
 		Roadhog_skin_00001A14_weapon_000026FE = 0x000026FE,
 
+		Soldier76_skin_000016C8_weapon_00002077 = 0x00002077,
 		Soldier76_skin_000016C9_weapon_00002079 = 0x00002079,
 		Soldier76_skin_000016CA_weapon_0000207B = 0x0000207B,
 		Soldier76_skin_0000178C_weapon_000021FD = 0x000021FD,
@@ -288,7 +292,6 @@
 
 		Torbjorn_skin_0000162F_weapon_00001F45 = 0x00001F45,
 		Torbjorn_skin_00001630_weapon_00001F47 = 0x00001F47,
-		Torbjorn_skin_00001633_weapon_00001F4D = 0x00001F4D,
 		Torbjorn_skin_00001639_weapon_00001F59 = 0x00001F59,
 		Torbjorn_skin_0000163A_weapon_00001F5B = 0x00001F5B,
 		Torbjorn_skin_000018D2_weapon_00002481 = 0x00002481,
@@ -321,6 +324,7 @@
 
 		Winston_skin_000016CB_weapon_0000207D = 0x0000207D,
 		Winston_skin_000016CF_weapon_00002085 = 0x00002085,
+		Winston_skin_000016CF_weapon_00002086 = 0x00002086,
 		Winston_skin_000016D3_weapon_0000208D = 0x0000208D,
 		Winston_skin_000016D4_weapon_0000208F = 0x0000208F,
 		Winston_skin_000016D5_weapon_00002091 = 0x00002091,

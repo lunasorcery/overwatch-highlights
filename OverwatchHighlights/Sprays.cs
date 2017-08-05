@@ -332,6 +332,7 @@
 		Ana_spray_00000ABA = 0x00000ABA,
 		Ana_spray_00000C4C = 0x00000C4C,
 		Ana_spray_0000106F = 0x0000106F,
+		Ana_spray_00001196 = 0x00001196,
 
 		Bastion_spray_00000265 = 0x00000265,
 		Bastion_spray_00000266 = 0x00000266,
@@ -364,6 +365,7 @@
 		Doomfist_spray_00001275 = 0x00001275,
 
 		DVa_spray_00000673 = 0x00000673,
+		DVa_spray_00000D33 = 0x00000D33,
 		DVa_spray_00000ED6 = 0x00000ED6,
 		DVa_spray_00001099 = 0x00001099,
 		DVa_spray_0000116D = 0x0000116D,
@@ -686,6 +688,7 @@
 		Torbjorn_spray_000002FC = 0x000002FC,
 		Torbjorn_spray_000002FE = 0x000002FE,
 		Torbjorn_spray_000002FF = 0x000002FF,
+		Torbjorn_spray_00000300 = 0x00000300,
 		Torbjorn_spray_00000301 = 0x00000301,
 		Torbjorn_spray_000006A7 = 0x000006A7,
 		Torbjorn_spray_000006A8 = 0x000006A8,
@@ -705,6 +708,7 @@
 		Torbjorn_spray_00001091 = 0x00001091,
 		Torbjorn_spray_0000116B = 0x0000116B,
 
+		Tracer_spray_00000178 = 0x00000178,
 		Tracer_spray_00000872 = 0x00000872,
 
 		Widowmaker_spray_000002E8 = 0x000002E8,
@@ -743,6 +747,7 @@
 		Winston_spray_000001F5 = 0x000001F5,
 		Winston_spray_0000084C = 0x0000084C,
 		Winston_spray_00000859 = 0x00000859,
+		Winston_spray_00000C90 = 0x00000C90,
 		Winston_spray_00001173 = 0x00001173,
 
 		Zarya_spray_000001D7 = 0x000001D7,
