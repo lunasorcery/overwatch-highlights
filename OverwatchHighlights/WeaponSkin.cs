@@ -68,6 +68,7 @@
 		Bastion_DuneBuggy                  = 0x000029F4,
 		Torbjorn_ChiefEngineerLindholm     = 0x00002A2E,
 		Widowmaker_Talon                   = 0x00002A32,
+		Widowmaker_Talon_Golden            = 0x00002A33,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001923_weapon_0000251D = 0x0000251D,
@@ -94,6 +95,7 @@
 		Bastion_skin_00001AE8_weapon_000028A4 = 0x000028A4,
 
 		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
+		Doomfist_skin_00001612_weapon_00001F0B = 0x00001F0B,
 		Doomfist_skin_000018C5_weapon_00002467 = 0x00002467,
 		Doomfist_skin_00001BDA_weapon_00002A86 = 0x00002A86,
 		Doomfist_skin_00001BE3_weapon_00002A98 = 0x00002A98,
@@ -174,6 +176,7 @@
 		McCree_skin_000019B6_weapon_00002647 = 0x00002647,
 		McCree_skin_00001A12_weapon_000026FA = 0x000026FA,
 
+		Mei_skin_00001620_weapon_00001F27 = 0x00001F27,
 		Mei_skin_00001622_weapon_00001F2B = 0x00001F2B,
 		Mei_skin_000017A4_weapon_0000222D = 0x0000222D,
 		Mei_skin_000017A5_weapon_0000222F = 0x0000222F,
@@ -268,6 +271,7 @@
 		Sombra_skin_00001A1D_weapon_00002710 = 0x00002710,
 
 		Symmetra_skin_000016DB_weapon_0000209D = 0x0000209D,
+		Symmetra_skin_000016DC_weapon_0000209F = 0x0000209F,
 		Symmetra_skin_000016E4_weapon_000020AF = 0x000020AF,
 		Symmetra_skin_000016E7_weapon_000020B5 = 0x000020B5,
 		Symmetra_skin_000016E8_weapon_000020B7 = 0x000020B7,
@@ -291,6 +295,7 @@
 		Torbjorn_skin_00001B60_weapon_00002994 = 0x00002994,
 
 		Tracer_skin_000016EB_weapon_000020BD = 0x000020BD,
+		Tracer_skin_000016EC_weapon_000020BF = 0x000020BF,
 		Tracer_skin_000016F7_weapon_000020D5 = 0x000020D5,
 		Tracer_skin_0000170B_weapon_000020FD = 0x000020FD,
 		Tracer_skin_000018F1_weapon_000024BF = 0x000024BF,

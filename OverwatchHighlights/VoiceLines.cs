@@ -46,6 +46,7 @@
 		Bastion_voiceline_0000110E = 0x0000110E,
 
 		Doomfist_voiceline_0000119E = 0x0000119E,
+		Doomfist_voiceline_0000119F = 0x0000119F,
 		Doomfist_voiceline_000011A0 = 0x000011A0,
 		Doomfist_voiceline_000011A1 = 0x000011A1,
 		Doomfist_voiceline_000011A2 = 0x000011A2,
@@ -354,6 +355,7 @@
 		Torbjorn_voiceline_000008D1 = 0x000008D1,
 		Torbjorn_voiceline_000009FD = 0x000009FD,
 		Torbjorn_voiceline_000009FE = 0x000009FE,
+		Torbjorn_voiceline_000009FF = 0x000009FF,
 		Torbjorn_voiceline_00000A00 = 0x00000A00,
 		Torbjorn_voiceline_00000BD0 = 0x00000BD0,
 		Torbjorn_voiceline_00000D88 = 0x00000D88,
@@ -449,6 +451,7 @@
 		Zenyatta_voiceline_000009FB = 0x000009FB,
 		Zenyatta_voiceline_000009FC = 0x000009FC,
 		Zenyatta_voiceline_00000C95 = 0x00000C95,
+		Zenyatta_voiceline_00000D82 = 0x00000D82,
 		Zenyatta_voiceline_00000F4C = 0x00000F4C,
 		Zenyatta_voiceline_000010ED = 0x000010ED,
 		Zenyatta_voiceline_000010EE = 0x000010EE,

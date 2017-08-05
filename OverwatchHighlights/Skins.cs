@@ -86,6 +86,7 @@
 		Bastion_skin_00001AE8 = 0x00001AE8,
 
 		Doomfist_skin_00001611 = 0x00001611,
+		Doomfist_skin_00001612 = 0x00001612,
 		Doomfist_skin_000018C5 = 0x000018C5,
 		Doomfist_skin_00001BDA = 0x00001BDA,
 		Doomfist_skin_00001BE3 = 0x00001BE3,
@@ -156,6 +157,7 @@
 		McCree_skin_000019B6 = 0x000019B6,
 		McCree_skin_00001A12 = 0x00001A12,
 
+		Mei_skin_00001620 = 0x00001620,
 		Mei_skin_00001622 = 0x00001622,
 		Mei_skin_000017A4 = 0x000017A4,
 		Mei_skin_000017A5 = 0x000017A5,
@@ -249,6 +251,7 @@
 		Sombra_skin_00001A1D = 0x00001A1D,
 
 		Symmetra_skin_000016DB = 0x000016DB,
+		Symmetra_skin_000016DC = 0x000016DC,
 		Symmetra_skin_000016E4 = 0x000016E4,
 		Symmetra_skin_000016E7 = 0x000016E7,
 		Symmetra_skin_000016E8 = 0x000016E8,
@@ -270,6 +273,7 @@
 		Torbjorn_skin_00001B60 = 0x00001B60,
 
 		Tracer_skin_000016EB = 0x000016EB,
+		Tracer_skin_000016EC = 0x000016EC,
 		Tracer_skin_000016F7 = 0x000016F7,
 		Tracer_skin_0000170B = 0x0000170B,
 		Tracer_skin_000018F1 = 0x000018F1,

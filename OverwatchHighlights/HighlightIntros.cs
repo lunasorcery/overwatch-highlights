@@ -74,6 +74,7 @@
 		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_00000148 = 0x00000148,
 		Lucio_intro_00000228 = 0x00000228,
+		Lucio_intro_0000023B = 0x0000023B,
 		Lucio_intro_00000B17 = 0x00000B17,
 
 		McCree_intro_0000013E = 0x0000013E,
@@ -83,6 +84,7 @@
 
 		Mei_intro_00000156 = 0x00000156,
 		Mei_intro_00000158 = 0x00000158,
+		Mei_intro_00000240 = 0x00000240,
 		Mei_intro_00000C38 = 0x00000C38,
 
 		Mercy_intro_00000126 = 0x00000126,
@@ -94,6 +96,7 @@
 		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,
 		Orisa_intro_00000FF2 = 0x00000FF2,
+		Orisa_intro_00000FF4 = 0x00000FF4,
 
 		Pharah_intro_00000083 = 0x00000083,
 		Pharah_intro_00000085 = 0x00000085,

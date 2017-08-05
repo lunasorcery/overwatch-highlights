@@ -131,6 +131,7 @@
 		Reinhardt_emote_000008FF = 0x000008FF,
 		Reinhardt_emote_00000A81 = 0x00000A81,
 		Reinhardt_emote_00000A82 = 0x00000A82,
+		Reinhardt_emote_00000C2F = 0x00000C2F,
 		Reinhardt_emote_00000CF5 = 0x00000CF5,
 
 		Roadhog_emote_00000777 = 0x00000777,
