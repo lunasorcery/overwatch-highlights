@@ -42,13 +42,21 @@ namespace OverwatchHighlights
 
 		public void Print()
 		{
-			Console.WriteLine("ReplayParamsBlock: {");
+			Console.WriteLine("{");
 			Console.WriteLine($"  Start Frame(?): {startFrame}");
 			Console.WriteLine($"  End Frame(?): {endFrame}");
 			Console.WriteLine($"  Expected duration ms: {probablyExpectedDurationMs}");
 			Console.WriteLine($"  Start ms: {startMs}");
 			Console.WriteLine($"  End ms: {endMs}");
 			Console.WriteLine($"  Actual duration ms: {endMs - startMs}");
+			if (heroesWithUnlockables.Length > 0)
+			{
+				Console.WriteLine($"  Heroes:");
+				foreach (var hero in heroesWithUnlockables)
+				{
+					hero.Print();
+				}
+			}
 			Console.WriteLine("}");
 		}
 	}

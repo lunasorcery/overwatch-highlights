@@ -97,6 +97,12 @@ namespace OverwatchHighlights
 			Console.WriteLine("-- Replay Header --");
 			Console.WriteLine($"Build: {buildNumber}");
 			Console.WriteLine($"Map: {map}");
+			Console.WriteLine($"Game Mode: {gameMode}");
+			if (this.paramsBlock != null)
+			{
+				Console.Write("ParamsBlock: ");
+				this.paramsBlock.Print();
+			}
 			if (this.highlightInfo != null)
 			{
 				Console.Write("HighlightInfo: ");

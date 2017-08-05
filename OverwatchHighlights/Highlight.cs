@@ -207,10 +207,12 @@ namespace OverwatchHighlights
 			Console.WriteLine();
 			Console.WriteLine("-- Highlight Header --");
 
+			Console.WriteLine($"unknown9: {unknown9}");
 			Console.WriteLine($"Build: {buildNumber}");
 			Console.WriteLine($"Player Id: {playerId}");
-			Console.WriteLine($"Map: {map}");
 			Console.WriteLine($"Flags: {flags}");
+			Console.WriteLine($"Map: {map}");
+			Console.WriteLine($"Game Mode: {gameMode}");
 
 			Console.WriteLine("Highlight Infos: [");
 			for (int i = 0; i < highlightInfos.Length; ++i)
