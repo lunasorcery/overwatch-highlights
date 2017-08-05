@@ -68,7 +68,7 @@ namespace OverwatchHighlights
 			ulong value = br.ReadUInt64();
 			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightTypeMask || value == 0);
 			HighlightType type = (HighlightType)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
+			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type), $"Undefined highlight type {(uint)type:X8}");
 			return type;
 		}
 
@@ -78,7 +78,7 @@ namespace OverwatchHighlights
 			ulong value = br.ReadUInt64();
 			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HeroMask);
 			Hero hero = (Hero)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(Hero), hero));
+			Debug.Assert(Enum.IsDefined(typeof(Hero), hero), $"Undefined hero {(uint)hero:X8}");
 			return hero;
 		}
 
@@ -98,7 +98,7 @@ namespace OverwatchHighlights
 			ulong value = br.ReadUInt64();
 			Debug.Assert((value & 0xFFFFFFFF00000000ul) == MapMask);
 			Map map = (Map)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(Map), map), $"Undefined map {(int)map:X8}");
+			Debug.Assert(Enum.IsDefined(typeof(Map), map), $"Undefined map {(uint)map:X8}");
 			return map;
 		}
 
@@ -128,21 +128,21 @@ namespace OverwatchHighlights
 			ulong value = br.ReadUInt64();
 			Debug.Assert((value & 0xFFFFFFFF00000000ul) == GameModeMask || value == 0);
 			GameMode gameMode = (GameMode)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(GameMode), gameMode));
+			Debug.Assert(Enum.IsDefined(typeof(GameMode), gameMode), $"Undefined gamemode {(uint)gameMode:X8}");
 			return gameMode;
 		}
 
 		public static HighlightType ReadHighlightType32(this BinaryReader br)
 		{
 			HighlightType type = (HighlightType)br.ReadUInt32();
-			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
+			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type), $"Undefined highlight type {(uint)type:X8}");
 			return type;
 		}
 
 		public static Hero ReadHero32(this BinaryReader br)
 		{
 			Hero hero = (Hero)br.ReadUInt32();
-			Debug.Assert(Enum.IsDefined(typeof(Hero), hero));
+			Debug.Assert(Enum.IsDefined(typeof(Hero), hero), $"Undefined hero {(uint)hero:X8}");
 			return hero;
 		}
 

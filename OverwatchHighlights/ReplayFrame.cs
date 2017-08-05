@@ -41,7 +41,7 @@ namespace OverwatchHighlights
 		public float duration;
 		public byte[] payload;
 
-		public ReplayFrame(BinaryReader br, Map map, int debugFrameIndex)
+		public ReplayFrame(BinaryReader br, Map map)
 		{
 			this.ticker1 = br.ReadInt32();
 			this.ticker2 = br.ReadInt32();
@@ -80,10 +80,10 @@ namespace OverwatchHighlights
 				Debug.Assert(payload[3] == 0x00);
 			}
 			
-			processFrameData(payload, map, eventCount, debugFrameIndex);
+			processFrameData(payload, map, eventCount);
 		}
 
-		void processFrameData(byte[] frameData, Map map, int numEvents, int debugFrameIndex)
+		void processFrameData(byte[] frameData, Map map, int numEvents)
 		{
 			// this is all very messy and WIP, please don't judge me for this mess
 

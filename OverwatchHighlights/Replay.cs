@@ -50,10 +50,10 @@ namespace OverwatchHighlights
 
 			if ((unknown1 & 0x4) != 0)
 			{
-				int playersBlockLength = br.ReadInt32();
-				using (DebugBlockLength dbl = new DebugBlockLength(playersBlockLength, br))
+				int highlightInfoLength = br.ReadInt32();
+				using (DebugBlockLength dbl = new DebugBlockLength(highlightInfoLength, br))
 				{
-					this.highlightInfo = new HighlightInfo(br, buildNumber, map);
+					this.highlightInfo = new HighlightInfo(br);
 				}
 			}
 
@@ -70,7 +70,7 @@ namespace OverwatchHighlights
 				this.replayFrames = new List<ReplayFrame>();
 				for (int frameIndex = 0; br2.BaseStream.Position < br2.BaseStream.Length; ++frameIndex)
 				{
-					this.replayFrames.Add(new ReplayFrame(br2, map, frameIndex));
+					this.replayFrames.Add(new ReplayFrame(br2, map));
 				}
 			}
 

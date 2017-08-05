@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="BuildNumber.cs" />
     <Compile Include="Checksum.cs" />
-    <Compile Include="CRC32.cs" />
     <Compile Include="DebugBlockLength.cs" />
     <Compile Include="Emotes.cs" />
     <Compile Include="Extensions.cs" />

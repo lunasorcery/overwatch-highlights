@@ -1,7 +1,7 @@
 ﻿namespace OverwatchHighlights
 {
 	// https://blzgdapipro-a.akamaihd.net/game/heroes/0x02E00000XXXXXXXX.png
-	// Not all heroes have an image at that url (looking at you, doomfist...)
+	// https://blzgdapipro-a.akamaihd.net/game/heroes/small/0x02E00000XXXXXXXX.png
 	public enum Hero : uint
 	{
 		Reaper     = 0x00000002,

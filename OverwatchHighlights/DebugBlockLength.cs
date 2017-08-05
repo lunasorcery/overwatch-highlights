@@ -23,7 +23,10 @@ namespace OverwatchHighlights
 
 		public void Dispose()
 		{
-			Debug.Assert(m_start + m_length == m_binaryReader.BaseStream.Position);
+			Debug.Assert(
+				m_start + m_length == m_binaryReader.BaseStream.Position, 
+				$"Expected to read {m_length} bytes, bit actually read {(m_binaryReader.BaseStream.Position - m_start)} bytes"
+			);
 		}
 	}
 }

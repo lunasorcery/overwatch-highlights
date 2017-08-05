@@ -49,7 +49,7 @@ namespace OverwatchHighlights
 		public void Print()
 		{
 			Console.WriteLine("{");
-			Console.WriteLine($"Hero: {hero}");
+			Console.WriteLine($"  Hero:             {hero}");
 			Console.WriteLine($"  Skin:             {skin}");
 			Console.WriteLine($"  Weapon:           {weaponSkin}");
 			Console.WriteLine($"  Highlight Intro:  {highlightIntro}");

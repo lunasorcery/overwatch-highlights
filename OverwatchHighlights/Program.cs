@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace OverwatchHighlights
 {
@@ -19,7 +20,7 @@ namespace OverwatchHighlights
 					if (File.Exists(arg))
 						LoadAndPrintHighlight(new FileInfo(arg));
 					else if (Directory.Exists(arg))
-						foreach (var file in Directory.GetFiles(arg))
+						foreach (var file in Directory.GetFiles(arg, "*", SearchOption.AllDirectories))
 							LoadAndPrintHighlight(new FileInfo(file));
 				}
 			}
@@ -52,6 +53,18 @@ namespace OverwatchHighlights
 			Console.WriteLine(file.FullName);
 			Console.ResetColor();
 			highlight.Print();
+
+#if false
+			if (!Directory.Exists("text-framedumps/"))
+				Directory.CreateDirectory("text-framedumps/");
+			using (StreamWriter sw = new StreamWriter($"text-framedumps/{highlight.highlightInfos[0].uuid}.txt"))
+			{
+				foreach (var frame in highlight.replayBlock.replayFrames)
+				{
+					sw.WriteLine($"{frame.ticker1} {frame.ticker2} {(string.Join("", frame.payload.Select(a => $"{a:X2}")))}");
+				}
+			}
+#endif
 		}
 	}
 }

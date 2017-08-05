@@ -24,7 +24,7 @@ namespace OverwatchHighlights
 		public ulong timestamp;
 		public HighlightUUID uuid;
 
-		public HighlightInfo(BinaryReader br, BuildNumber build, Map map)
+		public HighlightInfo(BinaryReader br)
 		{
 			// player name of the highlight protagonist (will differ for other people's POTGs)
 			this.playerName = br.ReadNullPaddedUTF8();
@@ -41,6 +41,8 @@ namespace OverwatchHighlights
 			this.unknown3 = br.ReadUInt32();
 			Debug.Assert((unknown3 & 0x80000000u) == 0x80000000u);
 			Debug.Assert((unknown3 & 0x7FFFFFFFu) <= 0x0000FFFFu);
+
+			Debug.Assert(unknown3 >= unknown2);
 
 			this.unknown4 = br.ReadSingle();
 			Debug.Assert(!float.IsInfinity(unknown4) && !float.IsNaN(unknown4));
@@ -82,12 +84,21 @@ namespace OverwatchHighlights
 			Tracer.TraceNoDupe("highlightInfo.unknown2 & unknown3", $"{this.unknown2:X8} {this.unknown3:X8}");
 		}
 
+		public bool IsPOTG()
+		{
+			return (this.unknown1 == 1);
+		}
+
+		public DateTime GetTimeUTC()
+		{
+			return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(this.timestamp);
+		}
+
 		public void Print()
 		{
 			Console.WriteLine("{");
-			var time = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(timestamp).ToLocalTime();
 			Console.WriteLine($"  UUID: {uuid}");
-			Console.WriteLine($"  Timestamp: {time}");
+			Console.WriteLine($"  Timestamp: {GetTimeUTC().ToLocalTime()}");
 			Console.WriteLine($"  Player Name: {playerName}");
 			Console.WriteLine($"  Hero: {hero}");
 			Console.WriteLine($"  Skin: {skin}");
