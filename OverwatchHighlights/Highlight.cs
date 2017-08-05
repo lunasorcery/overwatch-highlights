@@ -109,10 +109,8 @@ namespace OverwatchHighlights
 				var info = highlightInfos[i];
 				if (br.GetFilename() == info.uuid.ToString())
 				{
-					Tracer.TraceNoDupe("highlightInfo.unknown4", $"{map} {info.unknown4}");
-					Tracer.TraceNoDupe("highlightInfo.unknown5", $"{map} {info.unknown5}");
-					Tracer.TraceNoDupe("highlightInfo.unknown6", $"{info.unknown6} {map}");
-					Tracer.TraceNoDupe("highlightInfo.maybeUpVector", $"{info.maybeUpVector} {map}");
+					Tracer.TraceNoDupe("highlightInfo.unknown7", $"{map} {info.unknown7}");
+					Tracer.TraceNoDupe("highlightInfo.unknown8", $"{info.unknown8} {map}");
 				}
 			}
 			Debug.Assert(br.GetFilename().StartsWith(highlightInfos[0].uuid.ToString()));
@@ -154,7 +152,7 @@ namespace OverwatchHighlights
 
 			int replayDataLength = br.ReadInt32();
 			Debug.Assert(br.BaseStream.Position + replayDataLength == br.BaseStream.Length);
-			
+
 			replayBlock = new Replay(br);
 
 			Debug.Assert(
@@ -164,7 +162,7 @@ namespace OverwatchHighlights
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38679) ||
 				(this.buildNumber == 38765 && replayBlock.buildNumber == 38679) ||
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38765)
-				// I've no idea what's up with all these weird permutations...
+			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
 			Debug.Assert(replayBlock.gameMode == this.gameMode);
@@ -172,6 +170,17 @@ namespace OverwatchHighlights
 			{
 				Debug.Assert(replayBlock.highlightInfo == highlightInfos[0]);
 			}
+
+			if (this.highlightInfos[0].unknown1 == 4)
+			{
+				Debug.Assert(this.highlightInfos[0].unknown4 == 0);
+			}
+			else
+			{
+				Debug.Assert(this.highlightInfos[0].unknown4 != 0);
+			}
+			Debug.Assert(this.highlightInfos[0].unknown5 > this.replayBlock.paramsBlock.startMs / 1000.0f);
+			Debug.Assert(this.highlightInfos[0].unknown5 < this.replayBlock.paramsBlock.endMs / 1000.0f);
 		}
 
 		public void Print()

@@ -10,11 +10,12 @@ namespace OverwatchHighlights
 		public byte unknown1;
 		public uint unknown2;
 		public uint unknown3;
-		public Vec2 unknown4;
-		public uint unknown4a;
-		public Vec3 unknown5;
-		public Vec3 unknown6;
-		public Vec3 maybeUpVector;
+		public float unknown4;
+		public float unknown5;
+		public uint unknown6;
+		public Vec3 unknown7;
+		public Vec3 unknown8;
+		public Vec3 upVector;
 		public Hero hero;
 		public Skin skin;
 		public WeaponSkin weaponSkin;
@@ -41,22 +42,28 @@ namespace OverwatchHighlights
 			Debug.Assert((unknown3 & 0x80000000u) == 0x80000000u);
 			Debug.Assert((unknown3 & 0x7FFFFFFFu) <= 0x0000FFFFu);
 
-			this.unknown4 = br.ReadVec2();
-			Debug.Assert(unknown4.IsFinite());
+			this.unknown4 = br.ReadSingle();
+			Debug.Assert(!float.IsInfinity(unknown4) && !float.IsNaN(unknown4));
+
+			this.unknown5 = br.ReadSingle();
+			Debug.Assert(!float.IsInfinity(unknown5) && !float.IsNaN(unknown5));
 
 			// seems to be nonzero if the player starts the highlight in the air - elevation?
-			this.unknown4a = br.ReadUInt32();
+			this.unknown6 = br.ReadUInt32();
 
-			this.unknown5 = br.ReadVec3();
-			Debug.Assert(unknown5.IsFinite());
+			this.unknown7 = br.ReadVec3();
+			Debug.Assert(unknown7.IsFinite());
 
-			this.unknown6 = br.ReadVec3();
-			Debug.Assert(unknown6.IsFinite());
-			Debug.Assert(unknown6.IsUnitVector());
+			this.unknown8 = br.ReadVec3();
+			Debug.Assert(unknown8.IsFinite());
+			Debug.Assert(unknown8.IsUnitVector());
 
-			this.maybeUpVector = br.ReadVec3();
-			Debug.Assert(maybeUpVector.IsFinite());
-			Debug.Assert(maybeUpVector.IsUnitVector());
+			this.upVector = br.ReadVec3();
+			Debug.Assert(upVector.IsFinite());
+			Debug.Assert(upVector.IsUnitVector());
+			Debug.Assert(Math.Round(upVector.x) == 0);
+			Debug.Assert(Math.Round(upVector.y) == 1);
+			Debug.Assert(Math.Round(upVector.z) == 0);
 
 			this.hero = br.ReadHero64();
 			this.skin = br.ReadSkin64();
@@ -91,10 +98,11 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
 			Console.WriteLine($"  Unknown4: {unknown4}");
-			Console.WriteLine($"  Unknown4a: {unknown4a}");
 			Console.WriteLine($"  Unknown5: {unknown5}");
 			Console.WriteLine($"  Unknown6: {unknown6}");
-			Console.WriteLine($"  Maybe Up Vector: {maybeUpVector}");
+			Console.WriteLine($"  Unknown7: {unknown7}");
+			Console.WriteLine($"  Unknown8: {unknown8}");
+			Console.WriteLine($"  Up Vector: {upVector}");
 			Console.WriteLine("}");
 		}
 
@@ -115,13 +123,15 @@ namespace OverwatchHighlights
 				return false;
 			if (a.unknown4 != b.unknown4)
 				return false;
-			if (a.unknown4a != b.unknown4a)
-				return false;
 			if (a.unknown5 != b.unknown5)
 				return false;
 			if (a.unknown6 != b.unknown6)
 				return false;
-			if (a.maybeUpVector != b.maybeUpVector)
+			if (a.unknown7 != b.unknown7)
+				return false;
+			if (a.unknown8 != b.unknown8)
+				return false;
+			if (a.upVector != b.upVector)
 				return false;
 			if (a.hero != b.hero)
 				return false;
