@@ -86,7 +86,7 @@ namespace OverwatchHighlights
 				var thisFrame = this.replayFrames[i];
 				Debug.Assert(thisFrame.ticker1 - lastFrame.ticker1 == 1);
 				Debug.Assert(
-					thisFrame.ticker2 - lastFrame.ticker2 <= 2 && 
+					thisFrame.ticker2 - lastFrame.ticker2 <= 3 && 
 					thisFrame.ticker2 - lastFrame.ticker2 >= 0);
 			}
 		}
