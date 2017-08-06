@@ -67,6 +67,7 @@
 		DVa_voiceline_00000A3A = 0x00000A3A,
 		DVa_voiceline_00000A3B = 0x00000A3B,
 		DVa_voiceline_00000A3C = 0x00000A3C,
+		DVa_voiceline_00000C9E = 0x00000C9E,
 		DVa_voiceline_00000D8A = 0x00000D8A,
 		DVa_voiceline_000010C3 = 0x000010C3,
 		DVa_voiceline_000010C4 = 0x000010C4,
@@ -269,6 +270,7 @@
 		Reinhardt_voiceline_00000F53 = 0x00000F53,
 		Reinhardt_voiceline_000010D9 = 0x000010D9,
 		Reinhardt_voiceline_000010DA = 0x000010DA,
+		Reinhardt_voiceline_00001113 = 0x00001113,
 		Reinhardt_voiceline_00001114 = 0x00001114,
 
 		Roadhog_voiceline_00000798 = 0x00000798,
@@ -339,6 +341,7 @@
 		Symmetra_voiceline_000009F7 = 0x000009F7,
 		Symmetra_voiceline_000009F8 = 0x000009F8,
 		Symmetra_voiceline_000009F9 = 0x000009F9,
+		Symmetra_voiceline_00000BDA = 0x00000BDA,
 		Symmetra_voiceline_00000D92 = 0x00000D92,
 		Symmetra_voiceline_00000F5C = 0x00000F5C,
 		Symmetra_voiceline_000010E1 = 0x000010E1,
