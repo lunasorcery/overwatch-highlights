@@ -12,6 +12,7 @@ namespace OverwatchHighlights
 			{ Map.Dorado,               new string[] { "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4" } },
 			{ Map.EcopointAntarctica,   new string[] { "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce" } },
 			{ Map.Eichenwalde,          new string[] { "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5" } },
+			{ Map.EstadiodasRas,        new string[] { "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3" } },
 			{ Map.Hanamura,             new string[] { "2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93" } },
 			{ Map.Hollywood,            new string[] { "36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14" } },
 			{ Map.HorizonLunarColony,   new string[] { "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f",
@@ -29,7 +30,8 @@ namespace OverwatchHighlights
 			{ Map.OasisGardens,         new string[] { "062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f" } },
 			{ Map.OasisUniversity,      new string[] { "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6" } },
 			{ Map.Route66,              new string[] { "2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098" } },
-			{ Map.TempleOfAnubis,       new string[] { "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35" } },
+			{ Map.TempleOfAnubis,       new string[] { "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35",
+			                                           "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c" } },
 			{ Map.VolskayaIndustries,   new string[] { "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e" } },
 			{ Map.WatchpointGibraltar,  new string[] { "93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396" } },
 		};

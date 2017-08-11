@@ -108,10 +108,11 @@ namespace OverwatchHighlights
 				Debug.Assert(unknown8 == 0);
 
 				this.unknown9 = br.ReadUInt32();    // major version number?
-				Debug.Assert(unknown9 == 138 || unknown9 == 147);
+				Debug.Assert(unknown9 == 138 || unknown9 == 147 || unknown9 == 146);
+				// 138 = 1.12, 147 = 1.13, 146 = 1.14 ptr?
 
 				this.buildNumber = new BuildNumber(br);
-				Debug.Assert(buildNumber.IsKnownByTool());
+				Debug.Assert(buildNumber.IsKnownByTool(), $"Unknown build number {buildNumber}");
 
 				this.playerId = br.ReadUInt32();    // player id of the logged in user
 
@@ -180,7 +181,8 @@ namespace OverwatchHighlights
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38510) ||
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38679) ||
 				(this.buildNumber == 38765 && replayBlock.buildNumber == 38679) ||
-				(this.buildNumber == 38459 && replayBlock.buildNumber == 38765)
+				(this.buildNumber == 38459 && replayBlock.buildNumber == 38765) ||
+				(this.buildNumber == 39023 && replayBlock.buildNumber == 38882)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);

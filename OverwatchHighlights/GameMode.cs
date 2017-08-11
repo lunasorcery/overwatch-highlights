@@ -13,6 +13,7 @@
 //		Hybrid               = 0x00000016,
 //		Control              = 0x00000017,
 //		UprisingAllHeroes    = 0x0000001A,
-//		Lucioball            = 0x00000020,
+		TeamDeathmatch       = 0x0000001D,
+		Lucioball            = 0x00000020,
 	}
 }

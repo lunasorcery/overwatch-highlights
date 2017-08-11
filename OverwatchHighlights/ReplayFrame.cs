@@ -64,7 +64,7 @@ namespace OverwatchHighlights
 				payload[0] == 0x75 || payload[0] == 0x7d ||
 				payload[0] == 0x85 || payload[0] == 0x8d ||
 				payload[0] == 0x95 ||
-				payload[0] == 0xa5 || payload[0] == 0xad ||
+				payload[0] == 0xa5 || payload[0] == 0xab || payload[0] == 0xad ||
 				payload[0] == 0xb5 || payload[0] == 0xbd ||
 				payload[0] == 0xc5 || payload[0] == 0xcd ||
 				payload[0] == 0xd5 || payload[0] == 0xdd ||
@@ -79,7 +79,7 @@ namespace OverwatchHighlights
 				Debug.Assert(payload[2] == 0x00);
 				Debug.Assert(payload[3] == 0x00);
 			}
-			
+
 			processFrameData(payload, map, eventCount);
 		}
 
