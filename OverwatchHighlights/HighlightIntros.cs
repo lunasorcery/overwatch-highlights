@@ -11,22 +11,27 @@
 		Pharah_Barrage               = 0x00000085,
 		Reinhardt_MoreStretchingRequired = 0x00000087,
 		Mercy_BattleAngel            = 0x00000128,
+		Widowmaker_SwingingIntoAction = 0x00000129,
 		Widowmaker_ISeeYou           = 0x0000012A,
 		Hanzo_Superior               = 0x0000012C,
 		Hanzo_Backflip               = 0x0000012E,
 		Winston_PrimalRage           = 0x00000132,
 		Winston_Glasses              = 0x00000133,
 		Winston_ExcuseMe             = 0x00000134,
+		Zenyatta_Transcendence       = 0x00000137,
 		Symmetra_Dance               = 0x0000013A,
 		Bastion_Ganymede             = 0x0000013C,
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
 		Soldier76_TargetRichEnvironment = 0x00000145,
 		Lucio_DropTheBeat            = 0x00000147,
+		Lucio_InTheGroove            = 0x00000148,
 		Junkrat_RipTire              = 0x0000014D,
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
+		Genji_UnsheathingTheSword    = 0x00000150,
 		Genji_WarriorsSalute         = 0x00000151,
+		DVa_LyingAround              = 0x00000154,
 		Mei_Frosty                   = 0x00000157,
 		Tracer_Heroic                = 0x000001FB,
 		Mercy_Heroic                 = 0x00000219,
@@ -53,6 +58,7 @@
 		Widowmaker_UnderTheMistletoe = 0x00000D43,
 		Symmetra_Snowflakes          = 0x00000D4D,
 		Mercy_Fortune                = 0x00000EAE,
+		Orisa_Heroic                 = 0x00000F65,
 		DVa_Selfie                   = 0x0000104B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
@@ -72,11 +78,9 @@
 		Doomfist_intro_0000118B = 0x0000118B,
 
 		DVa_intro_00000153 = 0x00000153,
-		DVa_intro_00000154 = 0x00000154,
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000023F = 0x0000023F,
 
-		Genji_intro_00000150 = 0x00000150,
 		Genji_intro_00000152 = 0x00000152,
 		Genji_intro_0000023E = 0x0000023E,
 
@@ -84,7 +88,6 @@
 		Hanzo_intro_00000232 = 0x00000232,
 
 		Lucio_intro_00000149 = 0x00000149,
-		Lucio_intro_00000148 = 0x00000148,
 		Lucio_intro_0000023B = 0x0000023B,
 		Lucio_intro_00000B17 = 0x00000B17,
 
@@ -101,7 +104,6 @@
 		Mercy_intro_00000127 = 0x00000127,
 		Mercy_intro_0000021A = 0x0000021A,
 
-		Orisa_intro_00000F65 = 0x00000F65,
 		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,
 		Orisa_intro_00000FF2 = 0x00000FF2,
@@ -111,9 +113,11 @@
 
 		Reaper_intro_0000005B = 0x0000005B,
 		Reaper_intro_0000005C = 0x0000005C,
+		Reaper_intro_0000022E = 0x0000022E,
 
 		Reinhardt_intro_00000088 = 0x00000088,
 		Reinhardt_intro_00000089 = 0x00000089,
+		Reinhardt_intro_00000231 = 0x00000231,
 
 		Roadhog_intro_0000014A = 0x0000014A,
 		Roadhog_intro_0000014B = 0x0000014B,
@@ -143,7 +147,6 @@
 		Tracer_intro_000001FC = 0x000001FC,
 		Tracer_intro_00000E4F = 0x00000E4F,
 
-		Widowmaker_intro_00000129 = 0x00000129,
 		Widowmaker_intro_0000012B = 0x0000012B,
 		Widowmaker_intro_0000022F = 0x0000022F,
 
@@ -156,7 +159,6 @@
 
 		Zenyatta_intro_00000135 = 0x00000135,
 		Zenyatta_intro_00000136 = 0x00000136,
-		Zenyatta_intro_00000137 = 0x00000137,
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,
 		Zenyatta_intro_00001060 = 0x00001060,
