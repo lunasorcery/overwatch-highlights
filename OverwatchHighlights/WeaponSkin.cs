@@ -101,6 +101,8 @@
 		Orisa_NullSector                   = 0x00002996,
 		Zarya_Cyberian                     = 0x000029A8,
 		Mercy_CombatMedicZiegler           = 0x000029CA,
+		Genji_Blackwatch                   = 0x000029CE,
+		Genji_Blackwatch_Golden            = 0x000029CF,
 		Reinhardt_LieutenantWilhelm        = 0x000029E2,
 		Bastion_DuneBuggy                  = 0x000029F4,
 		Genji_Sentai                       = 0x000029F6,
@@ -112,6 +114,7 @@
 		Widowmaker_Talon_Golden            = 0x00002A33,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
+		Ana_skin_00001922_weapon_0000251B = 0x0000251B,
 		Ana_skin_00001923_weapon_0000251D = 0x0000251D,
 		Ana_skin_00001926_weapon_00002523 = 0x00002523,
 		Ana_skin_00001927_weapon_00002525 = 0x00002525,
@@ -158,8 +161,6 @@
 		Genji_skin_00001789_weapon_000021F7 = 0x000021F7,
 		Genji_skin_000018EA_weapon_000024B1 = 0x000024B1,
 		Genji_skin_000018EC_weapon_000024B5 = 0x000024B5,
-		Genji_skin_00001B7D_weapon_000029CE = 0x000029CE,
-		Genji_skin_00001B7D_weapon_000029CF = 0x000029CF,
 
 		Hanzo_skin_000015E3_weapon_00001EAD = 0x00001EAD,
 		Hanzo_skin_000015E4_weapon_00001EAF = 0x00001EAF,
