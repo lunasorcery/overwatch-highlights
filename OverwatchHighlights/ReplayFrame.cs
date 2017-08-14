@@ -11,6 +11,7 @@ namespace OverwatchHighlights
 		{
 			{ Map.BlackForest,         3 },
 			{ Map.Castillo,            6 },
+			{ Map.ChateauGuillard,     9 },
 			{ Map.Dorado,             22 },
 			{ Map.EcopointAntarctica,  4 },
 			{ Map.Eichenwalde,        10 },

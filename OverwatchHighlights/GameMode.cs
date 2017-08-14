@@ -13,7 +13,8 @@
 //		Hybrid               = 0x00000016,
 //		Control              = 0x00000017,
 //		UprisingAllHeroes    = 0x0000001A,
-		TeamDeathmatch       = 0x0000001D,
+		TeamDeathmatch       = 0x0000001D, // 6v6 
+		Deathmatch           = 0x0000001E, // 8-player FFA
 		Lucioball            = 0x00000020,
 	}
 }

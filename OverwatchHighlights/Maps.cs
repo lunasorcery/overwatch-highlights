@@ -77,5 +77,6 @@
 //		VPPGreenRoom          = 0x00000790,
 //		VPPGreenRoom          = 0x00000791,
 //		HorizonLunarColony    = 0x00000794,
+		ChateauGuillard       = 0x000007A4,
 	}
 }
