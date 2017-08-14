@@ -202,6 +202,29 @@ namespace OverwatchHighlights
 			}
 			Debug.Assert(this.highlightInfos[0].unknown5 > this.replayBlock.paramsBlock.startMs / 1000.0f);
 			Debug.Assert(this.highlightInfos[0].unknown5 < this.replayBlock.paramsBlock.endMs / 1000.0f);
+
+			if (this.highlightInfos[0].unknown1 != 1)
+			{
+				if (flags.HasFlag(Flags.ManualHighlight))
+					Debug.Assert(this.highlightInfos[0].unknown1 == 4);
+				else
+					Debug.Assert(this.highlightInfos[0].unknown1 == 0);
+			}
+
+
+			if (this.highlightInfos[0].unknown1 == 1 || this.highlightInfos[0].unknown1 == 0) // potg or top5
+			{
+				Debug.Assert(
+					this.highlightInfos[0].category == HighlightCategory.HighScore ||
+					this.highlightInfos[0].category == HighlightCategory.Lifesaver ||
+					this.highlightInfos[0].category == HighlightCategory.Sharpshooter ||
+					this.highlightInfos[0].category == HighlightCategory.Shutdown
+				);
+			}
+			else
+			{
+				Debug.Assert(this.highlightInfos[0].category == HighlightCategory.None);
+			}
 		}
 
 		public void Print()

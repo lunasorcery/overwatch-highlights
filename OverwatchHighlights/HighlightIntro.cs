@@ -145,6 +145,7 @@
 		Tracer_intro_00000051 = 0x00000051,
 		Tracer_intro_00000052 = 0x00000052,
 		Tracer_intro_000001FC = 0x000001FC,
+		Tracer_intro_00000B18 = 0x00000B18,
 		Tracer_intro_00000E4F = 0x00000E4F,
 
 		Widowmaker_intro_0000012B = 0x0000012B,

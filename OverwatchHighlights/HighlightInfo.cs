@@ -20,7 +20,7 @@ namespace OverwatchHighlights
 		public Skin skin;
 		public WeaponSkin weaponSkin;
 		public HighlightIntro highlightIntro;
-		public HighlightType highlightType;
+		public HighlightCategory category;
 		public ulong timestamp;
 		public HighlightUUID uuid;
 
@@ -29,8 +29,7 @@ namespace OverwatchHighlights
 			// player name of the highlight protagonist (will differ for other people's POTGs)
 			this.playerName = br.ReadNullPaddedUTF8();
 
-			// 0 for normal, 1 for potg, 4 for unknown
-			// only ever seems to be 4 if the protagonist of the highlight is the current player.
+			// 1 for potg, 0 for top5 highlight, 4 for manual highlight
 			this.unknown1 = br.ReadByte();
 			Debug.Assert(unknown1 == 0 || unknown1 == 1 || unknown1 == 4);
 			
@@ -72,7 +71,7 @@ namespace OverwatchHighlights
 			this.weaponSkin = br.ReadWeaponSkin64();
 			this.highlightIntro = br.ReadHighlightIntro64();
 
-			this.highlightType = br.ReadHighlightType64();
+			this.category = br.ReadHighlightCategory64();
 
 			this.timestamp = br.ReadUInt64();
 			this.uuid = new HighlightUUID(br);
@@ -104,7 +103,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Skin: {skin}");
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
-			Console.WriteLine($"  Type: {highlightType}");
+			Console.WriteLine($"  Category: {category}");
 			Console.WriteLine($"  Unknown1: {unknown1}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
@@ -152,7 +151,7 @@ namespace OverwatchHighlights
 				return false;
 			if (a.highlightIntro != b.highlightIntro)
 				return false;
-			if (a.highlightType != b.highlightType)
+			if (a.category != b.category)
 				return false;
 			if (a.timestamp != b.timestamp)
 				return false;

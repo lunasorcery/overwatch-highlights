@@ -62,14 +62,14 @@ namespace OverwatchHighlights
 			return value;
 		}
 
-		public static HighlightType ReadHighlightType64(this BinaryReader br)
+		public static HighlightCategory ReadHighlightCategory64(this BinaryReader br)
 		{
-			const ulong HighlightTypeMask = 0x0830000000000000ul;
+			const ulong CategoryMask = 0x0830000000000000ul;
 			ulong value = br.ReadUInt64();
-			Debug.Assert((value & 0xFFFFFFFF00000000ul) == HighlightTypeMask || value == 0);
-			HighlightType type = (HighlightType)(value & 0xFFFFFFFFu);
-			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type), $"Undefined highlight type {(uint)type:X8}");
-			return type;
+			Debug.Assert((value & 0xFFFFFFFF00000000ul) == CategoryMask || value == 0);
+			HighlightCategory category = (HighlightCategory)(value & 0xFFFFFFFFu);
+			Debug.Assert(Enum.IsDefined(typeof(HighlightCategory), category), $"Undefined highlight category {(uint)category:X8}");
+			return category;
 		}
 
 		public static Hero ReadHero64(this BinaryReader br)
@@ -130,13 +130,6 @@ namespace OverwatchHighlights
 			GameMode gameMode = (GameMode)(value & 0xFFFFFFFFu);
 			Debug.Assert(Enum.IsDefined(typeof(GameMode), gameMode), $"Undefined gamemode {(uint)gameMode:X8}");
 			return gameMode;
-		}
-
-		public static HighlightType ReadHighlightType32(this BinaryReader br)
-		{
-			HighlightType type = (HighlightType)br.ReadUInt32();
-			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type), $"Undefined highlight type {(uint)type:X8}");
-			return type;
 		}
 
 		public static Hero ReadHero32(this BinaryReader br)
