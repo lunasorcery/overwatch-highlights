@@ -9,7 +9,8 @@ namespace OverwatchHighlights
 		private static Dictionary<Map, string[]> ms_knownChecksums = new Dictionary<Map, string[]>() {
 			{ Map.BlackForest,          new string[] { "82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816" } },
 			{ Map.Castillo,             new string[] { "9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5" } },
-			{ Map.ChateauGuillard,      new string[] { "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085" } },
+			{ Map.ChateauGuillard,      new string[] { "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085",        // 39060
+													   "2e8a90be740fead56467d6fe40742a5404a029924e5ed37c94ad013f9463a3f4" } },    // 39083
 			{ Map.Dorado,               new string[] { "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4" } },
 			{ Map.EcopointAntarctica,   new string[] { "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce" } },
 			{ Map.Eichenwalde,          new string[] { "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5" } },

@@ -22,6 +22,7 @@ namespace OverwatchHighlights
 			38882, // 08/08/2017 Live Summer Games
 			39023, // 10/08/2017 Live Summer Games
 			39060, // 11/08/2017 PTR Deathmatch
+			39083, // 14/08/2017 PTR Deathmatch
 		};
 
 		private int m_buildNumber;
