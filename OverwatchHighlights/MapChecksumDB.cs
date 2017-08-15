@@ -10,7 +10,8 @@ namespace OverwatchHighlights
 			{ Map.BlackForest,          new string[] { "82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816" } },
 			{ Map.Castillo,             new string[] { "9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5" } },
 			{ Map.ChateauGuillard,      new string[] { "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085",        // 39060
-													   "2e8a90be740fead56467d6fe40742a5404a029924e5ed37c94ad013f9463a3f4" } },    // 39083
+			                                           "2e8a90be740fead56467d6fe40742a5404a029924e5ed37c94ad013f9463a3f4",        // 39083
+			                                           "57925bca898c0b25fa1ab5f3c0a92459158acda18d472a532b6a958cedb194c0" } },    // 39103
 			{ Map.Dorado,               new string[] { "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4" } },
 			{ Map.EcopointAntarctica,   new string[] { "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce" } },
 			{ Map.Eichenwalde,          new string[] { "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5" } },
@@ -33,7 +34,7 @@ namespace OverwatchHighlights
 			{ Map.OasisUniversity,      new string[] { "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6" } },
 			{ Map.Route66,              new string[] { "2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098" } },
 			{ Map.TempleOfAnubis,       new string[] { "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35",
-			                                           "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c" } },
+													   "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c" } },
 			{ Map.VolskayaIndustries,   new string[] { "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e" } },
 			{ Map.WatchpointGibraltar,  new string[] { "93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396" } },
 		};
