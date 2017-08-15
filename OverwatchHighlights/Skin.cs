@@ -117,6 +117,7 @@
 		Bastion_skin_000018CC = 0x000018CC,
 		Bastion_skin_000018CE = 0x000018CE,
 		Bastion_skin_00001AE8 = 0x00001AE8,
+		Bastion_skin_00001B93 = 0x00001B93,
 
 		Doomfist_skin_00001611 = 0x00001611,
 		Doomfist_skin_00001612 = 0x00001612,

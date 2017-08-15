@@ -136,6 +136,7 @@
 		Bastion_skin_000018CE_weapon_00002479 = 0x00002479,
 		Bastion_skin_00001AE8_weapon_000028A4 = 0x000028A4,
 		Bastion_skin_00001AE8_weapon_000028A5 = 0x000028A5,
+		Bastion_skin_00001B93_weapon_000029FA = 0x000029FA,
 
 		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
 		Doomfist_skin_00001612_weapon_00001F0B = 0x00001F0B,
