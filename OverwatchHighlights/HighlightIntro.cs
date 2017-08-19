@@ -18,9 +18,11 @@
 		Winston_PrimalRage           = 0x00000132,
 		Winston_Glasses              = 0x00000133,
 		Winston_ExcuseMe             = 0x00000134,
+		Zenyatta_HarmonyAndDiscord   = 0x00000135,
 		Zenyatta_Transcendence       = 0x00000137,
 		Symmetra_Dance               = 0x0000013A,
 		Bastion_Ganymede             = 0x0000013C,
+		McCree_RollingIntoAction     = 0x0000013E,
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
 		Soldier76_TargetRichEnvironment = 0x00000145,
@@ -51,23 +53,25 @@
 		DVa_Heroic                   = 0x0000022C,
 		Mei_Heroic                   = 0x0000022D,
 		Junkrat_Random               = 0x0000023D, // I think?
+		Ana_Heroic                   = 0x00000A5A,
 		Ana_LockedOn                 = 0x00000A7B,
+		Ana_Shh                      = 0x00000A7D,
 		Sombra_Heroic                = 0x00000AFB,
 		Junkrat_Shotput              = 0x00000B19,
+		Reaper_EternalRest           = 0x00000C33,
 		Genji_PumpkinCarving         = 0x00000C43,
 		Widowmaker_UnderTheMistletoe = 0x00000D43,
 		Symmetra_Snowflakes          = 0x00000D4D,
 		Mercy_Fortune                = 0x00000EAE,
 		Orisa_Heroic                 = 0x00000F65,
 		DVa_Selfie                   = 0x0000104B,
+		Pharah_SlamDunk              = 0x00001141,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
-		Ana_intro_00000A5A = 0x00000A5A,
 		Ana_intro_00000A5B = 0x00000A5B,
 		Ana_intro_00000A7A = 0x00000A7A,
-		Ana_intro_00000A7D = 0x00000A7D,
 
 		Bastion_intro_0000013B = 0x0000013B,
 		Bastion_intro_0000013D = 0x0000013D,
@@ -86,12 +90,12 @@
 
 		Hanzo_intro_0000012D = 0x0000012D,
 		Hanzo_intro_00000232 = 0x00000232,
+		Hanzo_intro_0000113F = 0x0000113F,
 
 		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_0000023B = 0x0000023B,
 		Lucio_intro_00000B17 = 0x00000B17,
 
-		McCree_intro_0000013E = 0x0000013E,
 		McCree_intro_0000013F = 0x0000013F,
 		McCree_intro_00000238 = 0x00000238,
 
@@ -157,8 +161,8 @@
 		Zarya_intro_00000142 = 0x00000142,
 		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,
+		Zarya_intro_00000239 = 0x00000239,
 
-		Zenyatta_intro_00000135 = 0x00000135,
 		Zenyatta_intro_00000136 = 0x00000136,
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,

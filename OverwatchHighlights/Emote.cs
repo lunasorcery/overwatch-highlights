@@ -14,6 +14,7 @@
 		Ana_emote_00000BF5 = 0x00000BF5,
 		Ana_emote_00000C24 = 0x00000C24,
 		Ana_emote_00000FF8 = 0x00000FF8,
+		Ana_emote_0000117A = 0x0000117A,
 
 		Bastion_emote_000005FA = 0x000005FA,
 		Bastion_emote_000005FB = 0x000005FB,
