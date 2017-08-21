@@ -26,6 +26,7 @@
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
 		Soldier76_TargetRichEnvironment = 0x00000145,
+		Soldier76_Helix              = 0x00000146,
 		Lucio_DropTheBeat            = 0x00000147,
 		Lucio_InTheGroove            = 0x00000148,
 		Junkrat_RipTire              = 0x0000014D,
@@ -130,7 +131,6 @@
 		Roadhog_intro_00000EAD = 0x00000EAD,
 
 		Soldier76_intro_00000144 = 0x00000144,
-		Soldier76_intro_00000146 = 0x00000146,
 		Soldier76_intro_0000023A = 0x0000023A,
 
 		Sombra_intro_00000AFC = 0x00000AFC,
@@ -140,6 +140,7 @@
 
 		Symmetra_intro_00000138 = 0x00000138,
 		Symmetra_intro_00000139 = 0x00000139,
+		Symmetra_intro_00000236 = 0x00000236,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000130 = 0x00000130,

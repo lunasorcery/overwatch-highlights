@@ -39,6 +39,7 @@
 		Bastion_voiceline_00000622 = 0x00000622,
 		Bastion_voiceline_000008D0 = 0x000008D0,
 		Bastion_voiceline_00000A40 = 0x00000A40,
+		Bastion_voiceline_00000BCF = 0x00000BCF,
 		Bastion_voiceline_00000C99 = 0x00000C99,
 		Bastion_voiceline_00000D86 = 0x00000D86,
 		Bastion_voiceline_00000F50 = 0x00000F50,
@@ -237,6 +238,7 @@
 		Orisa_voiceline_000010D4 = 0x000010D4,
 		Orisa_voiceline_000010FD = 0x000010FD,
 		Orisa_voiceline_000010FE = 0x000010FE,
+		Orisa_voiceline_0000122E = 0x0000122E,
 
 		Pharah_voiceline_000007C2 = 0x000007C2,
 		Pharah_voiceline_000007C4 = 0x000007C4,
@@ -413,6 +415,7 @@
 		Tracer_voiceline_000010E6 = 0x000010E6,
 		Tracer_voiceline_00001127 = 0x00001127,
 		Tracer_voiceline_00001128 = 0x00001128,
+		Tracer_voiceline_0000122A = 0x0000122A,
 
 		Widowmaker_voiceline_0000069A = 0x0000069A,
 		Widowmaker_voiceline_0000069D = 0x0000069D,
