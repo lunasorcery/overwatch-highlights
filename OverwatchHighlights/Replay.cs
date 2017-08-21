@@ -13,7 +13,7 @@ namespace OverwatchHighlights
 		public BuildNumber buildNumber;
 		public Map map;
 		public GameMode gameMode;
-		public Checksum checksum;
+		public Checksum mapChecksum;
 		public ReplayParamsBlock paramsBlock;
 		public HighlightInfo highlightInfo;
 		public List<ReplayFrame> replayFrames;
@@ -39,8 +39,8 @@ namespace OverwatchHighlights
 			uint unknown3 = br.ReadUInt32();
 			Debug.Assert(unknown3 == 0x30);
 
-			this.checksum = new Checksum(br);
-			Debug.Assert(MapChecksumDB.IsValidChecksumForMap(map, checksum));
+			this.mapChecksum = new Checksum(br);
+			Debug.Assert(MapChecksumDB.IsValidChecksumForMap(map, mapChecksum));
 
 			int paramsBlockLength = br.ReadInt32();
 			using (DebugBlockLength dbl = new DebugBlockLength(paramsBlockLength, br))

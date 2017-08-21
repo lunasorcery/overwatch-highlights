@@ -205,13 +205,6 @@ namespace OverwatchHighlights
 			return voiceLines;
 		}
 
-		public static Vec2 ReadVec2(this BinaryReader br)
-		{
-			float x = br.ReadSingle();
-			float y = br.ReadSingle();
-			return new Vec2(x, y);
-		}
-
 		public static Vec3 ReadVec3(this BinaryReader br)
 		{
 			float x = br.ReadSingle();

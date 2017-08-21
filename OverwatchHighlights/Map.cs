@@ -62,8 +62,8 @@
 		Castillo              = 0x0000071C,
 //		NepalVillage          = 0x00000736,
 //		NepalShrine           = 0x00000738,
-//		IliosWell             = 0x0000073A,
-//		IliosLighthouse       = 0x0000073D,
+		IliosWell             = 0x0000073A,
+		IliosLighthouse       = 0x0000073D,
 		IliosRuins            = 0x0000073E,
 //		LijiangControlCenter  = 0x00000744,
 //		LijiangGarden         = 0x00000745,
@@ -76,6 +76,7 @@
 //		VPPGreenRoom          = 0x0000078C,
 //		VPPGreenRoom          = 0x00000790,
 //		VPPGreenRoom          = 0x00000791,
+		SydneyHarbourArena    = 0x00000793,
 //		HorizonLunarColony    = 0x00000794,
 		ChateauGuillard       = 0x000007A4,
 	}

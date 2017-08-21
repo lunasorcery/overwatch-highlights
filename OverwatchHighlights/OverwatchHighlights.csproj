@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitReader.cs" />
     <Compile Include="BuildNumber.cs" />
     <Compile Include="Checksum.cs" />
     <Compile Include="DebugBlockLength.cs" />
@@ -69,7 +70,6 @@
     <Compile Include="Spray.cs" />
     <Compile Include="Tracer.cs" />
     <Compile Include="UnlockValidator.cs" />
-    <Compile Include="Vec2.cs" />
     <Compile Include="Vec3.cs" />
     <Compile Include="WeaponSkin.cs" />
     <Compile Include="VoiceLine.cs" />

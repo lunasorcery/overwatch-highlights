@@ -24,6 +24,8 @@ namespace OverwatchHighlights
 			39060, // 11/08/2017 PTR Deathmatch
 			39083, // 14/08/2017 PTR Deathmatch
 			39103, // 15/08/2017 PTR Deathmatch
+			39221, // 15/08/2017 Live replay only?
+			39241, // 19/08/2017 PTR Deathmatch
 		};
 
 		private int m_buildNumber;

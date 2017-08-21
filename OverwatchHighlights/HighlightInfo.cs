@@ -13,8 +13,8 @@ namespace OverwatchHighlights
 		public float unknown4;
 		public float unknown5;
 		public uint unknown6;
-		public Vec3 unknown7;
-		public Vec3 unknown8;
+		public Vec3 highlightIntroPosition;
+		public Vec3 highlightIntroDirection;
 		public Vec3 upVector;
 		public Hero hero;
 		public Skin skin;
@@ -52,12 +52,12 @@ namespace OverwatchHighlights
 			// seems to be nonzero if the player starts the highlight in the air - elevation?
 			this.unknown6 = br.ReadUInt32();
 
-			this.unknown7 = br.ReadVec3();
-			Debug.Assert(unknown7.IsFinite());
+			this.highlightIntroPosition = br.ReadVec3();
+			Debug.Assert(highlightIntroPosition.IsFinite());
 
-			this.unknown8 = br.ReadVec3();
-			Debug.Assert(unknown8.IsFinite());
-			Debug.Assert(unknown8.IsUnitVector());
+			this.highlightIntroDirection = br.ReadVec3();
+			Debug.Assert(highlightIntroDirection.IsFinite());
+			Debug.Assert(highlightIntroDirection.IsUnitVector());
 
 			this.upVector = br.ReadVec3();
 			Debug.Assert(upVector.IsFinite());
@@ -79,8 +79,6 @@ namespace OverwatchHighlights
 			UnlockValidator.RunForHeroWithUnlocks(hero, skin, weaponSkin, highlightIntro);
 
 			Debug.Assert(this.unknown3 >= this.unknown2);
-
-			Tracer.TraceNoDupe("highlightInfo.unknown2 & unknown3", $"{this.unknown2:X8} {this.unknown3:X8}");
 		}
 
 		public bool IsPOTG()
@@ -110,8 +108,8 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Unknown4: {unknown4}");
 			Console.WriteLine($"  Unknown5: {unknown5}");
 			Console.WriteLine($"  Unknown6: {unknown6}");
-			Console.WriteLine($"  Unknown7: {unknown7}");
-			Console.WriteLine($"  Unknown8: {unknown8}");
+			Console.WriteLine($"  Highlight Intro Position: {highlightIntroPosition}");
+			Console.WriteLine($"  Highlight Intro Direction: {highlightIntroDirection}");
 			Console.WriteLine($"  Up Vector: {upVector}");
 			Console.WriteLine("}");
 		}
@@ -137,9 +135,9 @@ namespace OverwatchHighlights
 				return false;
 			if (a.unknown6 != b.unknown6)
 				return false;
-			if (a.unknown7 != b.unknown7)
+			if (a.highlightIntroPosition != b.highlightIntroPosition)
 				return false;
-			if (a.unknown8 != b.unknown8)
+			if (a.highlightIntroDirection != b.highlightIntroDirection)
 				return false;
 			if (a.upVector != b.upVector)
 				return false;

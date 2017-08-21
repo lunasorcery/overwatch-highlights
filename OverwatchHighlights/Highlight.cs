@@ -9,12 +9,12 @@ namespace OverwatchHighlights
 		private const uint MAGIC_CONSTANT = 0x036C6870; // { 'p', 'h', 'l', 0x03 }
 
 		[Flags]
-		public enum Flags : uint
+		public enum UIFlags : uint
 		{
-			Top5Highlight   = 0x1, // automatically captured by the game for the "Top 5" section
-			ManualHighlight = 0x2, // manually captured by the player
-			IsNotNew        = 0x4, // has been watched or exported. if false, game will display "New" label
-			HasBeenExported = 0x8, // has been exported to a video file
+			Top5Highlight   = 0x1, // Displayed in the "Top 5" section
+			ManualHighlight = 0x2, // Displayed in the "36 manual highlights" section
+			IsNotNew        = 0x4, // if false, game will display "New" label
+			HasBeenExported = 0x8, // if true, game will display "Recorded" label
 		}
 
 		public struct FillerStruct
@@ -42,7 +42,7 @@ namespace OverwatchHighlights
 		public uint unknown9;
 		public BuildNumber buildNumber;
 		public uint playerId;
-		public Flags flags;
+		public UIFlags uiFlags;
 		public Map map;
 		public GameMode gameMode;
 		public HighlightInfo[] highlightInfos;
@@ -109,7 +109,9 @@ namespace OverwatchHighlights
 
 				this.unknown9 = br.ReadUInt32();    // major version number?
 				Debug.Assert(unknown9 == 138 || unknown9 == 147 || unknown9 == 146);
-				// 138 = 1.12, 147 = 1.13, 146 = 1.14 ptr?
+				// 138 = 1.13 ptr
+				// 147 = 1.13 live
+				// 146 = 1.14 ptr
 
 				this.buildNumber = new BuildNumber(br);
 				Debug.Assert(buildNumber.IsKnownByTool(), $"Unknown build number {buildNumber}");
@@ -119,8 +121,9 @@ namespace OverwatchHighlights
 				uint unknown12 = br.ReadUInt32();   // 0?
 				Debug.Assert(unknown12 == 0);
 
-				this.flags = (Flags)br.ReadUInt32();   // 1 for auto, 2 for manual? 4 for watched? 8 for recorded?
-				Debug.Assert(((uint)flags & 0xFFFFFFF0u) == 0); // assume the upper four bits aren't set...
+				this.uiFlags = (UIFlags)br.ReadUInt32();
+				Debug.Assert(((uint)uiFlags & 0xFFFFFFF0u) == 0); // assume only the bottom four bits will be set...
+				Debug.Assert(uiFlags.HasFlag(UIFlags.ManualHighlight) != uiFlags.HasFlag(UIFlags.Top5Highlight)); // exactly one of these will be set
 
 				this.map = br.ReadMap64();
 
@@ -134,12 +137,6 @@ namespace OverwatchHighlights
 				for (int i = 0; i < numHighlightInfos; ++i)
 				{
 					highlightInfos[i] = new HighlightInfo(br);
-					var info = highlightInfos[i];
-					if (br.GetFilename() == info.uuid.ToString())
-					{
-						Tracer.TraceNoDupe("highlightInfo.unknown7", $"{map} {info.unknown7}");
-						Tracer.TraceNoDupe("highlightInfo.unknown8", $"{info.unknown8} {map}");
-					}
 				}
 				Debug.Assert(br.GetFilename().StartsWith(highlightInfos[0].uuid.ToString()));
 
@@ -182,7 +179,8 @@ namespace OverwatchHighlights
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38679) ||
 				(this.buildNumber == 38765 && replayBlock.buildNumber == 38679) ||
 				(this.buildNumber == 38459 && replayBlock.buildNumber == 38765) ||
-				(this.buildNumber == 39023 && replayBlock.buildNumber == 38882)
+				(this.buildNumber == 39023 && replayBlock.buildNumber == 38882) ||
+				(this.buildNumber == 39023 && replayBlock.buildNumber == 39221)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
@@ -205,7 +203,7 @@ namespace OverwatchHighlights
 
 			if (this.highlightInfos[0].unknown1 != 1)
 			{
-				if (flags.HasFlag(Flags.ManualHighlight))
+				if (uiFlags.HasFlag(UIFlags.ManualHighlight))
 					Debug.Assert(this.highlightInfos[0].unknown1 == 4);
 				else
 					Debug.Assert(this.highlightInfos[0].unknown1 == 0);
@@ -235,7 +233,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"unknown9: {unknown9}");
 			Console.WriteLine($"Build: {buildNumber}");
 			Console.WriteLine($"Player Id: {playerId}");
-			Console.WriteLine($"Flags: {flags}");
+			Console.WriteLine($"Flags: {uiFlags}");
 			Console.WriteLine($"Map: {map}");
 			Console.WriteLine($"Game Mode: {gameMode}");
 
