@@ -350,6 +350,7 @@
 		Zarya_skin_000018D8 = 0x000018D8,
 		Zarya_skin_000018D9 = 0x000018D9,
 		Zarya_skin_00001944 = 0x00001944,
+		Zarya_skin_00001945 = 0x00001945,
 		Zarya_skin_00001A1B = 0x00001A1B,
 
 		Zenyatta_skin_000015FB = 0x000015FB,

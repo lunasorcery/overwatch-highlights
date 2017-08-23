@@ -120,6 +120,7 @@
 		Hanzo_voiceline_000010C8 = 0x000010C8,
 		Hanzo_voiceline_00001101 = 0x00001101,
 		Hanzo_voiceline_00001102 = 0x00001102,
+		Hanzo_voiceline_00001218 = 0x00001218,
 
 		Junkrat_voiceline_000005C3 = 0x000005C3,
 		Junkrat_voiceline_000005C4 = 0x000005C4,
@@ -201,6 +202,7 @@
 		Mei_voiceline_000010D0 = 0x000010D0,
 		Mei_voiceline_0000110B = 0x0000110B,
 		Mei_voiceline_0000110C = 0x0000110C,
+		Mei_voiceline_0000121D = 0x0000121D,
 
 		Mercy_voiceline_000004FE = 0x000004FE,
 		Mercy_voiceline_00000501 = 0x00000501,
@@ -356,6 +358,7 @@
 		Sombra_voiceline_000010E0 = 0x000010E0,
 		Sombra_voiceline_0000110F = 0x0000110F,
 		Sombra_voiceline_00001110 = 0x00001110,
+		Sombra_voiceline_00001231 = 0x00001231,
 
 		Symmetra_voiceline_00000808 = 0x00000808,
 		Symmetra_voiceline_0000080D = 0x0000080D,
