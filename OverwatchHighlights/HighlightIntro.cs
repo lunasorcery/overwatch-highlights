@@ -7,24 +7,30 @@
 
 		Tracer_JustInTime            = 0x00000053,
 		Reaper_DeathBlossom          = 0x0000005D,
+		Pharah_MissionComplete       = 0x00000083,
 		Pharah_Touchdown             = 0x00000084,
 		Pharah_Barrage               = 0x00000085,
 		Reinhardt_MoreStretchingRequired = 0x00000087,
 		Mercy_BattleAngel            = 0x00000128,
 		Widowmaker_SwingingIntoAction = 0x00000129,
 		Widowmaker_ISeeYou           = 0x0000012A,
+		Widowmaker_HangingAround     = 0x0000012B,
 		Hanzo_Superior               = 0x0000012C,
 		Hanzo_Backflip               = 0x0000012E,
+		Torbjorn_InYourFace          = 0x00000131,
 		Winston_PrimalRage           = 0x00000132,
 		Winston_Glasses              = 0x00000133,
 		Winston_ExcuseMe             = 0x00000134,
 		Zenyatta_HarmonyAndDiscord   = 0x00000135,
 		Zenyatta_Transcendence       = 0x00000137,
 		Symmetra_Dance               = 0x0000013A,
+		Bastion_OnGuard              = 0x0000013B,
 		Bastion_Ganymede             = 0x0000013C,
 		McCree_RollingIntoAction     = 0x0000013E,
+		McCree_TheDuel               = 0x0000013F,
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
+		Soldier76_LookingAtYou       = 0x00000144,
 		Soldier76_TargetRichEnvironment = 0x00000145,
 		Soldier76_Helix              = 0x00000146,
 		Lucio_DropTheBeat            = 0x00000147,
@@ -34,6 +40,7 @@
 		Junkrat_ImFlying             = 0x0000014F,
 		Genji_UnsheathingTheSword    = 0x00000150,
 		Genji_WarriorsSalute         = 0x00000151,
+		Genji_Shuriken               = 0x00000152,
 		DVa_LyingAround              = 0x00000154,
 		Mei_Frosty                   = 0x00000157,
 		Tracer_Heroic                = 0x000001FB,
@@ -58,6 +65,7 @@
 		Ana_LockedOn                 = 0x00000A7B,
 		Ana_Shh                      = 0x00000A7D,
 		Sombra_Heroic                = 0x00000AFB,
+		Lucio_BicycleKick            = 0x00000B17,
 		Junkrat_Shotput              = 0x00000B19,
 		Reaper_EternalRest           = 0x00000C33,
 		Genji_PumpkinCarving         = 0x00000C43,
@@ -65,8 +73,10 @@
 		Symmetra_Snowflakes          = 0x00000D4D,
 		Mercy_Fortune                = 0x00000EAE,
 		Orisa_Heroic                 = 0x00000F65,
+		Torbjorn_MyBaby              = 0x0000104A,
 		DVa_Selfie                   = 0x0000104B,
 		Pharah_SlamDunk              = 0x00001141,
+		Doomfist_OnePunch            = 0x00001188,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
 
@@ -74,11 +84,9 @@
 		Ana_intro_00000A5B = 0x00000A5B,
 		Ana_intro_00000A7A = 0x00000A7A,
 
-		Bastion_intro_0000013B = 0x0000013B,
 		Bastion_intro_0000013D = 0x0000013D,
 		Bastion_intro_00000237 = 0x00000237,
 
-		Doomfist_intro_00001188 = 0x00001188,
 		Doomfist_intro_0000118A = 0x0000118A,
 		Doomfist_intro_0000118B = 0x0000118B,
 
@@ -86,7 +94,6 @@
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000023F = 0x0000023F,
 
-		Genji_intro_00000152 = 0x00000152,
 		Genji_intro_0000023E = 0x0000023E,
 
 		Hanzo_intro_0000012D = 0x0000012D,
@@ -95,9 +102,7 @@
 
 		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_0000023B = 0x0000023B,
-		Lucio_intro_00000B17 = 0x00000B17,
 
-		McCree_intro_0000013F = 0x0000013F,
 		McCree_intro_00000238 = 0x00000238,
 
 		Mei_intro_00000156 = 0x00000156,
@@ -114,8 +119,6 @@
 		Orisa_intro_00000FF2 = 0x00000FF2,
 		Orisa_intro_00000FF4 = 0x00000FF4,
 
-		Pharah_intro_00000083 = 0x00000083,
-
 		Reaper_intro_0000005B = 0x0000005B,
 		Reaper_intro_0000005C = 0x0000005C,
 		Reaper_intro_0000022E = 0x0000022E,
@@ -130,7 +133,6 @@
 		Roadhog_intro_00000229 = 0x00000229,
 		Roadhog_intro_00000EAD = 0x00000EAD,
 
-		Soldier76_intro_00000144 = 0x00000144,
 		Soldier76_intro_0000023A = 0x0000023A,
 
 		Sombra_intro_00000AFC = 0x00000AFC,
@@ -144,8 +146,6 @@
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000130 = 0x00000130,
-		Torbjorn_intro_00000131 = 0x00000131,
-		Torbjorn_intro_0000104A = 0x0000104A,
 
 		Tracer_intro_00000051 = 0x00000051,
 		Tracer_intro_00000052 = 0x00000052,
@@ -153,7 +153,6 @@
 		Tracer_intro_00000B18 = 0x00000B18,
 		Tracer_intro_00000E4F = 0x00000E4F,
 
-		Widowmaker_intro_0000012B = 0x0000012B,
 		Widowmaker_intro_0000022F = 0x0000022F,
 
 		Winston_intro_00000221 = 0x00000221,

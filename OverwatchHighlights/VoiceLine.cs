@@ -47,6 +47,7 @@
 		Bastion_voiceline_000010F5 = 0x000010F5,
 		Bastion_voiceline_0000110D = 0x0000110D,
 		Bastion_voiceline_0000110E = 0x0000110E,
+		Bastion_voiceline_0000121E = 0x0000121E,
 
 		Doomfist_voiceline_0000119E = 0x0000119E,
 		Doomfist_voiceline_0000119F = 0x0000119F,
@@ -252,12 +253,14 @@
 		Pharah_voiceline_000008D6 = 0x000008D6,
 		Pharah_voiceline_00000A11 = 0x00000A11,
 		Pharah_voiceline_00000A12 = 0x00000A12,
+		Pharah_voiceline_00000BD6 = 0x00000BD6,
 		Pharah_voiceline_00000CA2 = 0x00000CA2,
 		Pharah_voiceline_00000D8E = 0x00000D8E,
 		Pharah_voiceline_000010D5 = 0x000010D5,
 		Pharah_voiceline_000010D6 = 0x000010D6,
 		Pharah_voiceline_0000111D = 0x0000111D,
 		Pharah_voiceline_0000111E = 0x0000111E,
+		Pharah_voiceline_00001225 = 0x00001225,
 
 		Reaper_voiceline_00000762 = 0x00000762,
 		Reaper_voiceline_00000764 = 0x00000764,
@@ -292,6 +295,7 @@
 		Reinhardt_voiceline_000008D2 = 0x000008D2,
 		Reinhardt_voiceline_00000A2F = 0x00000A2F,
 		Reinhardt_voiceline_00000BD1 = 0x00000BD1,
+		Reinhardt_voiceline_00000C9C = 0x00000C9C,
 		Reinhardt_voiceline_00000D89 = 0x00000D89,
 		Reinhardt_voiceline_00000F53 = 0x00000F53,
 		Reinhardt_voiceline_000010D9 = 0x000010D9,
@@ -311,6 +315,7 @@
 		Roadhog_voiceline_00000A14 = 0x00000A14,
 		Roadhog_voiceline_00000A15 = 0x00000A15,
 		Roadhog_voiceline_00000A16 = 0x00000A16,
+		Roadhog_voiceline_00000BD5 = 0x00000BD5,
 		Roadhog_voiceline_00000CA1 = 0x00000CA1,
 		Roadhog_voiceline_00000D8D = 0x00000D8D,
 		Roadhog_voiceline_00000F57 = 0x00000F57,
@@ -358,6 +363,7 @@
 		Sombra_voiceline_000010E0 = 0x000010E0,
 		Sombra_voiceline_0000110F = 0x0000110F,
 		Sombra_voiceline_00001110 = 0x00001110,
+		Sombra_voiceline_0000122D = 0x0000122D,
 		Sombra_voiceline_00001231 = 0x00001231,
 
 		Symmetra_voiceline_00000808 = 0x00000808,
@@ -440,6 +446,7 @@
 		Widowmaker_voiceline_000010E8 = 0x000010E8,
 		Widowmaker_voiceline_00001129 = 0x00001129,
 		Widowmaker_voiceline_0000112A = 0x0000112A,
+		Widowmaker_voiceline_0000122B = 0x0000122B,
 
 		Winston_voiceline_00000851 = 0x00000851,
 		Winston_voiceline_00000853 = 0x00000853,
@@ -459,6 +466,7 @@
 		Winston_voiceline_000010EA = 0x000010EA,
 		Winston_voiceline_00001121 = 0x00001121,
 		Winston_voiceline_00001122 = 0x00001122,
+		Winston_voiceline_00001227 = 0x00001227,
 
 		Zarya_voiceline_0000071C = 0x0000071C,
 		Zarya_voiceline_0000071F = 0x0000071F,
@@ -478,6 +486,7 @@
 		Zarya_voiceline_000010EB = 0x000010EB,
 		Zarya_voiceline_000010EC = 0x000010EC,
 		Zarya_voiceline_00001117 = 0x00001117,
+		Zarya_voiceline_00001118 = 0x00001118,
 		Zarya_voiceline_00001222 = 0x00001222,
 
 		Zenyatta_voiceline_0000059A = 0x0000059A,

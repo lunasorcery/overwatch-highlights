@@ -28,6 +28,7 @@
 		Doomfist_emote_0000118D = 0x0000118D,
 		Doomfist_emote_0000119D = 0x0000119D,
 		Doomfist_emote_000011A9 = 0x000011A9,
+		Doomfist_emote_000011E1 = 0x000011E1,
 		Doomfist_emote_0000120D = 0x0000120D,
 
 		DVa_emote_00000659 = 0x00000659,
