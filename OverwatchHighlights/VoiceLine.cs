@@ -4,6 +4,7 @@
 	{
 		Junkrat_TickTockTickTock        = 0x000008CC,
 		Pharah_LeaveThisToAProfessional = 0x00000A10,
+		Junkrat_Dipstick                = 0x00001107,
 		Doomfist_TryMe                  = 0x0000119A,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
@@ -139,7 +140,6 @@
 		Junkrat_voiceline_00000F4D = 0x00000F4D,
 		Junkrat_voiceline_000010C9 = 0x000010C9,
 		Junkrat_voiceline_000010CA = 0x000010CA,
-		Junkrat_voiceline_00001107 = 0x00001107,
 		Junkrat_voiceline_00001108 = 0x00001108,
 		Junkrat_voiceline_0000121B = 0x0000121B,
 
@@ -197,6 +197,7 @@
 		Mei_voiceline_00000A38 = 0x00000A38,
 		Mei_voiceline_00000A39 = 0x00000A39,
 		Mei_voiceline_00000BCE = 0x00000BCE,
+		Mei_voiceline_00000C98 = 0x00000C98,
 		Mei_voiceline_00000D85 = 0x00000D85,
 		Mei_voiceline_00000F4F = 0x00000F4F,
 		Mei_voiceline_000010CF = 0x000010CF,
@@ -256,6 +257,7 @@
 		Pharah_voiceline_00000BD6 = 0x00000BD6,
 		Pharah_voiceline_00000CA2 = 0x00000CA2,
 		Pharah_voiceline_00000D8E = 0x00000D8E,
+		Pharah_voiceline_00000F58 = 0x00000F58,
 		Pharah_voiceline_000010D5 = 0x000010D5,
 		Pharah_voiceline_000010D6 = 0x000010D6,
 		Pharah_voiceline_0000111D = 0x0000111D,

@@ -30,6 +30,7 @@
 		McCree_TheDuel               = 0x0000013F,
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
+		Zarya_MaximumCharge          = 0x00000143,
 		Soldier76_LookingAtYou       = 0x00000144,
 		Soldier76_TargetRichEnvironment = 0x00000145,
 		Soldier76_Helix              = 0x00000146,
@@ -159,7 +160,6 @@
 		Winston_intro_00000234 = 0x00000234,
 
 		Zarya_intro_00000142 = 0x00000142,
-		Zarya_intro_00000143 = 0x00000143,
 		Zarya_intro_00000226 = 0x00000226,
 		Zarya_intro_00000239 = 0x00000239,
 

@@ -6,6 +6,7 @@
 		Mercy_Celestial                   = 0x000015DC,
 		Mercy_Orchid                      = 0x000015DE,
 		Hanzo_YoungMaster                 = 0x000015E4,
+		Hanzo_Okami                       = 0x000015E7,
 		Hanzo_Classic                     = 0x000015EB,
 		Hanzo_Azuki                       = 0x000015EC,
 		Hanzo_Midori                      = 0x000015ED,
@@ -60,6 +61,7 @@
 		Genji_YoungGenji                  = 0x00001784,
 		Genji_Sparrow                     = 0x00001785,
 		Soldier76_StuntRider76            = 0x00001791,
+		Bastion_Gearbot                   = 0x00001795,
 		Junkrat_Fool                      = 0x0000179D,
 		DVa_Scavenger                     = 0x000017A1,
 		Mercy_Mist                        = 0x000018AE,
@@ -100,6 +102,7 @@
 		Zenyatta_Nutcracker               = 0x00001966,
 		Mercy_Witch                       = 0x0000196A,
 		DVa_Cruiser                       = 0x0000196C,
+		Mercy_Eidgenossin                 = 0x00001979,
 		Torbjorn_TreKronor                = 0x0000197B,
 		Genji_Nihon                       = 0x0000197C,
 		Sombra_LosMuertos                 = 0x0000198A,
@@ -111,6 +114,7 @@
 		Pharah_Bedouin                    = 0x000019E6,
 		Reaper_Shiver                     = 0x00001A07,
 		McCree_Scrooge                    = 0x00001A12,
+		Zarya_Frosted                     = 0x00001A1B,
 		Soldier76_Cyborg76                = 0x00001A1E,
 		Mercy_Fortune                     = 0x00001A2A,
 		Tracer_Rose                       = 0x00001B07,
@@ -143,7 +147,6 @@
 		Ana_skin_00001B11 = 0x00001B11,
 
 		Bastion_skin_00001629 = 0x00001629,
-		Bastion_skin_00001795 = 0x00001795,
 		Bastion_skin_00001799 = 0x00001799,
 		Bastion_skin_000018CE = 0x000018CE,
 		Bastion_skin_00001AE8 = 0x00001AE8,
@@ -173,7 +176,6 @@
 		Genji_skin_000018EA = 0x000018EA,
 
 		Hanzo_skin_000015E3 = 0x000015E3,
-		Hanzo_skin_000015E7 = 0x000015E7,
 		Hanzo_skin_000015E8 = 0x000015E8,
 		Hanzo_skin_000018B4 = 0x000018B4,
 		Hanzo_skin_000018B5 = 0x000018B5,
@@ -229,7 +231,6 @@
 		Mercy_skin_000015DD = 0x000015DD,
 		Mercy_skin_000018AF = 0x000018AF,
 		Mercy_skin_000018B0 = 0x000018B0,
-		Mercy_skin_00001979 = 0x00001979,
 
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
@@ -270,6 +271,7 @@
 		Reinhardt_skin_00001662 = 0x00001662,
 		Reinhardt_skin_000017B1 = 0x000017B1,
 		Reinhardt_skin_000018D5 = 0x000018D5,
+		Reinhardt_skin_000018D6 = 0x000018D6,
 		Reinhardt_skin_00001954 = 0x00001954,
 		Reinhardt_skin_00001991 = 0x00001991,
 
@@ -362,7 +364,6 @@
 		Zarya_skin_000018D9 = 0x000018D9,
 		Zarya_skin_00001944 = 0x00001944,
 		Zarya_skin_00001945 = 0x00001945,
-		Zarya_skin_00001A1B = 0x00001A1B,
 
 		Zenyatta_skin_000015FB = 0x000015FB,
 		Zenyatta_skin_000015FF = 0x000015FF,
