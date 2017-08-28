@@ -120,6 +120,8 @@
 		Orisa_intro_00000FF2 = 0x00000FF2,
 		Orisa_intro_00000FF4 = 0x00000FF4,
 
+		Pharah_intro_00000230 = 0x00000230, // random?
+
 		Reaper_intro_0000005B = 0x0000005B,
 		Reaper_intro_0000005C = 0x0000005C,
 		Reaper_intro_0000022E = 0x0000022E,
