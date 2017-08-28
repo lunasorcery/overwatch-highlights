@@ -9,7 +9,7 @@ namespace OverwatchHighlights
 	{
 		// by "breakables" this refers to the breakable railings on the maps (and the icicles in Ecopoint)
 		// likely also breakable vases, screens etc. - i'm not certain of these yet.
-		private Dictionary<Map, int> ms_numberOfBreakables = new Dictionary<Map, int>()
+		private static Dictionary<Map, int> ms_numberOfBreakables = new Dictionary<Map, int>()
 		{
 			{ Map.BlackForest,          96 },
 			{ Map.Castillo,            168 },
@@ -42,16 +42,16 @@ namespace OverwatchHighlights
 			{ Map.WatchpointGibraltar, 168 },
 		};
 
-		public int ticker1;
-		public int ticker2;
+		public uint ticker1;
+		public uint ticker2;
 		public int eventCount;
 		public float duration;
 		public byte[] payload;
 
 		public ReplayFrame(BinaryReader br, Map map)
 		{
-			this.ticker1 = br.ReadInt32();
-			this.ticker2 = br.ReadInt32();
+			this.ticker1 = br.ReadUInt32();
+			this.ticker2 = br.ReadUInt32();
 			int frameDataLength = br.ReadInt32();
 			this.eventCount = br.ReadInt32();
 			this.duration = br.ReadSingle();

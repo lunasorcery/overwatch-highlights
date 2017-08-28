@@ -6,7 +6,7 @@ namespace OverwatchHighlights
 {
 	class Highlight
 	{
-		private const uint MAGIC_CONSTANT = 0x036C6870; // { 'p', 'h', 'l', 0x03 }
+		private const uint MAGIC_CONSTANT = 0x6C6870; // { 'p', 'h', 'l' }
 
 		[Flags]
 		public enum UIFlags : uint
@@ -39,7 +39,7 @@ namespace OverwatchHighlights
 		}
 
 		public Checksum checksum;
-		public uint unknown9;
+		public MajorVersion majorVersion;
 		public BuildNumber buildNumber;
 		public uint playerId;
 		public UIFlags uiFlags;
@@ -64,8 +64,11 @@ namespace OverwatchHighlights
 		{
 			var filename = br.GetFilename();
 
-			uint magic = br.ReadUInt32();
+			uint magic = br.ReadUInt24();
 			Debug.Assert(magic == MAGIC_CONSTANT);
+
+			byte formatVersion = br.ReadByte();
+			Debug.Assert(formatVersion == 3);
 
 			this.checksum = new Checksum(br);
 
@@ -107,11 +110,8 @@ namespace OverwatchHighlights
 				uint unknown8 = br.ReadUInt32();    // 0?
 				Debug.Assert(unknown8 == 0);
 
-				this.unknown9 = br.ReadUInt32();    // major version number?
-				Debug.Assert(unknown9 == 138 || unknown9 == 147 || unknown9 == 146);
-				// 138 = 1.13 ptr
-				// 147 = 1.13 live
-				// 146 = 1.14 ptr
+				this.majorVersion = new MajorVersion(br);
+				Debug.Assert(this.majorVersion.IsKnownByTool(), $"Unknown major version {majorVersion}");
 
 				this.buildNumber = new BuildNumber(br);
 				Debug.Assert(buildNumber.IsKnownByTool(), $"Unknown build number {buildNumber}");
@@ -191,27 +191,31 @@ namespace OverwatchHighlights
 				Debug.Assert(replayBlock.highlightInfo == highlightInfos[0]);
 			}
 
-			if (this.highlightInfos[0].unknown1 == 4)
+			if (this.highlightInfos[0].type == HighlightInfo.HighlightType.Manual)
 			{
 				Debug.Assert(this.highlightInfos[0].unknown4 == 0);
 			}
 			else
 			{
 				Debug.Assert(this.highlightInfos[0].unknown4 != 0);
+				if (this.highlightInfos.Length > 1)
+				{
+					Debug.Assert(this.highlightInfos[0].unknown4 >= this.highlightInfos[1].unknown4);
+				}
 			}
 			Debug.Assert(this.highlightInfos[0].unknown5 > this.replayBlock.paramsBlock.startMs / 1000.0f);
 			Debug.Assert(this.highlightInfos[0].unknown5 < this.replayBlock.paramsBlock.endMs / 1000.0f);
 
-			if (this.highlightInfos[0].unknown1 != 1)
+			if (this.highlightInfos[0].type != HighlightInfo.HighlightType.POTG)
 			{
 				if (uiFlags.HasFlag(UIFlags.ManualHighlight))
-					Debug.Assert(this.highlightInfos[0].unknown1 == 4);
+					Debug.Assert(this.highlightInfos[0].type == HighlightInfo.HighlightType.Manual);
 				else
-					Debug.Assert(this.highlightInfos[0].unknown1 == 0);
+					Debug.Assert(this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5);
 			}
 
 
-			if (this.highlightInfos[0].unknown1 == 1 || this.highlightInfos[0].unknown1 == 0) // potg or top5
+			if (this.highlightInfos[0].type == HighlightInfo.HighlightType.POTG || this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5) // potg or top5
 			{
 				Debug.Assert(
 					this.highlightInfos[0].category == HighlightCategory.HighScore ||
@@ -231,7 +235,7 @@ namespace OverwatchHighlights
 			Console.WriteLine();
 			Console.WriteLine("-- Highlight Header --");
 
-			Console.WriteLine($"unknown9: {unknown9}");
+			Console.WriteLine($"unknown9: {majorVersion}");
 			Console.WriteLine($"Build: {buildNumber}");
 			Console.WriteLine($"Player Id: {playerId}");
 			Console.WriteLine($"Flags: {uiFlags}");

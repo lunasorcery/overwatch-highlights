@@ -31,6 +31,7 @@ namespace OverwatchHighlights
 			{ "19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95", Map.LijiangNightMarket  },
 			{ "b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b", Map.LijiangTower        },
 			{ "8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81", Map.Necropolis          },
+			{ "ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e", Map.Necropolis          },
 			{ "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f", Map.Nepal               },
 			{ "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a", Map.Numbani             },
 			{ "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b", Map.Oasis               },

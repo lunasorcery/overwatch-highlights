@@ -8,7 +8,7 @@ namespace OverwatchHighlights
 {
 	class Replay
 	{
-		private const uint MAGIC_CONSTANT = 0x03707270; // { 'p', 'r', 'p', 0x03 }
+		private const uint MAGIC_CONSTANT = 0x707270; // { 'p', 'r', 'p' }
 
 		public BuildNumber buildNumber;
 		public Map map;
@@ -20,8 +20,11 @@ namespace OverwatchHighlights
 
 		public Replay(BinaryReader br)
 		{
-			uint magic = br.ReadUInt32();
+			uint magic = br.ReadUInt24();
 			Debug.Assert(magic == MAGIC_CONSTANT);
+
+			byte formatVersion = br.ReadByte();
+			Debug.Assert(formatVersion == 3 || formatVersion == 4);
 
 			this.buildNumber = new BuildNumber(br);
 			Debug.Assert(this.buildNumber.IsKnownByTool(), $"Build number {buildNumber} is not known by tool");
@@ -78,13 +81,13 @@ namespace OverwatchHighlights
 			int durationNoFrame0 = (int)Math.Round(this.TotalDurationWithoutFirstFrame() * 1000);
 			Debug.Assert(Math.Abs(durationNoFrame0 - diffMs) <= 1);
 
-			Debug.Assert(this.paramsBlock.startFrame == this.replayFrames[0].ticker1 - 2);
+			Debug.Assert(this.paramsBlock.startFrame == (this.replayFrames[0].ticker1 & 0x7fffffff) - 2);
 			Debug.Assert(this.paramsBlock.endFrame == this.replayFrames[this.replayFrames.Count - 1].ticker1 - 2);
 			for (int i = 1; i < this.replayFrames.Count; ++i)
 			{
 				var lastFrame = this.replayFrames[i-1];
 				var thisFrame = this.replayFrames[i];
-				Debug.Assert(thisFrame.ticker1 - lastFrame.ticker1 == 1);
+				Debug.Assert((thisFrame.ticker1 & 0x7fffffff) - (lastFrame.ticker1 & 0x7fffffff) == 1);
 				Debug.Assert(
 					thisFrame.ticker2 - lastFrame.ticker2 <= 3 && 
 					thisFrame.ticker2 - lastFrame.ticker2 >= 0);

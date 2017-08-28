@@ -58,6 +58,7 @@
     <Compile Include="HighlightIntro.cs" />
     <Compile Include="HighlightCategory.cs" />
     <Compile Include="HighlightUUID.cs" />
+    <Compile Include="MajorVersion.cs" />
     <Compile Include="MapChecksumDB.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="HighlightInfo.cs" />

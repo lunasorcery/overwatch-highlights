@@ -7,10 +7,10 @@ namespace OverwatchHighlights
 	class HighlightInfo
 	{
 		public string playerName;
-		public byte unknown1;
+		public HighlightType type;
 		public uint unknown2;
 		public uint unknown3;
-		public float unknown4;
+		public float unknown4; // possibly a score, given that it's only for non-manual highlights...
 		public float unknown5;
 		public uint unknown6;
 		public Vec3 highlightIntroPosition;
@@ -24,14 +24,21 @@ namespace OverwatchHighlights
 		public ulong timestamp;
 		public HighlightUUID uuid;
 
+		public enum HighlightType : byte
+		{
+			Top5 = 0,
+			POTG = 1,
+			Manual = 4
+		}
+
 		public HighlightInfo(BinaryReader br)
 		{
 			// player name of the highlight protagonist (will differ for other people's POTGs)
 			this.playerName = br.ReadNullPaddedUTF8();
 
 			// 1 for potg, 0 for top5 highlight, 4 for manual highlight
-			this.unknown1 = br.ReadByte();
-			Debug.Assert(unknown1 == 0 || unknown1 == 1 || unknown1 == 4);
+			this.type = (HighlightType)br.ReadByte();
+			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
 			
 			this.unknown2 = br.ReadUInt32();
 			Debug.Assert((unknown2 & 0x80000000u) == 0x80000000u);
@@ -81,11 +88,6 @@ namespace OverwatchHighlights
 			Debug.Assert(this.unknown3 >= this.unknown2);
 		}
 
-		public bool IsPOTG()
-		{
-			return (this.unknown1 == 1);
-		}
-
 		public DateTime GetTimeUTC()
 		{
 			return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(this.timestamp);
@@ -102,7 +104,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
 			Console.WriteLine($"  Category: {category}");
-			Console.WriteLine($"  Unknown1: {unknown1}");
+			Console.WriteLine($"  Type: {type}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
 			Console.WriteLine($"  Unknown4: {unknown4}");
@@ -123,7 +125,7 @@ namespace OverwatchHighlights
 
 			if (a.playerName != b.playerName)
 				return false;
-			if (a.unknown1 != b.unknown1)
+			if (a.type != b.type)
 				return false;
 			if (a.unknown2 != b.unknown2)
 				return false;

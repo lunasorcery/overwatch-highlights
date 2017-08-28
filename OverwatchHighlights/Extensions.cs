@@ -62,6 +62,12 @@ namespace OverwatchHighlights
 			return value;
 		}
 
+		public static uint ReadUInt24(this BinaryReader br)
+		{
+			byte[] buf = br.ReadBytes(3);
+			return (uint)(buf[0] | (buf[1] << 8) | (buf[2] << 16));
+		}
+
 		public static HighlightCategory ReadHighlightCategory64(this BinaryReader br)
 		{
 			const ulong CategoryMask = 0x0830000000000000ul;

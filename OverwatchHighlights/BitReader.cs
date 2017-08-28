@@ -76,5 +76,10 @@
 			}
 			return a;
 		}
+
+		private bool CanRead()
+		{
+			return (m_index / 8) < m_buffer.Length;
+		}
 	}
 }
