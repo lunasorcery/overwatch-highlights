@@ -134,6 +134,7 @@
 		Roadhog_intro_0000014B = 0x0000014B,
 		Roadhog_intro_0000014C = 0x0000014C,
 		Roadhog_intro_00000229 = 0x00000229,
+		Roadhog_intro_0000023C = 0x0000023C,
 		Roadhog_intro_00000EAD = 0x00000EAD,
 
 		Soldier76_intro_0000023A = 0x0000023A,
