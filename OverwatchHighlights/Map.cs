@@ -36,7 +36,7 @@
 		Oasis                 = 0x0000069E,
 //		Hollywood             = 0x000006AB,
 //		KingsRow              = 0x000006B1,
-		EstadiodasRas         = 0x000006B3,
+		EstadioDasRas         = 0x000006B3,
 //		Hanamura              = 0x000006B5,
 //		LijiangTower          = 0x000006B7,
 //		Soccer                = 0x000006C0,

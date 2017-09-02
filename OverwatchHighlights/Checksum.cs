@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 
 namespace OverwatchHighlights
 {
-	struct Checksum
+	struct Checksum : IEquatable<Checksum>
 	{
 		private static byte[] ms_key;
 
@@ -23,6 +24,16 @@ namespace OverwatchHighlights
 				{
 					ms_key = null;
 				}
+			}
+		}
+
+		public Checksum(string str)
+		{
+			Debug.Assert(str.Length == 64);
+			m_data = new byte[32];
+			for (int i = 0; i < 32; ++i)
+			{
+				m_data[i] = Convert.ToByte(str.Substring(i * 2, 2), 16);
 			}
 		}
 
@@ -44,6 +55,31 @@ namespace OverwatchHighlights
 				var digest = sha256.ComputeHash(input);
 				return new Checksum() { m_data = digest };
 			}
+		}
+
+		public override bool Equals(object obj)
+		{
+			if (obj == null || GetType() != obj.GetType())
+			{
+				return false;
+			}
+			return (this == (Checksum)obj);
+		}
+
+		public bool Equals(Checksum other)
+		{
+			return (this == other);
+		}
+
+		public override int GetHashCode()
+		{
+			// wheeee awful algorithms
+			uint hashcode = 0;
+			for (int i = 0; i < 8; ++i)
+			{
+				hashcode ^= BitConverter.ToUInt32(m_data, i * 4);
+			}
+			return (int)hashcode;
 		}
 
 		public static bool operator ==(Checksum a, Checksum b)

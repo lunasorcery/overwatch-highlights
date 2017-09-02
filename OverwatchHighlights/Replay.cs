@@ -73,7 +73,7 @@ namespace OverwatchHighlights
 				this.replayFrames = new List<ReplayFrame>();
 				for (int frameIndex = 0; br2.BaseStream.Position < br2.BaseStream.Length; ++frameIndex)
 				{
-					this.replayFrames.Add(new ReplayFrame(br2, map));
+					this.replayFrames.Add(new ReplayFrame(br2, mapChecksum));
 				}
 			}
 

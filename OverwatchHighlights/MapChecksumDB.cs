@@ -19,7 +19,7 @@ namespace OverwatchHighlights
 			{ "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce", Map.EcopointAntarctica  },
 			{ "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5", Map.Eichenwalde         },
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
-			{ "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3", Map.EstadiodasRas       },
+			{ "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3", Map.EstadioDasRas       },
 			{ "2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93", Map.Hanamura            },
 			{ "9613ea6bb2479e2963b41036cc02bcfabcd193d3a856e63983a30c02e6ca3f8b", Map.Hanamura            }, // 39484
 			{ "36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14", Map.Hollywood           },
