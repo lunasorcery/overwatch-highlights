@@ -11,6 +11,7 @@ namespace OverwatchHighlights
 			{ 138, "(PTR) 1.13" },
 			{ 147, "(Live) 1.13" },
 			{ 146, "(PTR) 1.14" },
+			{ 150, "(Live) 1.14" },
 			{ 144, "(PTR) 1.15" },
 		};
 

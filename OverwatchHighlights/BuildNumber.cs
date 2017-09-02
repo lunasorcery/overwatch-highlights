@@ -28,6 +28,9 @@ namespace OverwatchHighlights
 			39241, // 19/08/2017 PTR Deathmatch
 			39358, // 24/08/2017 Live minor patch
 			39398, // 25/08/2017 PTR 1.15 Mercy & D.Va changes
+			39425, // 29/08/2017 Live 1.14 Deathmatch
+			39484, // 30/08/2017 Live 1.14 Deathmatch
+			39572, // 02/09/2017 Live replay only?
 		};
 
 		private int m_buildNumber;
