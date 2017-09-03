@@ -11,17 +11,20 @@
 		Pharah_Touchdown             = 0x00000084,
 		Pharah_Barrage               = 0x00000085,
 		Reinhardt_MoreStretchingRequired = 0x00000087,
+		Mercy_HeroesNeverDie         = 0x00000126,
 		Mercy_BattleAngel            = 0x00000128,
 		Widowmaker_SwingingIntoAction = 0x00000129,
 		Widowmaker_ISeeYou           = 0x0000012A,
 		Widowmaker_HangingAround     = 0x0000012B,
 		Hanzo_Superior               = 0x0000012C,
+		Hanzo_MyAimIsTrue            = 0x0000012D,
 		Hanzo_Backflip               = 0x0000012E,
 		Torbjorn_InYourFace          = 0x00000131,
 		Winston_PrimalRage           = 0x00000132,
 		Winston_Glasses              = 0x00000133,
 		Winston_ExcuseMe             = 0x00000134,
 		Zenyatta_HarmonyAndDiscord   = 0x00000135,
+		Zenyatta_Focused             = 0x00000136,
 		Zenyatta_Transcendence       = 0x00000137,
 		Symmetra_Dance               = 0x0000013A,
 		Bastion_OnGuard              = 0x0000013B,
@@ -30,6 +33,7 @@
 		McCree_TheDuel               = 0x0000013F,
 		McCree_TheNamesMcCree        = 0x00000140,
 		Zarya_ThisIsStrength         = 0x00000141,
+		Zarya_Deadlift               = 0x00000142,
 		Zarya_MaximumCharge          = 0x00000143,
 		Soldier76_LookingAtYou       = 0x00000144,
 		Soldier76_TargetRichEnvironment = 0x00000145,
@@ -57,6 +61,7 @@
 		McCree_Heroic                = 0x00000225,
 		Soldier76_Heroic             = 0x00000227,
 		Lucio_Heroic                 = 0x00000228,
+		Roadhog_Heroic               = 0x00000229,
 		Junkrat_Heroic               = 0x0000022A,
 		Genji_Heroic                 = 0x0000022B,
 		DVa_Heroic                   = 0x0000022C,
@@ -97,7 +102,6 @@
 
 		Genji_intro_0000023E = 0x0000023E,
 
-		Hanzo_intro_0000012D = 0x0000012D,
 		Hanzo_intro_00000232 = 0x00000232,
 		Hanzo_intro_0000113F = 0x0000113F,
 
@@ -111,7 +115,6 @@
 		Mei_intro_00000240 = 0x00000240,
 		Mei_intro_00000C38 = 0x00000C38,
 
-		Mercy_intro_00000126 = 0x00000126,
 		Mercy_intro_00000127 = 0x00000127,
 		Mercy_intro_0000021A = 0x0000021A,
 
@@ -133,7 +136,6 @@
 		Roadhog_intro_0000014A = 0x0000014A,
 		Roadhog_intro_0000014B = 0x0000014B,
 		Roadhog_intro_0000014C = 0x0000014C,
-		Roadhog_intro_00000229 = 0x00000229,
 		Roadhog_intro_0000023C = 0x0000023C,
 		Roadhog_intro_00000EAD = 0x00000EAD,
 
@@ -162,11 +164,9 @@
 		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
 
-		Zarya_intro_00000142 = 0x00000142,
 		Zarya_intro_00000226 = 0x00000226,
 		Zarya_intro_00000239 = 0x00000239,
 
-		Zenyatta_intro_00000136 = 0x00000136,
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,
 		Zenyatta_intro_00001060 = 0x00001060,
