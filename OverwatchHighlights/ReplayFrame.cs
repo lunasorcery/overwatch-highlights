@@ -36,8 +36,10 @@ namespace OverwatchHighlights
 			{ new Checksum("5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8"), 224 }, // IliosRuins
 			{ new Checksum("c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5"), 136 }, // IliosWell
 			{ new Checksum("7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63"),  72 }, // KingsRow
+			{ new Checksum("68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d"),  72 }, // KingsRow
 			{ new Checksum("19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95"), 272 }, // LijiangNightMarket
 			{ new Checksum("b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b"), 672 }, // LijiangTower
+			{ new Checksum("83b54d9666a1152555141a88907ff1b18fbbc98dd7d17760e248666b0978b729"), 672 }, // LijiangTower
 			{ new Checksum("8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81"),  72 }, // Necropolis
 			{ new Checksum("ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e"),  72 }, // Necropolis
 			{ new Checksum("9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f"), 408 }, // Nepal

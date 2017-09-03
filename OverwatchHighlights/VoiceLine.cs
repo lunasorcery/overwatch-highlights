@@ -116,6 +116,7 @@
 		Hanzo_voiceline_000008C9 = 0x000008C9,
 		Hanzo_voiceline_00000A2D = 0x00000A2D,
 		Hanzo_voiceline_00000A2E = 0x00000A2E,
+		Hanzo_voiceline_00000BC9 = 0x00000BC9,
 		Hanzo_voiceline_00000C93 = 0x00000C93,
 		Hanzo_voiceline_00000D80 = 0x00000D80,
 		Hanzo_voiceline_00000E95 = 0x00000E95,
