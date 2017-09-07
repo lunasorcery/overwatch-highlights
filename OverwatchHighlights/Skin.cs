@@ -59,6 +59,7 @@
 		DVa_BVa                           = 0x00001764,
 		Pharah_Mechaqueen                 = 0x00001768,
 		Pharah_Raptorion                  = 0x00001769,
+		Reaper_Nevermore                  = 0x00001770,
 		Reaper_PlagueDoctor               = 0x00001771,
 		Lucio_Hippityhop                  = 0x00001779,
 		Junkrat_Hayseed                   = 0x0000177D,
@@ -118,6 +119,7 @@
 		Sombra_Azucar                     = 0x0000198B,
 		Sombra_Cyberspace                 = 0x0000198C,
 		Genji_Oni                         = 0x00001994,
+		Reinhardt_Coldhardt               = 0x000019A1,
 		Hanzo_Cyberninja                  = 0x000019B0,
 		McCree_Blackwatch                 = 0x000019B6,
 		Pharah_Bedouin                    = 0x000019E6,
@@ -144,6 +146,7 @@
 		Soldier76_Grillmaster76           = 0x00001BC8,
 		Widowmaker_CotedAzur              = 0x00001BC9,
 		McCree_Lifeguard                  = 0x00001BCD,
+		Doomfist_Avatar                   = 0x00001BE4,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922 = 0x00001922,
@@ -169,7 +172,6 @@
 		Doomfist_skin_00001BD9 = 0x00001BD9,
 		Doomfist_skin_00001BDA = 0x00001BDA,
 		Doomfist_skin_00001BE3 = 0x00001BE3,
-		Doomfist_skin_00001BE4 = 0x00001BE4,
 
 		DVa_skin_00001613 = 0x00001613,
 		DVa_skin_00001614 = 0x00001614,
@@ -193,6 +195,7 @@
 		Hanzo_skin_000019A7 = 0x000019A7,
 
 		Junkrat_skin_00001607 = 0x00001607,
+		Junkrat_skin_00001608 = 0x00001608,
 		Junkrat_skin_0000177C = 0x0000177C,
 		Junkrat_skin_0000179C = 0x0000179C,
 		Junkrat_skin_00001A2D = 0x00001A2D,
@@ -263,7 +266,6 @@
 		Reaper_skin_00001698 = 0x00001698,
 		Reaper_skin_00001699 = 0x00001699,
 		Reaper_skin_0000169A = 0x0000169A,
-		Reaper_skin_00001770 = 0x00001770,
 		Reaper_skin_000018DB = 0x000018DB,
 		Reaper_skin_000018DC = 0x000018DC,
 		Reaper_skin_00001BC0 = 0x00001BC0,
@@ -328,6 +330,7 @@
 		Tracer_skin_000016F7 = 0x000016F7,
 		Tracer_skin_0000170B = 0x0000170B,
 		Tracer_skin_0000170C = 0x0000170C,
+		Tracer_skin_00001712 = 0x00001712,
 		Tracer_skin_000018F0 = 0x000018F0,
 		Tracer_skin_000018F1 = 0x000018F1,
 		Tracer_skin_000018F2 = 0x000018F2,

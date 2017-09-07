@@ -6,11 +6,13 @@
 		None                         = 0x00000000, // used by AI players
 
 		Tracer_JustInTime            = 0x00000053,
+		Reaper_ShadowStep            = 0x0000005C,
 		Reaper_DeathBlossom          = 0x0000005D,
 		Pharah_MissionComplete       = 0x00000083,
 		Pharah_Touchdown             = 0x00000084,
 		Pharah_Barrage               = 0x00000085,
 		Reinhardt_MoreStretchingRequired = 0x00000087,
+		Reinhardt_HammerDown         = 0x00000089,
 		Mercy_HeroesNeverDie         = 0x00000126,
 		Mercy_BattleAngel            = 0x00000128,
 		Widowmaker_SwingingIntoAction = 0x00000129,
@@ -46,6 +48,7 @@
 		Genji_UnsheathingTheSword    = 0x00000150,
 		Genji_WarriorsSalute         = 0x00000151,
 		Genji_Shuriken               = 0x00000152,
+		DVa_Eject                    = 0x00000153,
 		DVa_LyingAround              = 0x00000154,
 		Mei_Frosty                   = 0x00000157,
 		Tracer_Heroic                = 0x000001FB,
@@ -96,7 +99,6 @@
 		Doomfist_intro_0000118A = 0x0000118A,
 		Doomfist_intro_0000118B = 0x0000118B,
 
-		DVa_intro_00000153 = 0x00000153,
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000023F = 0x0000023F,
 
@@ -126,11 +128,9 @@
 		Pharah_intro_00000230 = 0x00000230, // random?
 
 		Reaper_intro_0000005B = 0x0000005B,
-		Reaper_intro_0000005C = 0x0000005C,
 		Reaper_intro_0000022E = 0x0000022E,
 
 		Reinhardt_intro_00000088 = 0x00000088,
-		Reinhardt_intro_00000089 = 0x00000089,
 		Reinhardt_intro_00000231 = 0x00000231,
 
 		Roadhog_intro_0000014A = 0x0000014A,
