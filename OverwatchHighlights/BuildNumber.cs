@@ -31,6 +31,7 @@ namespace OverwatchHighlights
 			39425, // 29/08/2017 Live 1.14 Deathmatch
 			39484, // 30/08/2017 Live 1.14 Deathmatch
 			39572, // 02/09/2017 Live replay only?
+			39612, // 07/09/2017 PTR 1.15 Junkertown
 		};
 
 		private int m_buildNumber;

@@ -31,6 +31,7 @@ namespace OverwatchHighlights
 			{ "081b8b4f31b795fe8909a16072239176ddab5133a05cccead47467eb723ca2a0", Map.IliosLighthouse     },
 			{ "5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8", Map.IliosRuins          },
 			{ "c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5", Map.IliosWell           },
+			{ "4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a", Map.Junkertown          },
 			{ "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63", Map.KingsRow            },
 			{ "68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d", Map.KingsRow            }, // 39484
 			{ "19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95", Map.LijiangNightMarket  },

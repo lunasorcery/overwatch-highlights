@@ -72,6 +72,7 @@
 		OasisGardens          = 0x0000074C,
 		OasisUniversity       = 0x0000074D,
 		Numbani               = 0x00000751,
+		Junkertown            = 0x00000756,
 //		KingsRow              = 0x00000764,
 //		VPPGreenRoom          = 0x0000078C,
 //		VPPGreenRoom          = 0x00000790,
