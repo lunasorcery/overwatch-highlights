@@ -26,10 +26,12 @@ namespace OverwatchHighlights
 			{ "48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d", Map.Hollywood           },
 			{ "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f", Map.HorizonLunarColony  },
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
+			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
 			{ "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb", Map.Ilios               },
 			{ "d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f", Map.Ilios               }, // 39484
 			{ "081b8b4f31b795fe8909a16072239176ddab5133a05cccead47467eb723ca2a0", Map.IliosLighthouse     },
 			{ "5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8", Map.IliosRuins          },
+			{ "1471110df70d2833bb081e00a36ed58d3a94577d3cd944a1ee62ae6f6a2e6b2c", Map.IliosRuins          }, // 39484
 			{ "c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5", Map.IliosWell           },
 			{ "4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a", Map.Junkertown          },
 			{ "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63", Map.KingsRow            },
@@ -40,6 +42,7 @@ namespace OverwatchHighlights
 			{ "8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81", Map.Necropolis          },
 			{ "ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e", Map.Necropolis          },
 			{ "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f", Map.Nepal               },
+			{ "bdc81e535ef0ffb27d4bcb9f5befeeb890b6f38970e1261c0733d047d61717f6", Map.Nepal               }, // 39484
 			{ "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a", Map.Numbani             },
 			{ "8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda", Map.Numbani             }, // 39484
 			{ "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b", Map.Oasis               },
@@ -52,6 +55,7 @@ namespace OverwatchHighlights
 			{ "7dcff5efda3d21b1ca21eb0094060a4d7bf0bbf36587ea3af34511a472df6854", Map.SydneyHarbourArena  },
 			{ "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35", Map.TempleOfAnubis      },
 			{ "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c", Map.TempleOfAnubis      }, // 39060 - tweaks for team deathmatch
+			{ "54b77a2ee88f8a3ada1ca584621325313d4f6e660b8af29d2a7af3900368bea8", Map.TempleOfAnubis      }, // 39484
 			{ "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e", Map.VolskayaIndustries  },
 			{ "f906172921603ed8744f21994f825e4c14385a671c983a233615a4bf76b3079a", Map.VolskayaIndustries  }, // 39484
 			{ "93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396", Map.WatchpointGibraltar },
