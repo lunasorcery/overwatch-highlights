@@ -720,6 +720,7 @@
 		Genji_Ornament           = 0x00000D3A,
 		Tracer_Ornament          = 0x00000D3C,
 		Widowmaker_Ornament      = 0x00000D3F,
+		Zarya_Ornament           = 0x00000D40,
 		Ana_Dance                = 0x00000D59,
 		Common_Snowmei           = 0x00000D78,
 		Common_Snowhog           = 0x00000D79,

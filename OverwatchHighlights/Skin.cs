@@ -161,6 +161,7 @@
 		Ana_skin_00001B11 = 0x00001B11,
 
 		Bastion_skin_00001629 = 0x00001629,
+		Bastion_skin_00001794 = 0x00001794,
 		Bastion_skin_00001799 = 0x00001799,
 		Bastion_skin_000018CE = 0x000018CE,
 		Bastion_skin_00001AE8 = 0x00001AE8,
@@ -268,6 +269,7 @@
 		Reaper_skin_0000169A = 0x0000169A,
 		Reaper_skin_000018DB = 0x000018DB,
 		Reaper_skin_000018DC = 0x000018DC,
+		Reaper_skin_0000195A = 0x0000195A,
 		Reaper_skin_00001BC0 = 0x00001BC0,
 
 		Reinhardt_skin_0000163B = 0x0000163B,

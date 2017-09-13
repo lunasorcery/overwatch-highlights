@@ -410,6 +410,7 @@
 		Torbjorn_voiceline_000010E4 = 0x000010E4,
 		Torbjorn_voiceline_00001111 = 0x00001111,
 		Torbjorn_voiceline_00001112 = 0x00001112,
+		Torbjorn_voiceline_0000121F = 0x0000121F,
 
 		Tracer_voiceline_00000830 = 0x00000830,
 		Tracer_voiceline_00000831 = 0x00000831,

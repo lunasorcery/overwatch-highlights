@@ -152,6 +152,7 @@
 
 		Torbjorn_intro_0000012F = 0x0000012F,
 		Torbjorn_intro_00000130 = 0x00000130,
+		Torbjorn_intro_00000233 = 0x00000233,
 
 		Tracer_intro_00000051 = 0x00000051,
 		Tracer_intro_00000052 = 0x00000052,
