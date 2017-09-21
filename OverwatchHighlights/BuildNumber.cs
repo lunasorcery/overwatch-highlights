@@ -33,6 +33,8 @@ namespace OverwatchHighlights
 			39572, // 02/09/2017 Live replay only?
 			39612, // 07/09/2017 PTR 1.15 Junkertown
 			39775, // 13/09/2017 Live replay only?
+			39823, // 20/09/2017 Live replay only?
+			39935, // 20/09/2017 Live 1.15 Junkertown
 		};
 
 		private int m_buildNumber;

@@ -38,8 +38,10 @@ namespace OverwatchHighlights
 			{ new Checksum("1471110df70d2833bb081e00a36ed58d3a94577d3cd944a1ee62ae6f6a2e6b2c"), 224 }, // IliosRuins
 			{ new Checksum("c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5"), 136 }, // IliosWell
 			{ new Checksum("4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a"), 136 }, // Junkertown
+			{ new Checksum("326f3d5d63a1c18a2fd721207b3247de5df38ef2b0b598a92fb8349b2761a54b"), 136 }, // Junkertown
 			{ new Checksum("7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63"),  72 }, // KingsRow
 			{ new Checksum("68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d"),  72 }, // KingsRow
+			{ new Checksum("70e232f37b81d37479a69f27c9f0bdcbd32cdc63dd835dc01bde604f657548f1"),  72 }, // KingsRow
 			{ new Checksum("19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95"), 272 }, // LijiangNightMarket
 			{ new Checksum("b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b"), 672 }, // LijiangTower
 			{ new Checksum("83b54d9666a1152555141a88907ff1b18fbbc98dd7d17760e248666b0978b729"), 672 }, // LijiangTower
@@ -47,6 +49,7 @@ namespace OverwatchHighlights
 			{ new Checksum("ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e"),  72 }, // Necropolis
 			{ new Checksum("9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f"), 408 }, // Nepal
 			{ new Checksum("bdc81e535ef0ffb27d4bcb9f5befeeb890b6f38970e1261c0733d047d61717f6"), 408 }, // Nepal
+			{ new Checksum("113fc7e9ae2b90872517af5783336e3f4d4fe4c999267943c42045b7db174e58"), 408 }, // Nepal
 			{ new Checksum("2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a"), 504 }, // Numbani
 			{ new Checksum("8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda"), 616 }, // Numbani wrong
 			{ new Checksum("f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b"), 688 }, // Oasis

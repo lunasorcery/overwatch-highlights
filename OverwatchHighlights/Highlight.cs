@@ -184,7 +184,8 @@ namespace OverwatchHighlights
 				(this.buildNumber == 39358 && replayBlock.buildNumber == 39221) ||
 				(this.buildNumber == 39484 && replayBlock.buildNumber == 39425) ||
 				(this.buildNumber == 39484 && replayBlock.buildNumber == 39572) ||
-				(this.buildNumber == 39484 && replayBlock.buildNumber == 39775)
+				(this.buildNumber == 39484 && replayBlock.buildNumber == 39775) ||
+				(this.buildNumber == 39935 && replayBlock.buildNumber == 39823)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
