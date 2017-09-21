@@ -651,6 +651,7 @@
 		Common_Halloween_Special = 0x00000CAD,
 		Common_Boop              = 0x00000CAE,
 		Common_RiseOfTheZomnics  = 0x00000CAF,
+		Common_TheReapening      = 0x00000CB0,
 		Sombra_Marionette        = 0x00000CC8,
 		Sombra_Cute              = 0x00000CC9,
 		Sombra_Pixel             = 0x00000CCA,

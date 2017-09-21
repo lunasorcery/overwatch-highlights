@@ -112,6 +112,7 @@
 		Genji_CarbonFiber                  = 0x000024B3,
 		Genji_CarbonFiber_Golden           = 0x000024B4,
 		Genji_Chrome                       = 0x000024B5,
+		Genji_Chrome_Golden                = 0x000024B6,
 		Symmetra_Technomancer              = 0x000024B7,
 		Symmetra_Regal                     = 0x000024B9,
 		Widowmaker_Patina                  = 0x000024C7,
@@ -311,6 +312,7 @@
 		Mercy_skin_000015D7_weapon_00001E95 = 0x00001E95,
 		Mercy_skin_000015D8_weapon_00001E97 = 0x00001E97,
 		Mercy_skin_000015DB_weapon_00001E9D = 0x00001E9D,
+		Mercy_skin_000015DB_weapon_00001E9E = 0x00001E9E,
 		Mercy_skin_000015DD_weapon_00001EA1 = 0x00001EA1,
 		Mercy_skin_000018AF_weapon_0000243B = 0x0000243B,
 		Mercy_skin_000018B0_weapon_0000243D = 0x0000243D,
@@ -373,6 +375,7 @@
 
 		Soldier76_skin_000016C8_weapon_00002077 = 0x00002077,
 		Soldier76_skin_000016C9_weapon_00002079 = 0x00002079,
+		Soldier76_skin_000016C9_weapon_0000207A = 0x0000207A,
 		Soldier76_skin_000016CA_weapon_0000207B = 0x0000207B,
 		Soldier76_skin_0000178D_weapon_000021FF = 0x000021FF,
 		Soldier76_skin_00001790_weapon_00002205 = 0x00002205,
@@ -385,6 +388,7 @@
 		Sombra_skin_0000198D_weapon_000025F1 = 0x000025F1,
 		Sombra_skin_00001A1D_weapon_00002710 = 0x00002710,
 		Sombra_skin_00001BC7_weapon_00002A62 = 0x00002A62,
+		Sombra_skin_00001BC7_weapon_00002A63 = 0x00002A63,
 
 		Symmetra_skin_000016DB_weapon_0000209D = 0x0000209D,
 		Symmetra_skin_000016E3_weapon_000020AD = 0x000020AD,
