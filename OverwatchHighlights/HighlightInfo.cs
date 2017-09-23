@@ -31,10 +31,17 @@ namespace OverwatchHighlights
 			Manual = 4
 		}
 
-		public HighlightInfo(BinaryReader br)
+		public HighlightInfo(BinaryReader br, MajorVersion gameMajorVersion)
 		{
 			// player name of the highlight protagonist (will differ for other people's POTGs)
 			this.playerName = br.ReadNullPaddedUTF8();
+
+			// wheeeeeeee
+			if (gameMajorVersion >= new MajorVersion(1, 16, VersionBranch.None))
+			{
+				byte unknown1 = br.ReadByte();
+				Debug.Assert(unknown1 == 0);
+			}
 
 			// 1 for potg, 0 for top5 highlight, 4 for manual highlight
 			this.type = (HighlightType)br.ReadByte();

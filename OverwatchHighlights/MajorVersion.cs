@@ -1,63 +1,89 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.IO;
 
 namespace OverwatchHighlights
 {
+	enum VersionBranch
+	{
+		None = 0,
+		PTR  = 1,
+		Live = 2,
+	}
+
 	struct MajorVersion
 	{
-		private static Dictionary<int, string> ms_knownVersions = new Dictionary<int, string>()
-		{
-			// yeah, I don't understand the ordering either...
-			{ 138, "(PTR) 1.13" },
-			{ 147, "(Live) 1.13" },
-			{ 146, "(PTR) 1.14" },
-			{ 150, "(Live) 1.14" },
-			{ 144, "(PTR) 1.15" },
-			{ 154, "(Live) 1.15" },
-		};
+		private int m_a, m_b;
+		private VersionBranch m_branch;
 
-		private int m_version;
+		public MajorVersion(int a, int b, VersionBranch branch)
+		{
+			m_a = a;
+			m_b = b;
+			m_branch = branch;
+		}
 
 		public MajorVersion(BinaryReader br)
 		{
-			m_version = br.ReadInt32();
-		}
+			m_a = m_b = 0;
+			m_branch = VersionBranch.None;
 
-		public static implicit operator int(MajorVersion version)
-		{
-			return version.m_version;
+			uint rawVersion = br.ReadUInt32();
+			switch (rawVersion)
+			{
+				// what the heck, blizzard?
+				case 138: Init(1, 13, VersionBranch.PTR);  break;
+				case 147: Init(1, 13, VersionBranch.Live); break;
+				case 146: Init(1, 14, VersionBranch.PTR);  break;
+				case 150: Init(1, 14, VersionBranch.Live); break;
+				case 144: Init(1, 15, VersionBranch.PTR);  break;
+				case 154: Init(1, 15, VersionBranch.Live); break;
+				case 148: Init(1, 16, VersionBranch.PTR);  break;
+				default: throw new Exception($"Unknown major version number {rawVersion}");
+			}
 		}
 
 		public bool IsKnownByTool()
 		{
-			return ms_knownVersions.ContainsKey(m_version);
+			if (this == new MajorVersion(1, 13, VersionBranch.PTR))  return true;
+			if (this == new MajorVersion(1, 13, VersionBranch.Live)) return true;
+			if (this == new MajorVersion(1, 14, VersionBranch.PTR))  return true;
+			if (this == new MajorVersion(1, 14, VersionBranch.Live)) return true;
+			if (this == new MajorVersion(1, 15, VersionBranch.PTR))  return true;
+			if (this == new MajorVersion(1, 15, VersionBranch.Live)) return true;
+			if (this == new MajorVersion(1, 16, VersionBranch.PTR))  return true;
+			return false;
+		}
+
+		private void Init(int a, int b, VersionBranch branch)
+		{
+			m_a = a;
+			m_b = b;
+			m_branch = branch;
+		}
+
+		private uint ToComparableInt()
+		{
+			return (uint)(m_a * 10000) + (uint)(m_b * 100) + (uint)m_branch;
 		}
 
 		public static bool operator ==(MajorVersion a, MajorVersion b)
 		{
-			return a.m_version == b.m_version;
+			return a.ToComparableInt() == b.ToComparableInt();
 		}
 
 		public static bool operator !=(MajorVersion a, MajorVersion b)
 		{
-			return !(a == b);
+			return a.ToComparableInt() != b.ToComparableInt();
 		}
 
-		public override bool Equals(object obj)
+		public static bool operator >=(MajorVersion a, MajorVersion b)
 		{
-			return (obj is MajorVersion) ? this == (MajorVersion)obj : false;
+			return a.ToComparableInt() >= b.ToComparableInt();
 		}
 
-		public override int GetHashCode()
+		public static bool operator <=(MajorVersion a, MajorVersion b)
 		{
-			return m_version.GetHashCode();
-		}
-
-		public override string ToString()
-		{
-			if (ms_knownVersions.ContainsKey(m_version))
-				return ms_knownVersions[m_version];
-			return $"unknown-major-version-{m_version}";
+			return a.ToComparableInt() <= b.ToComparableInt();
 		}
 	}
 }

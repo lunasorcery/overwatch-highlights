@@ -18,7 +18,7 @@ namespace OverwatchHighlights
 		public HighlightInfo highlightInfo;
 		public List<ReplayFrame> replayFrames;
 
-		public Replay(BinaryReader br)
+		public Replay(BinaryReader br, MajorVersion gameMajorVersion)
 		{
 			uint magic = br.ReadUInt24();
 			Debug.Assert(magic == MAGIC_CONSTANT);
@@ -40,7 +40,7 @@ namespace OverwatchHighlights
 			Debug.Assert(unknown2 == 0x10);
 
 			uint unknown3 = br.ReadUInt32();
-			Debug.Assert(unknown3 == 0x30);
+			Debug.Assert(unknown3 == 0x10 || unknown3 == 0x30);
 
 			this.mapChecksum = new Checksum(br);
 			Debug.Assert(MapChecksumDB.IsValidChecksumForMap(map, mapChecksum));
@@ -56,7 +56,7 @@ namespace OverwatchHighlights
 				int highlightInfoLength = br.ReadInt32();
 				using (DebugBlockLength dbl = new DebugBlockLength(highlightInfoLength, br))
 				{
-					this.highlightInfo = new HighlightInfo(br);
+					this.highlightInfo = new HighlightInfo(br, gameMajorVersion);
 				}
 			}
 

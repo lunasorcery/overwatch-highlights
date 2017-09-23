@@ -136,7 +136,7 @@ namespace OverwatchHighlights
 				this.highlightInfos = new HighlightInfo[numHighlightInfos];
 				for (int i = 0; i < numHighlightInfos; ++i)
 				{
-					highlightInfos[i] = new HighlightInfo(br);
+					highlightInfos[i] = new HighlightInfo(br, this.majorVersion);
 				}
 				Debug.Assert(br.GetFilename().StartsWith(highlightInfos[0].uuid.ToString()));
 
@@ -169,7 +169,7 @@ namespace OverwatchHighlights
 				int replayDataLength = br.ReadInt32();
 				Debug.Assert(br.BaseStream.Position + replayDataLength == br.BaseStream.Length);
 
-				replayBlock = new Replay(br);
+				replayBlock = new Replay(br, this.majorVersion);
 			}
 
 			Debug.Assert(
@@ -185,7 +185,8 @@ namespace OverwatchHighlights
 				(this.buildNumber == 39484 && replayBlock.buildNumber == 39425) ||
 				(this.buildNumber == 39484 && replayBlock.buildNumber == 39572) ||
 				(this.buildNumber == 39484 && replayBlock.buildNumber == 39775) ||
-				(this.buildNumber == 39935 && replayBlock.buildNumber == 39823)
+				(this.buildNumber == 39935 && replayBlock.buildNumber == 39823) ||
+				(this.buildNumber == 40048 && replayBlock.buildNumber == 39974)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
