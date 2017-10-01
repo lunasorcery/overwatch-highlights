@@ -84,8 +84,11 @@
 		Orisa_Heroic                 = 0x00000F65,
 		Torbjorn_MyBaby              = 0x0000104A,
 		DVa_Selfie                   = 0x0000104B,
+		Zenyatta_Perspective         = 0x00001060,
+		Hanzo_TargetPractice         = 0x0000113F,
 		Pharah_SlamDunk              = 0x00001141,
 		Doomfist_OnePunch            = 0x00001188,
+		Doomfist_Uppercut            = 0x0000118B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
 
@@ -97,7 +100,6 @@
 		Bastion_intro_00000237 = 0x00000237,
 
 		Doomfist_intro_0000118A = 0x0000118A,
-		Doomfist_intro_0000118B = 0x0000118B,
 
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000023F = 0x0000023F,
@@ -105,7 +107,6 @@
 		Genji_intro_0000023E = 0x0000023E,
 
 		Hanzo_intro_00000232 = 0x00000232,
-		Hanzo_intro_0000113F = 0x0000113F,
 
 		Lucio_intro_00000149 = 0x00000149,
 		Lucio_intro_0000023B = 0x0000023B,
@@ -170,6 +171,5 @@
 
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,
-		Zenyatta_intro_00001060 = 0x00001060,
 	};
 }
