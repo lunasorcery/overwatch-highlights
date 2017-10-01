@@ -29,6 +29,7 @@ namespace OverwatchHighlights
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
 			{ "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb", Map.Ilios               },
 			{ "d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f", Map.Ilios               }, // 39484
+			{ "1be7309f75d73ffca1e03de880ba6e1e8d78edc5ada82bdd3ae3a0607a37b919", Map.Ilios               }, // 40133
 			{ "081b8b4f31b795fe8909a16072239176ddab5133a05cccead47467eb723ca2a0", Map.IliosLighthouse     },
 			{ "5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8", Map.IliosRuins          },
 			{ "1471110df70d2833bb081e00a36ed58d3a94577d3cd944a1ee62ae6f6a2e6b2c", Map.IliosRuins          }, // 39484
@@ -50,6 +51,7 @@ namespace OverwatchHighlights
 			{ "8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda", Map.Numbani             }, // 39484
 			{ "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b", Map.Oasis               },
 			{ "e8d841ea9bfa692417c8b8635e489c84bfab1de1b2f69168066f6dd2a7ff42a6", Map.Oasis               }, // 39484
+			{ "346731542d347fa3a9b99143ade3284144da926827a94dc7cbd688c699a7c284", Map.Oasis               }, // 40133
 			{ "300eb49042dd55b06c3c697ebdabd066c6e5ed4c6f094d7bd89a8cf4bc6335cd", Map.OasisCityCenter     },
 			{ "062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f", Map.OasisGardens        },
 			{ "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6", Map.OasisUniversity     },
