@@ -39,6 +39,7 @@ namespace OverwatchHighlights
 			40011, // 23/09/2017 PTR 1.16
 			40048, // 23/09/2017 Live 1.15 Junkertown
 			40133, // 01/10/2017 Live 1.15 Junkertown
+			40407, // 15/10/2017 Live 1.16 Halloween
 		};
 
 		private int m_buildNumber;

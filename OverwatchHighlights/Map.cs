@@ -41,7 +41,7 @@
 //		LijiangTower          = 0x000006B7,
 //		Soccer                = 0x000006C0,
 //		VPPGreenRoom          = 0x000006C7,
-//		JunkensteinsRevenge   = 0x000006C9,
+		JunkensteinsRevenge   = 0x000006C9,
 //		Eichenwalde           = 0x000006CF,
 		EcopointAntarctica    = 0x000006D1,
 		HorizonLunarColony    = 0x000006D3,
@@ -80,5 +80,6 @@
 		SydneyHarbourArena    = 0x00000793,
 //		HorizonLunarColony    = 0x00000794,
 		ChateauGuillard       = 0x000007A4,
+		EichenwaldeHalloween  = 0x000007F4,
 	}
 }

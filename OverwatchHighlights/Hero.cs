@@ -29,5 +29,9 @@
 		Doomfist   = 0x0000012F,
 		Ana        = 0x0000013B,
 		Orisa      = 0x0000013E,
+
+		// Unknown AI bot heroes from the Junkenstein's Revenge gamemode
+		Junkenstein_00000175   = 0x00000175,
+		Junkenstein_00000177   = 0x00000177,
 	}
 }

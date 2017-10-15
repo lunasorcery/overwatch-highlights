@@ -38,6 +38,7 @@ namespace OverwatchHighlights
 				case 144: Init(1, 15, VersionBranch.PTR);  break;
 				case 154: Init(1, 15, VersionBranch.Live); break;
 				case 148: Init(1, 16, VersionBranch.PTR);  break;
+				case 156: Init(1, 16, VersionBranch.Live); break;
 				default: throw new Exception($"Unknown major version number {rawVersion}");
 			}
 		}
@@ -51,7 +52,13 @@ namespace OverwatchHighlights
 			if (this == new MajorVersion(1, 15, VersionBranch.PTR))  return true;
 			if (this == new MajorVersion(1, 15, VersionBranch.Live)) return true;
 			if (this == new MajorVersion(1, 16, VersionBranch.PTR))  return true;
+			if (this == new MajorVersion(1, 16, VersionBranch.Live)) return true;
 			return false;
+		}
+
+		public override string ToString()
+		{
+			return $"{m_a}.{m_b}.{m_branch}";
 		}
 
 		private void Init(int a, int b, VersionBranch branch)

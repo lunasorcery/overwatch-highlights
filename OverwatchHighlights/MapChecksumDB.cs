@@ -8,6 +8,7 @@ namespace OverwatchHighlights
 	{
 		private static Dictionary<string, Map> ms_knownChecksums = new Dictionary<string, Map>() {
 			{ "82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816", Map.BlackForest         },
+			{ "d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7", Map.BlackForest         }, // 40133
 			{ "9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5", Map.Castillo            },
 			{ "5d00a275b98301855f3af20b475ca9106f3f28eee1e4eddaccb7184491c7d032", Map.Castillo            },
 			{ "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085", Map.ChateauGuillard     }, // 39060
@@ -19,11 +20,13 @@ namespace OverwatchHighlights
 			{ "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce", Map.EcopointAntarctica  },
 			{ "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5", Map.Eichenwalde         },
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
+			{ "60418c892c1764d75d2d7e9d06a30078ed70e46caa78bca6ebc8a7ca0a91f512", Map.EichenwaldeHalloween}, // 40407
 			{ "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3", Map.EstadioDasRas       },
 			{ "2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93", Map.Hanamura            },
 			{ "9613ea6bb2479e2963b41036cc02bcfabcd193d3a856e63983a30c02e6ca3f8b", Map.Hanamura            }, // 39484
 			{ "36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14", Map.Hollywood           },
 			{ "48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d", Map.Hollywood           },
+			{ "8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e", Map.Hollywood           }, // 40133
 			{ "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f", Map.HorizonLunarColony  },
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
@@ -36,6 +39,7 @@ namespace OverwatchHighlights
 			{ "c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5", Map.IliosWell           },
 			{ "4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a", Map.Junkertown          },
 			{ "326f3d5d63a1c18a2fd721207b3247de5df38ef2b0b598a92fb8349b2761a54b", Map.Junkertown          }, // 39935
+			{ "857e4547ee48d93acd48098fe7788318fbd85e3f25f00af50b039a4fc5902e06", Map.JunkensteinsRevenge }, // 40407
 			{ "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63", Map.KingsRow            },
 			{ "68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d", Map.KingsRow            }, // 39484
 			{ "70e232f37b81d37479a69f27c9f0bdcbd32cdc63dd835dc01bde604f657548f1", Map.KingsRow            }, // 39935
@@ -47,6 +51,7 @@ namespace OverwatchHighlights
 			{ "9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f", Map.Nepal               },
 			{ "bdc81e535ef0ffb27d4bcb9f5befeeb890b6f38970e1261c0733d047d61717f6", Map.Nepal               }, // 39484
 			{ "113fc7e9ae2b90872517af5783336e3f4d4fe4c999267943c42045b7db174e58", Map.Nepal               }, // 39935
+			{ "43b41f5f83810458d1a37fed8b6f0b5882e86ca9b98a702f8144a6f5e6e35db3", Map.Nepal               }, // 40407
 			{ "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a", Map.Numbani             },
 			{ "8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda", Map.Numbani             }, // 39484
 			{ "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b", Map.Oasis               },

@@ -65,6 +65,7 @@
 		Tracer_Classic                     = 0x00002105,
 		Widowmaker_Odette                  = 0x0000210F,
 		Widowmaker_Odette_Golden           = 0x00002110,
+		Widowmaker_Noire                   = 0x00002115,
 		Widowmaker_Classic                 = 0x0000211D,
 		Widowmaker_Ciel                    = 0x0000211F,
 		DVa_BVa                            = 0x000021AD,
@@ -170,6 +171,7 @@
 		Genji_Oni                          = 0x000025FF,
 		Genji_Oni_Golden                   = 0x00002600,
 		Reinhardt_Coldhardt                = 0x00002617,
+		Hanzo_Demon                        = 0x00002623,
 		Hanzo_Cyberninja                   = 0x0000263A,
 		Hanzo_Cyberninja_Golden            = 0x0000263B,
 		McCree_Blackwatch                  = 0x00002646,
@@ -229,6 +231,7 @@
 		Ana_skin_00001950_weapon_00002578 = 0x00002578,
 		Ana_skin_0000199C_weapon_0000260D = 0x0000260D,
 		Ana_skin_00001B11_weapon_000028F6 = 0x000028F6,
+		Ana_skin_00001B11_weapon_000028F7 = 0x000028F7,
 
 		Bastion_skin_00001629_weapon_00001F39 = 0x00001F39,
 		Bastion_skin_00001794_weapon_0000220D = 0x0000220D,
@@ -265,7 +268,6 @@
 		Hanzo_skin_000018B4_weapon_00002445 = 0x00002445,
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
 		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
-		Hanzo_skin_000019A7_weapon_00002623 = 0x00002623,
 
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
 		Junkrat_skin_00001608_weapon_00001EF7 = 0x00001EF7,
@@ -298,6 +300,7 @@
 		McCree_skin_000018B9_weapon_00002450 = 0x00002450,
 		McCree_skin_00001976_weapon_000025C3 = 0x000025C3,
 		McCree_skin_00001976_weapon_000025C4 = 0x000025C4,
+		McCree_skin_00001BCA_weapon_00002A68 = 0x00002A68,
 
 		Mei_skin_00001620_weapon_00001F27 = 0x00001F27,
 		Mei_skin_00001621_weapon_00001F29 = 0x00001F29,
@@ -341,6 +344,7 @@
 		Pharah_skin_000016C2_weapon_0000206B = 0x0000206B,
 		Pharah_skin_000018E1_weapon_0000249F = 0x0000249F,
 		Pharah_skin_000019A0_weapon_00002615 = 0x00002615,
+		Pharah_skin_000019A0_weapon_00002616 = 0x00002616,
 		Pharah_skin_00001A16_weapon_00002702 = 0x00002702,
 
 		Reaper_skin_0000167B_weapon_00001FDD = 0x00001FDD,
@@ -397,6 +401,7 @@
 		Sombra_skin_00001BC7_weapon_00002A63 = 0x00002A63,
 
 		Symmetra_skin_000016DB_weapon_0000209D = 0x0000209D,
+		Symmetra_skin_000016DF_weapon_000020A5 = 0x000020A5,
 		Symmetra_skin_000016E3_weapon_000020AD = 0x000020AD,
 		Symmetra_skin_000016E4_weapon_000020AF = 0x000020AF,
 		Symmetra_skin_000016E7_weapon_000020B5 = 0x000020B5,
@@ -432,7 +437,6 @@
 		Tracer_skin_00001B66_weapon_000029A1 = 0x000029A1,
 
 		Widowmaker_skin_00001713_weapon_0000210D = 0x0000210D,
-		Widowmaker_skin_00001717_weapon_00002115 = 0x00002115,
 		Widowmaker_skin_0000171D_weapon_00002121 = 0x00002121,
 		Widowmaker_skin_0000171E_weapon_00002123 = 0x00002123,
 		Widowmaker_skin_000018F3_weapon_000024C3 = 0x000024C3,
@@ -472,5 +476,9 @@
 		Zenyatta_skin_000018BA_weapon_00002451 = 0x00002451,
 		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_000019A3_weapon_0000261B = 0x0000261B,
+
+		Junkenstein_00000175_Classic = 0x000028C6,
+		Junkenstein_00000177_Classic = 0x000028D8,
+		Reaper_skin_00001BEB_weapon_00002AA8 = 0x00002AA8,
 	}
 }

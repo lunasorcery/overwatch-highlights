@@ -5,6 +5,7 @@
 		// I've commented out a few of these
 		// I expect them to be correct but I don't have test data highlights to verify against.
 		Default              = 0x00000000,
+		JunkensteinsRevengeLockedHeroes = 0x00000003,
 		CaptureTheFlag       = 0x00000007,
 		Elimination          = 0x00000009,
 //		UprisingLockedHeroes = 0x0000000F,

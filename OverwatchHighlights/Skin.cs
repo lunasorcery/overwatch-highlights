@@ -56,6 +56,7 @@
 		Tracer_Ultraviolet                = 0x000016EC,
 		Tracer_Classic                    = 0x0000170F,
 		Widowmaker_Odette                 = 0x00001714,
+		Widowmaker_Noire                  = 0x00001717,
 		Widowmaker_Classic                = 0x0000171B,
 		Widowmaker_Ciel                   = 0x0000171C,
 		DVa_BVa                           = 0x00001764,
@@ -127,6 +128,7 @@
 		Sombra_Cyberspace                 = 0x0000198C,
 		Genji_Oni                         = 0x00001994,
 		Reinhardt_Coldhardt               = 0x000019A1,
+		Hanzo_Demon                       = 0x000019A7,
 		Hanzo_Cyberninja                  = 0x000019B0,
 		McCree_Blackwatch                 = 0x000019B6,
 		Pharah_Bedouin                    = 0x000019E6,
@@ -197,7 +199,6 @@
 		Hanzo_skin_000018B4 = 0x000018B4,
 		Hanzo_skin_000018B5 = 0x000018B5,
 		Hanzo_skin_000018B6 = 0x000018B6,
-		Hanzo_skin_000019A7 = 0x000019A7,
 
 		Junkrat_skin_00001607 = 0x00001607,
 		Junkrat_skin_00001608 = 0x00001608,
@@ -224,6 +225,7 @@
 		McCree_skin_000018B8 = 0x000018B8,
 		McCree_skin_000018B9 = 0x000018B9,
 		McCree_skin_00001976 = 0x00001976,
+		McCree_skin_00001BCA = 0x00001BCA,
 
 		Mei_skin_00001620 = 0x00001620,
 		Mei_skin_00001621 = 0x00001621,
@@ -313,6 +315,7 @@
 		Sombra_skin_00001BC7 = 0x00001BC7,
 
 		Symmetra_skin_000016DB = 0x000016DB,
+		Symmetra_skin_000016DF = 0x000016DF,
 		Symmetra_skin_000016E3 = 0x000016E3,
 		Symmetra_skin_000016E4 = 0x000016E4,
 		Symmetra_skin_000016E7 = 0x000016E7,
@@ -345,7 +348,6 @@
 		Tracer_skin_00001B66 = 0x00001B66,
 
 		Widowmaker_skin_00001713 = 0x00001713,
-		Widowmaker_skin_00001717 = 0x00001717,
 		Widowmaker_skin_0000171D = 0x0000171D,
 		Widowmaker_skin_0000171E = 0x0000171E,
 		Widowmaker_skin_000018F3 = 0x000018F3,
@@ -380,5 +382,10 @@
 		Zenyatta_skin_000018BA = 0x000018BA,
 		Zenyatta_skin_00001960 = 0x00001960,
 		Zenyatta_skin_000019A3 = 0x000019A3,
+
+		// event stuff
+		Junkenstein_00000175_Classic = 0x00001AF9,
+		Junkenstein_00000177_Classic = 0x00001B02,
+		Reaper_skin_00001BEB = 0x00001BEB,
 	}
 }

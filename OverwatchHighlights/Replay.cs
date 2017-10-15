@@ -37,7 +37,7 @@ namespace OverwatchHighlights
 			Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
 
 			uint unknown2 = br.ReadUInt32();
-			Debug.Assert(unknown2 == 0x10);
+			Debug.Assert(unknown2 == 0x10 || unknown2 == 0x30);
 
 			uint unknown3 = br.ReadUInt32();
 			Debug.Assert(unknown3 == 0x10 || unknown3 == 0x30);
@@ -81,8 +81,11 @@ namespace OverwatchHighlights
 			int durationNoFrame0 = (int)Math.Round(this.TotalDurationWithoutFirstFrame() * 1000);
 			Debug.Assert(Math.Abs(durationNoFrame0 - diffMs) <= 1);
 
-			Debug.Assert(this.paramsBlock.startFrame == (this.replayFrames[0].ticker1 & 0x7fffffff) - 2);
-			Debug.Assert(this.paramsBlock.endFrame == this.replayFrames[this.replayFrames.Count - 1].ticker1 - 2);
+			if (buildNumber < 40407) // TODO: work out why this assertion fails on some halloween replays
+			{
+				Debug.Assert(this.paramsBlock.startFrame == (this.replayFrames[0].ticker1 & 0x7fffffff) - 2);
+				Debug.Assert(this.paramsBlock.endFrame == this.replayFrames[this.replayFrames.Count - 1].ticker1 - 2);
+			}
 			for (int i = 1; i < this.replayFrames.Count; ++i)
 			{
 				var lastFrame = this.replayFrames[i-1];

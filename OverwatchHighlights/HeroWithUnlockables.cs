@@ -33,13 +33,20 @@ namespace OverwatchHighlights
 			this.hero = br.ReadHero64();
 
 			// AI players in custom matches have no HighlightIntro, no unlocks, and always use classic skins
+			// Bots in the Junkenstein/Uprising modes sometimes use non-classic skins.
 			if (highlightIntro == HighlightIntro.None)
 			{
 				Debug.Assert(this.sprays.Length == 0);
 				Debug.Assert(this.voiceLines.Length == 0);
 				Debug.Assert(this.emotes.Length == 0);
-				Debug.Assert($"{skin}" == $"{hero}_Classic");
-				Debug.Assert($"{weaponSkin}" == $"{hero}_Classic");
+				Debug.Assert(
+					($"{skin}" == $"{hero}_Classic") ||
+					(hero == Hero.Reaper && skin == Skin.Reaper_skin_00001BEB)
+				);
+				Debug.Assert(
+					($"{weaponSkin}" == $"{hero}_Classic") ||
+					(hero == Hero.Reaper && weaponSkin == WeaponSkin.Reaper_skin_00001BEB_weapon_00002AA8)
+				);
 			}
 
 			// Ensure that unlocks are correctly mapped to heroes
