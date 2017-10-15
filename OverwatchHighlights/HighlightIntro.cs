@@ -21,6 +21,7 @@
 		Hanzo_Superior               = 0x0000012C,
 		Hanzo_MyAimIsTrue            = 0x0000012D,
 		Hanzo_Backflip               = 0x0000012E,
+		Torbjorn_Refreshing          = 0x00000130,
 		Torbjorn_InYourFace          = 0x00000131,
 		Winston_PrimalRage           = 0x00000132,
 		Winston_Glasses              = 0x00000133,
@@ -139,6 +140,7 @@
 		Roadhog_intro_0000014C = 0x0000014C,
 		Roadhog_intro_0000023C = 0x0000023C,
 		Roadhog_intro_00000EAD = 0x00000EAD,
+		Roadhog_intro_00001185 = 0x00001185,
 
 		Soldier76_intro_0000023A = 0x0000023A,
 
@@ -152,7 +154,6 @@
 		Symmetra_intro_00000236 = 0x00000236,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
-		Torbjorn_intro_00000130 = 0x00000130,
 		Torbjorn_intro_00000233 = 0x00000233,
 
 		Tracer_intro_00000051 = 0x00000051,

@@ -880,7 +880,7 @@
 		Doomfist_OutOfTime       = 0x000011D2,
 		Common_BicycleKick       = 0x0000120E,
 		Common_SafeHands         = 0x0000120F,
-		Lucio_GoalBlossom        = 0x00001210,
+		Common_GoalBlossom       = 0x00001210,
 		Doomfist_ShotPut         = 0x00001232,
 		Orisa_Javelin            = 0x00001233,
 		Sombra_HighJump          = 0x00001234,
@@ -889,5 +889,12 @@
 
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
+		Hanzo_spray_000001A8 = 0x000001A8,
+		Zenyatta_spray_00000C6E = 0x00000C6E,
+		Bastion_spray_0000015A = 0x0000015A,
+		Sombra_spray_0000086D = 0x0000086D,
+		Zenyatta_spray_00000D2B = 0x00000D2B,
+		Genji_spray_000012DD = 0x000012DD,
+		Reaper_spray_00000C5D = 0x00000C5D,
 	};
 }

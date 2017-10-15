@@ -49,6 +49,7 @@
 		Bastion_voiceline_0000110D = 0x0000110D,
 		Bastion_voiceline_0000110E = 0x0000110E,
 		Bastion_voiceline_0000121E = 0x0000121E,
+		Bastion_voiceline_000012B9 = 0x000012B9,
 
 		Doomfist_voiceline_0000119E = 0x0000119E,
 		Doomfist_voiceline_0000119F = 0x0000119F,
@@ -104,6 +105,7 @@
 		Genji_voiceline_00001123 = 0x00001123,
 		Genji_voiceline_00001124 = 0x00001124,
 		Genji_voiceline_00001228 = 0x00001228,
+		Genji_voiceline_000012C3 = 0x000012C3,
 
 		Hanzo_voiceline_00000521 = 0x00000521,
 		Hanzo_voiceline_00000544 = 0x00000544,
@@ -328,6 +330,8 @@
 		Roadhog_voiceline_000010DC = 0x000010DC,
 		Roadhog_voiceline_0000111B = 0x0000111B,
 		Roadhog_voiceline_0000111C = 0x0000111C,
+		Roadhog_voiceline_00001224 = 0x00001224,
+		Roadhog_voiceline_000012BF = 0x000012BF,
 
 		Soldier76_voiceline_000007F5 = 0x000007F5,
 		Soldier76_voiceline_000007F6 = 0x000007F6,
@@ -432,6 +436,7 @@
 		Tracer_voiceline_00001127 = 0x00001127,
 		Tracer_voiceline_00001128 = 0x00001128,
 		Tracer_voiceline_0000122A = 0x0000122A,
+		Tracer_voiceline_000012C5 = 0x000012C5,
 
 		Widowmaker_voiceline_0000069A = 0x0000069A,
 		Widowmaker_voiceline_0000069D = 0x0000069D,
