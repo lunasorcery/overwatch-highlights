@@ -31,7 +31,7 @@ namespace OverwatchHighlights
 			Debug.Assert(this.endMs <= 3600 * 1000);
 
 			int numHeroes = br.ReadInt32();
-			Debug.Assert(numHeroes <= 1);
+			//Debug.Assert(numHeroes <= 1); // this assert fails on endless junkenstein events
 
 			this.heroesWithUnlockables = new HeroWithUnlockables[numHeroes];
 			for (int i = 0; i < numHeroes; ++i)

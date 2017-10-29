@@ -32,6 +32,7 @@
 
 		// Unknown AI bot heroes from the Junkenstein's Revenge gamemode
 		Junkenstein_00000175   = 0x00000175,
+		Junkenstein_00000176   = 0x00000176,
 		Junkenstein_00000177   = 0x00000177,
 	}
 }

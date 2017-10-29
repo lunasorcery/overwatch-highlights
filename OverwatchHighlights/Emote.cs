@@ -177,6 +177,7 @@
 		Torbjorn_emote_00000A7F = 0x00000A7F,
 		Torbjorn_emote_00000A80 = 0x00000A80,
 		Torbjorn_emote_00000E7F = 0x00000E7F,
+		Torbjorn_emote_000012A6 = 0x000012A6,
 
 		Tracer_emote_00000827 = 0x00000827,
 		Tracer_emote_0000082C = 0x0000082C,

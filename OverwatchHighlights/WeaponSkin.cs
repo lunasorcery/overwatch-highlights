@@ -418,6 +418,7 @@
 		Torbjorn_skin_000018D4_weapon_00002485 = 0x00002485,
 		Torbjorn_skin_00001968_weapon_000025A7 = 0x000025A7,
 		Torbjorn_skin_00001B60_weapon_00002994 = 0x00002994,
+		Torbjorn_skin_00001BCB_weapon_00002A6A = 0x00002A6A,
 
 		Tracer_skin_000016EB_weapon_000020BD = 0x000020BD,
 		Tracer_skin_000016F7_weapon_000020D5 = 0x000020D5,
@@ -478,6 +479,7 @@
 		Zenyatta_skin_000019A3_weapon_0000261B = 0x0000261B,
 
 		Junkenstein_00000175_Classic = 0x000028C6,
+		Junkenstein_00000176_Classic = 0x000028BA,
 		Junkenstein_00000177_Classic = 0x000028D8,
 		Reaper_skin_00001BEB_weapon_00002AA8 = 0x00002AA8,
 	}

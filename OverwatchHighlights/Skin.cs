@@ -332,6 +332,7 @@
 		Torbjorn_skin_000018D4 = 0x000018D4,
 		Torbjorn_skin_00001968 = 0x00001968,
 		Torbjorn_skin_00001B60 = 0x00001B60,
+		Torbjorn_skin_00001BCB = 0x00001BCB,
 
 		Tracer_skin_000016EB = 0x000016EB,
 		Tracer_skin_000016F7 = 0x000016F7,
@@ -385,6 +386,7 @@
 
 		// event stuff
 		Junkenstein_00000175_Classic = 0x00001AF9,
+		Junkenstein_00000176_Classic = 0x00001AF3,
 		Junkenstein_00000177_Classic = 0x00001B02,
 		Reaper_skin_00001BEB = 0x00001BEB,
 	}
