@@ -13,7 +13,7 @@ namespace OverwatchHighlights
 		public long endMs;
 		public HeroWithUnlockables[] heroesWithUnlockables;
 
-		public ReplayParamsBlock(BinaryReader br)
+		public ReplayParamsBlock(BinaryReader br, MajorVersion gameMajorVersion)
 		{
 			this.startFrame = br.ReadUInt32();
 			this.endFrame = br.ReadUInt32();
@@ -36,7 +36,7 @@ namespace OverwatchHighlights
 			this.heroesWithUnlockables = new HeroWithUnlockables[numHeroes];
 			for (int i = 0; i < numHeroes; ++i)
 			{
-				this.heroesWithUnlockables[i] = new HeroWithUnlockables(br);
+				this.heroesWithUnlockables[i] = new HeroWithUnlockables(br, gameMajorVersion);
 			}
 		}
 

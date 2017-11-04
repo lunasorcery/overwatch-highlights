@@ -145,7 +145,7 @@ namespace OverwatchHighlights
 				this.heroesWithUnlockables = new HeroWithUnlockables[numHeroes];
 				for (int i = 0; i < numHeroes; ++i)
 				{
-					heroesWithUnlockables[i] = new HeroWithUnlockables(br);
+					heroesWithUnlockables[i] = new HeroWithUnlockables(br, majorVersion);
 				}
 
 				// I have absolutely no idea what this section is for but it seems to be entirely predictable *shrug*

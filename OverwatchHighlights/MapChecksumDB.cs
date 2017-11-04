@@ -17,6 +17,7 @@ namespace OverwatchHighlights
 			{ "fad957e3e8209c027f135a034ddcba1f1f276ea00d9ce428f8c65fe0987cdf67", Map.ChateauGuillard     }, // 39241
 			{ "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4", Map.Dorado              },
 			{ "e2872843fc4060ad193e226d6bfdbf714175a0bb5d0ec32c2bd897c483190351", Map.Dorado              }, // 39484
+			{ "b3d198624aa53f1294664084b4ccb1738d1e2997cc87c5338d9946d7e3aa0acd", Map.Dorado              }, // 41031
 			{ "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce", Map.EcopointAntarctica  },
 			{ "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5", Map.Eichenwalde         },
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
@@ -27,6 +28,7 @@ namespace OverwatchHighlights
 			{ "36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14", Map.Hollywood           },
 			{ "48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d", Map.Hollywood           },
 			{ "8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e", Map.Hollywood           }, // 40133
+			{ "cb32eb6022a8337c174e91f56c5ab36d6e46a30fe8ab914a8c85be3648749219", Map.Hollywood           }, // 41031
 			{ "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f", Map.HorizonLunarColony  },
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
@@ -66,6 +68,7 @@ namespace OverwatchHighlights
 			{ "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35", Map.TempleOfAnubis      },
 			{ "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c", Map.TempleOfAnubis      }, // 39060 - tweaks for team deathmatch
 			{ "54b77a2ee88f8a3ada1ca584621325313d4f6e660b8af29d2a7af3900368bea8", Map.TempleOfAnubis      }, // 39484
+			{ "b774f5f1b440a55aa05bd3ad02456d533f42f3d3f815d604cde6abebefa8a445", Map.TempleOfAnubis      }, // 41031
 			{ "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e", Map.VolskayaIndustries  },
 			{ "f906172921603ed8744f21994f825e4c14385a671c983a233615a4bf76b3079a", Map.VolskayaIndustries  }, // 39484
 			{ "93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396", Map.WatchpointGibraltar },

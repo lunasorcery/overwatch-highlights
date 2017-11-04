@@ -48,7 +48,7 @@ namespace OverwatchHighlights
 			int paramsBlockLength = br.ReadInt32();
 			using (DebugBlockLength dbl = new DebugBlockLength(paramsBlockLength, br))
 			{
-				this.paramsBlock = new ReplayParamsBlock(br);
+				this.paramsBlock = new ReplayParamsBlock(br, gameMajorVersion);
 			}
 
 			if ((unknown1 & 0x4) != 0)

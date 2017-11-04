@@ -39,6 +39,7 @@ namespace OverwatchHighlights
 				case 154: Init(1, 15, VersionBranch.Live); break;
 				case 148: Init(1, 16, VersionBranch.PTR);  break;
 				case 156: Init(1, 16, VersionBranch.Live); break;
+				case 153: Init(1, 17, VersionBranch.PTR);  break;
 				default: throw new Exception($"Unknown major version number {rawVersion}");
 			}
 		}
@@ -53,6 +54,7 @@ namespace OverwatchHighlights
 			if (this == new MajorVersion(1, 15, VersionBranch.Live)) return true;
 			if (this == new MajorVersion(1, 16, VersionBranch.PTR))  return true;
 			if (this == new MajorVersion(1, 16, VersionBranch.Live)) return true;
+			if (this == new MajorVersion(1, 17, VersionBranch.PTR))  return true;
 			return false;
 		}
 

@@ -66,6 +66,12 @@ namespace OverwatchHighlights
 			// seems to be nonzero if the player starts the highlight in the air - elevation?
 			this.unknown6 = br.ReadUInt32();
 
+			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
+			{
+				uint unknown7 = br.ReadUInt32();
+				Debug.Assert(unknown7 <= 1);
+			}
+
 			this.highlightIntroPosition = br.ReadVec3();
 			Debug.Assert(highlightIntroPosition.IsFinite());
 
@@ -83,6 +89,16 @@ namespace OverwatchHighlights
 			this.hero = br.ReadHero64();
 			this.skin = br.ReadSkin64();
 			this.weaponSkin = br.ReadWeaponSkin64();
+
+			// what????
+			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
+			{
+				ulong unknown8 = br.ReadUInt64();
+				Debug.Assert(unknown8 == 0);
+				ulong unknown9 = br.ReadUInt64();
+				Debug.Assert(unknown9 == 0);
+			}
+
 			this.highlightIntro = br.ReadHighlightIntro64();
 
 			this.category = br.ReadHighlightCategory64();

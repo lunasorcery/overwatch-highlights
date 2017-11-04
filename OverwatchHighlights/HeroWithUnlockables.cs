@@ -14,7 +14,7 @@ namespace OverwatchHighlights
 		public Emote[] emotes;
 		public Hero hero;
 
-		public HeroWithUnlockables(BinaryReader br)
+		public HeroWithUnlockables(BinaryReader br, MajorVersion gameMajorVersion)
 		{
 			this.skin = br.ReadSkin32();
 			this.weaponSkin = br.ReadWeaponSkin32();
@@ -29,6 +29,13 @@ namespace OverwatchHighlights
 
 			int numEmotes = br.ReadInt32();
 			this.emotes = br.ReadEmote32s(numEmotes);
+
+			// what????
+			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
+			{
+				uint unknownInV17 = br.ReadUInt32();
+				Debug.Assert(unknownInV17 == 0xffffffff || unknownInV17 == 0x00000000 || unknownInV17 == 0x00000001);
+			}
 
 			this.hero = br.ReadHero64();
 
