@@ -58,6 +58,7 @@ namespace OverwatchHighlights
 			{ "43b41f5f83810458d1a37fed8b6f0b5882e86ca9b98a702f8144a6f5e6e35db3", Map.Nepal               }, // 40407
 			{ "2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a", Map.Numbani             },
 			{ "8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda", Map.Numbani             }, // 39484
+			{ "3c8e2f6c1924cdc9bc6180665c1fca0d32cdbb436dba9da8a0a7e57a745e3ed1", Map.Numbani             }, // 41031
 			{ "f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b", Map.Oasis               },
 			{ "e8d841ea9bfa692417c8b8635e489c84bfab1de1b2f69168066f6dd2a7ff42a6", Map.Oasis               }, // 39484
 			{ "346731542d347fa3a9b99143ade3284144da926827a94dc7cbd688c699a7c284", Map.Oasis               }, // 40133
@@ -73,6 +74,7 @@ namespace OverwatchHighlights
 			{ "b774f5f1b440a55aa05bd3ad02456d533f42f3d3f815d604cde6abebefa8a445", Map.TempleOfAnubis      }, // 41031
 			{ "10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e", Map.VolskayaIndustries  },
 			{ "f906172921603ed8744f21994f825e4c14385a671c983a233615a4bf76b3079a", Map.VolskayaIndustries  }, // 39484
+			{ "d0fd15e6465d128bc8fd1e61ddb5b2ac48f8832a3eba1abdc1bd370e6b205a48", Map.VolskayaIndustries  }, // 41031
 			{ "93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396", Map.WatchpointGibraltar },
 			{ "6e6cae336dba9ac5c75d663586b5ac8fb329ab8eff37e2c6bd8077c441a58e23", Map.WatchpointGibraltar }, // 39484
 		};
