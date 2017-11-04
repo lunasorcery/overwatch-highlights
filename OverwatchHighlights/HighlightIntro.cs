@@ -29,9 +29,12 @@
 		Zenyatta_HarmonyAndDiscord   = 0x00000135,
 		Zenyatta_Focused             = 0x00000136,
 		Zenyatta_Transcendence       = 0x00000137,
+		Symmetra_Askew               = 0x00000138,
+		Symmetra_MyReality           = 0x00000139,
 		Symmetra_Dance               = 0x0000013A,
 		Bastion_OnGuard              = 0x0000013B,
 		Bastion_Ganymede             = 0x0000013C,
+		Bastion_BulletRain           = 0x0000013D,
 		McCree_RollingIntoAction     = 0x0000013E,
 		McCree_TheDuel               = 0x0000013F,
 		McCree_TheNamesMcCree        = 0x00000140,
@@ -43,6 +46,8 @@
 		Soldier76_Helix              = 0x00000146,
 		Lucio_DropTheBeat            = 0x00000147,
 		Lucio_InTheGroove            = 0x00000148,
+		Roadhog_LittlePiggy          = 0x0000014B,
+		Roadhog_WholeHog             = 0x0000014C,
 		Junkrat_RipTire              = 0x0000014D,
 		Junkrat_Unfortunate          = 0x0000014E,
 		Junkrat_ImFlying             = 0x0000014F,
@@ -60,6 +65,7 @@
 		Reinhardt_Heroic             = 0x0000021E,
 		Hanzo_Heroic                 = 0x0000021F,
 		Torbjorn_Heroic              = 0x00000220,
+		Winston_Heroic               = 0x00000221,
 		Symmetra_Heroic              = 0x00000223,
 		Bastion_Heroic               = 0x00000224,
 		McCree_Heroic                = 0x00000225,
@@ -97,7 +103,6 @@
 		Ana_intro_00000A5B = 0x00000A5B,
 		Ana_intro_00000A7A = 0x00000A7A,
 
-		Bastion_intro_0000013D = 0x0000013D,
 		Bastion_intro_00000237 = 0x00000237,
 
 		Doomfist_intro_0000118A = 0x0000118A,
@@ -136,8 +141,6 @@
 		Reinhardt_intro_00000231 = 0x00000231,
 
 		Roadhog_intro_0000014A = 0x0000014A,
-		Roadhog_intro_0000014B = 0x0000014B,
-		Roadhog_intro_0000014C = 0x0000014C,
 		Roadhog_intro_0000023C = 0x0000023C,
 		Roadhog_intro_00000EAD = 0x00000EAD,
 		Roadhog_intro_00001185 = 0x00001185,
@@ -149,8 +152,6 @@
 		Sombra_intro_00000B0F = 0x00000B0F,
 		Sombra_intro_00000CC1 = 0x00000CC1,
 
-		Symmetra_intro_00000138 = 0x00000138,
-		Symmetra_intro_00000139 = 0x00000139,
 		Symmetra_intro_00000236 = 0x00000236,
 
 		Torbjorn_intro_0000012F = 0x0000012F,
@@ -164,7 +165,6 @@
 
 		Widowmaker_intro_0000022F = 0x0000022F,
 
-		Winston_intro_00000221 = 0x00000221,
 		Winston_intro_00000234 = 0x00000234,
 
 		Zarya_intro_00000226 = 0x00000226,

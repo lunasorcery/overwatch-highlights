@@ -230,6 +230,7 @@
 		Mercy_voiceline_000010FF = 0x000010FF,
 		Mercy_voiceline_00001100 = 0x00001100,
 		Mercy_voiceline_00001217 = 0x00001217,
+		Mercy_voiceline_000012B2 = 0x000012B2,
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
 		Orisa_voiceline_0000103F = 0x0000103F,
@@ -394,6 +395,7 @@
 		Symmetra_voiceline_00001125 = 0x00001125,
 		Symmetra_voiceline_00001126 = 0x00001126,
 		Symmetra_voiceline_00001229 = 0x00001229,
+		Symmetra_voiceline_000012C4 = 0x000012C4,
 
 		Torbjorn_voiceline_000006C0 = 0x000006C0,
 		Torbjorn_voiceline_000006C3 = 0x000006C3,

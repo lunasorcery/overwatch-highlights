@@ -92,6 +92,7 @@
 		Mei_emote_00000D50 = 0x00000D50,
 		Mei_emote_00000EA5 = 0x00000EA5,
 		Mei_emote_00000F5F = 0x00000F5F,
+		Mei_emote_0000113C = 0x0000113C,
 
 		Mercy_emote_000004F8 = 0x000004F8,
 		Mercy_emote_000004F9 = 0x000004F9,

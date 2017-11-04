@@ -45,10 +45,12 @@ namespace OverwatchHighlights
 			{ new Checksum("c12b3f4832c1428ffe360346519f84f97a067cccf3c5e28d613474fd95bfedf5"), 136 }, // IliosWell
 			{ new Checksum("4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a"), 136 }, // Junkertown
 			{ new Checksum("326f3d5d63a1c18a2fd721207b3247de5df38ef2b0b598a92fb8349b2761a54b"), 136 }, // Junkertown
+			{ new Checksum("a4a52cafba2b51922bdeda97cb7577dcab6eb51c1660e84f0ff5e9bd5e55164f"), 136 }, // Junkertown
 			{ new Checksum("857e4547ee48d93acd48098fe7788318fbd85e3f25f00af50b039a4fc5902e06"),  32 }, // JunkensteinsRevenge
 			{ new Checksum("7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63"),  72 }, // KingsRow
 			{ new Checksum("68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d"),  72 }, // KingsRow
 			{ new Checksum("70e232f37b81d37479a69f27c9f0bdcbd32cdc63dd835dc01bde604f657548f1"),  72 }, // KingsRow
+			{ new Checksum("d95dd8c99109643a7b7b5bd86690a0bb632e85a619702fe73e2a5d61ec020039"),  72 }, // KingsRow
 			{ new Checksum("19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95"), 272 }, // LijiangNightMarket
 			{ new Checksum("b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b"), 672 }, // LijiangTower
 			{ new Checksum("83b54d9666a1152555141a88907ff1b18fbbc98dd7d17760e248666b0978b729"), 672 }, // LijiangTower

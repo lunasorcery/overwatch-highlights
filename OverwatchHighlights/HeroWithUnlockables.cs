@@ -51,14 +51,14 @@ namespace OverwatchHighlights
 					(hero == Hero.Junkrat && skin == Skin.Junkrat_DrJunkenstein) ||
 					(hero == Hero.Mercy && skin == Skin.Mercy_Witch) ||
 					(hero == Hero.Reaper && skin == Skin.Reaper_skin_00001BEB) ||
-					(hero == Hero.Roadhog && skin == Skin.Roadhog_skin_0000195C)
+					(hero == Hero.Roadhog && skin == Skin.Roadhog_JunkensteinsMonster)
 				);
 				Debug.Assert(
 					($"{weaponSkin}" == $"{hero}_Classic") ||
 					(hero == Hero.Junkrat && weaponSkin == WeaponSkin.Junkrat_DrJunkenstein) ||
 					(hero == Hero.Mercy && weaponSkin == WeaponSkin.Mercy_Witch) ||
 					(hero == Hero.Reaper && weaponSkin == WeaponSkin.Reaper_skin_00001BEB_weapon_00002AA8) ||
-					(hero == Hero.Roadhog && weaponSkin == WeaponSkin.Roadhog_skin_0000195C_weapon_0000258F)
+					(hero == Hero.Roadhog && weaponSkin == WeaponSkin.Roadhog_JunkensteinsMonster)
 				);
 			}
 
