@@ -13,12 +13,15 @@ namespace OverwatchHighlights
 		public float unknown4; // possibly a score, given that it's only for non-manual highlights...
 		public float unknown5;
 		public uint unknown6;
+		public uint unknown7; // might be related to team affiliation, same as HeroWithUnlockables.unknownInV17?
 		public Vec3 highlightIntroPosition;
 		public Vec3 highlightIntroDirection;
 		public Vec3 upVector;
 		public Hero hero;
 		public Skin skin;
 		public WeaponSkin weaponSkin;
+		public ulong unknown8;
+		public ulong unknown9;
 		public HighlightIntro highlightIntro;
 		public HighlightCategory category;
 		public ulong timestamp;
@@ -68,7 +71,7 @@ namespace OverwatchHighlights
 
 			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
 			{
-				uint unknown7 = br.ReadUInt32();
+				this.unknown7 = br.ReadUInt32();
 				Debug.Assert(unknown7 <= 1);
 			}
 
@@ -90,12 +93,12 @@ namespace OverwatchHighlights
 			this.skin = br.ReadSkin64();
 			this.weaponSkin = br.ReadWeaponSkin64();
 
-			// what????
+			// at a hazy guess these might be to do with the new country-specific skins for the world cup?
 			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
 			{
-				ulong unknown8 = br.ReadUInt64();
+				this.unknown8 = br.ReadUInt64();
 				Debug.Assert(unknown8 == 0);
-				ulong unknown9 = br.ReadUInt64();
+				this.unknown9 = br.ReadUInt64();
 				Debug.Assert(unknown9 == 0);
 			}
 
@@ -133,6 +136,9 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Unknown4: {unknown4}");
 			Console.WriteLine($"  Unknown5: {unknown5}");
 			Console.WriteLine($"  Unknown6: {unknown6}");
+			Console.WriteLine($"  Unknown7: {unknown7}");
+			Console.WriteLine($"  Unknown8: {unknown8:X16}");
+			Console.WriteLine($"  Unknown9: {unknown9:X16}");
 			Console.WriteLine($"  Highlight Intro Position: {highlightIntroPosition}");
 			Console.WriteLine($"  Highlight Intro Direction: {highlightIntroDirection}");
 			Console.WriteLine($"  Up Vector: {upVector}");
@@ -160,6 +166,8 @@ namespace OverwatchHighlights
 				return false;
 			if (a.unknown6 != b.unknown6)
 				return false;
+			if (a.unknown7 != b.unknown7)
+				return false;
 			if (a.highlightIntroPosition != b.highlightIntroPosition)
 				return false;
 			if (a.highlightIntroDirection != b.highlightIntroDirection)
@@ -171,6 +179,10 @@ namespace OverwatchHighlights
 			if (a.skin != b.skin)
 				return false;
 			if (a.weaponSkin != b.weaponSkin)
+				return false;
+			if (a.unknown8 != b.unknown8)
+				return false;
+			if (a.unknown9 != b.unknown9)
 				return false;
 			if (a.highlightIntro != b.highlightIntro)
 				return false;

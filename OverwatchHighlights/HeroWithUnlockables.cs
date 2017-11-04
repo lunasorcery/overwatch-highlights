@@ -12,6 +12,7 @@ namespace OverwatchHighlights
 		public Spray[] sprays;
 		public VoiceLine[] voiceLines;
 		public Emote[] emotes;
+		public int unknownInV17;
 		public Hero hero;
 
 		public HeroWithUnlockables(BinaryReader br, MajorVersion gameMajorVersion)
@@ -30,11 +31,11 @@ namespace OverwatchHighlights
 			int numEmotes = br.ReadInt32();
 			this.emotes = br.ReadEmote32s(numEmotes);
 
-			// what????
+			// might be to do with team affiliation? seems to be either 0 or 1 depending on team - not sure about -1??
 			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
 			{
-				uint unknownInV17 = br.ReadUInt32();
-				Debug.Assert(unknownInV17 == 0xffffffff || unknownInV17 == 0x00000000 || unknownInV17 == 0x00000001);
+				this.unknownInV17 = br.ReadInt32();
+				Debug.Assert(unknownInV17 == -1 || unknownInV17 == 0 || unknownInV17 == 1);
 			}
 
 			this.hero = br.ReadHero64();
@@ -76,6 +77,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Sprays:           [{(string.Join(", ", sprays))}]");
 			Console.WriteLine($"  Voice Lines:      [{(string.Join(", ", voiceLines))}]");
 			Console.WriteLine($"  Emotes:           [{(string.Join(", ", emotes))}]");
+			Console.WriteLine($"  Unknown In V17:   {unknownInV17}");
 			Console.WriteLine("}");
 		}
 	}
