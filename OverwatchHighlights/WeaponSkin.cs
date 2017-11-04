@@ -3,6 +3,7 @@
 	enum WeaponSkin : uint
 	{
 		Mercy_Valkyrie                     = 0x00001E8D,
+		Mercy_Valkyrie_Golden              = 0x00001E8E,
 		Mercy_Sigrun                       = 0x00001E8F,
 		Mercy_Celestial                    = 0x00001E9F,
 		Mercy_Orchid                       = 0x00001EA3,
@@ -31,6 +32,7 @@
 		DVa_LemonLime                      = 0x00001F11,
 		DVa_Tangerine                      = 0x00001F13,
 		Mei_Classic                        = 0x00001F25,
+		Mei_Classic_Golden                 = 0x00001F26,
 		Bastion_Overgrown                  = 0x00001F2D,
 		Bastion_Classic                    = 0x00001F35,
 		Bastion_Classic_Golden             = 0x00001F36,
@@ -66,6 +68,7 @@
 		Genji_Malachite                    = 0x00002099,
 		Symmetra_Goddess                   = 0x0000209F,
 		Symmetra_Vishkar                   = 0x000020AD,
+		Symmetra_Architech                 = 0x000020AF,
 		Symmetra_Cardamom                  = 0x000020B9,
 		Symmetra_Saffron                   = 0x000020BB,
 		Tracer_Punk                        = 0x000020BD,
@@ -412,7 +415,6 @@
 
 		Symmetra_skin_000016DB_weapon_0000209D = 0x0000209D,
 		Symmetra_skin_000016DF_weapon_000020A5 = 0x000020A5,
-		Symmetra_skin_000016E4_weapon_000020AF = 0x000020AF,
 		Symmetra_skin_000016E7_weapon_000020B5 = 0x000020B5,
 		Symmetra_skin_000016E8_weapon_000020B7 = 0x000020B7,
 		Symmetra_skin_00001998_weapon_00002607 = 0x00002607,

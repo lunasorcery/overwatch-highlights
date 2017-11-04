@@ -56,6 +56,7 @@
 		Genji_Malachite                   = 0x000016D9,
 		Symmetra_Goddess                  = 0x000016DC,
 		Symmetra_Vishkar                  = 0x000016E3,
+		Symmetra_Architech                = 0x000016E4,
 		Symmetra_Cardamom                 = 0x000016E9,
 		Symmetra_Saffron                  = 0x000016EA,
 		Tracer_Punk                       = 0x000016EB,
@@ -325,7 +326,6 @@
 
 		Symmetra_skin_000016DB = 0x000016DB,
 		Symmetra_skin_000016DF = 0x000016DF,
-		Symmetra_skin_000016E4 = 0x000016E4,
 		Symmetra_skin_000016E7 = 0x000016E7,
 		Symmetra_skin_000016E8 = 0x000016E8,
 		Symmetra_skin_00001998 = 0x00001998,
