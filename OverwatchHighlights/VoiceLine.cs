@@ -460,6 +460,7 @@
 		Widowmaker_voiceline_00001129 = 0x00001129,
 		Widowmaker_voiceline_0000112A = 0x0000112A,
 		Widowmaker_voiceline_0000122B = 0x0000122B,
+		Widowmaker_voiceline_000012C6 = 0x000012C6,
 
 		Winston_voiceline_00000851 = 0x00000851,
 		Winston_voiceline_00000853 = 0x00000853,

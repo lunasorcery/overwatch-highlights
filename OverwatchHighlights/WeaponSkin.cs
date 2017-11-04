@@ -129,6 +129,7 @@
 		Soldier76_Bone                     = 0x000024A7,
 		Soldier76_Bone_Golden              = 0x000024A8,
 		Soldier76_Golden                   = 0x000024A9,
+		Soldier76_Golden_Golden            = 0x000024AA,
 		Genji_CarbonFiber                  = 0x000024B3,
 		Genji_CarbonFiber_Golden           = 0x000024B4,
 		Genji_Chrome                       = 0x000024B5,
