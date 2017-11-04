@@ -13,7 +13,7 @@ namespace OverwatchHighlights
 		public float unknown4; // possibly a score, given that it's only for non-manual highlights...
 		public float unknown5;
 		public uint unknown6;
-		public uint unknown7; // might be related to team affiliation, same as HeroWithUnlockables.unknownInV17?
+		public uint unknown7;
 		public Vec3 highlightIntroPosition;
 		public Vec3 highlightIntroDirection;
 		public Vec3 upVector;
@@ -71,8 +71,9 @@ namespace OverwatchHighlights
 
 			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
 			{
+				// 0 for defense team, 1 for attack team. not sure how this handles oasis/nepal/ilios/lijiangtower yet
 				this.unknown7 = br.ReadUInt32();
-				Debug.Assert(unknown7 <= 1);
+				Debug.Assert(unknown7 == 0 || unknown7 == 1);
 			}
 
 			this.highlightIntroPosition = br.ReadVec3();
