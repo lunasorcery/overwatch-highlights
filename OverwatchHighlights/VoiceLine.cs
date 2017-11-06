@@ -232,6 +232,13 @@
 		Mercy_voiceline_00001217 = 0x00001217,
 		Mercy_voiceline_000012B2 = 0x000012B2,
 
+		Moira_voiceline_000012EB = 0x000012EB,
+		Moira_voiceline_00001355 = 0x00001355,
+		Moira_voiceline_00001356 = 0x00001356,
+		Moira_voiceline_00001357 = 0x00001357,
+		Moira_voiceline_0000135A = 0x0000135A,
+		Moira_voiceline_0000135C = 0x0000135C,
+
 		Orisa_voiceline_00000F66 = 0x00000F66,
 		Orisa_voiceline_0000103F = 0x0000103F,
 		Orisa_voiceline_00001040 = 0x00001040,

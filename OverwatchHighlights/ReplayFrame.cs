@@ -54,6 +54,7 @@ namespace OverwatchHighlights
 			{ new Checksum("19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95"), 272 }, // LijiangNightMarket
 			{ new Checksum("b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b"), 672 }, // LijiangTower
 			{ new Checksum("83b54d9666a1152555141a88907ff1b18fbbc98dd7d17760e248666b0978b729"), 672 }, // LijiangTower
+			{ new Checksum("3b07908c0ae62176f63d5c784db72b4e1e636d7e1f1182c131b49b8e5aed1a84"), 672 }, // LijiangTower
 			{ new Checksum("8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81"),  72 }, // Necropolis
 			{ new Checksum("ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e"),  72 }, // Necropolis
 			{ new Checksum("9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f"), 408 }, // Nepal

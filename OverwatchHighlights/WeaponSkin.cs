@@ -347,6 +347,11 @@
 		Mercy_skin_000018AF_weapon_0000243B = 0x0000243B,
 		Mercy_skin_000018B0_weapon_0000243D = 0x0000243D,
 
+		Moira_skin_00001BE8_weapon_00002AA2 = 0x00002AA2,
+		Moira_skin_00001C42_weapon_00002B56 = 0x00002B56,
+		Moira_skin_00001C79_weapon_00002BC2 = 0x00002BC2,
+		Moira_skin_00001C79_weapon_00002BC3 = 0x00002BC3,
+
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
 		Orisa_skin_00001934_weapon_0000253F = 0x0000253F,
 		Orisa_skin_00001935_weapon_00002541 = 0x00002541,
@@ -449,6 +454,7 @@
 		Widowmaker_skin_00001713_weapon_0000210D = 0x0000210D,
 		Widowmaker_skin_0000171D_weapon_00002121 = 0x00002121,
 		Widowmaker_skin_0000171E_weapon_00002123 = 0x00002123,
+		Widowmaker_skin_0000171E_weapon_00002124 = 0x00002124,
 		Widowmaker_skin_000018F3_weapon_000024C3 = 0x000024C3,
 		Widowmaker_skin_000018F4_weapon_000024C5 = 0x000024C5,
 		Widowmaker_skin_00001918_weapon_0000250D = 0x0000250D,
@@ -473,6 +479,7 @@
 		Zarya_skin_00001944_weapon_0000255F = 0x0000255F,
 		Zarya_skin_00001944_weapon_00002560 = 0x00002560,
 		Zarya_skin_00001945_weapon_00002561 = 0x00002561,
+		Zarya_skin_0000196E_weapon_000025B3 = 0x000025B3,
 
 		Zenyatta_skin_000015FB_weapon_00001EDD = 0x00001EDD,
 		Zenyatta_skin_000015FF_weapon_00001EE5 = 0x00001EE5,
@@ -485,9 +492,9 @@
 		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_000019A3_weapon_0000261B = 0x0000261B,
 
-		Junkenstein_00000175_Classic = 0x000028C6,
-		Junkenstein_00000176_Classic = 0x000028BA,
-		Junkenstein_00000177_Classic = 0x000028D8,
+		JunkensteinEvent_00000175_Classic = 0x000028C6,
+		JunkensteinEvent_00000176_Classic = 0x000028BA,
+		JunkensteinEvent_00000177_Classic = 0x000028D8,
 		Reaper_skin_00001BEB_weapon_00002AA8 = 0x00002AA8,
 	}
 }

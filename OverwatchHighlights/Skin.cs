@@ -261,6 +261,10 @@
 		Mercy_skin_000018AF = 0x000018AF,
 		Mercy_skin_000018B0 = 0x000018B0,
 
+		Moira_skin_00001BE8 = 0x00001BE8,
+		Moira_skin_00001C42 = 0x00001C42,
+		Moira_skin_00001C79 = 0x00001C79,
+
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
 		Orisa_skin_00001935 = 0x00001935,
@@ -377,6 +381,7 @@
 		Zarya_skin_000018D9 = 0x000018D9,
 		Zarya_skin_00001944 = 0x00001944,
 		Zarya_skin_00001945 = 0x00001945,
+		Zarya_skin_0000196E = 0x0000196E,
 
 		Zenyatta_skin_000015FB = 0x000015FB,
 		Zenyatta_skin_000015FF = 0x000015FF,
@@ -388,9 +393,9 @@
 		Zenyatta_skin_000019A3 = 0x000019A3,
 
 		// event stuff
-		Junkenstein_00000175_Classic = 0x00001AF9,
-		Junkenstein_00000176_Classic = 0x00001AF3,
-		Junkenstein_00000177_Classic = 0x00001B02,
+		JunkensteinEvent_00000175_Classic = 0x00001AF9,
+		JunkensteinEvent_00000176_Classic = 0x00001AF3,
+		JunkensteinEvent_00000177_Classic = 0x00001B02,
 		Reaper_skin_00001BEB = 0x00001BEB,
 	}
 }

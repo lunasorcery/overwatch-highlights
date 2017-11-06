@@ -897,5 +897,6 @@
 		Genji_spray_000012DD = 0x000012DD,
 		Reaper_spray_00000C5D = 0x00000C5D,
 		Bastion_spray_0000026E = 0x0000026E,
+		Mei_spray_00000639 = 0x00000639,
 	};
 }

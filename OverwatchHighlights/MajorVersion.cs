@@ -39,7 +39,8 @@ namespace OverwatchHighlights
 				case 154: Init(1, 15, VersionBranch.Live); break;
 				case 148: Init(1, 16, VersionBranch.PTR);  break;
 				case 156: Init(1, 16, VersionBranch.Live); break;
-				case 153: Init(1, 17, VersionBranch.PTR);  break;
+				case 153: Init(1, 17, VersionBranch.PTR);  break; // 1.17.0.0
+				case 161: Init(1, 17, VersionBranch.PTR);  break; // 1.17.0.1
 				default: throw new Exception($"Unknown major version number {rawVersion}");
 			}
 		}

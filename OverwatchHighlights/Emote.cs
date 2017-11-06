@@ -102,6 +102,12 @@
 		Mercy_emote_00000A4E = 0x00000A4E,
 		Mercy_emote_00000CAA = 0x00000CAA,
 
+		Moira_emote_000012EC = 0x000012EC,
+		Moira_emote_000012ED = 0x000012ED,
+		Moira_emote_00001329 = 0x00001329,
+		Moira_emote_00001351 = 0x00001351,
+		Moira_emote_00001352 = 0x00001352,
+
 		Orisa_emote_00000F63 = 0x00000F63,
 		Orisa_emote_00000FEB = 0x00000FEB,
 		Orisa_emote_00000FEC = 0x00000FEC,
