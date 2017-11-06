@@ -98,6 +98,7 @@
 		Doomfist_Uppercut            = 0x0000118B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
+		Moira_Heroic                 = 0x000012EA,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_intro_00000A5B = 0x00000A5B,
@@ -127,7 +128,6 @@
 		Mercy_intro_00000127 = 0x00000127,
 		Mercy_intro_0000021A = 0x0000021A,
 
-		Moira_intro_000012EA = 0x000012EA,
 		Moira_intro_000012FE = 0x000012FE,
 
 		Orisa_intro_00000F68 = 0x00000F68,

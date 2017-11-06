@@ -100,6 +100,7 @@
 		Soldier76_Jet                     = 0x000018E4,
 		Soldier76_Bone                    = 0x000018E5,
 		Soldier76_Golden                  = 0x000018E6,
+		Winston_Horizon                   = 0x000018E9,
 		Genji_CarbonFiber                 = 0x000018EB,
 		Genji_Chrome                      = 0x000018EC,
 		Symmetra_Technomancer             = 0x000018ED,
@@ -137,6 +138,7 @@
 		Sombra_Azucar                     = 0x0000198B,
 		Sombra_Cyberspace                 = 0x0000198C,
 		Genji_Oni                         = 0x00001994,
+		Bastion_Tombstone                 = 0x0000199F,
 		Reinhardt_Coldhardt               = 0x000019A1,
 		Hanzo_Demon                       = 0x000019A7,
 		Hanzo_Cyberninja                  = 0x000019B0,
@@ -168,6 +170,7 @@
 		Widowmaker_CotedAzur              = 0x00001BC9,
 		McCree_Lifeguard                  = 0x00001BCD,
 		Doomfist_Avatar                   = 0x00001BE4,
+		Moira_Moon                        = 0x00001C79,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922 = 0x00001922,
@@ -186,7 +189,6 @@
 		Bastion_skin_00001798 = 0x00001798,
 		Bastion_skin_00001799 = 0x00001799,
 		Bastion_skin_000018CE = 0x000018CE,
-		Bastion_skin_0000199F = 0x0000199F,
 		Bastion_skin_00001AE8 = 0x00001AE8,
 		Bastion_skin_00001B93 = 0x00001B93,
 
@@ -263,7 +265,6 @@
 
 		Moira_skin_00001BE8 = 0x00001BE8,
 		Moira_skin_00001C42 = 0x00001C42,
-		Moira_skin_00001C79 = 0x00001C79,
 
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
@@ -369,7 +370,6 @@
 		Winston_skin_000016D5 = 0x000016D5,
 		Winston_skin_000018E7 = 0x000018E7,
 		Winston_skin_000018E8 = 0x000018E8,
-		Winston_skin_000018E9 = 0x000018E9,
 		Winston_skin_0000197F = 0x0000197F,
 
 		Zarya_skin_00001663 = 0x00001663,

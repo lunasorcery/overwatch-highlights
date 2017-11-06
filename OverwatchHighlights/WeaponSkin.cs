@@ -130,6 +130,7 @@
 		Soldier76_Bone_Golden              = 0x000024A8,
 		Soldier76_Golden                   = 0x000024A9,
 		Soldier76_Golden_Golden            = 0x000024AA,
+		Winston_Horizon                    = 0x000024AF,
 		Genji_CarbonFiber                  = 0x000024B3,
 		Genji_CarbonFiber_Golden           = 0x000024B4,
 		Genji_Chrome                       = 0x000024B5,
@@ -188,6 +189,7 @@
 		Sombra_Cyberspace_Golden           = 0x000025F0,
 		Genji_Oni                          = 0x000025FF,
 		Genji_Oni_Golden                   = 0x00002600,
+		Bastion_Tombstone                  = 0x00002613,
 		Reinhardt_Coldhardt                = 0x00002617,
 		Hanzo_Demon                        = 0x00002623,
 		Hanzo_Cyberninja                   = 0x0000263A,
@@ -235,6 +237,8 @@
 		McCree_Lifeguard                   = 0x00002A6E,
 		Doomfist_Avatar                    = 0x00002A9A,
 		Doomfist_Avatar_Golden             = 0x00002A9B,
+		Moira_Moon                         = 0x00002BC2,
+		Moira_Moon_Golden                  = 0x00002BC3,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922_weapon_0000251B = 0x0000251B,
@@ -257,7 +261,6 @@
 		Bastion_skin_00001798_weapon_00002215 = 0x00002215,
 		Bastion_skin_00001799_weapon_00002217 = 0x00002217,
 		Bastion_skin_000018CE_weapon_00002479 = 0x00002479,
-		Bastion_skin_0000199F_weapon_00002613 = 0x00002613,
 		Bastion_skin_00001AE8_weapon_000028A4 = 0x000028A4,
 		Bastion_skin_00001AE8_weapon_000028A5 = 0x000028A5,
 		Bastion_skin_00001B93_weapon_000029FA = 0x000029FA,
@@ -349,8 +352,6 @@
 
 		Moira_skin_00001BE8_weapon_00002AA2 = 0x00002AA2,
 		Moira_skin_00001C42_weapon_00002B56 = 0x00002B56,
-		Moira_skin_00001C79_weapon_00002BC2 = 0x00002BC2,
-		Moira_skin_00001C79_weapon_00002BC3 = 0x00002BC3,
 
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
 		Orisa_skin_00001934_weapon_0000253F = 0x0000253F,
@@ -465,7 +466,6 @@
 		Winston_skin_000016D5_weapon_00002091 = 0x00002091,
 		Winston_skin_000018E7_weapon_000024AB = 0x000024AB,
 		Winston_skin_000018E8_weapon_000024AD = 0x000024AD,
-		Winston_skin_000018E9_weapon_000024AF = 0x000024AF,
 		Winston_skin_0000197F_weapon_000025D5 = 0x000025D5,
 		Winston_skin_0000197F_weapon_000025D6 = 0x000025D6,
 
