@@ -898,5 +898,7 @@
 		Reaper_spray_00000C5D = 0x00000C5D,
 		Bastion_spray_0000026E = 0x0000026E,
 		Mei_spray_00000639 = 0x00000639,
+		Bastion_spray_00000EE2 = 0x00000EE2,
+		Orisa_spray_000012DF = 0x000012DF,
 	};
 }

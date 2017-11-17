@@ -282,6 +282,7 @@
 		DVa_skin_00001A19_weapon_00002708 = 0x00002708,
 		DVa_skin_00001A19_weapon_00002709 = 0x00002709,
 
+		Genji_skin_000016D8_weapon_00002097 = 0x00002097,
 		Genji_skin_000016DA_weapon_0000209B = 0x0000209B,
 		Genji_skin_00001789_weapon_000021F7 = 0x000021F7,
 		Genji_skin_00001789_weapon_000021F8 = 0x000021F8,

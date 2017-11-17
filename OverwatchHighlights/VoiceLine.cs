@@ -84,6 +84,7 @@
 		DVa_voiceline_00001115 = 0x00001115,
 		DVa_voiceline_00001116 = 0x00001116,
 		DVa_voiceline_00001221 = 0x00001221,
+		DVa_voiceline_000012BC = 0x000012BC,
 
 		Genji_voiceline_0000076D = 0x0000076D,
 		Genji_voiceline_0000076E = 0x0000076E,
@@ -256,6 +257,8 @@
 		Orisa_voiceline_000010FE = 0x000010FE,
 		Orisa_voiceline_0000122E = 0x0000122E,
 		Orisa_voiceline_0000122F = 0x0000122F,
+		Orisa_voiceline_000012C7 = 0x000012C7,
+		Orisa_voiceline_000012CA = 0x000012CA,
 
 		Pharah_voiceline_000007C2 = 0x000007C2,
 		Pharah_voiceline_000007C4 = 0x000007C4,
@@ -382,6 +385,7 @@
 		Sombra_voiceline_00001110 = 0x00001110,
 		Sombra_voiceline_0000122D = 0x0000122D,
 		Sombra_voiceline_00001231 = 0x00001231,
+		Sombra_voiceline_000012CC = 0x000012CC,
 
 		Symmetra_voiceline_00000808 = 0x00000808,
 		Symmetra_voiceline_0000080D = 0x0000080D,
@@ -424,6 +428,7 @@
 		Torbjorn_voiceline_00001111 = 0x00001111,
 		Torbjorn_voiceline_00001112 = 0x00001112,
 		Torbjorn_voiceline_0000121F = 0x0000121F,
+		Torbjorn_voiceline_000012BA = 0x000012BA,
 
 		Tracer_voiceline_00000830 = 0x00000830,
 		Tracer_voiceline_00000831 = 0x00000831,
@@ -489,6 +494,7 @@
 		Winston_voiceline_00001121 = 0x00001121,
 		Winston_voiceline_00001122 = 0x00001122,
 		Winston_voiceline_00001227 = 0x00001227,
+		Winston_voiceline_000012C2 = 0x000012C2,
 
 		Zarya_voiceline_0000071C = 0x0000071C,
 		Zarya_voiceline_0000071F = 0x0000071F,

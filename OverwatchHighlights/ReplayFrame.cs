@@ -25,10 +25,12 @@ namespace OverwatchHighlights
 			{ new Checksum("b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce"), 104 }, // EcopointAntarctica
 			{ new Checksum("fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5"), 296 }, // Eichenwalde
 			{ new Checksum("e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67"), 296 }, // Eichenwalde
+			{ new Checksum("139e122a54ae3484ffb2455aa71b955f690a10dc874f7f0cdb8e41be83a60b45"), 296 }, // Eichenwalde
 			{ new Checksum("60418c892c1764d75d2d7e9d06a30078ed70e46caa78bca6ebc8a7ca0a91f512"), 432 }, // EichenwaldeHalloween
 			{ new Checksum("df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3"),   0 }, // EstadioDasRas
 			{ new Checksum("2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93"), 256 }, // Hanamura
 			{ new Checksum("9613ea6bb2479e2963b41036cc02bcfabcd193d3a856e63983a30c02e6ca3f8b"), 256 }, // Hanamura
+			{ new Checksum("1a43b2208aafa8e0865447bc9e43364689a4d407cea827b793b54b06bef150ad"), 256 }, // Hanamura
 			{ new Checksum("36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14"), 496 }, // Hollywood
 			{ new Checksum("48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d"), 496 }, // Hollywood
 			{ new Checksum("8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e"), 496 }, // Hollywood
@@ -83,6 +85,7 @@ namespace OverwatchHighlights
 			{ new Checksum("d0fd15e6465d128bc8fd1e61ddb5b2ac48f8832a3eba1abdc1bd370e6b205a48"), 424 }, // VolskayaIndustries
 			{ new Checksum("93192744736714cb3597d926b6d43eecbf62b1ef6950647f4b6f48b6278cc396"), 168 }, // WatchpointGibraltar
 			{ new Checksum("6e6cae336dba9ac5c75d663586b5ac8fb329ab8eff37e2c6bd8077c441a58e23"), 168 }, // WatchpointGibraltar
+			{ new Checksum("597c717b53e0d32bcb160017cc15ece5105c9caa62c6d7365013bfdf0ff6369c"), 168 }, // WatchpointGibraltar
 		};
 
 		public uint ticker1;

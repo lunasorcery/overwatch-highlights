@@ -206,6 +206,7 @@
 		DVa_skin_000018C8 = 0x000018C8,
 		DVa_skin_00001A19 = 0x00001A19,
 
+		Genji_skin_000016D8 = 0x000016D8,
 		Genji_skin_000016DA = 0x000016DA,
 		Genji_skin_00001789 = 0x00001789,
 		Genji_skin_000018EA = 0x000018EA,

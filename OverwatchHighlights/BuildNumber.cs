@@ -44,6 +44,7 @@ namespace OverwatchHighlights
 			40990, // 03/10/2017 Live 1.16
 			41031, // 03/11/2017 PTR 1.17.0.0
 			41119, // 03/11/2017 PTR 1.17.0.1 Moira
+			41350, // 17/11/2017 Live 1.17.0.2 Moira
 		};
 
 		private int m_buildNumber;
