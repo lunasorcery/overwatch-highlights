@@ -116,6 +116,7 @@
 		Junkrat_Toasted_Golden             = 0x0000245C,
 		Doomfist_Painted                   = 0x00002465,
 		Doomfist_Leopard                   = 0x00002467,
+		Doomfist_Leopard_Golden            = 0x00002468,
 		Bastion_Soot                       = 0x00002475,
 		Bastion_OmnicCrisis                = 0x00002477,
 		Sombra_Noche                       = 0x0000247B,
@@ -248,11 +249,13 @@
 		Ana_skin_00001926_weapon_00002524 = 0x00002524,
 		Ana_skin_00001927_weapon_00002525 = 0x00002525,
 		Ana_skin_0000194A_weapon_0000256B = 0x0000256B,
+		Ana_skin_0000194A_weapon_0000256C = 0x0000256C,
 		Ana_skin_0000194B_weapon_0000256D = 0x0000256D,
 		Ana_skin_0000194B_weapon_0000256E = 0x0000256E,
 		Ana_skin_00001950_weapon_00002577 = 0x00002577,
 		Ana_skin_00001950_weapon_00002578 = 0x00002578,
 		Ana_skin_0000199C_weapon_0000260D = 0x0000260D,
+		Ana_skin_00001B0F_weapon_000028F2 = 0x000028F2,
 		Ana_skin_00001B11_weapon_000028F6 = 0x000028F6,
 		Ana_skin_00001B11_weapon_000028F7 = 0x000028F7,
 
@@ -297,6 +300,7 @@
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
 		Junkrat_skin_00001608_weapon_00001EF7 = 0x00001EF7,
 		Junkrat_skin_0000179C_weapon_0000221D = 0x0000221D,
+		Junkrat_skin_0000179C_weapon_0000221E = 0x0000221E,
 		Junkrat_skin_00001A2D_weapon_0000272E = 0x0000272E,
 
 		Lucio_skin_0000160C_weapon_00001EFF = 0x00001EFF,
@@ -353,6 +357,9 @@
 
 		Moira_skin_00001BE8_weapon_00002AA2 = 0x00002AA2,
 		Moira_skin_00001C42_weapon_00002B56 = 0x00002B56,
+		Moira_skin_00001C5E_weapon_00002B8C = 0x00002B8C,
+		Moira_skin_00001C5F_weapon_00002B8E = 0x00002B8E,
+		Moira_skin_00001C61_weapon_00002B92 = 0x00002B92,
 
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
 		Orisa_skin_00001934_weapon_0000253F = 0x0000253F,
@@ -492,6 +499,7 @@
 		Zenyatta_skin_000018BA_weapon_00002451 = 0x00002451,
 		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_000019A3_weapon_0000261B = 0x0000261B,
+		Zenyatta_skin_00001BE7_weapon_00002AA0 = 0x00002AA0,
 
 		JunkensteinEvent_00000175_Classic = 0x000028C6,
 		JunkensteinEvent_00000176_Classic = 0x000028BA,

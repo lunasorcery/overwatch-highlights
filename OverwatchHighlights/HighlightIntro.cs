@@ -129,6 +129,7 @@
 		Mercy_intro_0000021A = 0x0000021A,
 
 		Moira_intro_000012FE = 0x000012FE,
+		Moira_intro_00001324 = 0x00001324,
 
 		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,

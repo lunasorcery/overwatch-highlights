@@ -35,7 +35,7 @@ namespace OverwatchHighlights
 			if (gameMajorVersion >= new MajorVersion(1, 17, VersionBranch.None))
 			{
 				this.unknownInV17 = br.ReadInt32();
-				Debug.Assert(unknownInV17 == -1 || unknownInV17 == 0 || unknownInV17 == 1);
+				Debug.Assert(unknownInV17 == -1 || unknownInV17 == 0 || unknownInV17 == 1 || unknownInV17 == 4);
 			}
 
 			this.hero = br.ReadHero64();

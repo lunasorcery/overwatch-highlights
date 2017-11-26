@@ -147,6 +147,7 @@
 		Junkrat_voiceline_000010CA = 0x000010CA,
 		Junkrat_voiceline_00001108 = 0x00001108,
 		Junkrat_voiceline_0000121B = 0x0000121B,
+		Junkrat_voiceline_000012B6 = 0x000012B6,
 
 		Lucio_voiceline_000005F2 = 0x000005F2,
 		Lucio_voiceline_000005F3 = 0x000005F3,
@@ -237,7 +238,9 @@
 		Moira_voiceline_00001355 = 0x00001355,
 		Moira_voiceline_00001356 = 0x00001356,
 		Moira_voiceline_00001357 = 0x00001357,
+		Moira_voiceline_00001358 = 0x00001358,
 		Moira_voiceline_0000135A = 0x0000135A,
+		Moira_voiceline_0000135B = 0x0000135B,
 		Moira_voiceline_0000135C = 0x0000135C,
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
@@ -300,6 +303,7 @@
 		Reaper_voiceline_00001119 = 0x00001119,
 		Reaper_voiceline_0000111A = 0x0000111A,
 		Reaper_voiceline_00001223 = 0x00001223,
+		Reaper_voiceline_000012BE = 0x000012BE,
 
 		Reinhardt_voiceline_000006F0 = 0x000006F0,
 		Reinhardt_voiceline_000006F2 = 0x000006F2,

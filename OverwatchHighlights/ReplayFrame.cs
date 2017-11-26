@@ -13,6 +13,7 @@ namespace OverwatchHighlights
 		{
 			{ new Checksum("82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816"),  96 }, // BlackForest
 			{ new Checksum("d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7"),  96 }, // BlackForest
+			{ new Checksum("3f87c9029574880e85ad1fec5dd5be3d32147aa2b0660091109f8f903a24d0bf"), 952 }, // BlizzardWorld
 			{ new Checksum("9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5"), 168 }, // Castillo
 			{ new Checksum("5d00a275b98301855f3af20b475ca9106f3f28eee1e4eddaccb7184491c7d032"), 168 }, // Castillo
 			{ new Checksum("e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085"), 272 }, // ChateauGuillard
@@ -41,6 +42,7 @@ namespace OverwatchHighlights
 			{ new Checksum("0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb"), 560 }, // Ilios
 			{ new Checksum("d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f"), 560 }, // Ilios
 			{ new Checksum("1be7309f75d73ffca1e03de880ba6e1e8d78edc5ada82bdd3ae3a0607a37b919"), 560 }, // Ilios
+			{ new Checksum("eb8071246e09b9e567ba0f3a7920beacc37e4c8b2213694a30225fe920e6025a"), 560 }, // Ilios
 			{ new Checksum("081b8b4f31b795fe8909a16072239176ddab5133a05cccead47467eb723ca2a0"), 200 }, // IliosLighthouse
 			{ new Checksum("5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8"), 224 }, // IliosRuins
 			{ new Checksum("1471110df70d2833bb081e00a36ed58d3a94577d3cd944a1ee62ae6f6a2e6b2c"), 224 }, // IliosRuins

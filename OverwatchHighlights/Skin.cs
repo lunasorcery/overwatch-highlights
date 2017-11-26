@@ -182,6 +182,7 @@
 		Ana_skin_0000194B = 0x0000194B,
 		Ana_skin_00001950 = 0x00001950,
 		Ana_skin_0000199C = 0x0000199C,
+		Ana_skin_00001B0F = 0x00001B0F,
 		Ana_skin_00001B11 = 0x00001B11,
 
 		Bastion_skin_00001629 = 0x00001629,
@@ -266,6 +267,9 @@
 
 		Moira_skin_00001BE8 = 0x00001BE8,
 		Moira_skin_00001C42 = 0x00001C42,
+		Moira_skin_00001C5E = 0x00001C5E,
+		Moira_skin_00001C5F = 0x00001C5F,
+		Moira_skin_00001C61 = 0x00001C61,
 
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
@@ -392,6 +396,7 @@
 		Zenyatta_skin_000018BA = 0x000018BA,
 		Zenyatta_skin_00001960 = 0x00001960,
 		Zenyatta_skin_000019A3 = 0x000019A3,
+		Zenyatta_skin_00001BE7 = 0x00001BE7,
 
 		// event stuff
 		JunkensteinEvent_00000175_Classic = 0x00001AF9,

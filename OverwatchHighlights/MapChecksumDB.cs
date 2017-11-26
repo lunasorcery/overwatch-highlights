@@ -9,6 +9,7 @@ namespace OverwatchHighlights
 		private static Dictionary<string, Map> ms_knownChecksums = new Dictionary<string, Map>() {
 			{ "82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816", Map.BlackForest         },
 			{ "d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7", Map.BlackForest         }, // 40133
+			{ "3f87c9029574880e85ad1fec5dd5be3d32147aa2b0660091109f8f903a24d0bf", Map.BlizzardWorld       },
 			{ "9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5", Map.Castillo            },
 			{ "5d00a275b98301855f3af20b475ca9106f3f28eee1e4eddaccb7184491c7d032", Map.Castillo            },
 			{ "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085", Map.ChateauGuillard     }, // 39060
@@ -37,6 +38,7 @@ namespace OverwatchHighlights
 			{ "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb", Map.Ilios               },
 			{ "d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f", Map.Ilios               }, // 39484
 			{ "1be7309f75d73ffca1e03de880ba6e1e8d78edc5ada82bdd3ae3a0607a37b919", Map.Ilios               }, // 40133
+			{ "eb8071246e09b9e567ba0f3a7920beacc37e4c8b2213694a30225fe920e6025a", Map.Ilios               }, // 41714
 			{ "081b8b4f31b795fe8909a16072239176ddab5133a05cccead47467eb723ca2a0", Map.IliosLighthouse     },
 			{ "5a9f18fa124358150b3497b35d4af2962b8d619a1641e9d5720bd979ca240ed8", Map.IliosRuins          },
 			{ "1471110df70d2833bb081e00a36ed58d3a94577d3cd944a1ee62ae6f6a2e6b2c", Map.IliosRuins          }, // 39484

@@ -900,5 +900,10 @@
 		Mei_spray_00000639 = 0x00000639,
 		Bastion_spray_00000EE2 = 0x00000EE2,
 		Orisa_spray_000012DF = 0x000012DF,
+		Genji_spray_000012E2 = 0x000012E2,
+		Moira_spray_00001309 = 0x00001309,
+		Moira_spray_0000130C = 0x0000130C,
+		Moira_spray_0000130D = 0x0000130D,
+		Moira_spray_00001315 = 0x00001315,
 	};
 }

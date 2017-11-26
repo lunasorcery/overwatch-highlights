@@ -73,7 +73,7 @@ namespace OverwatchHighlights
 			{
 				// 0 for defense team, 1 for attack team. not sure how this handles oasis/nepal/ilios/lijiangtower yet
 				this.unknown7 = br.ReadUInt32();
-				Debug.Assert(unknown7 == 0 || unknown7 == 1);
+				Debug.Assert(unknown7 == 0 || unknown7 == 1 || unknown7 == 4);
 			}
 
 			this.highlightIntroPosition = br.ReadVec3();
