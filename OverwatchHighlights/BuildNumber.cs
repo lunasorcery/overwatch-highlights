@@ -47,6 +47,9 @@ namespace OverwatchHighlights
 			41350, // 17/11/2017 Live 1.17.0.2 Moira
 			41594, // 17/11/2017 PTR 1.18.1.0 Blizzard World
 			41714, // 17/11/2017 Live 1.17.0.2 Moira
+			41713, // 08/12/2017 Live 1.17.0.3 Moira
+			41835, // 08/12/2017 Live 1.17.0.3 Moira, replay only?
+			42210, // 15/12/2017 Live 1.18.1.2 Winter
 		};
 
 		private int m_buildNumber;

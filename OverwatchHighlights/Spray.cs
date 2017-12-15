@@ -905,5 +905,8 @@
 		Moira_spray_0000130C = 0x0000130C,
 		Moira_spray_0000130D = 0x0000130D,
 		Moira_spray_00001315 = 0x00001315,
+		Moira_spray_00001308 = 0x00001308,
+		Widowmaker_spray_000013A4 = 0x000013A4,
+		Mei_spray_00000C57 = 0x00000C57,
 	};
 }

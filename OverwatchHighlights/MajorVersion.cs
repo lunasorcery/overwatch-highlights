@@ -42,7 +42,9 @@ namespace OverwatchHighlights
 				case 153: Init(1, 17, VersionBranch.PTR);  break; // 1.17.0.0
 				case 161: Init(1, 17, VersionBranch.PTR);  break; // 1.17.0.1
 				case 165: Init(1, 17, VersionBranch.Live); break; // 1.17.0.2
+				case 168: Init(1, 17, VersionBranch.Live); break; // 1.17.0.3
 				case 162: Init(1, 18, VersionBranch.PTR);  break; // 1.18.1.0
+				case 173: Init(1, 18, VersionBranch.Live); break; // 1.18.1.2
 				default: throw new Exception($"Unknown major version number {rawVersion}");
 			}
 		}
@@ -60,6 +62,7 @@ namespace OverwatchHighlights
 			if (this == new MajorVersion(1, 17, VersionBranch.PTR))  return true;
 			if (this == new MajorVersion(1, 17, VersionBranch.Live)) return true;
 			if (this == new MajorVersion(1, 18, VersionBranch.PTR))  return true;
+			if (this == new MajorVersion(1, 18, VersionBranch.Live)) return true;
 			return false;
 		}
 

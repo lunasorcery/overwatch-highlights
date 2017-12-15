@@ -216,6 +216,7 @@
 		Hanzo_skin_000018B4 = 0x000018B4,
 		Hanzo_skin_000018B5 = 0x000018B5,
 		Hanzo_skin_000018B6 = 0x000018B6,
+		Hanzo_skin_000019B2 = 0x000019B2,
 
 		Junkrat_skin_00001607 = 0x00001607,
 		Junkrat_skin_00001608 = 0x00001608,
@@ -317,9 +318,11 @@
 		Roadhog_skin_000016A4 = 0x000016A4,
 		Roadhog_skin_000016A5 = 0x000016A5,
 		Roadhog_skin_000016A6 = 0x000016A6,
+		Roadhog_skin_000018DE = 0x000018DE,
 		Roadhog_skin_000018DF = 0x000018DF,
 		Roadhog_skin_000018E0 = 0x000018E0,
 		Roadhog_skin_00001A14 = 0x00001A14,
+		Roadhog_skin_00001C1C = 0x00001C1C,
 
 		Soldier76_skin_000016C8 = 0x000016C8,
 		Soldier76_skin_000016C9 = 0x000016C9,

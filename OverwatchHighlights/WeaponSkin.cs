@@ -296,6 +296,7 @@
 		Hanzo_skin_000018B4_weapon_00002445 = 0x00002445,
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
 		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
+		Hanzo_skin_000019B2_weapon_0000263E = 0x0000263E,
 
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
 		Junkrat_skin_00001608_weapon_00001EF7 = 0x00001EF7,
@@ -409,9 +410,11 @@
 		Roadhog_skin_000016A4_weapon_0000202F = 0x0000202F,
 		Roadhog_skin_000016A5_weapon_00002031 = 0x00002031,
 		Roadhog_skin_000016A6_weapon_00002033 = 0x00002033,
+		Roadhog_skin_000018DE_weapon_00002499 = 0x00002499,
 		Roadhog_skin_000018DF_weapon_0000249B = 0x0000249B,
 		Roadhog_skin_000018E0_weapon_0000249D = 0x0000249D,
 		Roadhog_skin_00001A14_weapon_000026FE = 0x000026FE,
+		Roadhog_skin_00001C1C_weapon_00002B0A = 0x00002B0A,
 
 		Soldier76_skin_000016C8_weapon_00002077 = 0x00002077,
 		Soldier76_skin_000016C9_weapon_00002079 = 0x00002079,

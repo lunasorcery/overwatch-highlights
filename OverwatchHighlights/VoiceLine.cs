@@ -63,6 +63,7 @@
 		Doomfist_voiceline_000011A7 = 0x000011A7,
 		Doomfist_voiceline_0000122C = 0x0000122C,
 		Doomfist_voiceline_00001230 = 0x00001230,
+		Doomfist_voiceline_000012CB = 0x000012CB,
 
 		DVa_voiceline_00000679 = 0x00000679,
 		DVa_voiceline_0000067A = 0x0000067A,
@@ -128,6 +129,7 @@
 		Hanzo_voiceline_00001101 = 0x00001101,
 		Hanzo_voiceline_00001102 = 0x00001102,
 		Hanzo_voiceline_00001218 = 0x00001218,
+		Hanzo_voiceline_000012B3 = 0x000012B3,
 
 		Junkrat_voiceline_000005C3 = 0x000005C3,
 		Junkrat_voiceline_000005C4 = 0x000005C4,
@@ -169,6 +171,7 @@
 		Lucio_voiceline_00001109 = 0x00001109,
 		Lucio_voiceline_0000110A = 0x0000110A,
 		Lucio_voiceline_0000121C = 0x0000121C,
+		Lucio_voiceline_000012B7 = 0x000012B7,
 
 		McCree_voiceline_0000056D = 0x0000056D,
 		McCree_voiceline_0000056F = 0x0000056F,

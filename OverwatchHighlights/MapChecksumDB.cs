@@ -16,6 +16,7 @@ namespace OverwatchHighlights
 			{ "2e8a90be740fead56467d6fe40742a5404a029924e5ed37c94ad013f9463a3f4", Map.ChateauGuillard     }, // 39083
 			{ "57925bca898c0b25fa1ab5f3c0a92459158acda18d472a532b6a958cedb194c0", Map.ChateauGuillard     }, // 39103
 			{ "fad957e3e8209c027f135a034ddcba1f1f276ea00d9ce428f8c65fe0987cdf67", Map.ChateauGuillard     }, // 39241
+			{ "9654ae18fc879ab82dceab50231556d8ce0304fc702687d4f9243a637a5042f7", Map.ChateauGuillard     }, // 42210
 			{ "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4", Map.Dorado              },
 			{ "e2872843fc4060ad193e226d6bfdbf714175a0bb5d0ec32c2bd897c483190351", Map.Dorado              }, // 39484
 			{ "b3d198624aa53f1294664084b4ccb1738d1e2997cc87c5338d9946d7e3aa0acd", Map.Dorado              }, // 41031
@@ -32,9 +33,11 @@ namespace OverwatchHighlights
 			{ "48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d", Map.Hollywood           },
 			{ "8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e", Map.Hollywood           }, // 40133
 			{ "cb32eb6022a8337c174e91f56c5ab36d6e46a30fe8ab914a8c85be3648749219", Map.Hollywood           }, // 41031
+			{ "b07262347d94bf2f8767bc32253bf53fa7e4adc418da6b250b2dba5c5c7b5f06", Map.Hollywood           }, // 42210
 			{ "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f", Map.HorizonLunarColony  },
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
+			{ "14df3369ce618d369de9b0d202d7b5b7c930eea5eb5b63e95ee9a92a6520ff1c", Map.HorizonLunarColony  }, // 42210
 			{ "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb", Map.Ilios               },
 			{ "d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f", Map.Ilios               }, // 39484
 			{ "1be7309f75d73ffca1e03de880ba6e1e8d78edc5ada82bdd3ae3a0607a37b919", Map.Ilios               }, // 40133
