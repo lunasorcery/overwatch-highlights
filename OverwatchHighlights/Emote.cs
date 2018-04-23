@@ -25,11 +25,14 @@
 		Bastion_emote_00000BE6 = 0x00000BE6,
 		Bastion_emote_00000FF9 = 0x00000FF9,
 
+		Brigitte_emote_000016D8 = 0x000016D8,
+
 		Doomfist_emote_0000118D = 0x0000118D,
 		Doomfist_emote_0000119D = 0x0000119D,
 		Doomfist_emote_000011A9 = 0x000011A9,
 		Doomfist_emote_000011E1 = 0x000011E1,
 		Doomfist_emote_0000120D = 0x0000120D,
+		Doomfist_emote_00001282 = 0x00001282,
 
 		DVa_emote_00000659 = 0x00000659,
 		DVa_emote_0000065A = 0x0000065A,
@@ -47,6 +50,7 @@
 		Genji_emote_00000BEC = 0x00000BEC,
 		Genji_emote_00000BED = 0x00000BED,
 		Genji_emote_00000FE5 = 0x00000FE5,
+		Genji_emote_00001212 = 0x00001212,
 
 		Hanzo_emote_00000524 = 0x00000524,
 		Hanzo_emote_00000525 = 0x00000525,
@@ -104,6 +108,7 @@
 
 		Moira_emote_000012EC = 0x000012EC,
 		Moira_emote_000012ED = 0x000012ED,
+		Moira_emote_000012FF = 0x000012FF,
 		Moira_emote_00001329 = 0x00001329,
 		Moira_emote_00001351 = 0x00001351,
 		Moira_emote_00001352 = 0x00001352,
@@ -150,6 +155,7 @@
 		Roadhog_emote_00000A52 = 0x00000A52,
 		Roadhog_emote_00000A53 = 0x00000A53,
 		Roadhog_emote_000010AC = 0x000010AC,
+		Roadhog_emote_0000127D = 0x0000127D,
 
 		Soldier76_emote_000007D3 = 0x000007D3,
 		Soldier76_emote_000007D4 = 0x000007D4,
@@ -193,6 +199,7 @@
 		Tracer_emote_00000A54 = 0x00000A54,
 		Tracer_emote_00000A7E = 0x00000A7E,
 		Tracer_emote_000010F6 = 0x000010F6,
+		Tracer_emote_000012AA = 0x000012AA,
 
 		Widowmaker_emote_00000650 = 0x00000650,
 		Widowmaker_emote_00000652 = 0x00000652,
@@ -227,5 +234,6 @@
 		Zenyatta_emote_00000BF6 = 0x00000BF6,
 		Zenyatta_emote_00000BF7 = 0x00000BF7,
 		Zenyatta_emote_000010AA = 0x000010AA,
+		Zenyatta_emote_0000127C = 0x0000127C,
 	}
 }

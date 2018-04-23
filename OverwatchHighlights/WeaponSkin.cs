@@ -238,6 +238,8 @@
 		McCree_Lifeguard                   = 0x00002A6E,
 		Doomfist_Avatar                    = 0x00002A9A,
 		Doomfist_Avatar_Golden             = 0x00002A9B,
+		Reaper_Dracula                     = 0x00002AA8,
+		Reaper_Dracula_Golden              = 0x00002AA9,
 		Moira_Moon                         = 0x00002BC2,
 		Moira_Moon_Golden                  = 0x00002BC3,
 
@@ -268,6 +270,11 @@
 		Bastion_skin_00001AE8_weapon_000028A5 = 0x000028A5,
 		Bastion_skin_00001B93_weapon_000029FA = 0x000029FA,
 
+		Brigitte_skin_00001BCE_weapon_00002A70 = 0x00002A70,
+		Brigitte_skin_00001EA5_weapon_0000300F = 0x0000300F,
+		Brigitte_skin_00001EAD_weapon_0000301F = 0x0000301F,
+
+		Doomfist_skin_00001610_weapon_00001F07 = 0x00001F07,
 		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
 		Doomfist_skin_000018C3_weapon_00002463 = 0x00002463,
 		Doomfist_skin_00001BD9_weapon_00002A84 = 0x00002A84,
@@ -284,6 +291,7 @@
 		DVa_skin_000018C8_weapon_0000246D = 0x0000246D,
 		DVa_skin_00001A19_weapon_00002708 = 0x00002708,
 		DVa_skin_00001A19_weapon_00002709 = 0x00002709,
+		DVa_skin_00001C3D_weapon_00002B4C = 0x00002B4C,
 
 		Genji_skin_000016D8_weapon_00002097 = 0x00002097,
 		Genji_skin_000016DA_weapon_0000209B = 0x0000209B,
@@ -297,6 +305,7 @@
 		Hanzo_skin_000018B5_weapon_00002447 = 0x00002447,
 		Hanzo_skin_000018B6_weapon_00002449 = 0x00002449,
 		Hanzo_skin_000019B2_weapon_0000263E = 0x0000263E,
+		Hanzo_skin_00001E00_weapon_00002ECF = 0x00002ECF,
 
 		Junkrat_skin_00001607_weapon_00001EF5 = 0x00001EF5,
 		Junkrat_skin_00001608_weapon_00001EF7 = 0x00001EF7,
@@ -331,6 +340,7 @@
 		McCree_skin_00001976_weapon_000025C3 = 0x000025C3,
 		McCree_skin_00001976_weapon_000025C4 = 0x000025C4,
 		McCree_skin_00001BCA_weapon_00002A68 = 0x00002A68,
+		McCree_skin_00001C4C_weapon_00002B69 = 0x00002B69,
 
 		Mei_skin_00001620_weapon_00001F27 = 0x00001F27,
 		Mei_skin_00001621_weapon_00001F29 = 0x00001F29,
@@ -355,12 +365,17 @@
 		Mercy_skin_000015DD_weapon_00001EA1 = 0x00001EA1,
 		Mercy_skin_000018AF_weapon_0000243B = 0x0000243B,
 		Mercy_skin_000018B0_weapon_0000243D = 0x0000243D,
+		Mercy_skin_00001DBF_weapon_00002E4C = 0x00002E4C,
 
 		Moira_skin_00001BE8_weapon_00002AA2 = 0x00002AA2,
 		Moira_skin_00001C42_weapon_00002B56 = 0x00002B56,
+		Moira_skin_00001C45_weapon_00002B5A = 0x00002B5A,
 		Moira_skin_00001C5E_weapon_00002B8C = 0x00002B8C,
 		Moira_skin_00001C5F_weapon_00002B8E = 0x00002B8E,
+		Moira_skin_00001C60_weapon_00002B90 = 0x00002B90,
 		Moira_skin_00001C61_weapon_00002B92 = 0x00002B92,
+		Moira_skin_00001C63_weapon_00002B96 = 0x00002B96,
+		Moira_skin_00001C75_weapon_00002BBA = 0x00002BBA,
 
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
 		Orisa_skin_00001934_weapon_0000253F = 0x0000253F,
@@ -393,6 +408,8 @@
 		Reaper_skin_000018DC_weapon_00002495 = 0x00002495,
 		Reaper_skin_0000195A_weapon_0000258B = 0x0000258B,
 		Reaper_skin_00001BC0_weapon_00002A54 = 0x00002A54,
+		Reaper_skin_00001C74_weapon_00002BB8 = 0x00002BB8,
+		Reaper_skin_00001DBD_weapon_00002E48 = 0x00002E48,
 
 		Reinhardt_skin_0000163B_weapon_00001F5D = 0x00001F5D,
 		Reinhardt_skin_0000163C_weapon_00001F5F = 0x00001F5F,
@@ -404,6 +421,7 @@
 		Reinhardt_skin_000018D5_weapon_00002487 = 0x00002487,
 		Reinhardt_skin_000018D6_weapon_00002489 = 0x00002489,
 		Reinhardt_skin_00001991_weapon_000025F9 = 0x000025F9,
+		Reinhardt_skin_00001D71_weapon_00002DB0 = 0x00002DB0,
 
 		Roadhog_skin_0000169B_weapon_0000201D = 0x0000201D,
 		Roadhog_skin_0000169F_weapon_00002025 = 0x00002025,
@@ -430,6 +448,9 @@
 		Sombra_skin_00001A1D_weapon_00002710 = 0x00002710,
 		Sombra_skin_00001BC7_weapon_00002A62 = 0x00002A62,
 		Sombra_skin_00001BC7_weapon_00002A63 = 0x00002A63,
+		Sombra_skin_00001C16_weapon_00002AFE = 0x00002AFE,
+		Sombra_skin_00001C17_weapon_00002B00 = 0x00002B00,
+		Sombra_skin_00001D42_weapon_00002D52 = 0x00002D52,
 
 		Symmetra_skin_000016DB_weapon_0000209D = 0x0000209D,
 		Symmetra_skin_000016DF_weapon_000020A5 = 0x000020A5,
@@ -437,6 +458,7 @@
 		Symmetra_skin_000016E8_weapon_000020B7 = 0x000020B7,
 		Symmetra_skin_00001998_weapon_00002607 = 0x00002607,
 		Symmetra_skin_00001A27_weapon_00002724 = 0x00002724,
+		Symmetra_skin_00001C9F_weapon_00002C0E = 0x00002C0E,
 
 		Torbjorn_skin_00001630_weapon_00001F47 = 0x00001F47,
 		Torbjorn_skin_00001639_weapon_00001F59 = 0x00001F59,
@@ -450,6 +472,7 @@
 		Tracer_skin_000016F7_weapon_000020D5 = 0x000020D5,
 		Tracer_skin_0000170B_weapon_000020FD = 0x000020FD,
 		Tracer_skin_0000170C_weapon_000020FF = 0x000020FF,
+		Tracer_skin_00001710_weapon_00002107 = 0x00002107,
 		Tracer_skin_00001711_weapon_00002109 = 0x00002109,
 		Tracer_skin_00001712_weapon_0000210B = 0x0000210B,
 		Tracer_skin_000018F0_weapon_000024BD = 0x000024BD,
@@ -470,6 +493,7 @@
 		Widowmaker_skin_000018F3_weapon_000024C3 = 0x000024C3,
 		Widowmaker_skin_000018F4_weapon_000024C5 = 0x000024C5,
 		Widowmaker_skin_00001918_weapon_0000250D = 0x0000250D,
+		Widowmaker_skin_00001DC3_weapon_00002E54 = 0x00002E54,
 
 		Winston_skin_000016CF_weapon_00002085 = 0x00002085,
 		Winston_skin_000016CF_weapon_00002086 = 0x00002086,
@@ -491,6 +515,7 @@
 		Zarya_skin_00001944_weapon_00002560 = 0x00002560,
 		Zarya_skin_00001945_weapon_00002561 = 0x00002561,
 		Zarya_skin_0000196E_weapon_000025B3 = 0x000025B3,
+		Zarya_skin_00001C1A_weapon_00002B06 = 0x00002B06,
 
 		Zenyatta_skin_000015FB_weapon_00001EDD = 0x00001EDD,
 		Zenyatta_skin_000015FF_weapon_00001EE5 = 0x00001EE5,
@@ -503,10 +528,21 @@
 		Zenyatta_skin_00001960_weapon_00002597 = 0x00002597,
 		Zenyatta_skin_000019A3_weapon_0000261B = 0x0000261B,
 		Zenyatta_skin_00001BE7_weapon_00002AA0 = 0x00002AA0,
+		Zenyatta_skin_00001D8A_weapon_00002DE2 = 0x00002DE2,
+		Zenyatta_skin_00001DC6_weapon_00002E5A = 0x00002E5A,
 
 		JunkensteinEvent_00000175_Classic = 0x000028C6,
 		JunkensteinEvent_00000176_Classic = 0x000028BA,
 		JunkensteinEvent_00000177_Classic = 0x000028D8,
-		Reaper_skin_00001BEB_weapon_00002AA8 = 0x00002AA8,
+
+		UprisingEvent_00000173_Classic = 0x000028AA,
+		UprisingEvent_00000178_Classic = 0x000028BC,
+		UprisingEvent_00000179_Classic = 0x000028BE,
+
+		RetributionEvent_000001AC_Classic = 0x00002B18,
+		RetributionEvent_000001B8_Classic = 0x00002B3A,
+		RetributionEvent_000001BA_Classic = 0x00002B3E,
+		RetributionEvent_000001BB_Classic = 0x00002B42,
+		RetributionEvent_000001CE_Classic = 0x00002B9E,
 	}
 }

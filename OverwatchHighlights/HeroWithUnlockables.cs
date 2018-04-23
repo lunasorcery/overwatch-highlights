@@ -51,15 +51,33 @@ namespace OverwatchHighlights
 					($"{skin}" == $"{hero}_Classic") ||
 					(hero == Hero.Junkrat && skin == Skin.Junkrat_DrJunkenstein) ||
 					(hero == Hero.Mercy && skin == Skin.Mercy_Witch) ||
-					(hero == Hero.Reaper && skin == Skin.Reaper_skin_00001BEB) ||
-					(hero == Hero.Roadhog && skin == Skin.Roadhog_JunkensteinsMonster)
+					(hero == Hero.Reaper && skin == Skin.Reaper_Dracula) ||
+					(hero == Hero.Roadhog && skin == Skin.Roadhog_JunkensteinsMonster) ||
+					(hero == Hero.Orisa && skin == Skin.Orisa_NullSector) ||
+					(hero == Hero.UprisingEvent_00000173 && skin == Skin.UprisingEvent_00000173_Classic) ||
+					(hero == Hero.UprisingEvent_00000178 && skin == Skin.UprisingEvent_00000178_Classic) ||
+					(hero == Hero.UprisingEvent_00000179 && skin == Skin.UprisingEvent_00000179_Classic) ||
+					(hero == Hero.RetributionEvent_000001AC && skin == Skin.RetributionEvent_000001AC_Classic) ||
+					(hero == Hero.RetributionEvent_000001B8 && skin == Skin.RetributionEvent_000001B8_Classic) ||
+					(hero == Hero.RetributionEvent_000001BA && skin == Skin.RetributionEvent_000001BA_Classic) ||
+					(hero == Hero.RetributionEvent_000001BB && skin == Skin.RetributionEvent_000001BB_Classic) ||
+					(hero == Hero.RetributionEvent_000001CE && skin == Skin.RetributionEvent_000001CE_Classic)
 				);
 				Debug.Assert(
 					($"{weaponSkin}" == $"{hero}_Classic") ||
 					(hero == Hero.Junkrat && weaponSkin == WeaponSkin.Junkrat_DrJunkenstein) ||
 					(hero == Hero.Mercy && weaponSkin == WeaponSkin.Mercy_Witch) ||
-					(hero == Hero.Reaper && weaponSkin == WeaponSkin.Reaper_skin_00001BEB_weapon_00002AA8) ||
-					(hero == Hero.Roadhog && weaponSkin == WeaponSkin.Roadhog_JunkensteinsMonster)
+					(hero == Hero.Reaper && weaponSkin == WeaponSkin.Reaper_Dracula) ||
+					(hero == Hero.Roadhog && weaponSkin == WeaponSkin.Roadhog_JunkensteinsMonster) ||
+					(hero == Hero.Orisa && weaponSkin == WeaponSkin.Orisa_NullSector) ||
+					(hero == Hero.UprisingEvent_00000173 && weaponSkin == WeaponSkin.UprisingEvent_00000173_Classic) ||
+					(hero == Hero.UprisingEvent_00000178 && weaponSkin == WeaponSkin.UprisingEvent_00000178_Classic) ||
+					(hero == Hero.UprisingEvent_00000179 && weaponSkin == WeaponSkin.UprisingEvent_00000179_Classic) ||
+					(hero == Hero.RetributionEvent_000001AC && weaponSkin == WeaponSkin.RetributionEvent_000001AC_Classic) ||
+					(hero == Hero.RetributionEvent_000001B8 && weaponSkin == WeaponSkin.RetributionEvent_000001B8_Classic) ||
+					(hero == Hero.RetributionEvent_000001BA && weaponSkin == WeaponSkin.RetributionEvent_000001BA_Classic) ||
+					(hero == Hero.RetributionEvent_000001BB && weaponSkin == WeaponSkin.RetributionEvent_000001BB_Classic) ||
+					(hero == Hero.RetributionEvent_000001CE && weaponSkin == WeaponSkin.RetributionEvent_000001CE_Classic)
 				);
 			}
 

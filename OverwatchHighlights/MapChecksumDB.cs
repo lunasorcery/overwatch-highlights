@@ -10,6 +10,7 @@ namespace OverwatchHighlights
 			{ "82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816", Map.BlackForest         },
 			{ "d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7", Map.BlackForest         }, // 40133
 			{ "3f87c9029574880e85ad1fec5dd5be3d32147aa2b0660091109f8f903a24d0bf", Map.BlizzardWorld       },
+			{ "4b08a653b750541af8361756cb182ee42b7993a43a7c9a3e290b501fe6f3e1ba", Map.BlizzardWorld       }, // 45752
 			{ "9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5", Map.Castillo            },
 			{ "5d00a275b98301855f3af20b475ca9106f3f28eee1e4eddaccb7184491c7d032", Map.Castillo            },
 			{ "e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085", Map.ChateauGuillard     }, // 39060
@@ -24,6 +25,7 @@ namespace OverwatchHighlights
 			{ "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5", Map.Eichenwalde         },
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
 			{ "139e122a54ae3484ffb2455aa71b955f690a10dc874f7f0cdb8e41be83a60b45", Map.Eichenwalde         }, // 41350
+			{ "b492e9904f19915884732a5904ca0c27703df3ef5f804ced8271354004ffc953", Map.Eichenwalde         }, // 42665
 			{ "60418c892c1764d75d2d7e9d06a30078ed70e46caa78bca6ebc8a7ca0a91f512", Map.EichenwaldeHalloween}, // 40407
 			{ "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3", Map.EstadioDasRas       },
 			{ "2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93", Map.Hanamura            },
@@ -38,6 +40,7 @@ namespace OverwatchHighlights
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484
 			{ "14df3369ce618d369de9b0d202d7b5b7c930eea5eb5b63e95ee9a92a6520ff1c", Map.HorizonLunarColony  }, // 42210
+			{ "571af02044245df13972505603173a045f2944f09fa622257d4de022772f511c", Map.HorizonLunarColony  }, // 45752
 			{ "0f3c7d94b4d37ee318ed185bc9cd18448893ed54952d408f9eb0f87de398e5eb", Map.Ilios               },
 			{ "d35c1ad4a2331abf6d222bfdc3475f3d7f9de1b5807d150f61c6cac78d5f316f", Map.Ilios               }, // 39484
 			{ "1be7309f75d73ffca1e03de880ba6e1e8d78edc5ada82bdd3ae3a0607a37b919", Map.Ilios               }, // 40133
@@ -49,11 +52,13 @@ namespace OverwatchHighlights
 			{ "4e775879736009135644355352eb3ef307de4d0fccf811a63bb71dc3c6da160a", Map.Junkertown          },
 			{ "326f3d5d63a1c18a2fd721207b3247de5df38ef2b0b598a92fb8349b2761a54b", Map.Junkertown          }, // 39935
 			{ "a4a52cafba2b51922bdeda97cb7577dcab6eb51c1660e84f0ff5e9bd5e55164f", Map.Junkertown          }, // 41031
+			{ "73e04bf8f5c5560b0eb9450f7fac0a76f8d4a1cb5666f7c870ec6d12da23971d", Map.Junkertown          }, // 45752
 			{ "857e4547ee48d93acd48098fe7788318fbd85e3f25f00af50b039a4fc5902e06", Map.JunkensteinsRevenge }, // 40407
 			{ "7b944d3cc471b05428b96ad7409cc253423d70daac971c3de63fd9c48117bf63", Map.KingsRow            },
 			{ "68c676a63e22b19bd15888939e214464e6c0b8838d39b54fc9df02ae1f50c18d", Map.KingsRow            }, // 39484
 			{ "70e232f37b81d37479a69f27c9f0bdcbd32cdc63dd835dc01bde604f657548f1", Map.KingsRow            }, // 39935
 			{ "d95dd8c99109643a7b7b5bd86690a0bb632e85a619702fe73e2a5d61ec020039", Map.KingsRow            }, // 41031
+			{ "723911560b8b6e42858115676fe09004cb7931d485e87e99d0352b21d4c201b3", Map.KingsRowUprising    }, // 45752
 			{ "19080a2b9c29659da8cf739df06f87a312542e3c0e1ca3cbc67bb1be6f803f95", Map.LijiangNightMarket  },
 			{ "b0fc70637c33bcc89bc09f3ca6b5e99bea9bf4457f35fe80a0c325a4491d054b", Map.LijiangTower        },
 			{ "83b54d9666a1152555141a88907ff1b18fbbc98dd7d17760e248666b0978b729", Map.LijiangTower        }, // 39484
@@ -74,8 +79,10 @@ namespace OverwatchHighlights
 			{ "300eb49042dd55b06c3c697ebdabd066c6e5ed4c6f094d7bd89a8cf4bc6335cd", Map.OasisCityCenter     },
 			{ "062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f", Map.OasisGardens        },
 			{ "517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6", Map.OasisUniversity     },
+			{ "1a06daebd77592c41b84a835abb34c5f4c47eb2639b4098f7a709bc4868b41c1", Map.RialtoRetribution   }, // 45752
 			{ "2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098", Map.Route66             },
 			{ "d8ad0d4a35e3fba6170425a0f9c4d719e28eac7a522727ca36fadeb1f3192ee8", Map.Route66             }, // 39484
+			{ "2fb879652d9a4bb6707ed41834a8f3e0a9eace723dd1eb4317f9385534626ac5", Map.Route66             }, // 45752
 			{ "7dcff5efda3d21b1ca21eb0094060a4d7bf0bbf36587ea3af34511a472df6854", Map.SydneyHarbourArena  },
 			{ "28bf6b3e4fa657fa14c6ad5c7d54256896fa2143d5ffb3800119a13a67c89b35", Map.TempleOfAnubis      },
 			{ "0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c", Map.TempleOfAnubis      }, // 39060 - tweaks for team deathmatch

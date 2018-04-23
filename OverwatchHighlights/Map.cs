@@ -46,7 +46,7 @@
 		EcopointAntarctica    = 0x000006D1,
 		HorizonLunarColony    = 0x000006D3,
 //		JunkensteinsRevenge   = 0x000006E0,
-//		KingsRow              = 0x000006FE,
+		KingsRowUprising      = 0x000006FE,
 //		KingsRow              = 0x00000700,
 //		EcopointAntarctica    = 0x00000704,
 		Necropolis            = 0x00000705,
@@ -80,6 +80,8 @@
 //		VPPGreenRoom          = 0x00000791,
 		SydneyHarbourArena    = 0x00000793,
 //		HorizonLunarColony    = 0x00000794,
+//		HorizonLunarColony    = 0x00000794,
+		RialtoRetribution     = 0x0000079F,
 		ChateauGuillard       = 0x000007A4,
 		EichenwaldeHalloween  = 0x000007F4,
 	}

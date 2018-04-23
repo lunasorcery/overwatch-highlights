@@ -106,6 +106,8 @@
 
 		Bastion_intro_00000237 = 0x00000237,
 
+		Brigitte_intro_000016D9 = 0x000016D9,
+
 		Doomfist_intro_0000118A = 0x0000118A,
 
 		DVa_intro_00000155 = 0x00000155,
@@ -119,6 +121,7 @@
 		Lucio_intro_0000023B = 0x0000023B,
 
 		McCree_intro_00000238 = 0x00000238,
+		McCree_intro_00001284 = 0x00001284,
 
 		Mei_intro_00000156 = 0x00000156,
 		Mei_intro_00000158 = 0x00000158,
@@ -130,6 +133,7 @@
 
 		Moira_intro_000012FE = 0x000012FE,
 		Moira_intro_00001324 = 0x00001324,
+		Moira_intro_00001353 = 0x00001353,
 
 		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,
@@ -143,6 +147,7 @@
 
 		Reinhardt_intro_00000088 = 0x00000088,
 		Reinhardt_intro_00000231 = 0x00000231,
+		Reinhardt_intro_000011BA = 0x000011BA,
 
 		Roadhog_intro_0000014A = 0x0000014A,
 		Roadhog_intro_0000023C = 0x0000023C,
@@ -173,6 +178,7 @@
 
 		Zarya_intro_00000226 = 0x00000226,
 		Zarya_intro_00000239 = 0x00000239,
+		Zarya_intro_0000126C = 0x0000126C,
 
 		Zenyatta_intro_00000222 = 0x00000222,
 		Zenyatta_intro_00000235 = 0x00000235,

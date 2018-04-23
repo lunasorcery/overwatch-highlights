@@ -27,11 +27,18 @@ namespace OverwatchHighlights
 		public ulong timestamp;
 		public HighlightUUID uuid;
 
+		[Flags]
 		public enum HighlightType : byte
 		{
-			Top5 = 0,
-			POTG = 1,
-			Manual = 4
+			Top5       = 0x00,
+			POTG       = 0x01,
+			//Unknown_02 = 0x02,
+			Manual     = 0x04,
+			Unknown_08 = 0x08,
+			Unknown_10 = 0x10,
+			Unknown_20 = 0x20,
+			Unknown_40 = 0x40,
+			Unknown_80 = 0x80,
 		}
 
 		public HighlightInfo(BinaryReader br, MajorVersion gameMajorVersion)
@@ -48,8 +55,8 @@ namespace OverwatchHighlights
 
 			// 1 for potg, 0 for top5 highlight, 4 for manual highlight
 			this.type = (HighlightType)br.ReadByte();
-			Debug.Assert(Enum.IsDefined(typeof(HighlightType), type));
-			
+			Debug.Assert(Extensions.AreAllFlagsDefined(type));
+
 			this.unknown2 = br.ReadUInt32();
 			Debug.Assert((unknown2 & 0x80000000u) == 0x80000000u);
 			Debug.Assert((unknown2 & 0x7FFFFFFFu) <= 0x0000FFFFu);
@@ -144,6 +151,57 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Highlight Intro Direction: {highlightIntroDirection}");
 			Console.WriteLine($"  Up Vector: {upVector}");
 			Console.WriteLine("}");
+		}
+
+		public static bool EqualWithTypeMasking(HighlightInfo a, HighlightInfo b)
+		{
+			if ((object)a == null && (object)b == null)
+				return true;
+			else if ((object)a == null || (object)b == null)
+				return false;
+
+			if (a.playerName != b.playerName)
+				return false;
+			//if (((int)a.type & (int)b.type) == 0)
+			if(((int)a.type & 0x5) != ((int)b.type & 0x5))
+				return false;
+			if (a.unknown2 != b.unknown2)
+				return false;
+			if (a.unknown3 != b.unknown3)
+				return false;
+			if (a.unknown4 != b.unknown4)
+				return false;
+			if (a.unknown5 != b.unknown5)
+				return false;
+			if (a.unknown6 != b.unknown6)
+				return false;
+			if (a.unknown7 != b.unknown7)
+				return false;
+			if (a.highlightIntroPosition != b.highlightIntroPosition)
+				return false;
+			if (a.highlightIntroDirection != b.highlightIntroDirection)
+				return false;
+			if (a.upVector != b.upVector)
+				return false;
+			if (a.hero != b.hero)
+				return false;
+			if (a.skin != b.skin)
+				return false;
+			if (a.weaponSkin != b.weaponSkin)
+				return false;
+			if (a.unknown8 != b.unknown8)
+				return false;
+			if (a.unknown9 != b.unknown9)
+				return false;
+			if (a.highlightIntro != b.highlightIntro)
+				return false;
+			if (a.category != b.category)
+				return false;
+			if (a.timestamp != b.timestamp)
+				return false;
+			if (a.uuid != b.uuid)
+				return false;
+			return true;
 		}
 
 		public static bool operator ==(HighlightInfo a, HighlightInfo b)

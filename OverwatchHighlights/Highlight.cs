@@ -156,9 +156,17 @@ namespace OverwatchHighlights
 					this.unknown61 = br.ReadUInt32();
 					Debug.Assert(unknown61 == 0);
 
-					byte fillerCount = br.ReadByte();
-					Debug.Assert(fillerCount <= 1);
+					byte unknown62 = br.ReadByte();
+					Debug.Assert(
+						unknown62 == 0x00 ||
+						unknown62 == 0x01 ||
+						unknown62 == 0x07 ||
+						unknown62 == 0x1c ||
+						unknown62 == 0x27 ||
+						unknown62 == 0x2a ||
+						unknown62 == 0xf7);
 
+					int fillerCount = (unknown62 & 1);
 					this.fillerStructs = new FillerStruct[fillerCount];
 					for (int i = 0; i < fillerCount; ++i)
 					{
@@ -190,14 +198,17 @@ namespace OverwatchHighlights
 				(this.buildNumber == 40133 && replayBlock.buildNumber == 39974) ||
 				(this.buildNumber == 40990 && replayBlock.buildNumber == 40763) ||
 				(this.buildNumber == 41714 && replayBlock.buildNumber == 41350) ||
-				(this.buildNumber == 41713 && replayBlock.buildNumber == 41835)
+				(this.buildNumber == 41713 && replayBlock.buildNumber == 41835) ||
+				(this.buildNumber == 42665 && replayBlock.buildNumber == 42563) ||
+				(this.buildNumber == 45752 && replayBlock.buildNumber == 45876)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
 			Debug.Assert(replayBlock.gameMode == this.gameMode);
 			if (replayBlock.highlightInfo != null)
 			{
-				Debug.Assert(replayBlock.highlightInfo == highlightInfos[0]);
+				//Debug.Assert(replayBlock.highlightInfo == highlightInfos[0]);
+				Debug.Assert(HighlightInfo.EqualWithTypeMasking(replayBlock.highlightInfo, highlightInfos[0]));
 			}
 
 			if (this.highlightInfos[0].type == HighlightInfo.HighlightType.Manual)
@@ -215,16 +226,20 @@ namespace OverwatchHighlights
 			Debug.Assert(this.highlightInfos[0].unknown5 > this.replayBlock.paramsBlock.startMs / 1000.0f);
 			Debug.Assert(this.highlightInfos[0].unknown5 < this.replayBlock.paramsBlock.endMs / 1000.0f);
 
-			if (this.highlightInfos[0].type != HighlightInfo.HighlightType.POTG)
+			if (!this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.POTG))
 			{
 				if (uiFlags.HasFlag(UIFlags.ManualHighlight))
-					Debug.Assert(this.highlightInfos[0].type == HighlightInfo.HighlightType.Manual);
+					Debug.Assert(this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual));
 				else
 					Debug.Assert(this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5);
 			}
 
 
-			if (this.highlightInfos[0].type == HighlightInfo.HighlightType.POTG || this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5) // potg or top5
+			if (this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual))
+			{
+				Debug.Assert(this.highlightInfos[0].category == HighlightCategory.None);
+			}
+			else
 			{
 				Debug.Assert(
 					this.highlightInfos[0].category == HighlightCategory.HighScore ||
@@ -232,10 +247,6 @@ namespace OverwatchHighlights
 					this.highlightInfos[0].category == HighlightCategory.Sharpshooter ||
 					this.highlightInfos[0].category == HighlightCategory.Shutdown
 				);
-			}
-			else
-			{
-				Debug.Assert(this.highlightInfos[0].category == HighlightCategory.None);
 			}
 		}
 

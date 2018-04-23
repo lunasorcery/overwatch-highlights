@@ -62,6 +62,16 @@ namespace OverwatchHighlights
 			return value;
 		}
 
+		public static bool AreAllFlagsDefined(HighlightInfo.HighlightType value)
+		{
+			int mask = (int)value;
+			foreach (var flag in (HighlightInfo.HighlightType[])Enum.GetValues(typeof(HighlightInfo.HighlightType)))
+			{
+				mask &= ~(int)flag;
+			}
+			return mask == 0;
+		}
+
 		public static uint ReadUInt24(this BinaryReader br)
 		{
 			byte[] buf = br.ReadBytes(3);
