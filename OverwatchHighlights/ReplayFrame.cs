@@ -11,6 +11,7 @@ namespace OverwatchHighlights
 		// likely also breakable vases, screens etc. - i'm not certain of these yet.
 		private static Dictionary<Checksum, int> ms_numberOfBreakables = new Dictionary<Checksum, int>()
 		{
+			{ new Checksum("03e5e8e9fc35f388c5c0f898668aefb78607c4c184097fe584bdc7055ad5da87"), 168 }, // Ayutthaya
 			{ new Checksum("82c51523dc19af4a4edba5e43111682b36188ffe6c82f236dc953cef5d05c816"),  96 }, // BlackForest
 			{ new Checksum("d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7"),  96 }, // BlackForest
 			{ new Checksum("3f87c9029574880e85ad1fec5dd5be3d32147aa2b0660091109f8f903a24d0bf"), 952 }, // BlizzardWorld

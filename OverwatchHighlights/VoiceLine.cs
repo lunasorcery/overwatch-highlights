@@ -153,6 +153,7 @@
 		Hanzo_voiceline_00001218 = 0x00001218,
 		Hanzo_voiceline_000012B3 = 0x000012B3,
 		Hanzo_voiceline_00001334 = 0x00001334,
+		Hanzo_voiceline_0000162B = 0x0000162B,
 
 		Junkrat_voiceline_000005C3 = 0x000005C3,
 		Junkrat_voiceline_000005C4 = 0x000005C4,
