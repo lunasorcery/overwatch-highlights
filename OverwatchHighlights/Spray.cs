@@ -913,6 +913,7 @@
 		Moira_spray_0000130C      = 0x0000130C,
 		Moira_spray_0000130D      = 0x0000130D,
 		Moira_spray_0000130E      = 0x0000130E,
+		Moira_spray_0000130F      = 0x0000130F,
 		Moira_spray_00001310      = 0x00001310,
 		Moira_spray_00001311      = 0x00001311,
 		Moira_spray_00001313      = 0x00001313,
@@ -949,7 +950,9 @@
 		Brigitte_spray_000016FA   = 0x000016FA,
 		Brigitte_spray_000016FC   = 0x000016FC,
 		Brigitte_spray_00001706   = 0x00001706,
+		DVa_spray_00001AC0        = 0x00001AC0,
+		DVa_spray_00001AC6        = 0x00001AC6,
+		Doomfist_spray_00002403   = 0x00002403,
 		Sombra_spray_00002407     = 0x00002407,
-
 	};
 }

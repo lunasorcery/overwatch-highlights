@@ -129,6 +129,7 @@
 		Genji_voiceline_0000191C = 0x0000191C,
 
 		Hammond_voiceline_000019E4 = 0x000019E4,
+		Hammond_voiceline_000019F9 = 0x000019F9,
 
 		Hanzo_voiceline_00000521 = 0x00000521,
 		Hanzo_voiceline_00000544 = 0x00000544,
@@ -276,6 +277,10 @@
 		Moira_voiceline_0000135C = 0x0000135C,
 		Moira_voiceline_0000135D = 0x0000135D,
 		Moira_voiceline_0000135E = 0x0000135E,
+		Moira_voiceline_000015D7 = 0x000015D7,
+		Moira_voiceline_00001636 = 0x00001636,
+		Moira_voiceline_0000193B = 0x0000193B,
+		Moira_voiceline_00001AB4 = 0x00001AB4,
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
 		Orisa_voiceline_0000103F = 0x0000103F,

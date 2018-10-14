@@ -10,12 +10,12 @@
 		Elimination          = 0x00000009,
 		UprisingLockedHeroes = 0x0000000F,
 //		Assault              = 0x00000014,
-//		Escort               = 0x00000015,
+		Escort               = 0x00000015,
 		Hybrid               = 0x00000016,
-		Control              = 0x00000017, // starts appearing in build 39935
+		Control              = 0x00000017,
 //		UprisingAllHeroes    = 0x0000001A,
-		TeamDeathmatch       = 0x0000001D, // 6v6 
-		Deathmatch           = 0x0000001E, // 8-player FFA
+		TeamDeathmatch       = 0x0000001D,
+		Deathmatch           = 0x0000001E,
 		Lucioball            = 0x00000020,
 		Retribution          = 0x00000025,
 		JunkensteinsRevengeEndless = 0x0000002A,

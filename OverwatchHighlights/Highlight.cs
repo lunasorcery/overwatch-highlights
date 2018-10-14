@@ -162,11 +162,14 @@ namespace OverwatchHighlights
 						unknown62 == 0x01 ||
 						unknown62 == 0x07 ||
 						unknown62 == 0x0a ||
+						unknown62 == 0x11 ||
 						unknown62 == 0x1c ||
 						unknown62 == 0x27 ||
 						unknown62 == 0x2a ||
 						unknown62 == 0x36 ||
 						unknown62 == 0x4e ||
+						unknown62 == 0x61 ||
+						unknown62 == 0xc7 ||
 						unknown62 == 0xf7 ||
 						unknown62 == 0xff);
 
@@ -216,7 +219,7 @@ namespace OverwatchHighlights
 				Debug.Assert(HighlightInfo.EqualWithTypeMasking(replayBlock.highlightInfo, highlightInfos[0]));
 			}
 
-			if (this.highlightInfos[0].type == HighlightInfo.HighlightType.Manual)
+			if (this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual))
 			{
 				Debug.Assert(this.highlightInfos[0].unknown4 == 0);
 			}
