@@ -34,7 +34,7 @@
 //		PracticeRange         = 0x00000688,
 		Eichenwalde           = 0x0000068D,
 		Oasis                 = 0x0000069E,
-//		Hollywood             = 0x000006AB,
+		HollywoodHalloween    = 0x000006AB,
 //		KingsRow              = 0x000006B1,
 		EstadioDasRas         = 0x000006B3,
 //		Hanamura              = 0x000006B5,

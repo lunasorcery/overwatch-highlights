@@ -62,10 +62,10 @@ namespace OverwatchHighlights
 			return value;
 		}
 
-		public static bool AreAllFlagsDefined(HighlightInfo.HighlightType value)
+		public static bool AreAllFlagsDefined(HighlightInfo.HighlightTypeFlag value)
 		{
 			int mask = (int)value;
-			foreach (var flag in (HighlightInfo.HighlightType[])Enum.GetValues(typeof(HighlightInfo.HighlightType)))
+			foreach (var flag in (HighlightInfo.HighlightTypeFlag[])Enum.GetValues(typeof(HighlightInfo.HighlightTypeFlag)))
 			{
 				mask &= ~(int)flag;
 			}

@@ -40,6 +40,7 @@ namespace OverwatchHighlights
 			{ "8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e", Map.Hollywood           }, // 40133
 			{ "cb32eb6022a8337c174e91f56c5ab36d6e46a30fe8ab914a8c85be3648749219", Map.Hollywood           }, // 41031
 			{ "b07262347d94bf2f8767bc32253bf53fa7e4adc418da6b250b2dba5c5c7b5f06", Map.Hollywood           }, // 42210
+			{ "07c0229d14a09885cd660b9f981bc485675bd935de9f6a5cedf461e26a76e763", Map.HollywoodHalloween  }, // 51948
 			{ "2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f", Map.HorizonLunarColony  },
 			{ "5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43", Map.HorizonLunarColony  }, // 38459
 			{ "9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae", Map.HorizonLunarColony  }, // 39484

@@ -173,6 +173,7 @@
 		Doomfist_Avatar                   = 0x00001BE4,
 		Reaper_Dracula                    = 0x00001BEB,
 		Moira_Moon                        = 0x00001C79,
+		McCree_Sherlock                   = 0x00001E0C,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922 = 0x00001922,
@@ -260,7 +261,6 @@
 		McCree_skin_00001976 = 0x00001976,
 		McCree_skin_00001BCA = 0x00001BCA,
 		McCree_skin_00001C4C = 0x00001C4C,
-		McCree_skin_00001E0C = 0x00001E0C,
 		McCree_skin_000021CD = 0x000021CD,
 
 		Mei_skin_00001620 = 0x00001620,

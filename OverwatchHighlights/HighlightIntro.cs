@@ -98,6 +98,7 @@
 		Doomfist_Uppercut            = 0x0000118B,
 		Doomfist_Heroic              = 0x00001198,
 		Doomfist_Random              = 0x00001199,
+		McCree_Spark                 = 0x00001284,
 		Moira_Heroic                 = 0x000012EA,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
@@ -125,7 +126,6 @@
 		Lucio_intro_0000023B = 0x0000023B,
 
 		McCree_intro_00000238 = 0x00000238,
-		McCree_intro_00001284 = 0x00001284,
 
 		Mei_intro_00000156 = 0x00000156,
 		Mei_intro_00000158 = 0x00000158,

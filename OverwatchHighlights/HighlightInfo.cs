@@ -7,7 +7,7 @@ namespace OverwatchHighlights
 	class HighlightInfo
 	{
 		public string playerName;
-		public HighlightType type;
+		public HighlightTypeFlag typeFlags;
 		public uint unknown2;
 		public uint unknown3;
 		public float unknown4; // possibly a score, given that it's only for non-manual highlights...
@@ -28,11 +28,11 @@ namespace OverwatchHighlights
 		public HighlightUUID uuid;
 
 		[Flags]
-		public enum HighlightType : byte
+		public enum HighlightTypeFlag : byte
 		{
 			Top5       = 0x00,
 			POTG       = 0x01,
-			//Unknown_02 = 0x02,
+			//Unknown_02 = 0x02, // never observed
 			Manual     = 0x04,
 			Unknown_08 = 0x08,
 			Unknown_10 = 0x10,
@@ -54,8 +54,8 @@ namespace OverwatchHighlights
 			}
 
 			// 1 for potg, 0 for top5 highlight, 4 for manual highlight
-			this.type = (HighlightType)br.ReadByte();
-			Debug.Assert(Extensions.AreAllFlagsDefined(type));
+			this.typeFlags = (HighlightTypeFlag)br.ReadByte();
+			Debug.Assert(Extensions.AreAllFlagsDefined(typeFlags));
 
 			this.unknown2 = br.ReadUInt32();
 			Debug.Assert((unknown2 & 0x80000000u) == 0x80000000u);
@@ -138,7 +138,7 @@ namespace OverwatchHighlights
 			Console.WriteLine($"  Weapon: {weaponSkin}");
 			Console.WriteLine($"  Intro: {highlightIntro}");
 			Console.WriteLine($"  Category: {category}");
-			Console.WriteLine($"  Type: {type}");
+			Console.WriteLine($"  Type: {typeFlags}");
 			Console.WriteLine($"  Unknown2: {unknown2:X8}");
 			Console.WriteLine($"  Unknown3: {unknown3:X8}");
 			Console.WriteLine($"  Unknown4: {unknown4}");
@@ -163,7 +163,7 @@ namespace OverwatchHighlights
 			if (a.playerName != b.playerName)
 				return false;
 			//if (((int)a.type & (int)b.type) == 0)
-			if(((int)a.type & 0x5) != ((int)b.type & 0x5))
+			if(((int)a.typeFlags & 0x5) != ((int)b.typeFlags & 0x5))
 				return false;
 			if (a.unknown2 != b.unknown2)
 				return false;
@@ -213,7 +213,7 @@ namespace OverwatchHighlights
 
 			if (a.playerName != b.playerName)
 				return false;
-			if (a.type != b.type)
+			if (a.typeFlags != b.typeFlags)
 				return false;
 			if (a.unknown2 != b.unknown2)
 				return false;

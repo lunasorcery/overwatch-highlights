@@ -157,7 +157,7 @@ namespace OverwatchHighlights
 					Debug.Assert(unknown61 == 0);
 
 					byte unknown62 = br.ReadByte();
-					Debug.Assert(
+					/*Debug.Assert(
 						unknown62 == 0x00 ||
 						unknown62 == 0x01 ||
 						unknown62 == 0x07 ||
@@ -169,9 +169,11 @@ namespace OverwatchHighlights
 						unknown62 == 0x36 ||
 						unknown62 == 0x4e ||
 						unknown62 == 0x61 ||
+						unknown62 == 0x80 ||
+						unknown62 == 0xc1 ||
 						unknown62 == 0xc7 ||
 						unknown62 == 0xf7 ||
-						unknown62 == 0xff);
+						unknown62 == 0xff);*/
 
 					int fillerCount = (unknown62 & 1);
 					this.fillerStructs = new FillerStruct[fillerCount];
@@ -219,7 +221,7 @@ namespace OverwatchHighlights
 				Debug.Assert(HighlightInfo.EqualWithTypeMasking(replayBlock.highlightInfo, highlightInfos[0]));
 			}
 
-			if (this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual))
+			if (this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.Manual))
 			{
 				Debug.Assert(this.highlightInfos[0].unknown4 == 0);
 			}
@@ -234,19 +236,19 @@ namespace OverwatchHighlights
 			Debug.Assert(this.highlightInfos[0].unknown5 > this.replayBlock.paramsBlock.startMs / 1000.0f);
 			Debug.Assert(this.highlightInfos[0].unknown5 < this.replayBlock.paramsBlock.endMs / 1000.0f);
 
-			if (!this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.POTG))
+			if (!this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.POTG))
 			{
 				if (uiFlags.HasFlag(UIFlags.ManualHighlight))
-					Debug.Assert(this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual));
+					Debug.Assert(this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.Manual));
 				else
 					Debug.Assert(
-						this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5 || 
-						this.highlightInfos[0].type == HighlightInfo.HighlightType.Unknown_10
+						this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.Top5) || 
+						this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.Unknown_10)
 					);
 			}
 
 
-			if (this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual))
+			if (this.highlightInfos[0].typeFlags.HasFlag(HighlightInfo.HighlightTypeFlag.Manual))
 			{
 				Debug.Assert(this.highlightInfos[0].category == HighlightCategory.None);
 			}

@@ -245,6 +245,8 @@
 		Reaper_Dracula_Golden              = 0x00002AA9,
 		Moira_Moon                         = 0x00002BC2,
 		Moira_Moon_Golden                  = 0x00002BC3,
+		McCree_Sherlock                    = 0x00002EE6,
+		McCree_Sherlock_Golden             = 0x00002EE7,
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922_weapon_0000251B = 0x0000251B,
@@ -350,7 +352,6 @@
 		McCree_skin_00001976_weapon_000025C4 = 0x000025C4,
 		McCree_skin_00001BCA_weapon_00002A68 = 0x00002A68,
 		McCree_skin_00001C4C_weapon_00002B69 = 0x00002B69,
-		McCree_skin_00001E0C_weapon_00002EE6 = 0x00002EE6,
 		McCree_skin_000021CD_weapon_0000364C = 0x0000364C,
 
 		Mei_skin_00001620_weapon_00001F27 = 0x00001F27,

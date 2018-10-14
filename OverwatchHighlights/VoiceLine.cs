@@ -217,6 +217,12 @@
 		McCree_voiceline_00001104 = 0x00001104,
 		McCree_voiceline_00001219 = 0x00001219,
 		McCree_voiceline_000012B4 = 0x000012B4,
+		McCree_voiceline_00001335 = 0x00001335,
+		McCree_voiceline_000015CD = 0x000015CD,
+		McCree_voiceline_0000162C = 0x0000162C,
+		McCree_voiceline_0000190C = 0x0000190C,
+		McCree_voiceline_000019A3 = 0x000019A3,
+		McCree_voiceline_000022B3 = 0x000022B3,
 
 		Mei_voiceline_00000646 = 0x00000646,
 		Mei_voiceline_0000064A = 0x0000064A,

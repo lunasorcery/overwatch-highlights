@@ -44,6 +44,7 @@ namespace OverwatchHighlights
 			{ new Checksum("8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e"), 496 }, // Hollywood
 			{ new Checksum("cb32eb6022a8337c174e91f56c5ab36d6e46a30fe8ab914a8c85be3648749219"), 496 }, // Hollywood
 			{ new Checksum("b07262347d94bf2f8767bc32253bf53fa7e4adc418da6b250b2dba5c5c7b5f06"), 496 }, // Hollywood
+			{ new Checksum("07c0229d14a09885cd660b9f981bc485675bd935de9f6a5cedf461e26a76e763"), 784 }, // HollywoodHalloween
 			{ new Checksum("2666eecc51a3609cfb977eb18726625cfc35a6a145f55a18261973119499ba5f"), 304 }, // HorizonLunarColony
 			{ new Checksum("5e1af3640a7e05318932dd9b742f08462bde262e7f89549a4f43c81af9e1bd43"), 304 }, // HorizonLunarColony
 			{ new Checksum("9da70d078c525735b3e6ffcdd15d5aa4633a2dbab4a76e44b8a757d7c55714ae"), 304 }, // HorizonLunarColony
