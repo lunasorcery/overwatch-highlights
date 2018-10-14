@@ -83,6 +83,7 @@
 //		HorizonLunarColony    = 0x00000794,
 		RialtoRetribution     = 0x0000079F,
 		ChateauGuillard       = 0x000007A4,
+		Busan                 = 0x000007E2,
 		EichenwaldeHalloween  = 0x000007F4,
 		ChateauGuillardHalloween = 0x00000836,
 	}

@@ -50,14 +50,19 @@
 		Bastion_voiceline_0000110E = 0x0000110E,
 		Bastion_voiceline_0000121E = 0x0000121E,
 		Bastion_voiceline_000012B9 = 0x000012B9,
+		Bastion_voiceline_0000133A = 0x0000133A,
+		Bastion_voiceline_00001911 = 0x00001911,
 
 		Brigitte_voiceline_000016DC = 0x000016DC,
 		Brigitte_voiceline_000016DE = 0x000016DE,
+		Brigitte_voiceline_000016DF = 0x000016DF,
 		Brigitte_voiceline_000016E1 = 0x000016E1,
 		Brigitte_voiceline_000016E2 = 0x000016E2,
 		Brigitte_voiceline_000016E3 = 0x000016E3,
+		Brigitte_voiceline_000016E5 = 0x000016E5,
 		Brigitte_voiceline_0000193D = 0x0000193D,
 		Brigitte_voiceline_0000193F = 0x0000193F,
+		Brigitte_voiceline_00001AB2 = 0x00001AB2,
 
 		Doomfist_voiceline_0000119E = 0x0000119E,
 		Doomfist_voiceline_0000119F = 0x0000119F,
@@ -72,6 +77,9 @@
 		Doomfist_voiceline_0000122C = 0x0000122C,
 		Doomfist_voiceline_00001230 = 0x00001230,
 		Doomfist_voiceline_000012CB = 0x000012CB,
+		Doomfist_voiceline_000015D1 = 0x000015D1,
+		Doomfist_voiceline_00001938 = 0x00001938,
+		Doomfist_voiceline_000019B7 = 0x000019B7,
 
 		DVa_voiceline_00000679 = 0x00000679,
 		DVa_voiceline_0000067A = 0x0000067A,
@@ -94,6 +102,7 @@
 		DVa_voiceline_00001116 = 0x00001116,
 		DVa_voiceline_00001221 = 0x00001221,
 		DVa_voiceline_000012BC = 0x000012BC,
+		DVa_voiceline_000015D8 = 0x000015D8,
 		DVa_voiceline_00001915 = 0x00001915,
 
 		Genji_voiceline_0000076D = 0x0000076D,
@@ -229,6 +238,7 @@
 		Mei_voiceline_0000110C = 0x0000110C,
 		Mei_voiceline_0000121D = 0x0000121D,
 		Mei_voiceline_00001339 = 0x00001339,
+		Mei_voiceline_000019A7 = 0x000019A7,
 
 		Mercy_voiceline_000004FE = 0x000004FE,
 		Mercy_voiceline_00000501 = 0x00000501,
@@ -252,8 +262,10 @@
 		Mercy_voiceline_00001217 = 0x00001217,
 		Mercy_voiceline_000012B2 = 0x000012B2,
 		Mercy_voiceline_00001333 = 0x00001333,
+		Mercy_voiceline_0000162A = 0x0000162A,
 
 		Moira_voiceline_000012EB = 0x000012EB,
+		Moira_voiceline_0000134E = 0x0000134E,
 		Moira_voiceline_0000134F = 0x0000134F,
 		Moira_voiceline_00001355 = 0x00001355,
 		Moira_voiceline_00001356 = 0x00001356,
@@ -328,6 +340,7 @@
 		Reaper_voiceline_0000111A = 0x0000111A,
 		Reaper_voiceline_00001223 = 0x00001223,
 		Reaper_voiceline_000012BE = 0x000012BE,
+		Reaper_voiceline_000015DA = 0x000015DA,
 		Reaper_voiceline_00001639 = 0x00001639,
 
 		Reinhardt_voiceline_000006F0 = 0x000006F0,
@@ -533,6 +546,7 @@
 		Winston_voiceline_000012C2 = 0x000012C2,
 		Winston_voiceline_00001344 = 0x00001344,
 		Winston_voiceline_000015DE = 0x000015DE,
+		Winston_voiceline_000022B7 = 0x000022B7,
 
 		Zarya_voiceline_0000071C = 0x0000071C,
 		Zarya_voiceline_0000071F = 0x0000071F,

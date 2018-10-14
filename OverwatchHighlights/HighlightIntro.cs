@@ -107,6 +107,7 @@
 		Bastion_intro_00000237 = 0x00000237,
 
 		Brigitte_intro_000016D9 = 0x000016D9,
+		Brigitte_intro_000022BC = 0x000022BC,
 
 		Doomfist_intro_0000118A = 0x0000118A,
 		Doomfist_intro_00001288 = 0x00001288,
@@ -137,6 +138,7 @@
 		Moira_intro_000012FE = 0x000012FE,
 		Moira_intro_00001324 = 0x00001324,
 		Moira_intro_00001353 = 0x00001353,
+		Moira_intro_00001A64 = 0x00001A64,
 
 		Orisa_intro_00000F68 = 0x00000F68,
 		Orisa_intro_00000F90 = 0x00000F90,

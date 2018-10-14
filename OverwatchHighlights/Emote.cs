@@ -25,6 +25,7 @@
 		Bastion_emote_00000BE6 = 0x00000BE6,
 		Bastion_emote_00000FF9 = 0x00000FF9,
 
+		Brigitte_emote_000016D5 = 0x000016D5,
 		Brigitte_emote_000016D8 = 0x000016D8,
 
 		Doomfist_emote_0000118D = 0x0000118D,
@@ -33,6 +34,7 @@
 		Doomfist_emote_000011E1 = 0x000011E1,
 		Doomfist_emote_0000120D = 0x0000120D,
 		Doomfist_emote_00001282 = 0x00001282,
+		Doomfist_emote_00001969 = 0x00001969,
 
 		DVa_emote_00000659 = 0x00000659,
 		DVa_emote_0000065A = 0x0000065A,
@@ -99,6 +101,7 @@
 		Mei_emote_00000EA5 = 0x00000EA5,
 		Mei_emote_00000F5F = 0x00000F5F,
 		Mei_emote_0000113C = 0x0000113C,
+		Mei_emote_00001A51 = 0x00001A51,
 
 		Mercy_emote_000004F8 = 0x000004F8,
 		Mercy_emote_000004F9 = 0x000004F9,
@@ -107,6 +110,7 @@
 		Mercy_emote_00000A4D = 0x00000A4D,
 		Mercy_emote_00000A4E = 0x00000A4E,
 		Mercy_emote_00000CAA = 0x00000CAA,
+		Mercy_emote_00001390 = 0x00001390,
 
 		Moira_emote_000012EC = 0x000012EC,
 		Moira_emote_000012ED = 0x000012ED,

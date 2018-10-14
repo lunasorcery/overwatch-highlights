@@ -194,10 +194,12 @@
 		Bastion_skin_000018CE = 0x000018CE,
 		Bastion_skin_00001AE8 = 0x00001AE8,
 		Bastion_skin_00001B93 = 0x00001B93,
+		Bastion_skin_00001C3E = 0x00001C3E,
 
 		Brigitte_skin_00001BCE = 0x00001BCE,
 		Brigitte_skin_00001EA5 = 0x00001EA5,
 		Brigitte_skin_00001EAD = 0x00001EAD,
+		Brigitte_skin_00002131 = 0x00002131,
 
 		Doomfist_skin_00001610 = 0x00001610,
 		Doomfist_skin_00001611 = 0x00001611,
@@ -215,6 +217,7 @@
 		DVa_skin_000018C8 = 0x000018C8,
 		DVa_skin_00001A19 = 0x00001A19,
 		DVa_skin_00001C3D = 0x00001C3D,
+		DVa_skin_00001EA2 = 0x00001EA2,
 
 		Genji_skin_000016D8 = 0x000016D8,
 		Genji_skin_000016DA = 0x000016DA,
@@ -272,6 +275,7 @@
 		Mei_skin_00001982 = 0x00001982,
 		Mei_skin_00001A10 = 0x00001A10,
 		Mei_skin_00001B67 = 0x00001B67,
+		Mei_skin_00001BE1 = 0x00001BE1,
 		Mei_skin_00001BEC = 0x00001BEC,
 
 		Mercy_skin_000015D7 = 0x000015D7,
@@ -291,6 +295,7 @@
 		Moira_skin_00001C61 = 0x00001C61,
 		Moira_skin_00001C63 = 0x00001C63,
 		Moira_skin_00001C75 = 0x00001C75,
+		Moira_skin_00002136 = 0x00002136,
 
 		Orisa_skin_00001933 = 0x00001933,
 		Orisa_skin_00001934 = 0x00001934,
@@ -346,6 +351,7 @@
 		Roadhog_skin_000018E0 = 0x000018E0,
 		Roadhog_skin_00001A14 = 0x00001A14,
 		Roadhog_skin_00001C1C = 0x00001C1C,
+		Roadhog_skin_000020E9 = 0x000020E9,
 
 		Soldier76_skin_000016C8 = 0x000016C8,
 		Soldier76_skin_000016C9 = 0x000016C9,
@@ -431,6 +437,7 @@
 		Zenyatta_skin_00001BE7 = 0x00001BE7,
 		Zenyatta_skin_00001D8A = 0x00001D8A,
 		Zenyatta_skin_00001DC6 = 0x00001DC6,
+		Zenyatta_skin_00001E2D = 0x00001E2D,
 
 		// event stuff
 		JunkensteinEvent_00000175_Classic = 0x00001AF9,

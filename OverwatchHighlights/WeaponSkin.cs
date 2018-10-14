@@ -272,10 +272,12 @@
 		Bastion_skin_00001AE8_weapon_000028A4 = 0x000028A4,
 		Bastion_skin_00001AE8_weapon_000028A5 = 0x000028A5,
 		Bastion_skin_00001B93_weapon_000029FA = 0x000029FA,
+		Bastion_skin_00001C3E_weapon_00002B4E = 0x00002B4E,
 
 		Brigitte_skin_00001BCE_weapon_00002A70 = 0x00002A70,
 		Brigitte_skin_00001EA5_weapon_0000300F = 0x0000300F,
 		Brigitte_skin_00001EAD_weapon_0000301F = 0x0000301F,
+		Brigitte_skin_00002131_weapon_0000352C = 0x0000352C,
 
 		Doomfist_skin_00001610_weapon_00001F07 = 0x00001F07,
 		Doomfist_skin_00001611_weapon_00001F09 = 0x00001F09,
@@ -296,6 +298,7 @@
 		DVa_skin_00001A19_weapon_00002708 = 0x00002708,
 		DVa_skin_00001A19_weapon_00002709 = 0x00002709,
 		DVa_skin_00001C3D_weapon_00002B4C = 0x00002B4C,
+		DVa_skin_00001EA2_weapon_00003009 = 0x00003009,
 
 		Genji_skin_000016D8_weapon_00002097 = 0x00002097,
 		Genji_skin_000016DA_weapon_0000209B = 0x0000209B,
@@ -363,6 +366,7 @@
 		Mei_skin_00001982_weapon_000025DB = 0x000025DB,
 		Mei_skin_00001A10_weapon_000026F6 = 0x000026F6,
 		Mei_skin_00001B67_weapon_000029A2 = 0x000029A2,
+		Mei_skin_00001BE1_weapon_00002A94 = 0x00002A94,
 		Mei_skin_00001BEC_weapon_00002AAA = 0x00002AAA,
 
 		Mercy_skin_000015D7_weapon_00001E95 = 0x00001E95,
@@ -384,6 +388,7 @@
 		Moira_skin_00001C61_weapon_00002B92 = 0x00002B92,
 		Moira_skin_00001C63_weapon_00002B96 = 0x00002B96,
 		Moira_skin_00001C75_weapon_00002BBA = 0x00002BBA,
+		Moira_skin_00002136_weapon_00003536 = 0x00003536,
 
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
 		Orisa_skin_00001934_weapon_0000253F = 0x0000253F,
@@ -439,6 +444,7 @@
 		Roadhog_skin_000018E0_weapon_0000249D = 0x0000249D,
 		Roadhog_skin_00001A14_weapon_000026FE = 0x000026FE,
 		Roadhog_skin_00001C1C_weapon_00002B0A = 0x00002B0A,
+		Roadhog_skin_000020E9_weapon_0000349D = 0x0000349D,
 
 		Soldier76_skin_000016C8_weapon_00002077 = 0x00002077,
 		Soldier76_skin_000016C9_weapon_00002079 = 0x00002079,
@@ -535,6 +541,7 @@
 		Zenyatta_skin_00001BE7_weapon_00002AA0 = 0x00002AA0,
 		Zenyatta_skin_00001D8A_weapon_00002DE2 = 0x00002DE2,
 		Zenyatta_skin_00001DC6_weapon_00002E5A = 0x00002E5A,
+		Zenyatta_skin_00001E2D_weapon_00002F28 = 0x00002F28,
 
 		// event stuff
 		JunkensteinEvent_00000175_Classic = 0x000028C6,

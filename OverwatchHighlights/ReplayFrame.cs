@@ -15,6 +15,7 @@ namespace OverwatchHighlights
 			{ new Checksum("d5789985d38ea9e063900e1068e55326357d2a98024b553c2a9173d3c5b191e7"),  96 }, // BlackForest
 			{ new Checksum("3f87c9029574880e85ad1fec5dd5be3d32147aa2b0660091109f8f903a24d0bf"), 952 }, // BlizzardWorld
 			{ new Checksum("4b08a653b750541af8361756cb182ee42b7993a43a7c9a3e290b501fe6f3e1ba"), 904 }, // BlizzardWorld
+			{ new Checksum("8b540d0a894cbb4148962fded95550cd7ca96ea9f31f562acf4223c6b2c70ad7"), 504 }, // Busan
 			{ new Checksum("9eae227b131ac6bd177a331dc97ceb7babb545cff3d93af5bca623b3bef726b5"), 168 }, // Castillo
 			{ new Checksum("5d00a275b98301855f3af20b475ca9106f3f28eee1e4eddaccb7184491c7d032"), 168 }, // Castillo
 			{ new Checksum("e1143cd6b8c43c85d924cd05a654652d8bb8f5fc623548c669eb999c46d46085"), 272 }, // ChateauGuillard

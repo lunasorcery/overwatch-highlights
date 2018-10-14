@@ -166,6 +166,7 @@ namespace OverwatchHighlights
 						unknown62 == 0x27 ||
 						unknown62 == 0x2a ||
 						unknown62 == 0x36 ||
+						unknown62 == 0x4e ||
 						unknown62 == 0xf7 ||
 						unknown62 == 0xff);
 
