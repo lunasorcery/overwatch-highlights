@@ -119,6 +119,8 @@
 		Genji_voiceline_000012C3 = 0x000012C3,
 		Genji_voiceline_0000191C = 0x0000191C,
 
+		Hammond_voiceline_000019E4 = 0x000019E4,
+
 		Hanzo_voiceline_00000521 = 0x00000521,
 		Hanzo_voiceline_00000544 = 0x00000544,
 		Hanzo_voiceline_00000545 = 0x00000545,
@@ -460,6 +462,7 @@
 		Torbjorn_voiceline_00001112 = 0x00001112,
 		Torbjorn_voiceline_0000121F = 0x0000121F,
 		Torbjorn_voiceline_000012BA = 0x000012BA,
+		Torbjorn_voiceline_00001913 = 0x00001913,
 
 		Tracer_voiceline_00000830 = 0x00000830,
 		Tracer_voiceline_00000831 = 0x00000831,
@@ -551,7 +554,9 @@
 		Zarya_voiceline_00001117 = 0x00001117,
 		Zarya_voiceline_00001118 = 0x00001118,
 		Zarya_voiceline_00001222 = 0x00001222,
+		Zarya_voiceline_000012BD = 0x000012BD,
 		Zarya_voiceline_000015D9 = 0x000015D9,
+		Zarya_voiceline_00001916 = 0x00001916,
 
 		Zenyatta_voiceline_0000059A = 0x0000059A,
 		Zenyatta_voiceline_0000059B = 0x0000059B,

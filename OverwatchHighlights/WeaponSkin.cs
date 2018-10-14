@@ -172,6 +172,7 @@
 		Mercy_Witch_Golden                 = 0x000025AC,
 		DVa_Cruiser                        = 0x000025AF,
 		DVa_Cruiser_Golden                 = 0x000025B0,
+		Zarya_Totally80s                   = 0x000025B3,
 		Widowmaker_Tricolore               = 0x000025C7,
 		Mercy_Eidgenossin                  = 0x000025C9,
 		Mercy_Eidgenossin_Golden           = 0x000025CA,
@@ -191,6 +192,8 @@
 		Genji_Oni                          = 0x000025FF,
 		Genji_Oni_Golden                   = 0x00002600,
 		Bastion_Tombstone                  = 0x00002613,
+		Pharah_Possessed                   = 0x00002615,
+		Pharah_Possessed_Golden            = 0x00002616,
 		Reinhardt_Coldhardt                = 0x00002617,
 		Hanzo_Demon                        = 0x00002623,
 		Hanzo_Cyberninja                   = 0x0000263A,
@@ -280,6 +283,7 @@
 		Doomfist_skin_00001BD9_weapon_00002A84 = 0x00002A84,
 		Doomfist_skin_00001BDA_weapon_00002A86 = 0x00002A86,
 		Doomfist_skin_00001BE3_weapon_00002A98 = 0x00002A98,
+		Doomfist_skin_00001C71_weapon_00002BB2 = 0x00002BB2,
 
 		DVa_skin_00001613_weapon_00001F0D = 0x00001F0D,
 		DVa_skin_00001614_weapon_00001F0F = 0x00001F0F,
@@ -298,6 +302,8 @@
 		Genji_skin_00001789_weapon_000021F7 = 0x000021F7,
 		Genji_skin_00001789_weapon_000021F8 = 0x000021F8,
 		Genji_skin_000018EA_weapon_000024B1 = 0x000024B1,
+
+		Hammond_skin_00001C56_weapon_00002B7C = 0x00002B7C,
 
 		Hanzo_skin_000015E8_weapon_00001EB7 = 0x00001EB7,
 		Hanzo_skin_000015E8_weapon_00001EB8 = 0x00001EB8,
@@ -341,6 +347,8 @@
 		McCree_skin_00001976_weapon_000025C4 = 0x000025C4,
 		McCree_skin_00001BCA_weapon_00002A68 = 0x00002A68,
 		McCree_skin_00001C4C_weapon_00002B69 = 0x00002B69,
+		McCree_skin_00001E0C_weapon_00002EE6 = 0x00002EE6,
+		McCree_skin_000021CD_weapon_0000364C = 0x0000364C,
 
 		Mei_skin_00001620_weapon_00001F27 = 0x00001F27,
 		Mei_skin_00001621_weapon_00001F29 = 0x00001F29,
@@ -395,8 +403,6 @@
 		Pharah_skin_000016C1_weapon_00002069 = 0x00002069,
 		Pharah_skin_000016C2_weapon_0000206B = 0x0000206B,
 		Pharah_skin_000018E1_weapon_0000249F = 0x0000249F,
-		Pharah_skin_000019A0_weapon_00002615 = 0x00002615,
-		Pharah_skin_000019A0_weapon_00002616 = 0x00002616,
 		Pharah_skin_00001A16_weapon_00002702 = 0x00002702,
 
 		Reaper_skin_0000167B_weapon_00001FDD = 0x00001FDD,
@@ -514,7 +520,6 @@
 		Zarya_skin_00001944_weapon_0000255F = 0x0000255F,
 		Zarya_skin_00001944_weapon_00002560 = 0x00002560,
 		Zarya_skin_00001945_weapon_00002561 = 0x00002561,
-		Zarya_skin_0000196E_weapon_000025B3 = 0x000025B3,
 		Zarya_skin_00001C1A_weapon_00002B06 = 0x00002B06,
 
 		Zenyatta_skin_000015FB_weapon_00001EDD = 0x00001EDD,
@@ -531,6 +536,7 @@
 		Zenyatta_skin_00001D8A_weapon_00002DE2 = 0x00002DE2,
 		Zenyatta_skin_00001DC6_weapon_00002E5A = 0x00002E5A,
 
+		// event stuff
 		JunkensteinEvent_00000175_Classic = 0x000028C6,
 		JunkensteinEvent_00000176_Classic = 0x000028BA,
 		JunkensteinEvent_00000177_Classic = 0x000028D8,

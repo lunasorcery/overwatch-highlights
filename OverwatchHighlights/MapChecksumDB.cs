@@ -18,6 +18,7 @@ namespace OverwatchHighlights
 			{ "57925bca898c0b25fa1ab5f3c0a92459158acda18d472a532b6a958cedb194c0", Map.ChateauGuillard     }, // 39103
 			{ "fad957e3e8209c027f135a034ddcba1f1f276ea00d9ce428f8c65fe0987cdf67", Map.ChateauGuillard     }, // 39241
 			{ "9654ae18fc879ab82dceab50231556d8ce0304fc702687d4f9243a637a5042f7", Map.ChateauGuillard     }, // 42210
+			{ "117c20bb8647937c46946c24653848694255e794926c77274f133ab79529dfbb", Map.ChateauGuillardHalloween }, // 51948
 			{ "62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4", Map.Dorado              },
 			{ "e2872843fc4060ad193e226d6bfdbf714175a0bb5d0ec32c2bd897c483190351", Map.Dorado              }, // 39484
 			{ "b3d198624aa53f1294664084b4ccb1738d1e2997cc87c5338d9946d7e3aa0acd", Map.Dorado              }, // 41031
@@ -26,6 +27,7 @@ namespace OverwatchHighlights
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
 			{ "139e122a54ae3484ffb2455aa71b955f690a10dc874f7f0cdb8e41be83a60b45", Map.Eichenwalde         }, // 41350
 			{ "b492e9904f19915884732a5904ca0c27703df3ef5f804ced8271354004ffc953", Map.Eichenwalde         }, // 42665
+			{ "c5649643502009c80ff958c1375a45a407cd6511bd0f949156cb9e57bc92f4e5", Map.Eichenwalde         }, // 51948
 			{ "60418c892c1764d75d2d7e9d06a30078ed70e46caa78bca6ebc8a7ca0a91f512", Map.EichenwaldeHalloween}, // 40407
 			{ "df9cd09ad721830fcba4cb315661c7f83ac4497e9f2b87d11443feed0c030db3", Map.EstadioDasRas       },
 			{ "2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93", Map.Hanamura            },

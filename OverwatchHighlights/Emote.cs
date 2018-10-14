@@ -52,6 +52,8 @@
 		Genji_emote_00000FE5 = 0x00000FE5,
 		Genji_emote_00001212 = 0x00001212,
 
+		Hammond_emote_000019E5 = 0x000019E5,
+
 		Hanzo_emote_00000524 = 0x00000524,
 		Hanzo_emote_00000525 = 0x00000525,
 		Hanzo_emote_00000526 = 0x00000526,
@@ -173,6 +175,7 @@
 		Sombra_emote_00001094 = 0x00001094,
 		Sombra_emote_000010F3 = 0x000010F3,
 		Sombra_emote_000010F8 = 0x000010F8,
+		Sombra_emote_00001281 = 0x00001281,
 
 		Symmetra_emote_000007FD = 0x000007FD,
 		Symmetra_emote_00000801 = 0x00000801,

@@ -54,6 +54,9 @@ namespace OverwatchHighlights
 			42665, // 22/01?/2018 Live 1.19.1.3
 			45752, // 22/04/2018 Live 1.22.0.1
 			45876, // 22/04/2018 Live 1.22.0.1
+			// -- hiatus lol --
+			51830, // 14/10/2018 Live 1.29.0.1, replay only?
+			51948, // 14/10/2018 Live 1.29.0.1
 		};
 
 		private int m_buildNumber;

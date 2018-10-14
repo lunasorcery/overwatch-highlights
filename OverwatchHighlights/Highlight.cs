@@ -161,10 +161,13 @@ namespace OverwatchHighlights
 						unknown62 == 0x00 ||
 						unknown62 == 0x01 ||
 						unknown62 == 0x07 ||
+						unknown62 == 0x0a ||
 						unknown62 == 0x1c ||
 						unknown62 == 0x27 ||
 						unknown62 == 0x2a ||
-						unknown62 == 0xf7);
+						unknown62 == 0x36 ||
+						unknown62 == 0xf7 ||
+						unknown62 == 0xff);
 
 					int fillerCount = (unknown62 & 1);
 					this.fillerStructs = new FillerStruct[fillerCount];
@@ -200,7 +203,8 @@ namespace OverwatchHighlights
 				(this.buildNumber == 41714 && replayBlock.buildNumber == 41350) ||
 				(this.buildNumber == 41713 && replayBlock.buildNumber == 41835) ||
 				(this.buildNumber == 42665 && replayBlock.buildNumber == 42563) ||
-				(this.buildNumber == 45752 && replayBlock.buildNumber == 45876)
+				(this.buildNumber == 45752 && replayBlock.buildNumber == 45876) ||
+				(this.buildNumber == 51948 && replayBlock.buildNumber == 51830)
 			// I've no idea what's up with all these weird permutations...
 			);
 			Debug.Assert(replayBlock.map == this.map);
@@ -231,7 +235,10 @@ namespace OverwatchHighlights
 				if (uiFlags.HasFlag(UIFlags.ManualHighlight))
 					Debug.Assert(this.highlightInfos[0].type.HasFlag(HighlightInfo.HighlightType.Manual));
 				else
-					Debug.Assert(this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5);
+					Debug.Assert(
+						this.highlightInfos[0].type == HighlightInfo.HighlightType.Top5 || 
+						this.highlightInfos[0].type == HighlightInfo.HighlightType.Unknown_10
+					);
 			}
 
 

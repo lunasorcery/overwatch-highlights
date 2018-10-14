@@ -128,6 +128,7 @@
 		Zenyatta_Nutcracker               = 0x00001966,
 		Mercy_Witch                       = 0x0000196A,
 		DVa_Cruiser                       = 0x0000196C,
+		Zarya_Totally80s                  = 0x0000196E,
 		Widowmaker_Tricolore              = 0x00001978,
 		Mercy_Eidgenossin                 = 0x00001979,
 		DVa_Taegeukgi                     = 0x0000197A,
@@ -204,6 +205,7 @@
 		Doomfist_skin_00001BD9 = 0x00001BD9,
 		Doomfist_skin_00001BDA = 0x00001BDA,
 		Doomfist_skin_00001BE3 = 0x00001BE3,
+		Doomfist_skin_00001C71 = 0x00001C71,
 
 		DVa_skin_00001613 = 0x00001613,
 		DVa_skin_00001614 = 0x00001614,
@@ -218,6 +220,8 @@
 		Genji_skin_000016DA = 0x000016DA,
 		Genji_skin_00001789 = 0x00001789,
 		Genji_skin_000018EA = 0x000018EA,
+
+		Hammond_skin_00001C56 = 0x00001C56,
 
 		Hanzo_skin_000015E8 = 0x000015E8,
 		Hanzo_skin_000018B4 = 0x000018B4,
@@ -253,6 +257,8 @@
 		McCree_skin_00001976 = 0x00001976,
 		McCree_skin_00001BCA = 0x00001BCA,
 		McCree_skin_00001C4C = 0x00001C4C,
+		McCree_skin_00001E0C = 0x00001E0C,
+		McCree_skin_000021CD = 0x000021CD,
 
 		Mei_skin_00001620 = 0x00001620,
 		Mei_skin_00001621 = 0x00001621,
@@ -303,7 +309,7 @@
 		Pharah_skin_000016C1 = 0x000016C1,
 		Pharah_skin_000016C2 = 0x000016C2,
 		Pharah_skin_000018E1 = 0x000018E1,
-		Pharah_skin_000019A0 = 0x000019A0,
+		Pharah_Possessed = 0x000019A0,
 		Pharah_skin_00001A16 = 0x00001A16,
 
 		Reaper_skin_0000167B = 0x0000167B,
@@ -412,7 +418,6 @@
 		Zarya_skin_000018D9 = 0x000018D9,
 		Zarya_skin_00001944 = 0x00001944,
 		Zarya_skin_00001945 = 0x00001945,
-		Zarya_skin_0000196E = 0x0000196E,
 		Zarya_skin_00001C1A = 0x00001C1A,
 
 		Zenyatta_skin_000015FB = 0x000015FB,

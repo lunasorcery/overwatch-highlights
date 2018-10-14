@@ -24,7 +24,7 @@ namespace OverwatchHighlights
 			Debug.Assert(magic == MAGIC_CONSTANT);
 
 			byte formatVersion = br.ReadByte();
-			Debug.Assert(formatVersion == 3 || formatVersion == 4);
+			Debug.Assert(formatVersion == 3 || formatVersion == 4 || formatVersion == 5);
 
 			this.buildNumber = new BuildNumber(br);
 			Debug.Assert(this.buildNumber.IsKnownByTool(), $"Build number {buildNumber} is not known by tool");
@@ -33,14 +33,25 @@ namespace OverwatchHighlights
 
 			this.gameMode = br.ReadGameMode64();
 
-			byte unknown1 = br.ReadByte();
-			Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
+			byte unknown1;
 
-			uint unknown2 = br.ReadUInt32();
-			Debug.Assert(unknown2 == 0x10 || unknown2 == 0x30);
+			if (formatVersion >= 5)
+			{
+				byte[] unknownBytes = br.ReadBytes(0x28);
+				unknown1 = br.ReadByte();
+				Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
+			}
+			else
+			{
+				unknown1 = br.ReadByte();
+				Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
 
-			uint unknown3 = br.ReadUInt32();
-			Debug.Assert(unknown3 == 0x10 || unknown3 == 0x30);
+				uint unknown2 = br.ReadUInt32();
+				Debug.Assert(unknown2 == 0x10 || unknown2 == 0x30);
+
+				uint unknown3 = br.ReadUInt32();
+				Debug.Assert(unknown3 == 0x10 || unknown3 == 0x30);
+			}
 
 			this.mapChecksum = new Checksum(br);
 			Debug.Assert(MapChecksumDB.IsValidChecksumForMap(map, mapChecksum));

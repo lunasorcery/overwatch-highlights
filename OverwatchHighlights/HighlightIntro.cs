@@ -109,11 +109,14 @@
 		Brigitte_intro_000016D9 = 0x000016D9,
 
 		Doomfist_intro_0000118A = 0x0000118A,
+		Doomfist_intro_00001288 = 0x00001288,
 
 		DVa_intro_00000155 = 0x00000155,
 		DVa_intro_0000023F = 0x0000023F,
 
 		Genji_intro_0000023E = 0x0000023E,
+
+		Hammond_intro_000019E1 = 0x000019E1,
 
 		Hanzo_intro_00000232 = 0x00000232,
 

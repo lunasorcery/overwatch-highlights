@@ -84,5 +84,6 @@
 		RialtoRetribution     = 0x0000079F,
 		ChateauGuillard       = 0x000007A4,
 		EichenwaldeHalloween  = 0x000007F4,
+		ChateauGuillardHalloween = 0x00000836,
 	}
 }
