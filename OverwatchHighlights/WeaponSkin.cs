@@ -214,6 +214,7 @@
 		Orisa_NullSector                   = 0x00002996,
 		Zarya_Cyberian                     = 0x000029A8,
 		Mercy_CombatMedicZiegler           = 0x000029CA,
+		Mercy_CombatMedicZiegler_Golden    = 0x000029CB,
 		Genji_Blackwatch                   = 0x000029CE,
 		Genji_Blackwatch_Golden            = 0x000029CF,
 		Reinhardt_LieutenantWilhelm        = 0x000029E2,
@@ -301,6 +302,7 @@
 		DVa_skin_00001A19_weapon_00002709 = 0x00002709,
 		DVa_skin_00001C3D_weapon_00002B4C = 0x00002B4C,
 		DVa_skin_00001EA2_weapon_00003009 = 0x00003009,
+		DVa_skin_00002118_weapon_000034FC = 0x000034FC,
 
 		Genji_skin_000016D8_weapon_00002097 = 0x00002097,
 		Genji_skin_000016DA_weapon_0000209B = 0x0000209B,
@@ -389,6 +391,7 @@
 		Moira_skin_00001C61_weapon_00002B92 = 0x00002B92,
 		Moira_skin_00001C63_weapon_00002B96 = 0x00002B96,
 		Moira_skin_00001C75_weapon_00002BBA = 0x00002BBA,
+		Moira_skin_0000212A_weapon_0000351F = 0x0000351F,
 		Moira_skin_00002136_weapon_00003536 = 0x00003536,
 
 		Orisa_skin_00001933_weapon_0000253D = 0x0000253D,
@@ -481,6 +484,7 @@
 		Torbjorn_skin_000018D4_weapon_00002485 = 0x00002485,
 		Torbjorn_skin_00001968_weapon_000025A7 = 0x000025A7,
 		Torbjorn_skin_00001BCB_weapon_00002A6A = 0x00002A6A,
+		Torbjorn_skin_00001C18_weapon_00002B02 = 0x00002B02,
 
 		Tracer_skin_000016F7_weapon_000020D5 = 0x000020D5,
 		Tracer_skin_0000170B_weapon_000020FD = 0x000020FD,

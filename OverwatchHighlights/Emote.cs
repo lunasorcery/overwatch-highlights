@@ -118,6 +118,8 @@
 		Moira_emote_00001329 = 0x00001329,
 		Moira_emote_00001351 = 0x00001351,
 		Moira_emote_00001352 = 0x00001352,
+		Moira_emote_000015EF = 0x000015EF,
+		Moira_emote_0000196F = 0x0000196F,
 
 		Orisa_emote_00000F63 = 0x00000F63,
 		Orisa_emote_00000FEB = 0x00000FEB,

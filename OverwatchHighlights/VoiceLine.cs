@@ -271,6 +271,7 @@
 		Mercy_voiceline_000012B2 = 0x000012B2,
 		Mercy_voiceline_00001333 = 0x00001333,
 		Mercy_voiceline_0000162A = 0x0000162A,
+		Mercy_voiceline_000019A1 = 0x000019A1,
 
 		Moira_voiceline_000012EB = 0x000012EB,
 		Moira_voiceline_0000134E = 0x0000134E,
@@ -287,6 +288,7 @@
 		Moira_voiceline_000015D7 = 0x000015D7,
 		Moira_voiceline_00001636 = 0x00001636,
 		Moira_voiceline_0000193B = 0x0000193B,
+		Moira_voiceline_000019BB = 0x000019BB,
 		Moira_voiceline_00001AB4 = 0x00001AB4,
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
@@ -511,6 +513,7 @@
 		Tracer_voiceline_0000122A = 0x0000122A,
 		Tracer_voiceline_000012C5 = 0x000012C5,
 		Tracer_voiceline_00001347 = 0x00001347,
+		Tracer_voiceline_000022B6 = 0x000022B6,
 
 		Widowmaker_voiceline_0000069A = 0x0000069A,
 		Widowmaker_voiceline_0000069D = 0x0000069D,

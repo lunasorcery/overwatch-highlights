@@ -84,6 +84,7 @@ namespace OverwatchHighlights
 			{ new Checksum("2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a"), 504 }, // Numbani
 			{ new Checksum("8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda"), 616 }, // Numbani
 			{ new Checksum("3c8e2f6c1924cdc9bc6180665c1fca0d32cdbb436dba9da8a0a7e57a745e3ed1"), 616 }, // Numbani
+			{ new Checksum("2a6dcfa98c7eaff77c56d87b53e26ba3a64eb58d0738aacc8302926f881dd7e7"), 632 }, // Numbani
 			{ new Checksum("f710bb6473333d91ace388140ff934e27b2b7f91bdf3bde0a1741677b94c093b"), 688 }, // Oasis
 			{ new Checksum("e8d841ea9bfa692417c8b8635e489c84bfab1de1b2f69168066f6dd2a7ff42a6"), 696 }, // Oasis
 			{ new Checksum("346731542d347fa3a9b99143ade3284144da926827a94dc7cbd688c699a7c284"), 696 }, // Oasis

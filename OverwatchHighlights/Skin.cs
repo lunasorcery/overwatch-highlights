@@ -219,6 +219,7 @@
 		DVa_skin_00001A19 = 0x00001A19,
 		DVa_skin_00001C3D = 0x00001C3D,
 		DVa_skin_00001EA2 = 0x00001EA2,
+		DVa_skin_00002118 = 0x00002118,
 
 		Genji_skin_000016D8 = 0x000016D8,
 		Genji_skin_000016DA = 0x000016DA,
@@ -295,6 +296,7 @@
 		Moira_skin_00001C61 = 0x00001C61,
 		Moira_skin_00001C63 = 0x00001C63,
 		Moira_skin_00001C75 = 0x00001C75,
+		Moira_skin_0000212A = 0x0000212A,
 		Moira_skin_00002136 = 0x00002136,
 
 		Orisa_skin_00001933 = 0x00001933,
@@ -385,6 +387,7 @@
 		Torbjorn_skin_000018D4 = 0x000018D4,
 		Torbjorn_skin_00001968 = 0x00001968,
 		Torbjorn_skin_00001BCB = 0x00001BCB,
+		Torbjorn_skin_00001C18 = 0x00001C18,
 
 		Tracer_skin_000016F7 = 0x000016F7,
 		Tracer_skin_0000170B = 0x0000170B,
