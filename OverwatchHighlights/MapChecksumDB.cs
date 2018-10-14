@@ -25,6 +25,7 @@ namespace OverwatchHighlights
 			{ "b3d198624aa53f1294664084b4ccb1738d1e2997cc87c5338d9946d7e3aa0acd", Map.Dorado              }, // 41031
 			{ "352212f74ea9e6a78b0c95eb27713dd1e25efd5a7baecb2d6123d115ddc19f8f", Map.Dorado              }, // 51948
 			{ "b10ec7bbc79a8aec0b3cd3635516a175e698967f736c0f6625a8b4c0266b32ce", Map.EcopointAntarctica  },
+			{ "9d9ae0bfd2e09ae7eef0e6d08ae2d60fffa09d3f93d0d5cf7aebdcdc8ae72a22", Map.EcopointAntarctica  }, // 51948
 			{ "fd59d8a6a49911490352f4782197ddcbaec1c5e55cc8d458b7692cf50b6f1cc5", Map.Eichenwalde         },
 			{ "e627df441dece13c2033bc625561ca8d4f6857b630341d8ddc46000c59076d67", Map.Eichenwalde         }, // 39484
 			{ "139e122a54ae3484ffb2455aa71b955f690a10dc874f7f0cdb8e41be83a60b45", Map.Eichenwalde         }, // 41350
