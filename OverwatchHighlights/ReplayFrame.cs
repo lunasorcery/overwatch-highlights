@@ -76,6 +76,7 @@ namespace OverwatchHighlights
 			{ new Checksum("3b07908c0ae62176f63d5c784db72b4e1e636d7e1f1182c131b49b8e5aed1a84"), 672 }, // LijiangTower
 			{ new Checksum("8fb310763e91f23d654991c82e1245c3ca1d8ee0bbeb4940c7cf1f6eb376ff81"),  72 }, // Necropolis
 			{ new Checksum("ede8aa27218ccbed9e8424e4d68903c5ae0d31671ff52c866237e1d873b89d9e"),  72 }, // Necropolis
+			{ new Checksum("e2b16ece4b3a28f07e17ecb410408a809371b11ee49ce8e1a288bc2a3b0b404a"),  72 }, // Necropolis
 			{ new Checksum("9b03383ddefb5761706317f64a8d6b998ce52bb854e2add3923e74dcd857459f"), 408 }, // Nepal
 			{ new Checksum("bdc81e535ef0ffb27d4bcb9f5befeeb890b6f38970e1261c0733d047d61717f6"), 408 }, // Nepal
 			{ new Checksum("113fc7e9ae2b90872517af5783336e3f4d4fe4c999267943c42045b7db174e58"), 408 }, // Nepal
@@ -114,7 +115,7 @@ namespace OverwatchHighlights
 		public float duration;
 		public byte[] payload;
 
-		public ReplayFrame(BinaryReader br, Checksum mapChecksum)
+		public ReplayFrame(BinaryReader br, Checksum mapChecksum, bool readExtraPrefixBit)
 		{
 			this.ticker1 = br.ReadUInt32();
 			this.ticker2 = br.ReadUInt32();
@@ -129,67 +130,83 @@ namespace OverwatchHighlights
 				payload[0] == 0x51 ||
 				payload[0] == 0x53 || // 45752
 				payload[0] == 0xab ||
-				(payload[0] & 0x07) == 0x05
+				(payload[0] & 0x07) == 0x05||
+				payload[0] == 0x2a || // 58509 ?
+				payload[0] == 0xa2 || // 58509 ?
+				payload[0] == 0xa6    // 58509 ?
 			);
 
-			processFrameData(payload, mapChecksum, eventCount);
+			processFrameData(payload, mapChecksum, eventCount, readExtraPrefixBit);
 		}
 
-		void processFrameData(byte[] frameData, Checksum mapChecksum, int numEvents)
+		void processFrameData(byte[] frameData, Checksum mapChecksum, int numEvents, bool readExtraPrefixBit)
 		{
 			BitReader br = new BitReader(frameData);
 
-			var firstTwoBits = br.Read(2);
-			switch (firstTwoBits)
+			bool prefixBit = false;
+			if (readExtraPrefixBit)
 			{
-				default:
+				prefixBit = br.Read1();
+			}
+			var firstTwoBits = br.Read(2);
+
+			if (prefixBit)
+			{
+				// I guess this is an extra mode now?
+			}
+			else
+			{
+				switch (firstTwoBits)
 				{
-					Debug.Assert(false, $"Frame payload had unexpected first two bits {firstTwoBits >> 1}{firstTwoBits & 1}");
-					return;
-				}
-				case 1:
-				{
-					while (true)
+					default:
 					{
-						bool bit = br.Read1();
-						if (!bit)
-							break;
-						ushort value = br.Read16();
+						Debug.Assert(false, $"Frame payload had unexpected first two bits {firstTwoBits >> 1}{firstTwoBits & 1}");
+						return;
 					}
-					uint next = br.Read32();
-					Debug.Assert(next == 0x00001dea);
-					break;
-				}
-				case 3:
-				{
-					Debug.Assert(ms_numberOfBreakables.ContainsKey(mapChecksum));
-					if (ms_numberOfBreakables[mapChecksum] > 0)
+					case 1:
 					{
-						br.ByteAlign();
-						var numBreakables = ms_numberOfBreakables[mapChecksum];
-						int numUints = (numBreakables + 31) / 32; // round up to a multiple of 32
-						uint[] breakablesBitfield = new uint[numUints];
-						for (int i = 0; i < numUints; ++i)
+						while (true)
 						{
-							breakablesBitfield[i] = br.Read32();
+							bool bit = br.Read1();
+							if (!bit)
+								break;
+							ushort value = br.Read16();
 						}
-						if (numBreakables % 32 != 0)
+						uint next = br.Read32();
+						Debug.Assert(next == 0x00001dea);
+						break;
+					}
+					case 3:
+					{
+						Debug.Assert(ms_numberOfBreakables.ContainsKey(mapChecksum));
+						if (ms_numberOfBreakables[mapChecksum] > 0)
 						{
-							int freebits = 32 - (numBreakables % 32);
-							for (int i = 0; i < freebits; ++i)
+							br.ByteAlign();
+							var numBreakables = ms_numberOfBreakables[mapChecksum];
+							int numUints = (numBreakables + 31) / 32; // round up to a multiple of 32
+							uint[] breakablesBitfield = new uint[numUints];
+							for (int i = 0; i < numUints; ++i)
 							{
-								Debug.Assert((breakablesBitfield[breakablesBitfield.Length - 1] & (0x80000000u >> i)) == 0);
+								breakablesBitfield[i] = br.Read32();
+							}
+							if (numBreakables % 32 != 0)
+							{
+								int freebits = 32 - (numBreakables % 32);
+								for (int i = 0; i < freebits; ++i)
+								{
+									Debug.Assert((breakablesBitfield[breakablesBitfield.Length - 1] & (0x80000000u >> i)) == 0);
+								}
 							}
 						}
+						else
+						{
+							// if we don't have any breakables (lucioball maps), then....
+							// literally just continue on to the next bit immediately, don't even byte-align
+						}
+						uint next = br.Read32();
+						Debug.Assert(next == 0x00001dea);
+						break;
 					}
-					else
-					{
-						// if we don't have any breakables (lucioball maps), then....
-						// literally just continue on to the next bit immediately, don't even byte-align
-					}
-					uint next = br.Read32();
-					Debug.Assert(next == 0x00001dea);
-					break;
 				}
 			}
 		}

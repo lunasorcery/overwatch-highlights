@@ -210,6 +210,7 @@
 		Tracer_Rose                        = 0x000028E2,
 		Tracer_Rose_Golden                 = 0x000028E3,
 		Tracer_Graffiti                    = 0x0000292A,
+		Tracer_Graffiti_Golden             = 0x0000292B,
 		Torbjorn_Ironclad                  = 0x00002994,
 		Orisa_NullSector                   = 0x00002996,
 		Zarya_Cyberian                     = 0x000029A8,
@@ -309,6 +310,7 @@
 		Genji_skin_00001789_weapon_000021F7 = 0x000021F7,
 		Genji_skin_00001789_weapon_000021F8 = 0x000021F8,
 		Genji_skin_000018EA_weapon_000024B1 = 0x000024B1,
+		Genji_skin_00001D01_weapon_00002CD1 = 0x00002CD1,
 
 		Hammond_skin_00001C56_weapon_00002B7C = 0x00002B7C,
 
@@ -340,6 +342,7 @@
 		Lucio_skin_00001A0B_weapon_000026ED = 0x000026ED,
 
 		McCree_skin_000015EF_weapon_00001EC5 = 0x00001EC5,
+		McCree_skin_000015EF_weapon_00001EC6 = 0x00001EC6,
 		McCree_skin_000015F0_weapon_00001EC7 = 0x00001EC7,
 		McCree_skin_000015F4_weapon_00001ECF = 0x00001ECF,
 		McCree_skin_000015F4_weapon_00001ED0 = 0x00001ED0,
@@ -353,6 +356,8 @@
 		McCree_skin_00001976_weapon_000025C3 = 0x000025C3,
 		McCree_skin_00001976_weapon_000025C4 = 0x000025C4,
 		McCree_skin_00001BCA_weapon_00002A68 = 0x00002A68,
+		McCree_skin_00001C12_weapon_00002AF6 = 0x00002AF6,
+		McCree_skin_00001C4C_weapon_00002B68 = 0x00002B68,
 		McCree_skin_00001C4C_weapon_00002B69 = 0x00002B69,
 		McCree_skin_000021CD_weapon_0000364C = 0x0000364C,
 

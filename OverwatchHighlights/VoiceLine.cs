@@ -513,6 +513,8 @@
 		Tracer_voiceline_0000122A = 0x0000122A,
 		Tracer_voiceline_000012C5 = 0x000012C5,
 		Tracer_voiceline_00001347 = 0x00001347,
+		Tracer_voiceline_000015E1 = 0x000015E1,
+		Tracer_voiceline_00001640 = 0x00001640,
 		Tracer_voiceline_000022B6 = 0x000022B6,
 
 		Widowmaker_voiceline_0000069A = 0x0000069A,

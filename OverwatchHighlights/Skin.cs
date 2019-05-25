@@ -225,6 +225,7 @@
 		Genji_skin_000016DA = 0x000016DA,
 		Genji_skin_00001789 = 0x00001789,
 		Genji_skin_000018EA = 0x000018EA,
+		Genji_skin_00001D01 = 0x00001D01,
 
 		Hammond_skin_00001C56 = 0x00001C56,
 
@@ -261,6 +262,7 @@
 		McCree_skin_000018B9 = 0x000018B9,
 		McCree_skin_00001976 = 0x00001976,
 		McCree_skin_00001BCA = 0x00001BCA,
+		McCree_skin_00001C12 = 0x00001C12,
 		McCree_skin_00001C4C = 0x00001C4C,
 		McCree_skin_000021CD = 0x000021CD,
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿//#define DEBUG_OUTPUT_DECOMPRESSED_REPLAYDATA
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -24,7 +26,7 @@ namespace OverwatchHighlights
 			Debug.Assert(magic == MAGIC_CONSTANT);
 
 			byte formatVersion = br.ReadByte();
-			Debug.Assert(formatVersion == 3 || formatVersion == 4 || formatVersion == 5);
+			Debug.Assert(formatVersion == 3 || formatVersion == 4 || formatVersion == 5 || formatVersion == 7);
 
 			this.buildNumber = new BuildNumber(br);
 			Debug.Assert(this.buildNumber.IsKnownByTool(), $"Build number {buildNumber} is not known by tool");
@@ -38,6 +40,13 @@ namespace OverwatchHighlights
 			if (formatVersion >= 5)
 			{
 				byte[] unknownBytes = br.ReadBytes(0x28);
+
+				if (formatVersion >= 7)
+				{
+					ulong unknown2 = br.ReadUInt64();
+					Debug.Assert(unknown2 == 0x001E50056B706C1F);
+				}
+
 				unknown1 = br.ReadByte();
 				Debug.Assert(unknown1 == 0xB || unknown1 == 0xF);
 			}
@@ -75,16 +84,20 @@ namespace OverwatchHighlights
 			byte[] decompressedBuffer = Decompress(compressedBuffer);
 
 #if DEBUG_OUTPUT_DECOMPRESSED_REPLAYDATA
-			string filename = br.GetFilename();
-			File.WriteAllBytes("decompressed/" + filename + ".bin", decompressedBuffer);
+			if (formatVersion >= 7)
+			{
+				string filename = br.GetFilename();
+				File.WriteAllBytes("decompressed/" + filename + ".bin", decompressedBuffer);
+			}
 #endif
 
+			bool readExtraPrefixBit = formatVersion >= 7;
 			using (BinaryReader br2 = decompressedBuffer.CreateBinaryReader())
 			{
 				this.replayFrames = new List<ReplayFrame>();
 				for (int frameIndex = 0; br2.BaseStream.Position < br2.BaseStream.Length; ++frameIndex)
 				{
-					this.replayFrames.Add(new ReplayFrame(br2, mapChecksum));
+					this.replayFrames.Add(new ReplayFrame(br2, mapChecksum, readExtraPrefixBit));
 				}
 			}
 

@@ -45,6 +45,8 @@ namespace OverwatchHighlights
 		public UIFlags uiFlags;
 		public Map map;
 		public GameMode gameMode;
+		public uint v4_unknown1;
+		public uint v4_unknown2;
 		public HighlightInfo[] highlightInfos;
 		public HeroWithUnlockables[] heroesWithUnlockables;
 		public uint unknown60;
@@ -68,7 +70,7 @@ namespace OverwatchHighlights
 			Debug.Assert(magic == MAGIC_CONSTANT);
 
 			byte formatVersion = br.ReadByte();
-			Debug.Assert(formatVersion == 3);
+			Debug.Assert(formatVersion == 3|| formatVersion == 4);
 
 			this.checksum = new Checksum(br);
 
@@ -128,6 +130,15 @@ namespace OverwatchHighlights
 				this.map = br.ReadMap64();
 
 				this.gameMode = br.ReadGameMode64();
+
+				if (formatVersion >= 4)
+				{
+					this.v4_unknown1 = br.ReadUInt32();
+					Debug.Assert(this.v4_unknown1 == 0);
+
+					this.v4_unknown2 = br.ReadUInt32();
+					Debug.Assert(this.v4_unknown2 == 0);
+				}
 
 				// 2 entries will be a POTG, 1 entry will be either a highlight or a POTG against bots, I think...
 				int numHighlightInfos = br.ReadInt32();

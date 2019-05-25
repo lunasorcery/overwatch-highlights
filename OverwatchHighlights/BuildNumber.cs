@@ -57,6 +57,7 @@ namespace OverwatchHighlights
 			// -- hiatus lol --
 			51830, // 14/10/2018 Live 1.29.0.1, replay only?
 			51948, // 14/10/2018 Live 1.29.0.1
+			58509, // 25/05/2019 PTR 1.37.0.0
 		};
 
 		private int m_buildNumber;
