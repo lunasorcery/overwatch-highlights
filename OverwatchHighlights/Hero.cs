@@ -32,6 +32,8 @@
 		Brigitte   = 0x00000195,
 		Moira      = 0x000001A2,
 		Hammond    = 0x000001CA,
+		Ashe       = 0x00000200,
+		Baptiste   = 0x00000221,
 
 		JunkensteinEvent_00000175 = 0x00000175,
 		JunkensteinEvent_00000176 = 0x00000176,

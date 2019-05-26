@@ -9,7 +9,7 @@
 		CaptureTheFlag       = 0x00000007,
 		Elimination          = 0x00000009,
 		UprisingLockedHeroes = 0x0000000F,
-//		Assault              = 0x00000014,
+		Assault              = 0x00000014,
 		Escort               = 0x00000015,
 		Hybrid               = 0x00000016,
 		Control              = 0x00000017,

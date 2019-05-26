@@ -57,7 +57,7 @@
 //		LijiangNightMarket    = 0x00000712,
 //		Unknown715            = 0x00000715,
 //		Oasis                 = 0x00000716,
-//		NepalSanctum          = 0x00000717,
+		NepalSanctum          = 0x00000717,
 //		LijiangControlCenter  = 0x0000071A,
 		Castillo              = 0x0000071C,
 //		NepalVillage          = 0x00000736,
@@ -87,5 +87,7 @@
 		Busan                 = 0x000007E2,
 		EichenwaldeHalloween  = 0x000007F4,
 		ChateauGuillardHalloween = 0x00000836,
+		Paris                 = 0x00000891,
+		Havana                = 0x00000A44, // deathmatch, not sure if specific?
 	}
 }

@@ -24,6 +24,7 @@ namespace OverwatchHighlights
 			{ new Checksum("57925bca898c0b25fa1ab5f3c0a92459158acda18d472a532b6a958cedb194c0"), 272 }, // ChateauGuillard
 			{ new Checksum("fad957e3e8209c027f135a034ddcba1f1f276ea00d9ce428f8c65fe0987cdf67"), 272 }, // ChateauGuillard
 			{ new Checksum("9654ae18fc879ab82dceab50231556d8ce0304fc702687d4f9243a637a5042f7"), 256 }, // ChateauGuillard
+			{ new Checksum("cf1cbe10b084bdc77facf601a40c44d3fc3b4abce29a72d71e0919f87bbf95a3"), 256 }, // ChateauGuillard
 			{ new Checksum("117c20bb8647937c46946c24653848694255e794926c77274f133ab79529dfbb"), 312 }, // ChateauGuillardHalloween
 			{ new Checksum("62751cbd064f6e0cbd6df936166f42fd3df704fcde986af5641b3d7c5676a6d4"), 688 }, // Dorado
 			{ new Checksum("e2872843fc4060ad193e226d6bfdbf714175a0bb5d0ec32c2bd897c483190351"), 688 }, // Dorado
@@ -41,6 +42,7 @@ namespace OverwatchHighlights
 			{ new Checksum("2e7e788861bc9625d7eb0b7f4995196e0effd1e01739c7e52ed07b77b74f9b93"), 256 }, // Hanamura
 			{ new Checksum("9613ea6bb2479e2963b41036cc02bcfabcd193d3a856e63983a30c02e6ca3f8b"), 256 }, // Hanamura
 			{ new Checksum("1a43b2208aafa8e0865447bc9e43364689a4d407cea827b793b54b06bef150ad"), 256 }, // Hanamura
+			{ new Checksum("5cf3bfafb44fccae107a72dc0d7ba0095b03f00a45b988080caeac248cbaa9bd"), 288 }, // Havana
 			{ new Checksum("36a341df15c7f1199439852adc622a38a6f4642cac2874113fd85da1b000dc14"), 496 }, // Hollywood
 			{ new Checksum("48900774025651d1f7e6fda1fa8ccc86c3a6721057998408a7cb59adf9f7e62d"), 496 }, // Hollywood
 			{ new Checksum("8e9bebde31322d11883374ff3d4574991e27f23b1c51b54257b3b53a2bc47c3e"), 496 }, // Hollywood
@@ -82,6 +84,7 @@ namespace OverwatchHighlights
 			{ new Checksum("113fc7e9ae2b90872517af5783336e3f4d4fe4c999267943c42045b7db174e58"), 408 }, // Nepal
 			{ new Checksum("43b41f5f83810458d1a37fed8b6f0b5882e86ca9b98a702f8144a6f5e6e35db3"), 408 }, // Nepal
 			{ new Checksum("05afd8f5ac3584134c1a0e3bba64c3987ad153bb4b270ff15d7542d118f6ac7d"), 408 }, // Nepal
+			{ new Checksum("4de7ffea7d25b921f06fe0fd86521a057aff01b9c47a75efab9ec713896ca79d"),   8 }, // NepalSanctum
 			{ new Checksum("2237c06ad7e98e217732d9f84b33cc6ebb674809fe7d45d5fc6e3fe8dc0d2f1a"), 504 }, // Numbani
 			{ new Checksum("8b4810c3f48225d2d55ce0c26e89f7f8486460c363e56ae51326854801956bda"), 616 }, // Numbani
 			{ new Checksum("3c8e2f6c1924cdc9bc6180665c1fca0d32cdbb436dba9da8a0a7e57a745e3ed1"), 616 }, // Numbani
@@ -92,6 +95,7 @@ namespace OverwatchHighlights
 			{ new Checksum("300eb49042dd55b06c3c697ebdabd066c6e5ed4c6f094d7bd89a8cf4bc6335cd"), 392 }, // OasisCityCenter
 			{ new Checksum("062097aa45c809bd39148ad4d6673b6de36f7278f3b1c5560ce5061b4346266f"),  96 }, // OasisGardens
 			{ new Checksum("517866908075af96dc64500966e7511e749f098ee9e148162f02a238d45ebfa6"), 200 }, // OasisUniversity
+			{ new Checksum("2b24eee21e84f955cd13fa35b3a94ebda813b4ccc5971b63bee9530e9501baf1"), 584 }, // Paris
 			{ new Checksum("2a2bfc2a8183cd616175ba74146ec43d032fbe027b417dbd851bfdf379d69098"), 240 }, // Route66
 			{ new Checksum("d8ad0d4a35e3fba6170425a0f9c4d719e28eac7a522727ca36fadeb1f3192ee8"), 240 }, // Route66
 			{ new Checksum("2fb879652d9a4bb6707ed41834a8f3e0a9eace723dd1eb4317f9385534626ac5"), 256 }, // Route66
@@ -101,6 +105,7 @@ namespace OverwatchHighlights
 			{ new Checksum("0ed5ce428683c9966d05db8345f2882bf90fbdfd07996a5fc2814fe0b006dd6c"), 304 }, // TempleOfAnubis
 			{ new Checksum("54b77a2ee88f8a3ada1ca584621325313d4f6e660b8af29d2a7af3900368bea8"), 304 }, // TempleOfAnubis
 			{ new Checksum("b774f5f1b440a55aa05bd3ad02456d533f42f3d3f815d604cde6abebefa8a445"), 304 }, // TempleOfAnubis
+			{ new Checksum("cc19a906cb5c2fac38e82b199a4e74d94633d631d6eb124c576dd61beffe3013"), 304 }, // TempleOfAnubis
 			{ new Checksum("10df82233f4589f15841eacfb67622231a59e57f6af74bf8e66b0e6cbc58e59e"), 424 }, // VolskayaIndustries
 			{ new Checksum("f906172921603ed8744f21994f825e4c14385a671c983a233615a4bf76b3079a"), 424 }, // VolskayaIndustries
 			{ new Checksum("d0fd15e6465d128bc8fd1e61ddb5b2ac48f8832a3eba1abdc1bd370e6b205a48"), 424 }, // VolskayaIndustries
@@ -128,12 +133,19 @@ namespace OverwatchHighlights
 			Debug.Assert(
 				payload[0] == 0x03 ||
 				payload[0] == 0x51 ||
-				payload[0] == 0x53 || // 45752
 				payload[0] == 0xab ||
-				(payload[0] & 0x07) == 0x05||
-				payload[0] == 0x2a || // 58509 ?
-				payload[0] == 0xa2 || // 58509 ?
-				payload[0] == 0xa6    // 58509 ?
+				(payload[0] & 0x07) == 0x05 ||
+
+				// 45752
+				payload[0] == 0x53 ||
+
+				// 58155
+				payload[0] == 0x06 ||
+
+				// 58509
+				(payload[0] & 0x0f) == 0x0a ||
+				payload[0] == 0xa2 ||
+				payload[0] == 0xa6
 			);
 
 			processFrameData(payload, mapChecksum, eventCount, readExtraPrefixBit);

@@ -28,6 +28,11 @@
 		Ana_voiceline_000010FB = 0x000010FB,
 		Ana_voiceline_000010FC = 0x000010FC,
 		Ana_voiceline_00001216 = 0x00001216,
+		Ana_voiceline_00001ABB = 0x00001ABB,
+
+		Ashe_voiceline_000022C2 = 0x000022C2,
+
+		Baptiste_voiceline_0000285A = 0x0000285A,
 
 		Bastion_voiceline_00000619 = 0x00000619,
 		Bastion_voiceline_0000061A = 0x0000061A,
@@ -54,11 +59,14 @@
 		Bastion_voiceline_00001911 = 0x00001911,
 
 		Brigitte_voiceline_000016DC = 0x000016DC,
+		Brigitte_voiceline_000016DD = 0x000016DD,
 		Brigitte_voiceline_000016DE = 0x000016DE,
 		Brigitte_voiceline_000016DF = 0x000016DF,
+		Brigitte_voiceline_000016E0 = 0x000016E0,
 		Brigitte_voiceline_000016E1 = 0x000016E1,
 		Brigitte_voiceline_000016E2 = 0x000016E2,
 		Brigitte_voiceline_000016E3 = 0x000016E3,
+		Brigitte_voiceline_000016E4 = 0x000016E4,
 		Brigitte_voiceline_000016E5 = 0x000016E5,
 		Brigitte_voiceline_0000193D = 0x0000193D,
 		Brigitte_voiceline_0000193F = 0x0000193F,
@@ -126,7 +134,10 @@
 		Genji_voiceline_00001124 = 0x00001124,
 		Genji_voiceline_00001228 = 0x00001228,
 		Genji_voiceline_000012C3 = 0x000012C3,
+		Genji_voiceline_000015DF = 0x000015DF,
+		Genji_voiceline_0000163E = 0x0000163E,
 		Genji_voiceline_0000191C = 0x0000191C,
+		Genji_voiceline_000019B3 = 0x000019B3,
 
 		Hammond_voiceline_000019E4 = 0x000019E4,
 		Hammond_voiceline_000019F9 = 0x000019F9,
@@ -174,6 +185,8 @@
 		Junkrat_voiceline_00001108 = 0x00001108,
 		Junkrat_voiceline_0000121B = 0x0000121B,
 		Junkrat_voiceline_000012B6 = 0x000012B6,
+		Junkrat_voiceline_0000190E = 0x0000190E,
+		Junkrat_voiceline_00002514 = 0x00002514,
 
 		Lucio_voiceline_000005F2 = 0x000005F2,
 		Lucio_voiceline_000005F3 = 0x000005F3,
@@ -246,6 +259,7 @@
 		Mei_voiceline_0000110C = 0x0000110C,
 		Mei_voiceline_0000121D = 0x0000121D,
 		Mei_voiceline_00001339 = 0x00001339,
+		Mei_voiceline_000015D2 = 0x000015D2,
 		Mei_voiceline_000019A7 = 0x000019A7,
 
 		Mercy_voiceline_000004FE = 0x000004FE,
@@ -288,8 +302,10 @@
 		Moira_voiceline_000015D7 = 0x000015D7,
 		Moira_voiceline_00001636 = 0x00001636,
 		Moira_voiceline_0000193B = 0x0000193B,
+		Moira_voiceline_000019B9 = 0x000019B9,
 		Moira_voiceline_000019BB = 0x000019BB,
 		Moira_voiceline_00001AB4 = 0x00001AB4,
+		Moira_voiceline_000028BB = 0x000028BB,
 
 		Orisa_voiceline_00000F66 = 0x00000F66,
 		Orisa_voiceline_0000103F = 0x0000103F,
@@ -311,6 +327,7 @@
 		Orisa_voiceline_000012C7 = 0x000012C7,
 		Orisa_voiceline_000012CA = 0x000012CA,
 		Orisa_voiceline_00001348 = 0x00001348,
+		Orisa_voiceline_0000164D = 0x0000164D,
 
 		Pharah_voiceline_000007C2 = 0x000007C2,
 		Pharah_voiceline_000007C4 = 0x000007C4,
@@ -332,6 +349,8 @@
 		Pharah_voiceline_0000111E = 0x0000111E,
 		Pharah_voiceline_00001225 = 0x00001225,
 		Pharah_voiceline_000012C0 = 0x000012C0,
+		Pharah_voiceline_000015DC = 0x000015DC,
+		Pharah_voiceline_000024F4 = 0x000024F4,
 
 		Reaper_voiceline_00000762 = 0x00000762,
 		Reaper_voiceline_00000764 = 0x00000764,
@@ -422,6 +441,7 @@
 		Soldier76_voiceline_0000111F = 0x0000111F,
 		Soldier76_voiceline_00001120 = 0x00001120,
 		Soldier76_voiceline_00001226 = 0x00001226,
+		Soldier76_voiceline_000015DD = 0x000015DD,
 
 		Sombra_voiceline_00000AFD = 0x00000AFD,
 		Sombra_voiceline_00000AFE = 0x00000AFE,
@@ -444,7 +464,10 @@
 		Sombra_voiceline_0000122D = 0x0000122D,
 		Sombra_voiceline_00001231 = 0x00001231,
 		Sombra_voiceline_000012CC = 0x000012CC,
+		Sombra_voiceline_0000133B = 0x0000133B,
 		Sombra_voiceline_00001633 = 0x00001633,
+		Sombra_voiceline_000019A9 = 0x000019A9,
+		Sombra_voiceline_000024F6 = 0x000024F6,
 
 		Symmetra_voiceline_00000808 = 0x00000808,
 		Symmetra_voiceline_0000080D = 0x0000080D,
@@ -609,6 +632,8 @@
 		Zenyatta_voiceline_00001105 = 0x00001105,
 		Zenyatta_voiceline_00001106 = 0x00001106,
 		Zenyatta_voiceline_0000121A = 0x0000121A,
+		Zenyatta_voiceline_000012B5 = 0x000012B5,
 		Zenyatta_voiceline_00001336 = 0x00001336,
+		Zenyatta_voiceline_0000162D = 0x0000162D,
 	};
 }

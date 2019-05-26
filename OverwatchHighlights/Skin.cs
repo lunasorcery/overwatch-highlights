@@ -13,11 +13,14 @@
 		Hanzo_Azuki                       = 0x000015EC,
 		Hanzo_Midori                      = 0x000015ED,
 		Hanzo_Kinoko                      = 0x000015EE,
+		McCree_MysteryMan                 = 0x000015EF,
+		McCree_Vigilante                  = 0x000015F0,
 		McCree_Gambler                    = 0x000015F3,
 		McCree_Classic                    = 0x000015F7,
 		Zenyatta_Ifrit                    = 0x000015FC,
 		Zenyatta_Sunyatta                 = 0x00001600,
 		Zenyatta_Classic                  = 0x00001603,
+		Junkrat_Classic                   = 0x00001607,
 		Junkrat_Irradiated                = 0x00001609,
 		Junkrat_Rusted                    = 0x0000160A,
 		Lucio_Classic                     = 0x0000160B,
@@ -36,6 +39,7 @@
 		Torbjorn_Classic                  = 0x00001637,
 		Torbjorn_Citron                   = 0x00001638,
 		Reinhardt_Blackhardt              = 0x0000163F,
+		Reinhardt_Bloodhardt              = 0x00001640,
 		Reinhardt_Classic                 = 0x0000165F,
 		Zarya_Arctic                      = 0x00001668,
 		Zarya_Classic                     = 0x0000166B,
@@ -140,11 +144,14 @@
 		Sombra_Cyberspace                 = 0x0000198C,
 		Genji_Oni                         = 0x00001994,
 		Bastion_Tombstone                 = 0x0000199F,
+		Pharah_Possessed                  = 0x000019A0,
 		Reinhardt_Coldhardt               = 0x000019A1,
 		Hanzo_Demon                       = 0x000019A7,
 		Hanzo_Cyberninja                  = 0x000019B0,
+		Hanzo_Casual                      = 0x000019B2,
 		McCree_Blackwatch                 = 0x000019B6,
 		Pharah_Bedouin                    = 0x000019E6,
+		Pharah_Asp                        = 0x000019EA,
 		Reaper_Shiver                     = 0x00001A07,
 		McCree_Scrooge                    = 0x00001A12,
 		Zarya_Frosted                     = 0x00001A1B,
@@ -170,10 +177,13 @@
 		Soldier76_Grillmaster76           = 0x00001BC8,
 		Widowmaker_CotedAzur              = 0x00001BC9,
 		McCree_Lifeguard                  = 0x00001BCD,
+		Doomfist_Spirit                   = 0x00001BDA,
 		Doomfist_Avatar                   = 0x00001BE4,
 		Reaper_Dracula                    = 0x00001BEB,
+		Torbjorn_Magni                    = 0x00001C18,
 		Moira_Moon                        = 0x00001C79,
 		McCree_Sherlock                   = 0x00001E0C,
+
 
 		// -- anything below here is known to exist but i've not mapped the value to a name yet --
 		Ana_skin_00001922 = 0x00001922,
@@ -187,6 +197,13 @@
 		Ana_skin_0000199C = 0x0000199C,
 		Ana_skin_00001B0F = 0x00001B0F,
 		Ana_skin_00001B11 = 0x00001B11,
+		Ana_skin_00001C0F = 0x00001C0F,
+		Ana_skin_00001DEC = 0x00001DEC,
+		Ana_skin_00002A44 = 0x00002A44,
+
+		Ashe_skin_00001ED3 = 0x00001ED3,
+
+		Baptiste_skin_00002C88 = 0x00002C88,
 
 		Bastion_skin_00001629 = 0x00001629,
 		Bastion_skin_00001794 = 0x00001794,
@@ -200,14 +217,15 @@
 		Brigitte_skin_00001BCE = 0x00001BCE,
 		Brigitte_skin_00001EA5 = 0x00001EA5,
 		Brigitte_skin_00001EAD = 0x00001EAD,
+		Brigitte_skin_00001EBC = 0x00001EBC,
 		Brigitte_skin_00002131 = 0x00002131,
 
 		Doomfist_skin_00001610 = 0x00001610,
 		Doomfist_skin_00001611 = 0x00001611,
 		Doomfist_skin_000018C3 = 0x000018C3,
 		Doomfist_skin_00001BD9 = 0x00001BD9,
-		Doomfist_skin_00001BDA = 0x00001BDA,
 		Doomfist_skin_00001BE3 = 0x00001BE3,
+		Doomfist_skin_00001C15 = 0x00001C15,
 		Doomfist_skin_00001C71 = 0x00001C71,
 
 		DVa_skin_00001613 = 0x00001613,
@@ -225,7 +243,9 @@
 		Genji_skin_000016DA = 0x000016DA,
 		Genji_skin_00001789 = 0x00001789,
 		Genji_skin_000018EA = 0x000018EA,
+		Genji_skin_00001C1D = 0x00001C1D,
 		Genji_skin_00001D01 = 0x00001D01,
+		Genji_skin_000020B8 = 0x000020B8,
 
 		Hammond_skin_00001C56 = 0x00001C56,
 
@@ -233,13 +253,12 @@
 		Hanzo_skin_000018B4 = 0x000018B4,
 		Hanzo_skin_000018B5 = 0x000018B5,
 		Hanzo_skin_000018B6 = 0x000018B6,
-		Hanzo_skin_000019B2 = 0x000019B2,
 		Hanzo_skin_00001E00 = 0x00001E00,
 
-		Junkrat_skin_00001607 = 0x00001607,
 		Junkrat_skin_00001608 = 0x00001608,
 		Junkrat_skin_0000179C = 0x0000179C,
 		Junkrat_skin_00001A2D = 0x00001A2D,
+		Junkrat_skin_00001C13 = 0x00001C13,
 
 		Lucio_skin_0000160C = 0x0000160C,
 		Lucio_skin_0000160D = 0x0000160D,
@@ -250,9 +269,8 @@
 		Lucio_skin_000018C2 = 0x000018C2,
 		Lucio_skin_00001946 = 0x00001946,
 		Lucio_skin_00001A0B = 0x00001A0B,
+		Lucio_skin_00001E2F = 0x00001E2F,
 
-		McCree_skin_000015EF = 0x000015EF,
-		McCree_skin_000015F0 = 0x000015F0,
 		McCree_skin_000015F4 = 0x000015F4,
 		McCree_skin_000015F8 = 0x000015F8,
 		McCree_skin_000015F9 = 0x000015F9,
@@ -280,6 +298,7 @@
 		Mei_skin_00001B67 = 0x00001B67,
 		Mei_skin_00001BE1 = 0x00001BE1,
 		Mei_skin_00001BEC = 0x00001BEC,
+		Mei_skin_000029F9 = 0x000029F9,
 
 		Mercy_skin_000015D7 = 0x000015D7,
 		Mercy_skin_000015D8 = 0x000015D8,
@@ -287,7 +306,9 @@
 		Mercy_skin_000015DD = 0x000015DD,
 		Mercy_skin_000018AF = 0x000018AF,
 		Mercy_skin_000018B0 = 0x000018B0,
+		Mercy_skin_00001C11 = 0x00001C11,
 		Mercy_skin_00001DBF = 0x00001DBF,
+		Mercy_skin_00001F71 = 0x00001F71,
 
 		Moira_skin_00001BE8 = 0x00001BE8,
 		Moira_skin_00001C42 = 0x00001C42,
@@ -312,13 +333,13 @@
 		Orisa_skin_00001B64 = 0x00001B64,
 		Orisa_skin_00001B65 = 0x00001B65,
 		Orisa_skin_00001B95 = 0x00001B95,
+		Orisa_skin_00002A11 = 0x00002A11,
 
 		Pharah_skin_000016A7 = 0x000016A7,
 		Pharah_skin_000016C0 = 0x000016C0,
 		Pharah_skin_000016C1 = 0x000016C1,
 		Pharah_skin_000016C2 = 0x000016C2,
 		Pharah_skin_000018E1 = 0x000018E1,
-		Pharah_Possessed = 0x000019A0,
 		Pharah_skin_00001A16 = 0x00001A16,
 
 		Reaper_skin_0000167B = 0x0000167B,
@@ -332,10 +353,10 @@
 		Reaper_skin_00001BC0 = 0x00001BC0,
 		Reaper_skin_00001C74 = 0x00001C74,
 		Reaper_skin_00001DBD = 0x00001DBD,
+		Reaper_skin_000021C1 = 0x000021C1,
 
 		Reinhardt_skin_0000163B = 0x0000163B,
 		Reinhardt_skin_0000163C = 0x0000163C,
-		Reinhardt_skin_00001640 = 0x00001640,
 		Reinhardt_skin_00001660 = 0x00001660,
 		Reinhardt_skin_00001661 = 0x00001661,
 		Reinhardt_skin_00001662 = 0x00001662,
@@ -362,6 +383,7 @@
 		Soldier76_skin_000016CA = 0x000016CA,
 		Soldier76_skin_0000178D = 0x0000178D,
 		Soldier76_skin_000019A6 = 0x000019A6,
+		Soldier76_skin_000020E8 = 0x000020E8,
 
 		Sombra_skin_0000162C = 0x0000162C,
 		Sombra_skin_0000162D = 0x0000162D,
@@ -389,7 +411,6 @@
 		Torbjorn_skin_000018D4 = 0x000018D4,
 		Torbjorn_skin_00001968 = 0x00001968,
 		Torbjorn_skin_00001BCB = 0x00001BCB,
-		Torbjorn_skin_00001C18 = 0x00001C18,
 
 		Tracer_skin_000016F7 = 0x000016F7,
 		Tracer_skin_0000170B = 0x0000170B,
@@ -411,6 +432,8 @@
 		Widowmaker_skin_000018F3 = 0x000018F3,
 		Widowmaker_skin_000018F4 = 0x000018F4,
 		Widowmaker_skin_00001918 = 0x00001918,
+		Widowmaker_skin_00001C1F = 0x00001C1F,
+		Widowmaker_skin_00001C21 = 0x00001C21,
 		Widowmaker_skin_00001DC3 = 0x00001DC3,
 
 		Winston_skin_000016CF = 0x000016CF,
@@ -443,6 +466,7 @@
 		Zenyatta_skin_00001D8A = 0x00001D8A,
 		Zenyatta_skin_00001DC6 = 0x00001DC6,
 		Zenyatta_skin_00001E2D = 0x00001E2D,
+		Zenyatta_skin_00002B75 = 0x00002B75,
 
 		// event stuff
 		JunkensteinEvent_00000175_Classic = 0x00001AF9,

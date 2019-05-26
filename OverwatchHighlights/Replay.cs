@@ -43,8 +43,9 @@ namespace OverwatchHighlights
 
 				if (formatVersion >= 7)
 				{
+					// seems to be per-match, might be a match ID?
 					ulong unknown2 = br.ReadUInt64();
-					Debug.Assert(unknown2 == 0x001E50056B706C1F);
+					Debug.Assert((unknown2 >> 56) == 0x00);
 				}
 
 				unknown1 = br.ReadByte();
@@ -116,7 +117,7 @@ namespace OverwatchHighlights
 				var thisFrame = this.replayFrames[i];
 				Debug.Assert((thisFrame.ticker1 & 0x7fffffff) - (lastFrame.ticker1 & 0x7fffffff) <= 3);
 				Debug.Assert(
-					thisFrame.ticker2 - lastFrame.ticker2 <= 4 && 
+					thisFrame.ticker2 - lastFrame.ticker2 <= 5 && 
 					thisFrame.ticker2 - lastFrame.ticker2 >= 0);
 			}
 		}

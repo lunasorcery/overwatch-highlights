@@ -16,6 +16,10 @@
 		Ana_emote_00000FF8 = 0x00000FF8,
 		Ana_emote_0000117A = 0x0000117A,
 
+		Ashe_emote_00002433 = 0x00002433,
+
+		Baptiste_emote_000027AB = 0x000027AB,
+
 		Bastion_emote_000005FA = 0x000005FA,
 		Bastion_emote_000005FB = 0x000005FB,
 		Bastion_emote_000005FC = 0x000005FC,
@@ -53,6 +57,7 @@
 		Genji_emote_00000BED = 0x00000BED,
 		Genji_emote_00000FE5 = 0x00000FE5,
 		Genji_emote_00001212 = 0x00001212,
+		Genji_emote_00002493 = 0x00002493,
 
 		Hammond_emote_000019E5 = 0x000019E5,
 
@@ -173,6 +178,7 @@
 		Soldier76_emote_00000BE2 = 0x00000BE2,
 		Soldier76_emote_00000CF1 = 0x00000CF1,
 		Soldier76_emote_0000104D = 0x0000104D,
+		Soldier76_emote_000024C9 = 0x000024C9,
 
 		Sombra_emote_00000AF6 = 0x00000AF6,
 		Sombra_emote_00000AF7 = 0x00000AF7,

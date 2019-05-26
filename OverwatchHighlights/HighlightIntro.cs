@@ -105,8 +105,13 @@
 		Ana_intro_00000A5B = 0x00000A5B,
 		Ana_intro_00000A7A = 0x00000A7A,
 
+		Ashe_intro_000022A7 = 0x000022A7,
+
+		Baptiste_intro_0000279C = 0x0000279C,
+
 		Bastion_intro_00000237 = 0x00000237,
 
+		Brigitte_intro_000016D6 = 0x000016D6,
 		Brigitte_intro_000016D9 = 0x000016D9,
 		Brigitte_intro_000022BC = 0x000022BC,
 
@@ -160,6 +165,7 @@
 		Roadhog_intro_00001185 = 0x00001185,
 
 		Soldier76_intro_0000023A = 0x0000023A,
+		Soldier76_intro_0000128A = 0x0000128A,
 
 		Sombra_intro_00000AFC = 0x00000AFC,
 		Sombra_intro_00000B0D = 0x00000B0D,
